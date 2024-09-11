@@ -1,6 +1,6 @@
 ### Úvod do Arduina
 
-Po první lekci byste měli: 
+Po této lekci byste měli být schopni: 
 - Mít povědomí o platformě Arduino, co do ní patří a co s ní můžete dělat [prezentace](/prezentace/01_Arduino_Intro.pptx) 
 - Chápat smysl funkcí setup a loop 
 - [Umět spočítat odpor k LEDce](https://www.allaboutcircuits.com/tools/led-resistor-calculator/) a zapojit je k Arduinu pomoocí nepájivého pole
