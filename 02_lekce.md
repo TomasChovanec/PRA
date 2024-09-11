@@ -2,10 +2,10 @@
 
 Po této lekci byste měli být schopni: 
 
-- Umět použít proměnnou, znát základní datové typy (boolean, int, float, char)
+- [Umět použít proměnnou, znát základní datové typy (boolean, int, float, char)](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/promenne-datove-typy-a-deklarace)
 - Zná rozdíl mezi globální a lokální proměnnou
-- Umí do proměnné zapsat, číst, inkrementovat ji
-- Ví, k čemu slouží AD převodník
-- Umí k arduinu připojit potenciometr a pomocí funkce analogRead číst jeho polohu
-- Umí posílat data do terminálu PC pomocí fuknce Serial.print
-- Umí použít cyklus for a while
+- Umět do proměnné zapsat, číst, inkrementovat ji
+- Vysvětlit, k čemu slouží AD převodník
+- Umět k Arduinu připojit potenciometr a pomocí funkce [analogRead číst jeho polohu](https://bastlirna.hwkitchen.cz/arduino-zaklady-5-read-analog-voltage/)
+- Umět posílat data do terminálu PC pomocí fuknce Serial.print
+- Umět použít [cyklus for a while](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cykly-jejich-syntaxe-a-pouziti)
