@@ -3,7 +3,7 @@
 Po této lekci byste měli být schopni: 
 
 - [Umět použít proměnnou, znát základní datové typy (boolean, int, float, char)](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/promenne-datove-typy-a-deklarace)
-- Znát rozdíl mezi globální a lokální proměnnou
+- Vysvětlit rozdíl mezi globální a lokální proměnnou
 - Umět do proměnné zapsat, číst, inkrementovat ji
 - Umět posílat data do PC pomocí fuknce Serial.print
 - Umět použít [podmínku if-else](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti)
