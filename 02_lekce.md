@@ -1,6 +1,8 @@
 ### Proměnné podmínky, analogový vstup, sériová linka
 
-- Umí použít proměnnou,zná základní datové typy (boolean, int, float, char)
+Po této lekci byste měli být schopni: 
+
+- Umět použít proměnnou, znát základní datové typy (boolean, int, float, char)
 - Zná rozdíl mezi globální a lokální proměnnou
 - Umí do proměnné zapsat, číst, inkrementovat ji
 - Ví, k čemu slouží AD převodník
