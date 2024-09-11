@@ -1,4 +1,4 @@
-### Proměnné podmínky, analogový vstup, sériová linka
+### 02 - Proměnné podmínky, analogový vstup, sériová linka
 
 Po této lekci byste měli být schopni: 
 
