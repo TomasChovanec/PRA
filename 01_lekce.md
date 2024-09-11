@@ -5,4 +5,4 @@ Po první lekci byste měli:
 - Chápat smysl funkcí setup a loop 
 - [Umět spočítat odpor k LEDce](https://www.allaboutcircuits.com/tools/led-resistor-calculator/) a zapojit je k Arduinu pomoocí nepájivého pole
 - [Blikat LEDkou za použití Arduina (funkce pinMode, digitalWrite, delay)](https://bastlirna.hwkitchen.cz/i-zaklady-2-bliknuti-led/) 
-- Připojit k Arduinu tlačítko a číst jeho stav pomocí funkce digitalRead
+- [Připojit k Arduinu tlačítko a číst jeho stav pomocí funkce digitalRead](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-hrajeme-si-s-ledkami)
