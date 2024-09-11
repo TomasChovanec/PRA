@@ -1,4 +1,4 @@
-### Úvod do Arduina
+### 01 - Úvod do Arduina
 
 Po této lekci byste měli být schopni: 
 - Mít povědomí o platformě Arduino, co do ní patří a co s ní můžete dělat [prezentace z hodiny](/prezentace/01_Arduino_Intro.pptx) 
