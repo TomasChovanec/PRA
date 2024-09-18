@@ -4,7 +4,9 @@
 Servo servo1; // vytvorime si objekt serva
 
 void setup() {
+
   servo1.attach(2);  // nastavime cislo pinu, kde je servo pripojeno
+
 }
 
 void loop() {
@@ -16,4 +18,5 @@ void loop() {
     delay(500);        //pockame dostatecne dlouho, nez servo dosahne pozadovane pozice            
 
 }
+
 ```
