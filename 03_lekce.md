@@ -1,4 +1,4 @@
-### 03 - Cykly, servo, 
+### 03 - Cykly, servo, PWM
 
 Po této lekci byste měli: 
 
