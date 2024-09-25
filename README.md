@@ -9,4 +9,5 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
-2. [Cykly, servo, analogový výstup](03_lekce.md)
+3. [Cykly, servo, analogový výstup](03_lekce.md)
+4. [Teplotní čidlo, LCD displej](04_lekce.md)
