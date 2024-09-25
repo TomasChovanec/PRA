@@ -3,7 +3,7 @@
 ```c
 #include <dht.h>        // Include library
 
-dht DHT;                // Creates a DHT object
+dht sensor;                // Creates a DHT object
 int outPin = 2;        // Defines pin number to which the sensor is connected
 
 void setup() {
@@ -11,10 +11,10 @@ void setup() {
 }
 
 void loop() {
-	int readData = DHT.read11(outPin);	// Starts the conversion
+	int readData = sensor.read11(outPin);	// Starts the conversion
 
-	float temp = DHT.temperature;        // Read temperature
-	float humid = DHT.humidity;           // Read humidity
+	float temp = sensor.temperature;        // Read temperature
+	float humid = sensor.humidity;           // Read humidity
 
 	Serial.print("Temperature = ");
 	Serial.print(temp);
