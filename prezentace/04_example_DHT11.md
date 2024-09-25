@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-	int readData = DHT.read11(outPin);
+	int readData = DHT.read11(outPin);	// Starts the conversion
 
 	float temp = DHT.temperature;        // Read temperature
 	float humid = DHT.humidity;           // Read humidity
