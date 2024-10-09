@@ -11,4 +11,5 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 3. [Cykly, servo, analogový výstup](03_lekce.md)
 4. [Teplotní čidlo, LCD displej](04_lekce.md)
-4. [Ultrazvukový sensor, RGB LEDka](05_lekce.md)
+5. [Ultrazvukový sensor, RGB LEDka](05_lekce.md)
+6. [Krokový motor, projekt](06_lekce.md)
