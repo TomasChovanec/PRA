@@ -5,6 +5,7 @@ Po této lekci byste měli být schopni:
 - Chápat princip funkce [krokového motoru](https://cookierobotics.com/042/)
 - Umět použít krokový motor se základní [knihovnou Stepper.](https://www.instructables.com/How-to-Control-28BYJ-48-Stepper-Motor-With-ULN2003/)
 
+### Samostatný projekt
 Do příštího cvičení si vymyslete téma samostatného projektu. Měl by to být program s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla,... LEDky a tlačítka do toho nepočítáme:-).
 Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe (pravděpodobně 11. lekce, 14. listopadu). 
 Hodnocení:
