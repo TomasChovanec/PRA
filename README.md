@@ -13,3 +13,4 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 4. [Teplotní čidlo, LCD displej](04_lekce.md)
 5. [Ultrazvukový sensor, RGB LEDka](05_lekce.md)
 6. [Krokový motor, projekt](06_lekce.md)
+7. [Samostatný projekt](Projekt.md)
