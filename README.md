@@ -14,3 +14,4 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 5. [Ultrazvukový sensor, RGB LEDka](05_lekce.md)
 6. [Krokový motor](06_lekce.md)
 7. [Samostatný projekt](Projekt.md)
+8. [Stejnosměrný motor](07_lekce.md)
