@@ -10,6 +10,8 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Teploměr a vlhkoměr s dvěma čidly a displejem
+- Elektronická kostka
+- Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
 - Elektronický zámek (servo, klávesnice, displej)
 - Nápojový automat na ISIC karty (RFID čtečka, displej, klávesnice, servo)
