@@ -7,14 +7,12 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 - Druhá známka za dokumentaci projektu (pdf dokument dle šablony, se zadáním, popisem řešení, schématem, fotografií, kódem, použitými zdroji (včetně verzí knihoven) a závěrem. Hodnotí se úprava dokumentu, správnost technického vyjadřování, úplnost.
 
 
-
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Teploměr a vlhkoměr s dvěma čidly a displejem
 - Elektronická kostka
 - Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
-  
 - Elektronický zámek (servo, klávesnice, displej)
 - Otevírání dveří na ISIC karty (RFID čtečka, displej, servo)
 - Nápojový automat na ISIC karty (RFID čtečka, displej, klávesnice, servo)
