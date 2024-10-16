@@ -13,7 +13,10 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 - Elektronická kostka
 - Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
+- Automatické otvírání dveří se servem a ultrazvukovým čidlem
+  
 - Elektronický zámek (servo, klávesnice, displej)
+- Otevírání dveří na ISIC karty (RFID čtečka, displej, servo)
 - Nápojový automat na ISIC karty (RFID čtečka, displej, klávesnice, servo)
 - Úprava školního robota pro ovládání joystickem po drátech
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
