@@ -1,7 +1,7 @@
 # 07 - Stejnosměrný motor
 Po této lekci byste měli být schopni:
 
-- Chápat princip funkce [stejnosměrného motoru](https://www.youtube.com/watch?v=LAtPHANEfQo&t=18s&ab_channel=SabinsCivilEngineering)
+- Chápat princip funkce [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 - Chápat princip řízení směru otáčení motoru pomocí [H-můstku](https://lastminuteengineers.com/drv8833-arduino-tutorial/)
 - Umět použít funkci analogWrite pro řízení rychlosti DC motoru
 
