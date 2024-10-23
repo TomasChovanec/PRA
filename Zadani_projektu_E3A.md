@@ -28,9 +28,20 @@ Pomocí Arduina, pieza a ultarzvukového senzoru vytvořte parkovací senzor pro
 - Pokud je překážka blíže než 20 cm, bzučák bude pípat neustále.
 
 ### Tadeáš Svobodník - Piano
-Pomocí Arduina pieza nebo reproduktoru a alespoň 4 tlačítek vytvořte jedoduché "piano". 
+Pomocí Arduina pieza a alespoň 4 tlačítek vytvořte jedoduché "piano". 
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Po stisku dvou tlačítek současně se přehraje přednastavená melodie.
+
+
+### Adam Vodrážka - Elektronický zámek
+Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a servem
+- Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem
+- Po 3 chybných zadáních se zámek na 10s zablokuje (odpočet bude na displeji)
+- Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina)
+
+### Jakub Vašek - Automatické otevírání kurníku
+Pomocí Arduina, fotorezistoru a krokového motoru vytvořte automatické ovládání vrátek do kurníku v závislosti na slunečním svitu.
+- Ošetřete například případy, kdy čidlo někdo krátkodobě zakryje rukou, nebo na něj naopak krátkodobě zasvítí např. světlo projíždějícího auta
 
 
