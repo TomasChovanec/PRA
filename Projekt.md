@@ -4,7 +4,14 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 
 ## Hodnocení:
 - Jedna známka za samotný program (funkčnost, přehlednost kódu, smysluplné komentáře, zda program plní všechny body zadání)
-- Druhá známka za dokumentaci projektu (pdf dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf), se zadáním, popisem řešení, schématem, fotografií, kódem, použitými zdroji (včetně knihoven) a závěrem. Hodnotí se úprava dokumentu, správnost technického vyjadřování, úplnost.
+- Druhá známka za dokumentaci projektu - pdf dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
+    - zadání
+    - popis řešení
+    - schéma(můžete použít např online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
+    - fotografii zapojení
+    - kód
+    - seznam použitých zdrojů včetně knihoven
+    - závěr
 
 
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
