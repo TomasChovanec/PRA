@@ -1,4 +1,4 @@
-08 - Vlastní funkce
+# 08 - Vlastní funkce
 Po této lekci byste měli být schopni:
 
 - Chápat princip funkcí v jazyce C
