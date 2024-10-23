@@ -7,11 +7,15 @@ U jednotlivých lekcí je vždy v bodech vypsáno, co byste měli po lekci zvlá
 
 Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte se na mě obrátit na mailu tomas.chovanec@frengp.cz
 
+## Samostatný projekt
+[Samostatný projekt](Projekt.md)
+
+## Materiály k výuce:
+
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 3. [Cykly, servo, analogový výstup](03_lekce.md)
 4. [Teplotní čidlo, LCD displej](04_lekce.md)
 5. [Ultrazvukový sensor, RGB LEDka](05_lekce.md)
 6. [Krokový motor](06_lekce.md)
-7. [Samostatný projekt](Projekt.md)
-8. [Stejnosměrný motor](07_lekce.md)
+7. [Stejnosměrný motor](07_lekce.md)
