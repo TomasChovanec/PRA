@@ -1,4 +1,4 @@
-## Zadání projektů E3B
+## Zadání projektů E3A
 
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
