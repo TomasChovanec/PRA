@@ -1,10 +1,10 @@
 # Samostatný projekt
-Do příštího cvičení si vymyslete téma samostatného projektu. Měl by to být program s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla,... LEDky a tlačítka do toho nepočítáme :-).
+Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla,... LEDky a tlačítka do toho nepočítáme :-).
 Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe (pravděpodobně 11. lekce, 14. listopadu). 
 
 ## Hodnocení:
 - Jedna známka za samotný program (funkčnost, přehlednost kódu, smysluplné komentáře, zda program plní všechny body zadání)
-- Druhá známka za dokumentaci projektu (pdf dokument dle šablony, se zadáním, popisem řešení, schématem, fotografií, kódem, použitými zdroji (včetně verzí knihoven) a závěrem. Hodnotí se úprava dokumentu, správnost technického vyjadřování, úplnost.
+- Druhá známka za dokumentaci projektu (pdf dokument dle šablony, se zadáním, popisem řešení, schématem, fotografií, kódem, použitými zdroji (včetně knihoven) a závěrem. Hodnotí se úprava dokumentu, správnost technického vyjadřování, úplnost.
 
 
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
