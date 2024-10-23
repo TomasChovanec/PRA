@@ -10,7 +10,7 @@ Pomocí Arduina, displeje, LED diod a  tlačítka vytvořte elektronickou hrací
  - Pokud padne šestka, hází program sám ještě jednou a zobrazí např 6+6=12
 
 
-### Dominik Slovák, Martin Ščepka, Matěj Šedivý
+### Dominik Slovák, Martin Ščepka, Matěj Šedivý - Robot Line follower
 
 Vytvořte program pro školního Arduino robota, který bude fungovat jako sledovač čáry.
 - Robot bude detekovat černou čáru optickými čidly a pojede po ní
