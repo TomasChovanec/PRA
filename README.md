@@ -8,9 +8,9 @@ U jednotlivých lekcí je vždy v bodech vypsáno, co byste měli po lekci zvlá
 Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte se na mě obrátit na mailu tomas.chovanec@frengp.cz
 
 ## Samostatný projekt
-[Informace k projektu](Projekt.md)
-[Zadání E3A](Zadani_projektu_E3A.md)
-[Zadání E3B](Zadani_projektu_E3B.md)
+- [Informace k projektu](Projekt.md)
+- [Zadání E3A](Zadani_projektu_E3A.md)
+- [Zadání E3B](Zadani_projektu_E3B.md)
 
 ## Materiály k výuce:
 
