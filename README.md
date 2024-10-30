@@ -22,3 +22,4 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 6. [Krokový motor](06_lekce.md)
 7. [Stejnosměrný motor](07_lekce.md)
 8. [Vlastní funkce, časování s millis()](08_lekce.md)
+9. [Vstup ze sériového portu, PIR čidlo](09_lekce.md)
