@@ -22,8 +22,8 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
 - Elektronický zámek (servo, klávesnice, displej)
 - Ovládání výtahu (krokový motor, tlačítka, displej)
-- Otevírání dveří na ISIC karty (RFID čtečka, displej, servo)
-- Nápojový automat na ISIC karty (RFID čtečka, displej, klávesnice, servo)
+- Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
+- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Úprava školního robota pro ovládání joystickem po drátech
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
 - Úprava školního robota pro ovládání přes bluetooth
