@@ -1,15 +1,15 @@
 # Samostatný projekt
-Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla,... LEDky a tlačítka do toho nepočítáme :-).
-Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe (pravděpodobně 11. lekce, 14. listopadu). 
+Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla, ...).
+Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe (11. lekce, 14. listopadu). 
 
 ## Hodnocení:
-- Jedna známka za samotný program (funkčnost, přehlednost kódu, smysluplné komentáře, zda program plní všechny body zadání)
+- Jedna známka za samotný program (funkčnost, splnění všech bodů zadání)
 - Druhá známka za dokumentaci projektu - pdf dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
     - zadání
     - popis řešení
     - schéma(můžete použít např online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
     - fotografii zapojení
-    - kód
+    - kód (přehledně naformátovaná a opatřený komentáři)
     - seznam použitých zdrojů včetně knihoven
     - závěr
 
