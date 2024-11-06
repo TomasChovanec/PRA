@@ -4,13 +4,13 @@ Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodin
 Projekt mi můžete před odesláním poslat k připomínkování, není to povinné, ale můžete si pak do odevzdání opravit chyby.
 
 ## Hodnocení:
-- Jedna známka za samotný program (funkčnost, splnění všech bodů zadání)
+- Jedna známka za samotný program (funkčnost, splnění všech bodů zadání, **prokázání, že kódu rozumíte a jen jste jej bez pochopení nezkopírovali**)
 - Druhá známka za dokumentaci projektu - pdf dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
     - zadání
     - popis řešení
-    - schéma(můžete použít např online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
+    - schéma (můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
     - fotografii zapojení
-    - kód (přehledně naformátovaná a opatřený komentáři)
+    - kód (přehledně naformátovaný a opatřený komentáři)
     - seznam použitých zdrojů včetně knihoven
     - závěr
 
