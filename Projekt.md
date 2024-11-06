@@ -1,6 +1,7 @@
 # Samostatný projekt
 Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla, ...).
 Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe (11. lekce, 14. listopadu). 
+Projekt mi můžete před odesláním poslat k připomínkování, není to povinné, ale můžete si pak do odevzdání opravit chyby.
 
 ## Hodnocení:
 - Jedna známka za samotný program (funkčnost, splnění všech bodů zadání)
