@@ -12,6 +12,9 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 - [Zadání E3A](Zadani_projektu_E3A.md)
 - [Zadání E3B](Zadani_projektu_E3B.md)
 
+## Zpětná vazba po dokončení bloku
+- [Dotazník](https://forms.gle/ZMapXVyxmpksGvFD7)
+
 ## Materiály k výuce:
 
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
