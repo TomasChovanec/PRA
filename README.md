@@ -9,6 +9,7 @@ Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte 
 
 ## Samostatný projekt
 - [Informace k projektu](Projekt.md)
+
 <!---
 - [Zadání E3A](Zadani_projektu_E3A.md)
 - [Zadání E3B](Zadani_projektu_E3B.md)
