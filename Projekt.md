@@ -17,11 +17,11 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Teploměr a vlhkoměr s dvěma čidly a displejem
-- Elektronická kostka
+- Elektronická hrací kostka
 - Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
-- Elektronický zámek (servo, klávesnice, displej)
+- Voltmetr
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
