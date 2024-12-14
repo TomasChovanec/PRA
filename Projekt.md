@@ -28,5 +28,6 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Úprava školního robota pro ovládání joystickem po drátech
 - Časomíra pro závody robotů
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
+- Naprogramování školního robota pro soutěž sumo 
 - Úprava školního robota pro ovládání přes bluetooth
 - Stavba robota podle vlastního návrhu
