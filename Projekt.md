@@ -26,6 +26,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Úprava školního robota pro ovládání joystickem po drátech
+- Časomíra pro závody robotů
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
 - Úprava školního robota pro ovládání přes bluetooth
 - Stavba robota podle vlastního návrhu
