@@ -1,4 +1,4 @@
-# 06 - Stejnosměrný motor
+# Stejnosměrný motor
 Po této lekci byste měli být schopni:
 
 - Chápat princip funkce [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
