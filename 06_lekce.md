@@ -1,8 +1,8 @@
-## 06 - Krokový motor
-
+# 06 - Stejnosměrný motor
 Po této lekci byste měli být schopni:
 
-- Chápat princip funkce [krokového motoru](https://cookierobotics.com/042/)
-- Umět použít krokový motor se základní [knihovnou Stepper.](https://www.instructables.com/How-to-Control-28BYJ-48-Stepper-Motor-With-ULN2003/)
-- Umět použí funkci [Serial.parseInt()](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cteni-uzivatelskych-vstupu-v-arduinu#_funkce-serial-parseint)
+- Chápat princip funkce [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
+- Chápat princip řízení směru otáčení motoru pomocí [H-můstku](https://lastminuteengineers.com/drv8833-arduino-tutorial/)
+- Umět použít funkci analogWrite pro řízení rychlosti DC motoru
 
+[Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
