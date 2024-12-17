@@ -1,4 +1,4 @@
-### 05 - Ultrazvukový sensor, krokový motor
+# Ultrazvukový sensor, krokový motor
 
 Po této lekci byste měli být schopni:
 - Chápat princip ultrazvukového senzoru HC-SR04
