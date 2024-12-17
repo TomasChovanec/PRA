@@ -1,4 +1,4 @@
-### 02 - Proměnné podmínky, analogový vstup, sériová linka
+### Proměnné podmínky, analogový vstup, sériová linka
 
 Po této lekci byste měli být schopni: 
 
@@ -10,3 +10,5 @@ Po této lekci byste měli být schopni:
 - Vysvětlit, k čemu slouží [funkce analogRead()](https://robotika.vosrk.cz/guide/arduino/lesson08/cs)
 - Umět k Arduinu připojit potenciometr a pomocí funkce [analogRead číst jeho polohu](https://bastlirna.hwkitchen.cz/arduino-zaklady-5-read-analog-voltage/)
 - Umět použít [cyklus for a while](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cykly-jejich-syntaxe-a-pouziti)
+
+## [Zpět na obsah](README.md)
