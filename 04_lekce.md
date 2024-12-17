@@ -1,4 +1,4 @@
-### 04 - Teplotní čidlo, LCD displej
+# Teplotní čidlo, LCD displej
 
 Po této lekci byste měli: 
 
