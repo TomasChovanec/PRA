@@ -1,11 +1,10 @@
 # Praxe - Arduino
-Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku GaSPŠEI ve Frenštátě pod Radhoštěm. 
 
-Shromažďuji zde přehled věcí, kterým jsme se na hodinách věnovali, např. pro případ že jste na hodině nebyli přítomni, pro opakování před testy atd. 
+<img src="https://github.com/user-attachments/assets/63f53169-3490-4967-8baf-041eefeb903b" width="300"/>
 
-U jednotlivých lekcí je vždy v bodech vypsáno, co byste měli po lekci zvládnout. K bodům jsou doplněny odkazy na různé stránky a videa, které mi k tématu připadaly srozumitelné a výstižné. K tematice Arduina je toho na internetu spousta, proto klidně hledejte zdroje, které budou nejlépe vyhovovat vám. 
+Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na Gymnáziu a Střední průmyslové škole elektrotechniky a informatiky ve Frenštátě pod Radhoštěm.
 
-Pokud ani po projití linkovaných materiálů něčemu nerozumíte, neváhejte se na mě obrátit na mailu tomas.chovanec@frengp.cz
+Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu tomas.chovanec@frengp.cz.
 
 ## Samostatný projekt
 - [Informace k projektu](Projekt.md)
