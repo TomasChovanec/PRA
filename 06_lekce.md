@@ -24,6 +24,11 @@
 ## Výukový robot
 [Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
 
+Využívá H-Bridge DRV8833.
 
+![image](https://github.com/user-attachments/assets/f02e396e-7b49-419c-a0f7-dc624c312414)
 
+![image](https://github.com/user-attachments/assets/da091db0-988e-4b6a-8ebb-67f0800a81e2)
+
+![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
 
