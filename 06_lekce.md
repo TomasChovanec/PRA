@@ -17,6 +17,7 @@
 <img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/9/3/h-bridge-circuit-600w.gif" width="450"/>
 
 - Použijeme funkci analogWrite pro řízení rychlosti DC motoru
+
 <img src="https://github.com/user-attachments/assets/4adedba1-d284-4885-8916-f354b1a89779" width="450"/>
 
 
