@@ -22,13 +22,20 @@
 
 
 ## Výukový robot
-[Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
+<img src="https://github.com/user-attachments/assets/121c0a41-5f67-464c-952a-cd94e64ed80b" width="450"/>
 
-Využívá H-Bridge DRV8833.
+Robot, kterého budeme ve výuce použivat, v sobě obsahuje Arduino Nano (má stejný procesor jako Arduino UNO, které obvykle používáme, ale má menší desku). Aby mohl jezdit, má dva stejnosměrné motory s převodovkou, kteér jsou řízeny pomocí H můstku DRV8833. [Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
+
+## Pinout modulu DRV8833 a princip použití
+Obvod DRV8833 v sobě obsahuje dva H můstky, můžeme s ním tedy řídít dva stejnosměrné motory. Vstupy IN1-4 připojíme k pinům Arduina, které podporují PWM výstup, abychom mohli řídit plynule rychlost motorů.
+
+![image](https://github.com/user-attachments/assets/da091db0-988e-4b6a-8ebb-67f0800a81e2)
 
 ![image](https://github.com/user-attachments/assets/f02e396e-7b49-419c-a0f7-dc624c312414)
 
-![image](https://github.com/user-attachments/assets/da091db0-988e-4b6a-8ebb-67f0800a81e2)
+
+## Režimy ovládání motoru
+Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a IN2 pro první motor a IN3 A IN4 pro druhý motor:
 
 ![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
 
