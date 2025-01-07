@@ -12,7 +12,7 @@
 *Zdroj obrázku: https://dronebotworkshop.com/dc-motors-l298n-h-bridge/*
 
 ## H-můstek
-- Projdeme si princip řízení směru otáčení motoru pomocí [H-můstku](https://lastminuteengineers.com/drv8833-arduino-tutorial/)
+- Projdeme si princip řízení směru otáčení motoru pomocí [H-můstku](https://www.circuitbread.com/ee-faq/how-does-an-h-bridge-work)
 
 <img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/9/3/h-bridge-circuit-600w.gif" width="450"/>
 
@@ -27,7 +27,7 @@
 Robot, kterého budeme ve výuce použivat, v sobě obsahuje Arduino Nano (má stejný procesor jako Arduino UNO, které obvykle používáme, ale má menší desku). Aby mohl jezdit, má dva stejnosměrné motory s převodovkou, kteér jsou řízeny pomocí H můstku DRV8833. [Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
 
 ## Pinout modulu DRV8833 a princip použití
-Obvod DRV8833 v sobě obsahuje dva H můstky, můžeme s ním tedy řídít dva stejnosměrné motory. Vstupy IN1-4 připojíme k pinům Arduina, které podporují PWM výstup, abychom mohli řídit plynule rychlost motorů.
+Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sobě obsahuje dva H můstky, můžeme s ním tedy řídít dva stejnosměrné motory. Vstupy IN1-4 připojíme k pinům Arduina, které podporují PWM výstup, abychom mohli řídit plynule rychlost motorů.
 
 ![image](https://github.com/user-attachments/assets/da091db0-988e-4b6a-8ebb-67f0800a81e2)
 
