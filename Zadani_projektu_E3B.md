@@ -2,7 +2,7 @@
 
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
-### Jan Rečka - Robot line follower
+### Jan R. - Robot line follower
 
 Vytvořte program pro školního Arduino robota, který bude fungovat jako sledovač čáry.
 - Robot bude detekovat černou čáru optickými čidly a pojede po ní
@@ -10,7 +10,7 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 - Pomocí ultrazvukového čidla implementujte zastavení před překážkou
 - Po resetu Arduina musí být robot v bezpečném stavu (motory zastaveny), rozjede se až po stisknutí startovacího tlačítka (mikrospínač na robotovi, nikoli vypínač napájení)
 
-### Daniel Socha - Automatické otvírání brány
+### Daniel S. - Automatické otvírání brány
 
 Vytvořte program a zrealizuj zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
 - Dokud není detekováno auto, brána je zavřená.
@@ -19,7 +19,7 @@ Vytvořte program a zrealizuj zapojení pro Arduino, které automaticky otevře 
 - Pokud by ale auto neprojelo do 30s, brána se zavře.
 - Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
 
-### Jindřich Socha - Vánoční osvětlení
+### Jindřich S. - Vánoční osvětlení
 
 Pomocí Arduina, LED diod vytvořte dekorativní osvětlení s několika módy blikání, které lze měnit tlačítkem
 - Liché LEDky jsou zhasnuté, sudé se plynule rozsvěcejí, až se rozsvítí doplna, plynule se rozsvítí liché LEDky  a opačně plynule zhasnou nejprve liché, pak sudé
@@ -27,25 +27,25 @@ Pomocí Arduina, LED diod vytvořte dekorativní osvětlení s několika módy b
 - Další alespoň dva módy dle vlastního výběru
 - Pro tvorbu kódu používejte for cyklus
 
-### Vojtěch Špičák - Teploměr a vlhkoměr
+### Vojtěch Š. - Teploměr a vlhkoměr
 
 Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. 
 Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
 
-### Urbánek Viktor - Elektronická hrací kostka
+### Viktor U. - Elektronická hrací kostka
 
 Pomocí Arduina, displeje, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
 - Po stisku tlačítka se na displeji velmi rychle budou měnit náhodné hodnoty. 
 - Při puštění tlačítka se hodnota zobrazí
 - Hodnota se kromě displeje zobrazí i na LEDkách ve stejném tvaru jako na kostce
 
-### Vít Jan - RFID čtečka pro otvírání dveří
+### Jan V. - RFID čtečka pro otvírání dveří
 
 Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
-### Martin Vlk - Vánoční osvětlení
+### Martin V. - Vánoční osvětlení
 
 Pomocí Arduina, 10LED diod a potenciometru vytvořte dekorativní osvětlení s několika módy blikání, které lze měnit tlačítkem
 - Liché LEDky jsou zhasnuté, sudé se plynule rozsvěcejí, až se rozsvítí doplna, plynule se rozsvítí liché LEDky  a opačně plynule zhasnou nejprve liché, pak sudé
@@ -53,7 +53,7 @@ Pomocí Arduina, 10LED diod a potenciometru vytvořte dekorativní osvětlení s
 - Další alespoň dva módy dle vlastního výběru
 - Pro tvorbu kódu používejte for cyklus
 
-### Lukáš Zemánek - Parkovací senzor
+### Lukáš Z. - Parkovací senzor
 
 Pomocí Arduina, pieza a ultarzvukového senzoru vytvořte parkovací senzor pro auto
 - Senzor je aktivní pouze když je stisknuto tlačítko (simulujeme spínač na zpátečce v autě)
