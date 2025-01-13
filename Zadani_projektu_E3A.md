@@ -20,7 +20,7 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 
 ### Jan Sv. - Parkovací čidlo
 
-Pomocí Arduina, pieza a ultarzvukového senzoru vytvořte parkovací senzor pro auto
+Pomocí Arduina, pieza a ulrtazvukového senzoru vytvořte parkovací senzor pro auto
 - Senzor je aktivní pouze když je stisknuto tlačítko (simulujeme spínač na zpátečce v autě)
 - Když je překážka vzdálena více než 100 cm, bzučák nebude vydávat žádný zvuk.
 - Pokud se překážka nachází mezi 100 cm a 50 cm, bzučák vydá krátký zvuk jednou za sekundu.
