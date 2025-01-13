@@ -20,6 +20,9 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Elektronická hrací kostka
 - Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
+- Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
+- Hra na postřeh pro dva hráče
+- Elektronické piano
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
 - Voltmetr
 - Ovládání výtahu (krokový motor, tlačítka, displej)
