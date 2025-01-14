@@ -28,13 +28,13 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
-- Úprava školního robota pro ovládání joystickem po drátech
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
-- Úprava školního robota pro ovládání přes bluetooth
+- Úprava školního robota pro ovládání přes Bluetooth
 - Stavba robota podle vlastního návrhu
 
 <!---
 - Přidání funkce počitadla ujeté vzdálenosti pro robota
 - Naprogramování školního robota pro soutěž sumo 
 - Časomíra pro závody robotů
+- Úprava školního robota pro ovládání joystickem po drátech
 --->
