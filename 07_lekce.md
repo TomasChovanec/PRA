@@ -29,7 +29,39 @@ Poznámka: Funkce millis vrací výsledek jako datový typ **unsigned long**, po
 
 V předchozím úkolu jsme použili podmínku if a porovnávali jsme aktuální výsledek funkce millis s nějakou konstantou. Co když ale chceme, ale se LEDka nerozsvítila jen jednou, ale aby změnila svůj stav každé 2 sekundy? Můžeme si uložit aktuální stav funkce millis do proměnné a pak vždy porovnávat aktuální čas s tím uloženým. Pokud se budou lišit o 2000ms, tak změníme stav LEDky a zase si uložíme do proměnné čas posledního bliknutí.
 
-**Úkol:** Blikejte  LEDkou jednou za 2 sekundy s použitím funkce millis().
+```C
+const int ledPin =  12;
+
+int ledState = LOW;             // ledState used to set the LED
+unsigned long previousMillis = 0;        // will store last time LED was updated
+
+int interval = 2000;  // interval at which to blink (milliseconds)
+
+void setup() {
+	pinMode(ledPin, OUTPUT);    
+}
+
+void loop()
+{
+	unsigned long currentMillis = millis();
+	
+	if(currentMillis - previousMillis > interval) {
+    	// save the last time you blinked the LED 
+    	previousMillis = currentMillis;   
+
+    	// if the LED is off turn it on and vice-versa:
+    	if (ledState == LOW){
+    	  ledState = HIGH;
+		}
+    	else{
+    	  ledState = LOW;
+		}
+    	// set the LED with the ledState of the variable:
+    digitalWrite(ledPin, ledState);
+    }
+	
+}
+```
 
 Nyní můžeme zkusit stejný úkol jako na začátku, ale namísto delay() použít millis(). Díky tomu už náš program nebude trpět zpožděnou reakcí na tlačítko.
 
@@ -47,8 +79,11 @@ Způsob použití funkce millis(), který jsme si ukázali, umožní našemu pro
 
 
 
-
+## Další užitečné články a videa
 
 [Video k funkci millis()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ&ab_channel=ProgrammingElectronicsAcademy)
 
 [Tutorial k millis()](https://bastlirna.hwkitchen.cz/arduino-zaklady-blikani-bez-funkce-delay/)
+
+
+### [Zpět na obsah](README.md)
