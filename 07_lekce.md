@@ -29,6 +29,11 @@ Poznámka: Funkce millis vrací výsledek jako datový typ **unsigned long**, po
 
 V předchozím úkolu jsme použili podmínku if a porovnávali jsme aktuální výsledek funkce millis s nějakou konstantou. Co když ale chceme, ale se LEDka nerozsvítila jen jednou, ale aby změnila svůj stav každé 2 sekundy? Můžeme si uložit aktuální stav funkce millis do proměnné a pak vždy porovnávat aktuální čas s tím uloženým. Pokud se budou lišit o 2000ms, tak změníme stav LEDky a zase si uložíme do proměnné čas posledního bliknutí.
 
+<img src="https://i0.wp.com/www.programmingelectronics.com/wp-content/uploads/2019/04/Arduino-timeline-gif-2.gif" width="600"/>
+
+*Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
+
+
 ```c
 const int ledPin = 12; 
 
