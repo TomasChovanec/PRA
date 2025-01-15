@@ -2,9 +2,13 @@
 
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
+### Tomáš P. - Nápojový automat na RFID karty
+Nápojový automat na RFID karty
 
-### Jan Sl. - Elektronická kostka
-Pomocí Arduina, displeje a  tlačítka vytvořte elektronickou hrací kostku.
-- Po stisku se na displeji velmi rychle budou měnit hodnoty. 
- - Při puštění se hodnota zobrazí
- - Pokud padne šestka, hází program sám ještě jednou a zobrazí např 6+6=12
+### Jan P. - Elektronické piano
+Pomocí Arduina pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
+
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Po stisku dvou tlačítek současně se přehraje přednastavená melodie.
+
