@@ -9,10 +9,11 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 ## Samostatný projekt
 - [Informace k projektu](Projekt.md)
 
-<!---
-- [Zadání E3A](Zadani_projektu_E3A.md)
-- [Zadání E3B](Zadani_projektu_E3B.md)
 
+- [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
+- [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
+
+<!---
 ## Zpětná vazba po dokončení bloku
 - [Dotazník](https://forms.gle/ZMapXVyxmpksGvFD7)
 --->
