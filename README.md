@@ -16,9 +16,11 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 ## Zpětná vazba po dokončení bloku
 - [Dotazník](https://forms.gle/ZMapXVyxmpksGvFD7)
 --->
+
+## Podpůrné materiály
+- [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf) 
   
 ## Materiály k výuce:
-0. [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf) 
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 3. [Cykly, servo, analogový výstup](03_lekce.md)
