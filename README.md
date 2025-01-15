@@ -26,10 +26,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 4. [Teplotní čidlo, LCD displej](04_lekce.md)
 5. [Ultrazvukový sensor, krokový motor](05_lekce.md)
 6. [Stejnosměrný motor, vlastní funkce](06_lekce.md)
-
+7. [Časování s millis()](07_lekce.md)
 
 <!---
-7. [Časování s millis()](07_lekce.md)
 10. [](08_lekce.md)
 11. [Vstup ze sériového portu, PIR čidlo](09_lekce.md)
 12. [Opakování](10_lekce.md)
