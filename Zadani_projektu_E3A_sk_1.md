@@ -1,4 +1,4 @@
-## Zadání projektů E3A
+## Zadání projektů E3A skupina 1
 
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
