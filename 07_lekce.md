@@ -5,7 +5,7 @@ Když jsme doteď chtěli nastavit v programu nějaké časování (např blikat
 
 Např. pokud chceme blikat  LEDkou jednou za sekundu , není to problém:
 
-```C
+```c
   digitalWrite(13, HIGH);
   delay(1000);
   digitalWrite(13, LOW);
@@ -29,7 +29,7 @@ Poznámka: Funkce millis vrací výsledek jako datový typ **unsigned long**, po
 
 V předchozím úkolu jsme použili podmínku if a porovnávali jsme aktuální výsledek funkce millis s nějakou konstantou. Co když ale chceme, ale se LEDka nerozsvítila jen jednou, ale aby změnila svůj stav každé 2 sekundy? Můžeme si uložit aktuální stav funkce millis do proměnné a pak vždy porovnávat aktuální čas s tím uloženým. Pokud se budou lišit o 2000ms, tak změníme stav LEDky a zase si uložíme do proměnné čas posledního bliknutí.
 
-```C
+```c
 const int ledPin =  12;
 
 int ledState = LOW;             // ledState used to set the LED
