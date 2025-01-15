@@ -71,17 +71,6 @@ Nyní můžeme zkusit stejný úkol jako na začátku, ale namísto delay() pou�
 **Úkol:** Vytvořte program, který bliká LEDkou jednou za sekundu pomocí funkce millis(). Pak program rozšiřte tak, aby se při stisknutí tlačítka rozsvítila jiná LEDka. 
 
 
-## Multitasking
-Způsob použití funkce millis(), který jsme si ukázali, umožní našemu programu dělat multitasking, tedy věnovat se více věcem "najednou".
-
-**Úkol:** Blikejte dvěma LEDkami, jednou s frekvencí 1Hz, druhou s frekvencí 0 se dvěma ledkama
-- Nadefinujte si vlastní funkci zmer_vzdalenost()
-- Nechte robota jet dopředu a pomocí fuknce zmer_vzdalenost() detekujte prekazku, pokud je blize nez 10cm, zastavte robota robota
-- Zatimco robot jezdi a detekuje prekazku, blikejte LEDkou na pinu D12 1x za 2sekundy
-
-
-
-
 ## Další užitečné články a videa
 
 [Video k funkci millis()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ&ab_channel=ProgrammingElectronicsAcademy)
