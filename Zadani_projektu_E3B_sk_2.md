@@ -22,5 +22,5 @@ Pomocí Arduina pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
 
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
-- Po stisku dvou tlačítek současně se přehraje přednastavená melodie.
+- Budou k dispozici dvě další tlačítka, jejichž stiskem se spustí jedna ze tří přednastavených melodií.
 
