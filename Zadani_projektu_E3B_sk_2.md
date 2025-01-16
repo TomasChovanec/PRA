@@ -30,3 +30,7 @@ Vytvořte program pro školního robota, aby jej bylo možné ovládat přes Blu
 - Dále zde bude autonomní režim, kdy robot bude jezdit rovně a pomocí ultrazvukového čidla detekovat překážky. Když detekuje překážku, otočí se a pojede jinam
 - Autonomní a manuální režim bude možné přepínat z telefonu
 - Po resetu bude robot v manuálním módu, do autonomního se přepne buď povelem z telefonu nebo stiskem tlačítka na robotovi.
+
+## Nikolas Karoly - Ovládání výtahu
+Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, displej a tlačítka pro volbu patra.
+- Po stisku tlačítka se výtah rozjede, na displeji bude zobrazovat aktuální polohu
