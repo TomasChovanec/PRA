@@ -24,3 +24,17 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
+
+### Luděk L. - Automatické otvírání brány
+
+Vytvořte program a zrealizuj zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
+- Dokud není detekováno auto, brána je zavřená.
+- Po detekci auta se brána otevře.
+- Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto projede, brána se zavře.
+- Pokud by ale auto neprojelo do 30s, brána se zavře.
+- Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
+
+### Jakub K. - Teploměr a vlhkoměr
+
+Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. 
+Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
