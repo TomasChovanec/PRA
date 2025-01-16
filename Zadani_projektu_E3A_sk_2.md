@@ -18,3 +18,9 @@ Alarm bude obsahovat pohybové čidlo, bzučák a klávesnici.
 - Deset sekund po spuštění alarmu bude blikat rychle LEDka, jako indikace toho, že obsluha má odejít z hlídaného prostoru
 - Po těchto 10s začne LEDka blikat pomalu a aktivuje se pohybové čidlo
 - Pokud pohybové čidlo zachytí pohyb, opět se rozbliká LEDka a pokud se do 10s na klávesnici nezadá správný 4místný kód, začne houkat alarm
+
+### Jiří K. - Elektronické piano
+Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
