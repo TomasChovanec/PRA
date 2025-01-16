@@ -11,6 +11,11 @@ Automat bude obsahovat displej, 4 tlačítka, RFID modul a bzučák.
 - Cena nápoje se strhne uživateli z kreditu
 - Informace o výši kreditu jednotlivých uživatelů musí být zachována i po vypnutí napájení (použijte EEPROM)
 
+### Adam P.
+Pomocí Arduina, displeje a  tlačítka vytvořte elektronickou hrací kostku.
+- Po stisku se na displeji velmi rychle budou měnit hodnoty. 
+- Při puštění se hodnota zobrazí
+- Pokud padne šestka, hází program sám ještě jednou a zobrazí např 6+6=12
 
 ### Jan P. - Elektronické piano
 Pomocí Arduina pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
