@@ -18,7 +18,7 @@ Co ale když budeme k příkladu výše chtít přidat druhou LEDku a tou blikat
 
 ## Funkce millis()
 
-Funkci delay() chceme tedy v našich programech používat pokud možno minimálně. Jak ale jinak zajistit, aby se příkazy vykonávaly s časováním, jaké chceme? Můžeme použít funkci millis(). Funkce millis() nám vrací počet milisekung od startu programu. Nemusíte ji nijak spouštět nebo inicializovat, využívá na pozadí časovač, který se spustí automaticky po každém resetu.
+Funkci delay() chceme tedy v našich programech používat pokud možno minimálně. Jak ale jinak zajistit, aby se příkazy vykonávaly s časováním, jaké chceme? Můžeme použít funkci millis(). Funkce millis() nám vrací počet milisekund od startu programu. Nemusíte ji nijak spouštět nebo inicializovat, využívá na pozadí časovač, který se spustí automaticky po každém resetu.
 
 **Úkol:** Posílejte pomocí funkce Serial.println() výsledek funkce millis na sériový monitor. Sledujte, co se stane, když resetujete Arduino reset tlačítkem.
 
