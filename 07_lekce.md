@@ -74,7 +74,5 @@ Nyní můžeme zkusit stejný úkol jako na začátku, ale namísto delay() pou�
 
 [Video k funkci millis()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ&ab_channel=ProgrammingElectronicsAcademy)
 
-[Tutorial k millis()](https://bastlirna.hwkitchen.cz/arduino-zaklady-blikani-bez-funkce-delay/)
-
 
 ### [Zpět na obsah](README.md)
