@@ -32,5 +32,9 @@ Vytvořte program pro školního robota, aby jej bylo možné ovládat přes Blu
 - Po resetu bude robot v manuálním módu, do autonomního se přepne buď povelem z telefonu nebo stiskem tlačítka na robotovi.
 
 ### Nikolas Karoly - Ovládání výtahu
-Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, displej a tlačítka pro volbu patra.
+Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, servo, displej a tlačítka pro volbu patra.
 - Po stisku tlačítka se výtah rozjede, na displeji bude zobrazovat aktuální polohu
+- Servo bude simulovat ovládání dveří
+
+  ### Jan N. - Teploměr a vlhkoměr
+  Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
