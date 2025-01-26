@@ -31,7 +31,7 @@ Vytvořte program pro školního robota, aby jej bylo možné ovládat přes Blu
 - Autonomní a manuální režim bude možné přepínat z telefonu
 - Po resetu bude robot v manuálním módu, do autonomního se přepne buď povelem z telefonu nebo stiskem tlačítka na robotovi.
 
-### Nikolas Karoly - Ovládání výtahu
+### Nikolas K.- Ovládání výtahu
 Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, servo, displej a tlačítka pro volbu patra.
 - Po stisku tlačítka se výtah rozjede, na displeji bude zobrazovat aktuální polohu
 - Servo bude simulovat ovládání dveří
