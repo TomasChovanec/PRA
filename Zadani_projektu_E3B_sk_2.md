@@ -13,8 +13,8 @@ Automat bude obsahovat displej, 4 tlačítka, RFID modul a bzučák.
 
 ### Adam P.
 Pomocí Arduina, displeje a  tlačítka vytvořte elektronickou hrací kostku.
-- Po stisku se na displeji velmi rychle budou měnit hodnoty. 
-- Při puštění se hodnota zobrazí
+- Po stisku se na displeji velmi rychle budou měnit hodnoty.
+- Při puštění se hodnota zobrazí na displeji a zozsvítí se příslušný počet LEDek.
 - Pokud padne šestka, hází program sám ještě jednou a zobrazí např 6+6=12
 
 ### Jan P. - Elektronické piano
