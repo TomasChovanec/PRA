@@ -1,4 +1,4 @@
-# 09 - Samostatná práce ve dvojicích
+# Samostatná práce ve dvojicích
 
 ## Automatický ovladač střešního okna
 Vaším úkolem je vytvořit zapojení a naprogramovat ovladač střešního okna s automatickým návratem do výchozí polohy.
