@@ -35,6 +35,6 @@ Pro pohodlné ovládání robota použijeme gamepad shield - přídavnou desku, 
 Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Bluetooth.
 
 1. Naprogramovat robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.) Použijte funkce Serial.available() a Serial.read(). Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
-2. Naprogramovat Arduino s gamepad shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely. Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
+2. Naprogramovat Arduino s gamepad shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely (stejné, jako má nakonfigurován robot). Pro vysílání použijte funkci Serial.write(). Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
 3. Připojte jak k robotovi tak k Arduinu s gamepad shieldem moduly HC-05 (nakonfigurované jako master a slave) a ověřte, že komunikace fungu a že lze robota dálkově ovládat.
 
