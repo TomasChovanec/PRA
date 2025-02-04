@@ -29,9 +29,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 7. [Časování s millis()](07_lekce.md)
 8. [Vstup ze sériového portu](08_lekce.md)
 9. [Program ve dvojicích](09_lekce.md)
-
+10.[Bluetooth](10_lekce.md)
     
 <!---
-10. [WiFi, Bluetooth](10_lekce.md)
 11. Prezentace projektů
 --->
