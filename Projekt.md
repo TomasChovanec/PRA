@@ -3,8 +3,15 @@ Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, 
 Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe. 
 Projekt mi můžete před odesláním poslat k připomínkování, není to povinné, ale můžete si pak do odevzdání opravit chyby.
 
+### Termín odevzdání je úterý 11.2. do 23:59. Odevzdání po termínu znamená snížení známky o jeden stupeň.
+
 ## Hodnocení:
-- Jedna známka za samotný program (funkčnost, splnění všech bodů zadání, **prokázání, že kódu rozumíte a jen jste jej bez pochopení nezkopírovali**)
+- Jedna známka za samotný program
+    - funkčnost
+    - splnění všech bodů zadání
+    - včasné odevzdání
+    - **prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
+    
 - Druhá známka za dokumentaci projektu - **pdf** dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
     - zadání
     - popis řešení
