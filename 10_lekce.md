@@ -12,9 +12,11 @@ HC-05 funguje jako bezdrátový UART bridge. Tedy pokud ho připojíme k pinům 
 
 ![image](https://github.com/user-attachments/assets/9278e36b-f683-4ed7-9d53-2fb4cdef2cd3)
 
+Modul HC-05 může pracovat ve dvou režimech:
+1. AT mode - v tomto módu můžeme modul pomocí takzvaných AT příkazů nakonfigurovat - změnit jeho jméno, nastavit PIN, nastavit, zda se má chovat jako master nebo slave atd. V naší lekci máme už předem nakonfigurované dvojice modulů, aby jeden byl master, druhý slave a master má v sobě uloženu adresu slave modulu, takže by párování mělo proběhnout automaticky. Pokud si ale chcete nastavení změnit, do AT režimu se dostanete tak, že modul odpojíte od napájení, držíte stisknuté tlačítko na modulu a napájení opět připojíte. Modul  by měl signalizovat AT režim pomalým blikáním LEDky.
+   
+2. Data mode - režim, kdy po úspěšném spárování přeposílá všechna data ze sériové linky z Arduina přes Bluetooth do druhého zařízení a naopak všechna data, která přijdou přes Bluetooth přenáší pomocí sériové linky do Arduina. Po připojení napájení začne modul rycle blikat, což znamená, že je v režimu párování. Po úspěšném spárování oba spárované moduly jednou za několik vteřin současně blinkou LEDkou.
 
-Robot, bluetooth ovládání HC-05 UART bridge
-Ukázka wifi?
 
 
 ## Gamepad shield
@@ -25,6 +27,7 @@ Pro pohodlné ovládání robota použijeme gamepad shield - přídavnou desku, 
 *Zdroj obrázku: https://wiki.keyestudio.com/Ks0153_keyestudio_JoyStick_Shield*
 
 ![image](https://github.com/user-attachments/assets/f425f131-3c2a-4fcb-ac9d-26fef8bae476)
+
 *Připojení Bluetooth modulu*
 
 
