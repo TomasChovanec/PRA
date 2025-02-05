@@ -39,7 +39,10 @@ Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku,
 ## Úkoly
 Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Bluetooth.
 
-1. Naprogramovat robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.) Použijte funkce Serial.available() a Serial.read(). Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
-2. Naprogramovat Arduino s Joystick shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely (stejné, jako má nakonfigurován robot). Pro vysílání použijte funkci Serial.write(). Mezi jednotlivými znaky vložte čekání 100ms. Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
-3. Připojte jak k robotovi tak k Arduinu s Joystick shieldem moduly HC-05 (nakonfigurované jako master a slave) a ověřte, že komunikace funguje a že lze robota dálkově ovládat.
+**1.** Naprogramovat robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.) Použijte funkce Serial.available() a Serial.read(). Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
 
+**2.** Naprogramovat Arduino s Joystick shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely (stejné, jako má nakonfigurován robot). Pro vysílání použijte funkci Serial.write(). Mezi jednotlivými znaky vložte čekání 100ms. Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
+
+**3.** Připojte jak k robotovi tak k Arduinu s Joystick shieldem moduly HC-05 (nakonfigurované jako master a slave) a ověřte, že komunikace funguje a že lze robota dálkově ovládat.
+
+## [Zpět na obsah](README.md)
