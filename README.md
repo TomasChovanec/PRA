@@ -33,5 +33,5 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 
 
 <!---
-11. Prezentace projektů
+11. [Prezentace projektů, závěr](11_lekce.md)
 --->
