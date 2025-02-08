@@ -11,15 +11,10 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 - [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
 - [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
-<!---
-## Zpětná vazba po dokončení bloku
-- [Dotazník](https://forms.gle/ZMapXVyxmpksGvFD7)
---->
-
 ## Podpůrné materiály
 - [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf) 
   
-## Materiály k výuce:
+## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 3. [Cykly, servo, analogový výstup](03_lekce.md)
