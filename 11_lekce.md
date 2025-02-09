@@ -15,5 +15,5 @@ Eshopy s Arduiny a další elektronikou [Laskakit.cz](Laskakit.cz), [Dratek.cz](
 
 
 ## Zpětná vazba po dokončení bloku
-Vyplňte prosím dobrovolný [dotazník](https://forms.gle/ZMapXVyxmpksGvFD7) se zpětnou vazbou na tento kurz.
+Vyplňte prosím dobrovolný [dotazník](https://docs.google.com/forms/d/e/1FAIpQLSfnt-jy6swLSSRK4o_dh4kVM5rq5E6sjVbmZJfu2TKniG11Ow/viewform?usp=sharing) se zpětnou vazbou na tento kurz.
 
