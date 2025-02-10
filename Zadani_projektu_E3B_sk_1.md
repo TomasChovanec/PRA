@@ -12,7 +12,7 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 
 ### Automatické otvírání brány
 
-Vytvořte program a zrealizuj zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
+Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
 - Dokud není detekováno auto, brána je zavřená.
 - Po detekci auta se brána otevře.
 - Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto projede, brána se zavře.
