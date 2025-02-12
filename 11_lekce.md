@@ -1,9 +1,3 @@
-## Prezentace projektů
-- Předvedení funkčnosti projektu ve dvojicích
-- Kontrola splnění všech bodů zadání
-- Prezentace projektu
-
-
 ## Závěrečné ohlédnutí
 
 ![image](https://github.com/user-attachments/assets/2073b082-adbb-43e0-acd0-52cbd513b684)
