@@ -10,11 +10,11 @@
 
 ## Co dál?
 
-Pokud vás práce s Arduinem  bavila, pokračujte sami doma. Zájemci si mohou zapůjčit HW ve škole (Arduina, roboti, displeje,...).
+Pokud vás práce s Arduinem  bavila, pokračujte dále doma. Zájemci si mohou zapůjčit HW ve škole (Arduina, roboti, displeje,...).
 
 Eshopy s Arduiny a další elektronikou [Laskakit.cz](Laskakit.cz), [Dratek.cz](Dratek.cz), [Aliexpress.com](Aliexpress.com) a mnoho dalších...
 
-Vlastní projekty jsou nejlepší způsob učení se a dobré téma na pracovních pohovorech.
+Dále budeme s mikroprocesory více do hloubky pokračovat v předmětu MIT.
 
 ## Zpětná vazba po dokončení bloku
 Vyplňte prosím dobrovolný [dotazník](https://docs.google.com/forms/d/e/1FAIpQLSfnt-jy6swLSSRK4o_dh4kVM5rq5E6sjVbmZJfu2TKniG11Ow/viewform?usp=sharing) se zpětnou vazbou na tento kurz.
