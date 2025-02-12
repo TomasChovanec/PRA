@@ -25,8 +25,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 8. [Vstup ze sériového portu](08_lekce.md)
 9. [Program ve dvojicích](09_lekce.md)
 10. [Bluetooth](10_lekce.md)
-
-
+11. [Fotorezistor](11_lekce.md)
+12. [Závěr](12_zaver.md)
+    
 <!---
-11. [Prezentace projektů, závěr](11_lekce.md)
+
 --->
