@@ -1,15 +1,7 @@
-## Závěrečné ohlédnutí
+## Dálkové ovládání servomotoru
 
-![image](https://github.com/user-attachments/assets/2073b082-adbb-43e0-acd0-52cbd513b684)
+![image](https://github.com/user-attachments/assets/77f83f38-b303-4718-be83-9e17dc71c6b5)
 
-## Co dál?
+![image](https://github.com/user-attachments/assets/69af4cfa-465f-42e0-b98b-f747f3309a82)
 
-Pokud vás práce s Arduinem  bavila, pokračujte dále doma. Zájemci si mohou zapůjčit HW ve škole (Arduina, roboti, displeje,...).
-
-Eshopy s Arduiny a další elektronikou [Laskakit.cz](Laskakit.cz), [Dratek.cz](Dratek.cz), [Aliexpress.com](Aliexpress.com) a mnoho dalších...
-
-Dále budeme s mikroprocesory více do hloubky pokračovat v předmětu MIT.
-
-## Zpětná vazba po dokončení bloku
-Vyplňte prosím dobrovolný [dotazník](https://docs.google.com/forms/d/e/1FAIpQLSfnt-jy6swLSSRK4o_dh4kVM5rq5E6sjVbmZJfu2TKniG11Ow/viewform?usp=sharing) se zpětnou vazbou na tento kurz.
-
+*Zdroj obrázku: https://wiki.keyestudio.com/Ks0153_keyestudio_JoyStick_Shield*
