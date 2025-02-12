@@ -12,7 +12,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - včasné odevzdání
     - **prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
     
-- Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
+- Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument pojmenovany Jmeno_Prijmeni_trida.pdf [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
     - zadání
     - popis řešení
     - schéma (můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
