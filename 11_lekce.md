@@ -13,10 +13,10 @@ Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme p
 **2.** Pomocí LEDky na Arduino desce indukujte, zda je v místnosti světlo nebo tma. Hraniční hodnotu si určete dle svého uvážení.
 
 **3.** Připojte k Arduinu servo a simulujte zavírání žaluzií na základě slunečního svitu 
-- při dostatečném osvětlení (nad nastavenou hranicí) se žaluzie plynule zavřou (servo se přesune na 90°).
-- při slabém osvětlení (pod hranicí) se žaluzie plynule otevřou (0°).
+- při dostatečném osvětlení (nad nastavenou hranicí) se žaluzie **plynule** zavřou (servo se přesune na 90°).
+- při slabém osvětlení (pod hranicí) se žaluzie **plynule** otevřou (0°).
       
-**4.** Zajistěte, aby se žaluzie neustále nehýbaly při kolísání intenzity světla kolem hraniční hodnoty. Implementujte hysterezi – nastavte různé prahy pro zavření a otevření žaluzií, aby servo nereagovalo na malé změny světla.
+**4.** Zajistěte, aby se žaluzie neustále nehýbaly při kolísání intenzity světla kolem hraniční hodnoty. Implementujte **hysterezi** – nastavte různé prahy pro zavření a otevření žaluzií, aby servo nereagovalo na malé změny světla.
 
 
 <img src="https://github.com/user-attachments/assets/7c966978-5c7d-47f2-86e8-cbc1e7beea6e" width="600"/>
