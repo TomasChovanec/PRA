@@ -29,5 +29,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 
     
 <!---
-12. [Závěr](12_zaver.md)
+12. [Serial plotter](12_lekce.md)
+13. [Závěr](13_zaver.md)
 --->
