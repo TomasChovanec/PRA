@@ -39,4 +39,4 @@ Ten nám nabídne více funkcí, jako úpravu rozsahu os x a y, přehlednější
 
 ## Další užitečné články a videa
 
-[Video o kondenzátorech (a proč některé vybuchují při nesprávné polaritě)](https://www.youtube.com/watch?v=K_MFUkW1-Qo&ab_channel=N%C3%A1zorn%C3%A1elektrotechnika)
+[Video o kondenzátorech](https://www.youtube.com/watch?v=K_MFUkW1-Qo&ab_channel=N%C3%A1zorn%C3%A1elektrotechnika) (a o tom, proč některé vybuchují při nesprávné polaritě)
