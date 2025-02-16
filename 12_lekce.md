@@ -36,3 +36,7 @@ Ten nám nabídne více funkcí, jako úpravu rozsahu os x a y, přehlednější
 1. Blikat 13pinem s LEDkou s kondíkem
 2. Měřit 13pin a napětí na kondíku
 3. AnalogWrite - > přes rezistor na kondík, řídit potenciometrem![image](https://github.com/user-attachments/assets/4ac69565-68c5-493c-869d-f8647295048c)
+
+## Další užitečné články a videa
+
+[Video o kondenzátorech (a proč některé vybuchují při nesprávné polaritě)](https://www.youtube.com/watch?v=K_MFUkW1-Qo&ab_channel=N%C3%A1zorn%C3%A1elektrotechnika)
