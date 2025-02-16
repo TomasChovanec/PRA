@@ -1,11 +1,23 @@
 ## Arduino jako jednoduchý měřící přístroj
+![image](https://github.com/user-attachments/assets/d388171d-3d0b-4923-83e2-bf263e34e9d4)
 - Arduino má několik digitálních a analogvých vstupů, dá se tedy použít jako jednoduchý měřící přístroj. Může kontinuálně měřit data a posílat je do počítače, který už je dále zpracuje (uloží, zobrazí, vykreslí graf,...)
 - Ukážeme si jak z arduina udělat jednoduchý osciloskop, vykreslíme průběh napětí na kondenzátoru při nabíjení a vybíjení
 
-## Serial plotter
+
+## Serial Plotter     ![image](https://github.com/user-attachments/assets/745f94db-69d8-4204-b9f0-b735ca78a35f)
+
 - Můžeme Arduino použít k měření hodnot, ty posílat do PC a tam dále zpracovávat
-- Pro zobrazování kontinuálních hodnot můžeme použít serial plotter v Arduino IDE, ale má jen velmi omezené funkce
-- Zkusíme použít [Better Serial Plotter](https://github.com/nathandunk/BetterSerialPlotter) ke stažení [zde](https://github.com/nathandunk/BetterSerialPlotter/releases/download/v0.1.2/BetterSerialPlotter-v0.1.2-Windows.zip)
+- Pro zobrazování kontinuálních hodnot můžeme použít **Serial Plotter** v Arduino IDE (ikonka hned vedle Serial Monitoru). Ten ale má jen velmi omezené funkce.
+
+![image](https://github.com/user-attachments/assets/6a673e10-8fd6-433a-ba71-812124b480e4)
+
+## Better Serial Plotter
+Zkusíme použít [Better Serial Plotter](https://github.com/nathandunk/BetterSerialPlotter) ke stažení [zde](https://github.com/nathandunk/BetterSerialPlotter/releases/download/v0.1.2/BetterSerialPlotter-v0.1.2-Windows.zip)
+
+Ten nám nabídne více funkcí, jako úpravu rozsahu os x a y, přehlednější zobrazení, rozdělení do více grafů atd.
+
+![image](https://github.com/user-attachments/assets/41677a14-07b7-466c-8c68-02acaf63060b)
+
 
 ### Úkoly:
 1. Posílejte naměřená data z potenciometru
