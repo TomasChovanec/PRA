@@ -36,21 +36,19 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 
 
 ### Úkoly:
-**1.** Zapojit LEDku a odpor + jeden sériový odpor navíc
-
-**2.** Zkusit blikat připojením k 5V
-
+**1.** Zapojit LEDku a odpor + jeden sériový odpor navíc, 
+    - Zkusit blikat připojením k 5V
+    - Připojit k LEDce a odporu paralelně kondenzátor
+    - Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+    
 ![image](https://github.com/user-attachments/assets/20e18b1d-2c97-4652-bbfd-3743ce62271a)
 
-**3.** Připojit k LEDce a jednomu odporu paralelně kondenzátor
 
-**4.** Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+**2.** Blikat 13pinem s LEDkou s kondíkem
 
-**5.** Blikat 13pinem s LEDkou s kondíkem
+**3.** Měřit 13pin a napětí na kondíku
 
-**6.** Měřit 13pin a napětí na kondíku
-
-**7.** AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
+**4.** AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
 
 ## Další užitečné články a videa
 
