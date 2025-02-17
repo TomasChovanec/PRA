@@ -26,6 +26,8 @@ Ten nám nabídne více funkcí, jako úpravu rozsahu os x a y, přehlednější
 
 ## Kondenzátor
 
+:smile:
+
 - :warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
 - Zapojit LEDku a odpor + jeden sériový odpor navíc
 - Zkusit blikat připojením k 5V
