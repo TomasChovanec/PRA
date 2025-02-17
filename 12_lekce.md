@@ -25,14 +25,11 @@ Ten nám nabídne více funkcí, jako úpravu rozsahu os x a y, přehlednější
 
 
 ## Kondenzátor
-
-:smile:
-
 - :warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
-- Zapojit LEDku a odpor + jeden sériový odpor navíc
-- Zkusit blikat připojením k 5V
+- :baby_chick: Zapojit LEDku a odpor + jeden sériový odpor navíc
+- :baby: Zkusit blikat připojením k 5V
 - Připojit k LEDce a jednomu odporu paralelně kondenzátor
-- Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+- :crown: Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
 
 ### Úkoly:
 1. Blikat 13pinem s LEDkou s kondíkem
