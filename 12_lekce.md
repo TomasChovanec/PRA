@@ -20,6 +20,7 @@ Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plot
 Pro více funkcí můžeme zkusit program [Better Serial Plotter](https://github.com/nathandunk/BetterSerialPlotter) ke stažení [zde](https://github.com/nathandunk/BetterSerialPlotter/releases/download/v0.1.2/BetterSerialPlotter-v0.1.2-Windows.zip)
 
 V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Formát dat je stejný jako pro Serial Plotter - stačí tedy posílat pokaždé jeden řádek dat, pokud je čísel více, mohou být odděleny mezerou.
+
 :warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial plotter buď zavřít, nebo v něm nastavit jiný port.
 
 ![image](https://github.com/user-attachments/assets/41677a14-07b7-466c-8c68-02acaf63060b)
@@ -30,16 +31,18 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 
 
 ## Kondenzátor
-- :warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
-- :star: Zapojit LEDku a odpor + jeden sériový odpor navíc
-- :star: :star: Zkusit blikat připojením k 5V
-- :star: :star: :star:Připojit k LEDce a jednomu odporu paralelně kondenzátor
-- :crown: Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+
+:warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
+
 
 ### Úkoly:
-1. Blikat 13pinem s LEDkou s kondíkem
-2. Měřit 13pin a napětí na kondíku
-3. AnalogWrite - > přes rezistor na kondík, řídit potenciometrem![image](https://github.com/user-attachments/assets/4ac69565-68c5-493c-869d-f8647295048c)
+1. Zapojit LEDku a odpor + jeden sériový odpor navíc
+2. Zkusit blikat připojením k 5V
+3. Připojit k LEDce a jednomu odporu paralelně kondenzátor
+4. Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+5. Blikat 13pinem s LEDkou s kondíkem
+6. Měřit 13pin a napětí na kondíku
+7. AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
 
 ## Další užitečné články a videa
 
