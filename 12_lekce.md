@@ -1,7 +1,7 @@
 ## Arduino jako jednoduchý měřící přístroj
 Arduino má mnoho vstupů, na kterých dokáže měřit jak digitálně stav logické 1 nebo 0, tak i několik analogových pinů, schopných měřit napětí od nuly do 5V. Lze ho tedy použít jako jednoduchý měřící přístroj. Může kontinuálně měřit data a posílat je do počítače, který už je dále zpracuje (uloží, zobrazí, vykreslí graf,...)
 
-![image](https://github.com/user-attachments/assets/d388171d-3d0b-4923-83e2-bf263e34e9d4)
+<img src="https://github.com/user-attachments/assets/c62ad356-7e5c-49e4-8dc7-0fa6dd343c3d" width="450"/>
 
 V této lekci si ukážeme, jak z arduina udělat jednoduchý osciloskop, vykreslíme průběh napětí na kondenzátoru při nabíjení a vybíjení.
 
@@ -36,18 +36,20 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 
 
 ### Úkoly:
-**1.** Zapojit LEDku a odpor + jeden sériový odpor navíc, 
-- Zkusit blikat připojením k 5V
-- Připojit k LEDce a odporu paralelně kondenzátor
-- Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
+**1.** Proveďte zapojení podle schématu, kondenzátor nejdříve vynechte
+- Ověřte, že po stisku tlačítka svítí LEDka
+- Připojte k LEDce a rezistoru paralelně kondenzátor
+- Zkuste opět tlačítkem připojovat a odpojovat 5V. Popište, co se děje
+
 ![image](https://github.com/user-attachments/assets/1f9bf321-3fab-4f3a-b77c-f1841292ac0f)
 
 
-**2.** Blikat 13pinem s LEDkou s kondíkem
-
+**2.** Nyní upravte zapojení tak, abychom obvod nenapájeli přes tlačítko z +5V, ale z pinu D13.
+- Naprogramujte Arduino, aby se na pinu 13 střídala 1 sekundu log. 1 a 1 sekundu log 0 
 ![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
 
-**3.** Měřit 13pin a napětí na kondíku
+**3.** Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
+- naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
 
 **4.** AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
 
