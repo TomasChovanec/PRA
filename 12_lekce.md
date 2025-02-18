@@ -13,15 +13,15 @@ Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plot
 ![image](https://github.com/user-attachments/assets/6a673e10-8fd6-433a-ba71-812124b480e4)
 
 ### Úkoly:
-1. Připojte k Arduinu potenciometr, měřte na něm napětí funckí analogRead() a posílejte naměřená data po sériovíé lince. Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
+1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince. Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
 2. Přidejte druhý kanál - opačnou hodnotu potenciometru
 
 ## Better Serial Plotter
 Pro více funkcí můžeme zkusit program [Better Serial Plotter](https://github.com/nathandunk/BetterSerialPlotter) ke stažení [zde](https://github.com/nathandunk/BetterSerialPlotter/releases/download/v0.1.2/BetterSerialPlotter-v0.1.2-Windows.zip)
 
-V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Formát dat je stejný jako pro Serial Plotter - stačí tedy posílat pokaždé jeden řádek dat, pokud je čísel více, mohou být odděleny mezerou.
+V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Formát dat je stejný jako pro Serial Plotter - stačí tedy posílat pokaždé jeden řádek dat, pokud je čísel více, mohou být odděleny mezerou.
 
-:warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial plotter buď zavřít, nebo v něm nastavit jiný port.
+:warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial Plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial Plotter buď zavřít, nebo v něm nastavit jiný port.
 
 ![image](https://github.com/user-attachments/assets/41677a14-07b7-466c-8c68-02acaf63060b)
 
@@ -44,7 +44,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 ![image](https://github.com/user-attachments/assets/1f9bf321-3fab-4f3a-b77c-f1841292ac0f)
 
 **2.** Nyní upravte zapojení tak, abychom obvod nenapájeli přes tlačítko z +5V, ale z pinu D13.
-- Naprogramujte Arduino, aby se na pinu 13 střídala 1 sekundu log. 1 a 1 sekundu log 0
+- Naprogramujte Arduino, aby se na pinu 13 střídala log. 1 a log. 0 každou sekundu
 - Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
 - 
@@ -56,8 +56,6 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 - Naměřené hodnoty (včetně hodnoty potenciometru) posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
 
 ![image](https://github.com/user-attachments/assets/1d375d7b-2259-438a-9620-864e915abebf)
-
-
 
 ## Další užitečné články a videa
 
