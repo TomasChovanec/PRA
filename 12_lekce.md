@@ -31,6 +31,21 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 
 
 ## Kondenzátor
+![image](https://github.com/user-attachments/assets/2250a376-a511-4eb7-a1a4-39e957d17f1a)
+
+Kondenzátor se ve stejnosměrném obvodu chová jako zásobník energie.
+
+**Při připojení ke zdroji napětí (nabíjení)**
+- Nejprve se začne rychle nabíjet a proud teče obvodem.
+- Jakmile se jeho napětí vyrovná s napětím zdroje, proud se zastaví.
+
+**Po odpojení zdroje**
+- Uchovává náboj a může dodávat energii do obvodu.
+
+**Při vybíjení přes rezistor**
+Postupně ztrácí náboj a napětí na něm klesá exponenciálně.
+
+Klíčová vlastnost: Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožňuje přenos změn napětí (to je důležité v AC obvodech).
 
 :warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
 
@@ -47,7 +62,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 - Naprogramujte Arduino, aby se na pinu 13 střídala log. 1 a log. 0 každou sekundu
 - Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
-- 
+  
 ![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
 
 **3.** Zapojte obvod dle schématu níže
