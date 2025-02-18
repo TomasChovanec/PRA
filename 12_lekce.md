@@ -43,13 +43,14 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 
 ![image](https://github.com/user-attachments/assets/1f9bf321-3fab-4f3a-b77c-f1841292ac0f)
 
-
 **2.** Nyní upravte zapojení tak, abychom obvod nenapájeli přes tlačítko z +5V, ale z pinu D13.
-- Naprogramujte Arduino, aby se na pinu 13 střídala 1 sekundu log. 1 a 1 sekundu log 0 
+- Naprogramujte Arduino, aby se na pinu 13 střídala 1 sekundu log. 1 a 1 sekundu log 0
+- Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
+- Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
+- 
 ![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
 
-**3.** Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
-- naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
+
 
 **4.** AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
 
