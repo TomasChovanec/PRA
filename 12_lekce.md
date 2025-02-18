@@ -40,11 +40,12 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 - Zkusit blikat připojením k 5V
 - Připojit k LEDce a odporu paralelně kondenzátor
 - Zkoušejte připojovat odpojovat napájecí napětí, Pohrajte si, pochopte co se děje
-    
-![image](https://github.com/user-attachments/assets/20e18b1d-2c97-4652-bbfd-3743ce62271a)
+![image](https://github.com/user-attachments/assets/1f9bf321-3fab-4f3a-b77c-f1841292ac0f)
 
 
 **2.** Blikat 13pinem s LEDkou s kondíkem
+
+![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
 
 **3.** Měřit 13pin a napětí na kondíku
 
