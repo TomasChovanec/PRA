@@ -50,9 +50,14 @@ V programu stačí vybrat sériový port, na kterém je připojeno Ardino. Form�
 - 
 ![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
 
+**3.** Zapojte obvod dle schématu níže
+- Napětí v obvodu s LEDkou a kondenzátorem nastavujte na pinu D11 pomocí PWM (funkcí analogWrite())
+- Hodnotu střídy PWM nastavujte potenciometrem, který budete číst pinem A2
+- Naměřené hodnoty (včetně hodnoty potenciometru) posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
+
+![image](https://github.com/user-attachments/assets/1d375d7b-2259-438a-9620-864e915abebf)
 
 
-**4.** AnalogWrite - > přes rezistor na kondík, řídit potenciometrem
 
 ## Další užitečné články a videa
 
