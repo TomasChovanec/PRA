@@ -26,9 +26,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 9. [Program ve dvojicích](09_lekce.md)
 10. [Bluetooth](10_lekce.md)
 11. [Fotorezistor](11_lekce.md)
-
+12. [Arduino jako měřící přístroj](12_lekce.md)
+13. [Závěr](13_zaver.md)
     
 <!---
-12. [Serial plotter](12_lekce.md)
-13. [Závěr](13_zaver.md)
+
 --->
