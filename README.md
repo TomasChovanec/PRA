@@ -8,8 +8,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 
 ## Samostatný projekt
 - [Informace k projektu](Projekt.md)
-- [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
-- [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
+
 
 ## Podpůrné materiály
 - [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf) 
@@ -27,8 +26,11 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 10. [Bluetooth](10_lekce.md)
 11. [Fotorezistor](11_lekce.md)
 12. [Arduino jako měřící přístroj](12_lekce.md)
-13. [Závěr](13_zaver.md)
+
     
 <!---
+- [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
+- [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
+13. [Závěr](13_zaver.md)
 --->
