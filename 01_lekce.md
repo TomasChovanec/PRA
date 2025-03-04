@@ -82,11 +82,15 @@ void loop() {
 
 
 ## Úkoly
-1. Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
-2. Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. 
-3. Vytvořte semafor pomocí Arduina a 3 LED
-4. Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu
+**1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
 
+**2.** Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. 
+
+**3.** Vytvořte semafor pomocí Arduina a 3 LED
+
+![image](https://github.com/user-attachments/assets/0f2d2cfc-5609-4967-ac88-f330f1c490b2)
+
+**4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu
 
 
 ### [Zpět na obsah](README.md)
