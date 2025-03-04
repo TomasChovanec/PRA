@@ -5,10 +5,14 @@
 - SW - vývojové prostředí Arduino IDE
 - knihovny, jak oficiální tak od komunity uživatelů
 
-
 ## Hardware
 <img src="https://github.com/user-attachments/assets/67526fb9-81c3-4751-8cc7-a90bdcac962f" width="600"/>
 
+## Senzory -> Program -> Aktuátory
+![image](https://github.com/user-attachments/assets/fcd1f49d-0d64-4522-bc9d-b6a09e957146)
+
+## Příklad projektu s Arduinem
+<img src="https://github.com/user-attachments/assets/23add251-c948-4f6d-aee2-ac1156b4b2e6" width="600"/>
 
 
 ## Psaní programu pro Arduino - funkce setup() a loop()
@@ -42,7 +46,7 @@ digitalWrite(13, HIGH); //zapnutí led
 
 Počkat nějakou dobu, abychom lidksé oko vidělo, že LEDka svítí
 ```c
-delay(1000); // po dobu jedné sekundy
+delay(1000); // čekání po dobu jedné sekundy
 ```
 
 Celá program blikání LEDkou:
@@ -56,7 +60,6 @@ void setup() {
     pinMode(led, OUTPUT);
 }
 
-// opakujici se smyčka
 void loop() {
     // zde vlozte kod hlavni kod, ktery se bude opakovat donekonecna
     digitalWrite(led, HIGH); //zapnutí led
