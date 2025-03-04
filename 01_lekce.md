@@ -70,9 +70,15 @@ void loop() {
 }
 ```
 
- 
+## Nepájivé pole
+
 - [Připojit k Arduinu tlačítko a číst jeho stav pomocí funkce digitalRead](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-hrajeme-si-s-ledkami)
-- [Umět spočítat odpor k LEDce](https://www.youtube.com/watch?v=RnpiNT4ecO4&ab_channel=MichalJakubec) a zapojit je k Arduinu pomocí [nepájivého pole](https://www.youtube.com/watch?v=5ejHjH8z1rk&ab_channel=SP%C5%A0aVO%C5%A0P%C5%99%C3%ADbram)
+
+![image](https://github.com/user-attachments/assets/96bc81ee-790b-4701-971f-c4b25fc4a8d6)
+
+![image](https://github.com/user-attachments/assets/02211268-d885-4128-9d1c-1276a615c6b7)
+
+ 
 
 
 ## Úkoly
