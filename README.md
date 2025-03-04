@@ -6,14 +6,15 @@ Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ro
 
 Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu tomas.chovanec@frengp.cz.
 
-## Samostatný projekt
-- [Informace k projektu](Projekt.md)
+## Obecné informace k předmětu
+- [Hodnocení předmětu](Hodnoceni_predmetu.md)
+- [Informace k samostatnému projektu](Projekt.md)
 
 
 ## Podpůrné materiály
 - [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf)
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
-  
+
 ## Materiály k výuce
 <!---
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
