@@ -70,5 +70,14 @@ void loop() {
  
 - [Připojit k Arduinu tlačítko a číst jeho stav pomocí funkce digitalRead](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-hrajeme-si-s-ledkami)
 - [Umět spočítat odpor k LEDce](https://www.youtube.com/watch?v=RnpiNT4ecO4&ab_channel=MichalJakubec) a zapojit je k Arduinu pomocí [nepájivého pole](https://www.youtube.com/watch?v=5ejHjH8z1rk&ab_channel=SP%C5%A0aVO%C5%A0P%C5%99%C3%ADbram)
-- 
+
+
+## Úkoly
+1. Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
+2. Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. 
+3. Vytvořte semafor pomocí Arduina a 3 LED
+4. Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu
+
+
+
 ### [Zpět na obsah](README.md)
