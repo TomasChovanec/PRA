@@ -93,7 +93,7 @@ Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení
 
 ![image](https://github.com/user-attachments/assets/0f2d2cfc-5609-4967-ac88-f330f1c490b2)
 
-**4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu
+**4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu). [Jak pracovat s tlačítkem](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-a-prace-s-tlacitky)
 
 
 ### [Zpět na obsah](README.md)
