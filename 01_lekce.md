@@ -44,17 +44,17 @@ Nastavit pin, kde je připojena LEDka jako výstup
 pinMode(13, OUTPUT);
 ```
 
-Rozsvítit LEDku, tím, že na ni připojíme 5V
+Rozsvítit LEDku, tím, že na pin, kde je připojena nastavíme logickou jedničku (tedy 5V)
 ```c
 digitalWrite(13, HIGH); //zapnutí led
 ```
 
-Počkat nějakou dobu, abychom lidksé oko vidělo, že LEDka svítí
+Počkat nějakou dobu, abychom lidské oko vidělo, že LEDka svítí
 ```c
 delay(1000); // čekání po dobu jedné sekundy
 ```
 
-Celá program blikání LEDkou:
+Celý program blikání LEDkou:
 
 ```c
 //sem prijde vlozeni knihoven, inicializace proměnných...
