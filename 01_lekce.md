@@ -76,14 +76,11 @@ void loop() {
 ```
 
 ## Nepájivé pole
-
-- [Připojit k Arduinu tlačítko a číst jeho stav pomocí funkce digitalRead](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-hrajeme-si-s-ledkami)
+Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástk nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
 
 ![image](https://github.com/user-attachments/assets/96bc81ee-790b-4701-971f-c4b25fc4a8d6)
 
 ![image](https://github.com/user-attachments/assets/02211268-d885-4128-9d1c-1276a615c6b7)
-
- 
 
 
 ## Úkoly
