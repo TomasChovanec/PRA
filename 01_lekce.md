@@ -15,6 +15,8 @@ Slovo „embedded“ znamená, že jde o systémy, které jsou součástí něja
 ![image](https://github.com/user-attachments/assets/fcd1f49d-0d64-4522-bc9d-b6a09e957146)
 
 ## Příklad projektu s Arduinem
+Dokážete při pohledu na obrázek popsat, k čemu tento projekt slouží a jaký asi program běží v Arduinu?
+
 <img src="https://github.com/user-attachments/assets/23add251-c948-4f6d-aee2-ac1156b4b2e6" width="600"/>
 
 
