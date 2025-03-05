@@ -9,7 +9,9 @@ Existuje mnoho typů Arduino desek s různými mikrokontrolery - liší se výko
 
 <img src="https://github.com/user-attachments/assets/67526fb9-81c3-4751-8cc7-a90bdcac962f" width="600"/>
 
-## Senzory -> Program -> Aktuátory
+## Princip fungování embedded systémů
+Slovo „embedded“ znamená, že jde o systémy, které jsou součástí nějakého zařízení, například mikrokontrolér v ledničce, autě nebo robotu, který vykonává specifické úkoly.
+
 ![image](https://github.com/user-attachments/assets/fcd1f49d-0d64-4522-bc9d-b6a09e957146)
 
 ## Příklad projektu s Arduinem
