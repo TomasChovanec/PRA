@@ -16,9 +16,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Materiály k výuce
-<!---
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
---->
 2. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 3. [Cykly, servo, analogový výstup](03_lekce.md)
 4. [Teplotní čidlo, LCD displej](04_lekce.md)
