@@ -87,13 +87,13 @@ Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení
 ## Úkoly
 **1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
 
-**2.** Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. 
+**2.** Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. Pro tlačítko použijte pinMode [INPUT_PULLUP](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-a-prace-s-tlacitky#_rezim-input-pullup)
 
 **3.** Vytvořte semafor pomocí Arduina a 3 LED
 
 ![image](https://github.com/user-attachments/assets/0f2d2cfc-5609-4967-ac88-f330f1c490b2)
 
-**4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu). [Jak pracovat s tlačítkem](https://www.itnetwork.cz/hardware-pc/arduino/hardware/arduino-a-prace-s-tlacitky)
+**4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu).
 
 
 ### [Zpět na obsah](README.md)
