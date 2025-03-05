@@ -35,9 +35,8 @@ void loop() {
 }
 ```
 
-## Blikání LEDkou na desce Arduina (pin 13)
-
-Co budeme potřebovat?
+## Blikání LEDkou na desce Arduina
+Přímo na desce Arduina je jedna LED, kteoru můžeme z programu ovládat. Je připojena na pin 13. Co budeme potřebovat?
 
 Nastavit pin, kde je připojena LEDka jako výstup
 ```c
