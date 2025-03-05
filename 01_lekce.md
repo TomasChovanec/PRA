@@ -35,7 +35,7 @@ void loop() {
 }
 ```
 
-## Blikání LEDkou
+## Blikání LEDkou na desce Arduina (pin 13)
 
 Co budeme potřebovat?
 
@@ -75,7 +75,11 @@ void loop() {
 }
 ```
 
-## Nepájivé pole
+## Přidání další LEDky, nepájivé pole
+Na desce Arduina je jen jedna LEDka, kterou můžeme ovládat (pokud nepočítáme LEDky na pinech Tx a Rx, které ale využíváme k programování Arduina). Zkusíme si teď připojit další LEDku s pomocí nepájivého pole. Nesmíme zapomenout na sŕiový odpor. Jak spočítat jeho velikost?
+
+![image](https://github.com/user-attachments/assets/c0ef5e16-2868-4a8b-bdbd-ce0d6e61d2f3)
+
 Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástk nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
 
 ![image](https://github.com/user-attachments/assets/96bc81ee-790b-4701-971f-c4b25fc4a8d6)
