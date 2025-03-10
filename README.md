@@ -17,7 +17,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 
 ## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou](01_lekce.md)
-
 <!---
 4. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 --->
