@@ -21,7 +21,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 <!---
 4. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 --->
-5. [Cykly, servo, analogový výstup](03_lekce.md)
+5. [Servo, PWM, RGB LEDka](03_lekce.md)
 6. [Teplotní čidlo, LCD displej](04_lekce.md)
 7. [Ultrazvukový sensor, krokový motor](05_lekce.md)
 8. [Stejnosměrný motor, vlastní funkce](06_lekce.md)
