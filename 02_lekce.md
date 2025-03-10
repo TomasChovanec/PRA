@@ -1,4 +1,4 @@
-### Proměnné, podmínky, analogový vstup, sériová linka
+### Sériová linka, proměnné, podmínky, cykly, analogový vstup
 
 Po této lekci byste měli být schopni: 
 - Umět posílat data do PC pomocí fuknce Serial.print
