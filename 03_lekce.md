@@ -1,4 +1,4 @@
-### Cykly, servo, PWM
+### Servo, PWM
 
 Po této lekci byste měli: 
 
