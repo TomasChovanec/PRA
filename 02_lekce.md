@@ -46,9 +46,7 @@ Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Napr
 
 Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Arduina. Ovšem pro měření analogového signálu můžeme použít pouze piny označené písmenem A0-A7. Ty totiž lze připojit k AD převodníku na čipu mikroprocesoru (viz. [lekce ADC v MIT](https://tomaschovanec.github.io/MIT/13_ADC.html))
 
-Pro samotné měření použijeme funkci analogRead(). Protože  A/D převodník v mikrokontroleru Arduina je 10-bitový, tzn. že rozeznává 2^10 (1024) hodnot napětí. Nulovému napětí odpovídá hodnota 0 a maximálnímu napětí (5V) hodnota 1023. Z toho vyplývá, že jeden "dílek" odpovídá: 5V/1024 tj. přibližně 4,88 mV. Pokud tedy naměříme např. hodnotu 724, tak napětí na vstupu je asi 3,53V.
-
-## Měření napětí s Arduinem
+## Funkce analogRead()
 
 Pro měření napětí použijeme funkci `analogRead()`. Jako argument funkci zadáme číslo pinu, na kterém chceme měřit. 
 Tedy např. ```int napeti = analogRead(A4);```
