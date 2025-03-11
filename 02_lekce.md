@@ -22,21 +22,25 @@ Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Ardui
 Pro samotné měření použijeme funkci analogRead(). Protože  A/D převodník v mikrokontroleru Arduina je 10-bitový, tzn. že rozeznává 2^10 (1024) hodnot napětí. Nulovému napětí odpovídá hodnota 0 a maximálnímu napětí (5V) hodnota 1023. Z toho vyplývá, že jeden "dílek" odpovídá: 5V/1024 tj. přibližně 4,88 mV. Pokud tedy naměříme např. hodnotu 724, tak napětí na vstupu je asi 3,53V.
 
 ## Měření napětí pomocí `analogRead()`
+
 Pro měření napětí použijeme funkci `analogRead()`.  
-Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **2¹⁰ = 1024 úrovní napětí**.
+Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **$2^{10} = 1024$** úrovní napětí.
 
 - Hodnota **0** odpovídá **0 V**.  
 - Hodnota **1023** odpovídá **5 V**.  
 - Jeden „dílek“ tedy představuje:  
-  \[
-  5V / 1024 \approx 4,88 \text{ mV}
-  \]
+
+$$  
+\Large \frac{5V}{1024} = 4,88 \text{ mV}  
+$$  
 
 Například pokud `analogRead()` vrátí hodnotu **724**, vypočítáme napětí takto:  
-\[
-724 \times 4,88 \text{ mV} \approx 3,53 \text{ V}
-\]  
-**Napětí na vstupu je tedy přibližně 3,53 V.**
+
+$$  
+\Large724 \times 4.88 \text{ mV} = 3,53 \text{ V}  
+$$  
+
+Napětí na vstupu je tedy přibližně 3,53 V.
 
 
 ## Potenciometr
