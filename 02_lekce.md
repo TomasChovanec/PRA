@@ -37,7 +37,7 @@ V jazyce C musíme při vytvoření proměnné zadat i její datový typ. Ten vy
 
 `Serial.print()` se používá k odeslání dat do seriového monitoru. Můžete tak zobrazit hodnoty proměnných, zprávy nebo výsledky výpočtů během běhu programu.
 
-- `Serial.print(“text”);` – vypíše text do seriového monitoru.  
+- `Serial.print("text");` – vypíše text do seriového monitoru.  
 - `Serial.print(variable);` – vypíše hodnotu proměnné.  
 - `Serial.println()` Funguje stejně jako Serial.print() ale na konci přejde na nový řádek
 
