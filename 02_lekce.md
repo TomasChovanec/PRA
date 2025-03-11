@@ -3,9 +3,6 @@
 </script> 
 
 
-## Sériová linka
-- Umět posílat data do PC pomocí fuknce Serial.print
-- 
 ## Proměnné
 Proměnná je pojmenované místo v paměti, kam můžeme uložit a kdykoliv změnit hodnotu.
 
@@ -35,10 +32,13 @@ V jazyce C musíme při vytvoření proměnné zadat i její datový typ. Ten vy
 | `double`       | 64 bit  | Desetinné číslo s dvojnásobnou přesností.               |
 | `string`       | různé   | Datový typ pro uchování textového řetězce.              |
 
+
+## Sériová linka
+- Umět posílat data do PC pomocí fuknce Serial.print
+
 ## Podmínky, cykly
 - Umět použít [podmínku if-else](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti)
 - Umět použít [cyklus for a while](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cykly-jejich-syntaxe-a-pouziti)
-
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
