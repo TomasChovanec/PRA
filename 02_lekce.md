@@ -34,7 +34,28 @@ V jazyce C musíme při vytvoření proměnné zadat i její datový typ. Ten vy
 
 
 ## Sériová linka
-- Umět posílat data do PC pomocí fuknce Serial.print
+
+`Serial.print()` se používá k odeslání dat do seriového monitoru. Můžete tak zobrazit hodnoty proměnných, zprávy nebo výsledky výpočtů během běhu programu.
+
+- `Serial.print(“text”);` – vypíše text do seriového monitoru.  
+- `Serial.print(variable);` – vypíše hodnotu proměnné.  
+- `Serial.println()` Funguje stejně jako Serial.print() ale na konci přejde na nový řádek
+
+### Příklad:
+```cpp
+int cislo = 5; // Proměnná, kterou poté budeme posílat
+
+void setup()
+{
+Serial.begin(9600);
+}
+
+void loop()
+{
+Serial.print("Hodnota promenne csilo je: ");
+Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řádek
+}
+```
 
 ## Podmínky, cykly
 - Umět použít [podmínku if-else](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti)
