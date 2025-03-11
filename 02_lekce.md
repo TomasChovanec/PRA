@@ -1,6 +1,6 @@
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>![image](https://github.com/user-attachments/assets/7ce83938-7955-40db-93a8-5e2f6eedf77e)
+<script type="text/javascript" id="MathJax-script" async 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
+</script> 
 
 
 ## Sériová linka
@@ -21,6 +21,7 @@ Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Ardui
 
 Pro samotné měření použijeme funkci analogRead(). Protože  A/D převodník v mikrokontroleru Arduina je 10-bitový, tzn. že rozeznává 2^10 (1024) hodnot napětí. Nulovému napětí odpovídá hodnota 0 a maximálnímu napětí (5V) hodnota 1023. Z toho vyplývá, že jeden "dílek" odpovídá: 5V/1024 tj. přibližně 4,88 mV. Pokud tedy naměříme např. hodnotu 724, tak napětí na vstupu je asi 3,53V.
 
+## Měření napětí pomocí `analogRead()`
 Pro měření napětí použijeme funkci `analogRead()`.  
 Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **2¹⁰ = 1024 úrovní napětí**.
 
