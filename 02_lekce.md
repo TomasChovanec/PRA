@@ -92,6 +92,7 @@ Napětí na vstupu je tedy přibližně 3,53 V.
 
 ## Potenciometr
 Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v obvodu. Má tři vývody – dva krajní pro pevný odpor a střední (jezdec), kterým nastavujeme hodnotu odporu mezi jedním krajem a jezdcem. Tím, že měníme odpor, měníme i napětí v obvodu (dělič napětí).
+
 ![image](https://github.com/user-attachments/assets/64cce819-1b1f-4ab6-a5a2-6c1b35ec267e)
 
 *Zdroj obrázku: https://www.electronicshub.org/how-potentiometer-works/*
