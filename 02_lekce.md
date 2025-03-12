@@ -55,7 +55,7 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 }
 ```
 
-## Podmínka ,příkaz if-else
+## Podmínka, příkaz if-else
 
 ```c
 int cislo=0;
@@ -78,11 +78,72 @@ void loop()
     }
 }
 ```
+## Vícenásobná podmínka 
+```c
+int cislo=0;
+
+void setup()
+{
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    if (cislo > 0) {
+        Serial.println("Číslo je kladné.");
+    } else if (cislo < 0) {
+        Serial.println("Číslo je záporné.");
+    } else {
+        Serial.println("Číslo je nula.");
+    }
+}
+```
+
 
 ## Cyklus for
 
+```c
+void setup() {
+  Serial.begin(9600);  // Spustíme sériovou komunikaci
+  for (int i = 0; i < 5; i++) {
+    Serial.print("Číslo: ");
+    Serial.println(i);
+  }
+}
+
+void loop() {
+  // loop je prázdná, protože výpis se provede jen jednou při startu
+}
+
+```
+
 ## Cyklus while
-- Umět použít [cyklus for a while](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cykly-jejich-syntaxe-a-pouziti)
+
+```c
+const int buttonPin = 7;  // Pin, kam je připojené tlačítko
+int buttonState = 0;       // Proměnná pro stav tlačítka
+
+void setup() {
+  Serial.begin(9600);       
+  pinMode(buttonPin, INPUT);  // Nastavíme pin tlačítka jako vstup
+
+  int i = 0;  
+
+  // Cyklus běží, dokud není tlačítko stisknuté
+  while (digitalRead(buttonPin) == HIGH) {  
+    Serial.print("Číslo: ");
+    Serial.println(i);
+    i++;
+    delay(500);
+  }
+
+  Serial.println("Tlačítko stisknuto, cyklus ukončen!");
+}
+
+void loop() {
+  // Nic, program skončil v setupu
+}
+```
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
