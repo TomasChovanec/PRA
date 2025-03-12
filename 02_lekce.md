@@ -169,9 +169,9 @@ void loop() {
 ```
 
 ## Úkoly
-4. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15
-5. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
-6. Napiště program, který po startu čeká, dokud není stisknuto tlačítko, pak 5x blikne LEDkou
+1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15
+2. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
+3. Napiště program, který po startu čeká, dokud není stisknuto tlačítko, pak 5x blikne LEDkou
 
 
 ## Analogový vstup
@@ -211,9 +211,9 @@ Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v
 *Zdroj obrázku: https://www.electronicshub.org/how-potentiometer-works/*
 
 ## Úkoly
-	• Zapojte k Arduinu potenciometr, čtete hodnotu funkcí analogRead do proměnné a posílejte na sériovou linku
-	• Hodnotu převeďte na napětí ve voltech a pošlete na sériovou linku
-	• Pokud je vyšší než 2.5, rozsviťte červenou LEDku
-	• Potenciometrem měňte frekvenci blikání LEDky
+1. Zapojte k Arduinu potenciometr, čtete hodnotu funkcí analogRead do proměnné a posílejte na sériovou linku
+2. Hodnotu převeďte na napětí ve voltech a pošlete na sériovou linku
+3. Pokud je vyšší než 2,5V, rozsviťte červenou LEDku
+4. Potenciometrem měňte frekvenci blikání LEDky
 
 ## [Zpět na obsah](README.md)
