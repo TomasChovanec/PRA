@@ -55,7 +55,7 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 }
 ```
 
-## Úkol
+## Úkoly
 1. Do programu s blikáním LEDky přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru.
 2. Připojte k Arduinu tlačítko a napište program, který každých 500ms odesílá do sériového monitoru informaci o tom, zda je tlačítko stisknuto.
 3. Napište program, který neustále inkrementuje hodnotu proměnné a posílá její hodnotu do sériového monitoru. Pomocí volby typu proměnné nebo velikosti inkrementu zajistěte, aby došlo k jejímu přetečení.
