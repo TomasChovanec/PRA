@@ -6,8 +6,6 @@
 ## Proměnné
 Proměnná je pojmenované místo v paměti, kam můžeme uložit a kdykoliv změnit hodnotu.
 
-Proměnná nesmí mít v názvu diakritiku ani mezeru.
-
 Při pojmenovávání proměnných si dávejte pozor, aby jména měla smysl a popisovala, co proměnná obsahuje. Např. místo názvu ```x``` nebo ```a``` použijte něco jako ```teplota```, ```pocetHracu```, ```stavTlacitka``` – to pomůže, aby byl kód přehledný a snadno pochopitelný pro ostatní (i pro vás v budoucnu).
 
 ```c
@@ -57,8 +55,33 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 }
 ```
 
-## Podmínky, cykly
-- Umět použít [podmínku if-else](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti)
+## Podmínka ,příkaz if-else
+
+```c
+int cislo=0;
+
+void setup()
+{
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    cislo++;
+    if (cislo < 10) // Podmínka
+    {
+        Serial.println("Číslo je malé."); // Podmínka platí -> vypíše se text
+    }
+    else // Prvotní podmínka je neplatná
+    {
+        Serial.println("Číslo je velké."); // Podmínka neplatí -> vypíše se jiný text
+    }
+}
+```
+
+## Cyklus for
+
+## Cyklus while
 - Umět použít [cyklus for a while](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cykly-jejich-syntaxe-a-pouziti)
 
 ## Analogový vstup
