@@ -101,10 +101,25 @@ void loop()
 
 
 ## Cyklus for
+Pokud chceme nějakou část kódu opakovat můžeme použít for cyklus.
+```c
+for (inicializace; podmínka; aktualizace) {
+    // kód, který se opakuje
+}
+```
 
+Popis částí:
+- Inicializace: Nastaví počáteční hodnotu proměnné (např. int i = 0)
+- Podmínka: Kontroluje, jestli má cyklus pokračovat (např. i < 5)
+- Aktualizace: Změní hodnotu proměnné po každé iteraci (např. i++)
+
+
+Příklad for cyklu
 ```c
 void setup() {
   Serial.begin(9600);  // Spustíme sériovou komunikaci
+
+  // Kód v těle cyklu se provede 5x,  pro hodnoty i 0,1,2,3,4
   for (int i = 0; i < 5; i++) {
     Serial.print("Číslo: ");
     Serial.println(i);
@@ -118,6 +133,8 @@ void loop() {
 ```
 
 ## Cyklus while
+
+Další typ cyklu je while. Zatímco for používáme, když víme kolikrát se má cyklus opakovat, while je lepší, když nevíme předem, kdy má cyklus skončit (čekání na vstup, tlačítko atd.).
 
 ```c
 const int buttonPin = 7;  // Pin, kam je připojené tlačítko
