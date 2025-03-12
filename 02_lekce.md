@@ -26,7 +26,7 @@ V jazyce C musíme při vytvoření proměnné zadat i její datový typ. Ten vy
 | `unsigned int`  | 16 bit  | Pouze kladná čísla (0 až 65 535).                       |
 | `long`         | 32 bit  | Celé číslo (-2 147 483 648 až 2 147 483 647).           |
 | `unsigned long` | 32 bit  | Pouze kladná čísla (0 až 4 294 967 295).                |
-| `float`        | 32 bit  | Desetinné číslo (-3.4028235E38 až 3.4028235E38).        |
+| `float`        | 32 bit  | Desetinné číslo (-3.4028235e38 až 3.4028235e38).        |
 | `double`       | 64 bit  | Desetinné číslo s dvojnásobnou přesností.               |
 | `string`       | různé   | Datový typ pro uchování textového řetězce.              |
 
