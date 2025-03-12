@@ -50,10 +50,15 @@ Serial.begin(9600);
 
 void loop()
 {
-Serial.print("Hodnota promenne csilo je: ");
+Serial.print("Hodnota promenne cislo je: ");
 Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řádek
 }
 ```
+
+## Úkol
+1. Do programu s blikáním LEDky přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru.
+2. Připojte k Arduinu tlačítko a napište program, který každých 500ms odesílá do sériového monitoru informaci o tom, zda je tlačítko stisknuto.
+3. Napište program, který neustále inkrementuje hodnotu proměnné a posílá její hodnotu do sériového monitoru. Pomocí volby typu proměnné nebo velikosti inkrementu zajistěte, aby došlo k jejímu přetečení.
 
 ## Podmínka, příkaz if-else
 
@@ -78,6 +83,7 @@ void loop()
     }
 }
 ```
+
 ## Vícenásobná podmínka 
 ```c
 int cislo=0;
@@ -161,6 +167,12 @@ void loop() {
   // Nic, program skončil v setupu
 }
 ```
+
+## Úkoly
+4. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15
+5. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
+6. Napiště program, který po startu čeká, dokud není stisknuto tlačítko, pak 5x blikne LEDkou
+
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
