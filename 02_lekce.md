@@ -172,7 +172,7 @@ void loop() {
 1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15
 2. Pomocí cyklu vypište do sériového monitoru čísla od 10 do -5
 3. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
-4. Napiště program, který po startu čeká, dokud není stisknuto tlačítko, pak 5x blikne LEDkou
+4. Napiště program, který po startu čeká, dokud není stisknuto tlačítko, pak 25x blikne LEDkou
 
 
 ## Analogový vstup
