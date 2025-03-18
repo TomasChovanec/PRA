@@ -7,7 +7,7 @@ Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ro
 Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu tomas.chovanec@frengp.cz.
 
 ## Obecné informace
-- [Hodnocení předmětu](Hodnoceni_predmetu.md)
+- [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Informace k samostatnému projektu](Projekt.md)
 
 
