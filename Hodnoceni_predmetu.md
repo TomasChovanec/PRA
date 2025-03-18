@@ -1,4 +1,4 @@
-# Kritéria hodnocení předmětu
+# Kritéria hodnocení v předmětu
 
 - Tvorba programu na známky cca 3x, váha 1,0
 - Dobrovolné známky za aktivitu na hodině – váha 0,5
