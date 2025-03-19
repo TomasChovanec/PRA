@@ -118,6 +118,8 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
 
-
+## Úkoly:
+1. Nastavte na RGB LEDce růžovou barvu.
+2. Pomocí cyklu for měňte plynule barvu LEDky z modré na zelenou a zpět.
 
 ## [Zpět na obsah](README.md)
