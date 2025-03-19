@@ -16,6 +16,10 @@
 
 ## Ovládání serva
 
+![image](https://github.com/user-attachments/assets/9c538d7a-6583-45d5-a7f2-a8e8f6f16251)
+
+*Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
+
 <img src="https://github.com/user-attachments/assets/679321bf-ee7d-42cc-9ea8-ecc5c2172239" width="800"/>
 
 *Zdroj obrázku: https://howtomechatronics.com/how-it-works/how-servo-motors-work-how-to-control-servos-using-arduino/*
