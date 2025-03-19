@@ -83,7 +83,7 @@ Použití funkce:
 ```toLow```, ```toHigh```: nový rozsah hodnot
 
 Příklad použití:
-```C
+```c
 int potValue = analogRead(A0);  
 int angle = map(potValue, 0, 1023, 0, 180);  
 servo.write(angle);
