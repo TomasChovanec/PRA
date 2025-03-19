@@ -93,15 +93,18 @@ analogRead() vrátí hodnotu od 0 do 1023
 map() ji převede na úhel od 0 do 180 stupňů pro servo
 
 ## PWM s Arduinem - funkce analogWrite()
-PWM regulaci znáte z jiných předmětů. Ve zkratce, je to způsob, jak měnit efektivní hodnotu napětí pomocí periodického zapínání a vypínání. Čím vyšší část doby je signál v logické 1, tím je efektivní hodnota vyšší. PWM můžeme použít například při regulaci motorů, tepelných spotřebičů nebo zdrojů světla.
+PWM (Pulse Width Modulation) je metoda, která mění průměrnou hodnotu napětí rychlým zapínáním a vypínáním signálu. 
 
-V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite(). 
+Čím déle je signál v logické 1 (zapnutý), tím vyšší je výsledné napětí.
 
-Zápis: ```analogWrite(pin, hodnota);```
+Čím kratší je zapnutý stav, tím nižší je výsledné napětí.
 
-Hodnota je od 0 (0%) do 255 (100%).
+V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite():
 
-:warning:Funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky.
+```analogWrite(pin, hodnota);```
+
+```hodnota``` je od 0 (0%) do 255 (100%)
+```pin```je označení pinu, na která PWM nastavujeme :warning:Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.
 
 ### Úkoly:
 1. Připojte k Arduinu LEDku a plynule nastavujte její jas od minima do maxima a zpět
