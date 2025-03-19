@@ -44,6 +44,12 @@ void loop() {
 }
 ```
 
+## Úkoly:
+1. Připojte k Arduinu servo, použijte program z příkladu výše a zkuste upravovat časy a úhly.
+2. Vytvořit program, který bude servem pohybovat od 0°do 180° plynule (změní úhel vždy jen o jeden stupeň)
+3. Připojte k Arduinu servoa potenciometr. Polohu serva nastavujte pomocí potenciometru. Můžete pro to použít funkci map() kterou najdete níže.
+
+
 ## Funkce map()
 Funkce map() v Arduinu slouží k převedení hodnoty z jednoho rozsahu do druhého. To je užitečné, když máme třeba hodnotu z analogového vstupu (0 až 1023) a chceme ji převést na jiný rozsah, třeba pro servo (0 až 180 stupňů) nebo pro jas LEDky (0 až 255).
 
@@ -63,8 +69,16 @@ analogRead() vrátí hodnotu od 0 do 1023
 map() ji převede na úhel od 0 do 180 stupňů pro servo
 
 ## PWM s Arduinem - funkce analogWrite()
-- Chápat co je to pulzně šířková modulace [PWM](https://cs.wikipedia.org/wiki/Pulzn%C4%9B_%C5%A1%C3%AD%C5%99kov%C3%A1_modulace)
-- Umět použít funkci [analogWrite()](https://bastlirna.hwkitchen.cz/arduino-zaklady-6-zhasinani/)
+PWM regulaci znáte z jiných předmětů. Ve zkratce, je to způsob, jak měnit efektivní hodnotu napětí pomocí periodického zapínání a vypínání. Čím vyšší část doby je signál v logické 1, tím je efektivní hodnota vyšší. PWM můžeme použít například při regulaci motorů, tepelných spotřebičů nebo zdrojů světla.
+
+V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite(). 
+
+Zápis: ```analogWrite(pin, hodnota);```
+
+Hodnota je od 0 (0%) do 255 (100%).
+
+:warning:Funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky.
+
 
 ## RGB LED
 
