@@ -1,4 +1,9 @@
 # Servomotor
+Je to malý motor s převodovkou, který umí přesně natočit hřídel do určitého úhlu (většinou 0–180°).
+Uvnitř najdeme:
+- DC motor – pohon
+- Převodovku – zpomalí a zvýší moment (sílu serva)
+- Elektroniku s potenciometrem – hlídá polohu
 
 ![image](https://github.com/user-attachments/assets/5848885d-49c4-4c21-ab24-8e94c17b9db6)
 
