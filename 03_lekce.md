@@ -55,7 +55,7 @@ void setup() {
 void loop() {
 
     servo1.write(0); // Nastaví servo do polohy 0°
-    delay(500);     //pockame dostatecne dlouho, nez servo dosahne pozadovane pozice                 
+    delay(500);     // Počkáme dostatečně dlouho, než servo dosáhne požadované pozice                 
 
     servo1.write(90);  // Nastaví servo do polohy 90°    
     delay(500);        // Počkáme dostatečně dlouho, než servo dosáhne požadované pozice            
@@ -66,7 +66,7 @@ void loop() {
 ### Úkoly:
 1. Připojte k Arduinu servo, použijte program z příkladu výše a zkuste upravovat časy a úhly.
 2. Vytvořit program, který bude servem pohybovat od 0°do 180° plynule (změní úhel vždy jen o jeden stupeň)
-3. Připojte k Arduinu servoa potenciometr. Polohu serva nastavujte pomocí potenciometru. Můžete pro to použít funkci map() kterou najdete níže.
+3. Připojte k Arduinu servo a potenciometr. Polohu serva nastavujte pomocí potenciometru. Můžete pro to použít funkci map() kterou najdete níže.
 
 
 ## Funkce map()
@@ -104,16 +104,16 @@ V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite():
 ```analogWrite(pin, hodnota);```
 
 ```hodnota``` je od 0 (0%) do 255 (100%)
-```pin```je označení pinu, na která PWM nastavujeme :warning:Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.
+```pin```je označení pinu, na kterých PWM nastavujeme :warning:Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.
 
 ### Úkoly:
 1. Připojte k Arduinu LEDku a plynule nastavujte její jas od minima do maxima a zpět
-2. Připojte k Arduinu LEDku a potenciometru. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
+2. Připojte k Arduinu LEDku a potenciometr. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
 
 ## RGB LED
-RGB LED jsou vlastně 3 LEDky v jednom pozdře – červená (R), zelená (G) a modrá (B).
+RGB LED jsou vlastně 3 LEDky v jednom pouzdře – červená (R), zelená (G) a modrá (B).
 
-Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme kombinací intenzit jednotlivých batrevných složek namíchat různé barvy.
+Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme kombinací intenzit jednotlivých barevných složek namíchat různé barvy.
 
 ![image](https://github.com/user-attachments/assets/465749f3-a24b-405c-ab2b-98ac3fbccb0c)
 
