@@ -1,13 +1,3 @@
-# Opakování z minula
-
-### Úkol: Čtení hodnoty z potenciometru a výstup na sériový port
-- Připojte potenciometr k Arduinu (střední pin potenciometru na analogový vstup, krajní piny na VCC a GND).  
-- Číslo pinu potenciometru uložte do **proměnné**, abyste ho mohli později snadno změnit.  
-- Přečtěte aktuální hodnotu potenciometru a **uložte ji do proměnné**.  
-- Na sériový port pravidelně vypisujte zprávu ve formátu: "Hodnota je: xx." (místo `xx` bude aktuální hodnota potenciometru). 
-- Pokud hodnota potenciometru přesáhne **800**, vypište navíc zprávu: "Varování, vysoká hodnota!
-
-
 # Servomotor
 
 ![image](https://github.com/user-attachments/assets/5848885d-49c4-4c21-ab24-8e94c17b9db6)
