@@ -1,6 +1,6 @@
 # Opakování z minula
 
-**Úkol:** Čtení hodnoty z potenciometru a výstup na sériový port
+### Úkol: Čtení hodnoty z potenciometru a výstup na sériový port
 - Připojte potenciometr k Arduinu (střední pin potenciometru na analogový vstup, krajní piny na VCC a GND).  
 - Číslo pinu potenciometru uložte do **proměnné**, abyste ho mohli později snadno změnit.  
 - Přečtěte aktuální hodnotu potenciometru a **uložte ji do proměnné**.  
@@ -66,7 +66,7 @@ void loop() {
 }
 ```
 
-## Úkoly:
+### Úkoly:
 1. Připojte k Arduinu servo, použijte program z příkladu výše a zkuste upravovat časy a úhly.
 2. Vytvořit program, který bude servem pohybovat od 0°do 180° plynule (změní úhel vždy jen o jeden stupeň)
 3. Připojte k Arduinu servoa potenciometr. Polohu serva nastavujte pomocí potenciometru. Můžete pro to použít funkci map() kterou najdete níže.
@@ -101,7 +101,7 @@ Hodnota je od 0 (0%) do 255 (100%).
 
 :warning:Funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky.
 
-## Úkoly:
+### Úkoly:
 1. Připojte k Arduinu LEDku a plynule nastavujte její jas od minima do maxima a zpět
 2. Připojte k Arduinu LEDku a potenciometru. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
 
@@ -118,7 +118,7 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
 
-## Úkoly:
+### Úkoly:
 1. Nastavte na RGB LEDce růžovou barvu.
 2. Pomocí cyklu for měňte plynule barvu LEDky z modré na zelenou a zpět.
 
