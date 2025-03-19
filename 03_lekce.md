@@ -16,7 +16,7 @@
 
 ## Ovládání serva
 
-![image](https://github.com/user-attachments/assets/9c538d7a-6583-45d5-a7f2-a8e8f6f16251)
+![image](https://lastminuteengineers.com/wp-content/uploads/arduino/Servo-Motor-Working-Animation.gif)
 
 *Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
 
@@ -25,7 +25,8 @@
 *Zdroj obrázku: https://howtomechatronics.com/how-it-works/how-servo-motors-work-how-to-control-servos-using-arduino/*
 
 
-Příklad použití:
+## Program pro servo
+
 ```c
 #include <Servo.h>  // Přidáme knihovnu Servo
 
