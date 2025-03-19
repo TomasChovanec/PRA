@@ -20,9 +20,9 @@ Servo se ovládá pomocí PWM signálu – konkrétně šířkou impulzu.
 
 Impulz trvá 20 ms (50 Hz).
 Délka impulzu určuje úhel:
-1 ms → Servo na 0°
+0,5 ms → Servo na 0°
 1,5 ms → 90° (střed)
-2 ms → 180°
+2,5 ms → 180°
 
 Arduino knihovna Servo tuto práci zjednodušuje:
 servo.attach(pin) — určí, na který pin je servo připojené.
