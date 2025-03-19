@@ -101,9 +101,14 @@ Hodnota je od 0 (0%) do 255 (100%).
 
 :warning:Funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky.
 
+## Úkoly:
+1. Připojte k Arduinu LEDku a plynule nastavujte její jas od minima do maxima a zpět
+2. Připojte k Arduinu LEDku a potenciometru. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
 
 ## RGB LED
+RGB LED jsou vlastně 3 LEDky v jednom pozdře – červená (R), zelená (G) a modrá (B).
 
+Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme kombinací intenzit jednotlivých batrevných složek namíchat různé barvy.
 
 ![image](https://github.com/user-attachments/assets/465749f3-a24b-405c-ab2b-98ac3fbccb0c)
 
