@@ -18,10 +18,12 @@ Uvnitř najdeme:
 ## Řízení serva
 Servo se ovládá pomocí PWM signálu – konkrétně šířkou impulzu.
 
-Impulz trvá 20 ms (50 Hz).
-Délka impulzu určuje úhel:
+Perioda trvá 20 ms (50 Hz). Délka impulzu určuje úhel:
+
 0,5 ms → Servo na 0°
+
 1,5 ms → 90° (střed)
+
 2,5 ms → 180°
 
 Arduino knihovna Servo tuto práci zjednodušuje:
