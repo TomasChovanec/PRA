@@ -14,7 +14,24 @@
 
 *Zdroj obrázku: https://docs.arduino.cc/tutorials/generic/basic-servo-control/*
 
-## Ovládání serva
+## Zapojení serva
+
+![image](https://github.com/user-attachments/assets/e86aa102-bf35-4b9f-9e2c-6fcf93433303)
+
+*Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
+
+## Řízení serva
+Servo se ovládá pomocí PWM signálu – konkrétně šířkou impulzu.
+
+Impulz trvá 20 ms (50 Hz).
+Délka impulzu určuje úhel:
+1 ms → Servo na 0°
+1,5 ms → 90° (střed)
+2 ms → 180°
+
+Arduino knihovna Servo tuto práci zjednodušuje:
+servo.attach(pin) — určí, na který pin je servo připojené.
+servo.write(úhel) — nastaví úhel (0 až 180°).
 
 ![image](https://lastminuteengineers.com/wp-content/uploads/arduino/Servo-Motor-Working-Animation.gif)
 
