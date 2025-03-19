@@ -72,10 +72,15 @@ void loop() {
 ## Funkce map()
 Funkce map() v Arduinu slouží k převedení hodnoty z jednoho rozsahu do druhého. To je užitečné, když máme třeba hodnotu z analogového vstupu (0 až 1023) a chceme ji převést na jiný rozsah, třeba pro servo (0 až 180 stupňů) nebo pro jas LEDky (0 až 255).
 
-long map(long value, long fromLow, long fromHigh, long toLow, long toHigh);
-**value**: vstupní hodnota, kterou chceme převést
-**fromLow**, **fromHigh**: původní rozsah hodnot
-**toLow**, **toHigh**: nový rozsah hodnot
+Použití funkce:
+
+```long map(long value, long fromLow, long fromHigh, long toLow, long toHigh);```
+
+```value```: vstupní hodnota, kterou chceme převést
+
+```fromLow```, ```fromHigh```: původní rozsah hodnot
+
+```toLow```, ```toHigh```: nový rozsah hodnot
 
 Příklad použití:
 ```C
