@@ -186,7 +186,7 @@ Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Ardui
 Pro měření napětí použijeme funkci `analogRead()`. Jako argument funkci zadáme číslo pinu, na kterém chceme měřit. 
 Tedy např. ```int napeti = analogRead(A4);```
 
-Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **$2^{10} = 1024$** úrovní napětí.
+Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **$$2^{10} = 1024$$** úrovní napětí.
 
 - Hodnota **0** odpovídá **0 V**.  
 - Hodnota **1023** odpovídá **5 V**.  
