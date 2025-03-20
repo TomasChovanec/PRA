@@ -125,5 +125,6 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 3. Připojte k Arduinu LEDku a potenciometr. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
 4. Nastavte na RGB LEDce růžovou barvu.
 5. Pomocí cyklu for měňte plynule barvu LEDky z modré na zelenou a zpět.
+6. Pomocí tří potenciometrů nastavujte všechny tři barevné složky RGB LEDKy.
 
 ## [Zpět na obsah](README.md)
