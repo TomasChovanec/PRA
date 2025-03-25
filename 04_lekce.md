@@ -1,23 +1,18 @@
-### Teplotní čidlo, LCD displej
-
-Po této lekci byste měli: 
-
-- Umět do Arduino IDE nainstalovat knihovnu
+## Přidání knihovny do Arduina
+- Pomocí Library manageru
+- Ze zip souboru
 
 ## Teplotní a vlhkostní čidlo DHT-11
-
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
+- Teplotní senzor — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
+- Senzor vlhkosti — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
+- Digitální komunikaci — data posílá po jediném datovém pinu v digitálním formátu.
+
+Čidlo je levné, snadno se připojuje k Arduinu (3 piny: VCC, GND, DATA). Hodí se pro jednoduché projekty s měřením podmínek v místnosti.
 
 ![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
 
-Teplotní senzor — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
-
-Senzor vlhkosti — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
-
-Jednožilovou komunikaci — data posílá po jediném datovém pinu v digitálním formátu.
-
-Čidlo je levné, snadno se připojuje k Arduinu (3 piny: VCC, GND, DATA) a funguje s knihovnami jako DHT.h. Hodí se pro jednoduché projekty s měřením podmínek v místnosti.
-
+Příklad kódu s knihovnou ???:
 
 ```c
 #include <dht.h>        // Include library
@@ -56,11 +51,20 @@ void loop() {
 - Umět pracovat s [LCD displejem s I2C modulem](https://navody.dratek.cz/zaciname-s-arduinem/lcd-displej.html) knihovna k displeji [zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
 ## I2C sběrnice
-- Chápat co je to [I2C sběrnice](https://cs.wikipedia.org/wiki/I%C2%B2C) a k čemu slouží
-- 
-    ![image](https://github.com/user-attachments/assets/abc6c42b-abeb-4a6f-a850-ca47433e5dd9)
+I2C (Inter-Integrated Circuit) je sériová sběrnice, která umožňuje komunikaci mezi více zařízeními (senzory, displeje, moduly) pomocí pouze dvou vodičů:
+- SDA (Data) – přenáší data mezi zařízeními.
+- SCL (Clock) – řídí časování přenosu dat.
+
+Výhody I2C s Arduinem
+- Úspora pinů – stačí jen 2 dráty pro připojení více zařízení (každé má unikátní adresu).
+- Jednoduché zapojení – méně kabelů, méně zmatků.
+- Podpora knihoven – Arduino má knihovny jako Wire.h pro snadné ovládání.
+- Možnost rozšíření – připojení až 128 zařízení na stejnou sběrnici (adresy 7bit).
+- Obousměrná komunikace – Master (Arduino) může posílat i přijímat data.
  
-  *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
+![image](https://github.com/user-attachments/assets/abc6c42b-abeb-4a6f-a850-ca47433e5dd9)
+ 
+*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
 
 ## [Zpět na obsah](README.md)
