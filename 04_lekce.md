@@ -7,10 +7,11 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 
 [How to install library in Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
 
-- In the menu bar, select Tools > Manage Libraries…
-- Filter the available libraries by typing something (such as a library name) in the text field above the listed libraries.
-- Find the library in the search results. The results are listed alphabetically, so you may need to scroll down the list.
-- Find a library you want to install. You can review the description and author. When you’ve found a library you want to install, click Install. The latest version is selected by default.
+- V horním menu vyber: Tools > Manage Libraries…
+- Do vyhledávacího pole napiš název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšeš.
+- Výsledky jsou seřazené abecedně, takže možná budeš muset posunout dolů, než ji najdeš.
+- Nainstaluj knihovnu: Klikni na knihovnu, kterou chceš. Můžeš si přečíst popis a jméno autora.Pak klikni na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
+  
 ![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
 
 
