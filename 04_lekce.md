@@ -5,8 +5,6 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 
 ### Přidání knihovny pomocí Library manageru
 
-[How to install library in Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
-
 - V horním menu vyber: Tools > Manage Libraries…
 - Do vyhledávacího pole napiš název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšeš.
 - Výsledky jsou seřazené abecedně, takže možná budeš muset posunout dolů, než ji najdeš.
@@ -21,14 +19,15 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdeš ji pak v Sketch  → Include library.
 
 ## Teplotní a vlhkostní čidlo DHT11
-DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
-- Teplotní senzor — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
-- Senzor vlhkosti — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
-- Digitální komunikaci — data posílá po jediném datovém pinu v digitálním formátu.
-
 ![image](https://github.com/user-attachments/assets/6f302fde-7002-46a4-9dac-08bd8cdb30da)
 
 *Zdroj obrázku: *
+
+DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA.. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
+
+- **Teplotní senzor** — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
+- **Senzor vlhkosti** — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
+- **Digitální komunikaci** — data posílá po jediném datovém pinu v digitálním formátu.
 
 ![image](https://github.com/user-attachments/assets/f7816d45-ff25-4df3-ad74-6a9cdfc20167)
 
@@ -36,16 +35,15 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má p
 
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
-Čidlo je levné, snadno se připojuje k Arduinu (3 piny: VCC, GND, DATA). Hodí se pro jednoduché projekty s měřením podmínek v místnosti.
 
 ![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
 
-Příklad kódu s knihovnou ???:
+Příklad kódu s knihovnou [DHTlib by Rob Tillaart](https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTlib):
 
 ```c
 #include <dht.h>        // Include library
 
-dht sensor;                // Creates a DHT object
+dht sensor;             // Creates a DHT object
 int outPin = 2;        // Defines pin number to which the sensor is connected
 
 void setup() {
