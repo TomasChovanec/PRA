@@ -1,6 +1,6 @@
 ## Přidání knihovny do Arduina
 
-### Pomocí Library manageru
+### Přidání knihovny pomocí Library manageru
 
 [How to install library in Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
 
@@ -11,7 +11,7 @@
 ![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
 
 
-### Ze zip souboru
+### Přidání knihovny  ze zip souboru
 In the menu bar, go to Sketch > Include Library > Add .ZIP Library…
 You will be prompted to select the library you want to add. Navigate to the .zip file’s location and open it.
 
