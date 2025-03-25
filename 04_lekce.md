@@ -11,6 +11,7 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 - Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
   
 ![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
+*Zdroj obrázku: https://openlab.citytech.cuny.edu/cet4711/dht11/*
 
 
 ### Přidání knihovny ze zip souboru
@@ -19,8 +20,9 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
 
 ## Teplotní a vlhkostní čidlo DHT11
-![image](https://github.com/user-attachments/assets/6f302fde-7002-46a4-9dac-08bd8cdb30da)
+![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
 
+![image](https://github.com/user-attachments/assets/ba6c9da1-206a-4120-9a8f-80f5cb696062)
 
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
@@ -34,7 +36,6 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 
 *Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
-![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
 
 Příklad kódu s knihovnou [DHTlib by Rob Tillaart](https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTlib):
 
