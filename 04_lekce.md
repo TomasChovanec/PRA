@@ -81,6 +81,8 @@ void loop() {
 
 ![image](https://github.com/user-attachments/assets/b6db3a5d-ad19-4cc1-95c1-e09f09fd3db1)
 
+![image](https://github.com/user-attachments/assets/78b70043-0437-481e-8bdc-5a0c43e8cd9d)
+
 - Umět pracovat s [LCD displejem s I2C modulem](https://navody.dratek.cz/zaciname-s-arduinem/lcd-displej.html) knihovna k displeji [zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
 ## I2C sběrnice
@@ -98,6 +100,16 @@ Výhody I2C s Arduinem
 ![image](https://github.com/user-attachments/assets/abc6c42b-abeb-4a6f-a850-ca47433e5dd9)
  
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
+
+### Práce s LCD displejem a knihovnou ???
+
+```#include <LiquidCrystal_I2C.h>```
+```LiquidCrystal_I2C lcd(0x3F,16,2);```
+```lcd.init();```
+```lcd.clear();```         
+```lcd.backlight();```
+```lcd.setCursor(2,0);```
+```lcd.print("Hello world!");```
 
 
 ## [Zpět na obsah](README.md)
