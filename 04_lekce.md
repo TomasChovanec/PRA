@@ -1,11 +1,7 @@
 ## Přidání knihovny do Arduina
 
 Knihovny v Arduinu jsou předpřipravené balíčky kódu, které usnadňují práci s různými senzory, moduly nebo složitějšími funkcemi.
-Proč používat knihovny?
-- Zjednodušení kódu – nemusíš psát všechno od nuly, knihovna se postará o složitější části programu, např komunikaci se senzorem
-- Rychlejší vývoj – stačí pár příkazů a modul (např. displej, motor, senzor) funguje.
-- Ověřená funkčnost – knihovny většinou vytvořili zkušení vývojáři, takže mají vyřešené chyby.
-Hotové knihovny mají samozřejmě i nevýhody 
+Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od nuly, knihovna se postará o složitější části programu, např. komunikaci se senzorem.
 
 ### Přidání knihovny pomocí Library manageru
 
