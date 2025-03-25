@@ -68,13 +68,13 @@ void loop() {
 
 ## LCD displej
 
+[Knihovna k displeji](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
+
 <img src="https://github.com/user-attachments/assets/bca81828-3aa8-42fd-a01e-f5fd5cd19ad4" width="900"/>
 
 ![image](https://github.com/user-attachments/assets/b6db3a5d-ad19-4cc1-95c1-e09f09fd3db1)
 
 ![image](https://github.com/user-attachments/assets/78b70043-0437-481e-8bdc-5a0c43e8cd9d)
-
-- Umět pracovat s [LCD displejem s I2C modulem](https://navody.dratek.cz/zaciname-s-arduinem/lcd-displej.html) knihovna k displeji [zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
 ## I2C sběrnice
 I2C (Inter-Integrated Circuit) je sériová sběrnice, která umožňuje komunikaci mezi více zařízeními (senzory, displeje, moduly) pomocí pouze dvou vodičů:
