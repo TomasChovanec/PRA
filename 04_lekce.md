@@ -1,6 +1,20 @@
 ## Přidání knihovny do Arduina
-- Pomocí Library manageru
-- Ze zip souboru
+
+### Pomocí Library manageru
+
+[How to install library in Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
+
+- In the menu bar, select Tools > Manage Libraries…
+- Filter the available libraries by typing something (such as a library name) in the text field above the listed libraries.
+- Find the library in the search results. The results are listed alphabetically, so you may need to scroll down the list.
+- Find a library you want to install. You can review the description and author. When you’ve found a library you want to install, click Install. The latest version is selected by default.
+![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
+
+
+### Ze zip souboru
+In the menu bar, go to Sketch > Include Library > Add .ZIP Library…
+You will be prompted to select the library you want to add. Navigate to the .zip file’s location and open it.
+
 
 ## Teplotní a vlhkostní čidlo DHT-11
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
