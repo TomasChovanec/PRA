@@ -21,7 +21,6 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 ## Teplotní a vlhkostní čidlo DHT11
 ![image](https://github.com/user-attachments/assets/6f302fde-7002-46a4-9dac-08bd8cdb30da)
 
-*Zdroj obrázku: *
 
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
@@ -33,8 +32,7 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 
 ![image](https://github.com/user-attachments/assets/7a04283b-2c96-4b60-8328-cd3b5d107ec3)
 
-*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
-
+*Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
 ![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
 
@@ -96,19 +94,17 @@ Výhody I2C s Arduinem
 
 ### Práce s LCD displejem a knihovnou ???
 
-```#include <LiquidCrystal_I2C.h>```
+```#include <LiquidCrystal_I2C.h>``` Načte knihovnu pro ovládání LCD displeje s I2C adaptérem.
 
-```LiquidCrystal_I2C lcd(0x3F,16,2);```
+```LiquidCrystal_I2C lcd(0x27, 16, 2);``` Vytvoří objekt lcd s adresou 0x27. 16, 2 znamená, že displej má 16 sloupců a 2 řádky.
 
-```lcd.init();```
+```lcd.init();``` Inicializuje displej — připraví ho na použití.
 
-```lcd.clear();```         
+```lcd.clear();```  Vyčistí obsah displeje.
 
-```lcd.backlight();```
+```lcd.setCursor(0,1);``` Nastaví kurzor na 1. sloupec (indexuje se od 0) a 2. řádek.
 
-```lcd.setCursor(2,0);```
-
-```lcd.print("Hello world!");```
+```lcd.print("Hello world!");```  Vypíše text "Hello world!" od zadané pozice kurzoru.
 
 
 ## [Zpět na obsah](README.md)
