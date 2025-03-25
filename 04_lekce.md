@@ -5,25 +5,25 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 
 ### Přidání knihovny pomocí Library manageru
 
-- V horním menu vyber: Tools > Manage Libraries…
-- Do vyhledávacího pole napiš název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšeš.
-- Výsledky jsou seřazené abecedně, takže možná budeš muset posunout dolů, než ji najdeš.
-- Nainstaluj knihovnu: Klikni na knihovnu, kterou chceš. Můžeš si přečíst popis a jméno autora. Pak klikni na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
+- V horním menu vyberte Tools > Manage Libraries…
+- Do vyhledávacího pole napite název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšte.
+- Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
+- Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
   
 ![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
 
 
 ### Přidání knihovny ze zip souboru
-- V horním menu vyber: Sketch > Include Library > Add .ZIP Library…
-- V dialogovém okně najdi soubor s knihovnou s příponou .zip a klikni na Open.
-- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdeš ji pak v Sketch  → Include library.
+- V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
+- V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
+- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
 
 ## Teplotní a vlhkostní čidlo DHT11
 ![image](https://github.com/user-attachments/assets/6f302fde-7002-46a4-9dac-08bd8cdb30da)
 
 *Zdroj obrázku: *
 
-DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA.. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
+DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
 - **Teplotní senzor** — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
 - **Senzor vlhkosti** — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
