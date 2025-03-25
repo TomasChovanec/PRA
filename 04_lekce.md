@@ -1,5 +1,12 @@
 ## Přidání knihovny do Arduina
 
+Knihovny v Arduinu jsou předpřipravené balíčky kódu, které usnadňují práci s různými senzory, moduly nebo složitějšími funkcemi.
+Proč používat knihovny?
+- Zjednodušení kódu – nemusíš psát všechno od nuly, knihovna se postará o složitější části programu, např komunikaci se senzorem
+- Rychlejší vývoj – stačí pár příkazů a modul (např. displej, motor, senzor) funguje.
+- Ověřená funkčnost – knihovny většinou vytvořili zkušení vývojáři, takže mají vyřešené chyby.
+Hotové knihovny mají samozřejmě i nevýhody 
+
 ### Přidání knihovny pomocí Library manageru
 
 [How to install library in Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
@@ -21,6 +28,16 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má p
 - Teplotní senzor — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
 - Senzor vlhkosti — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
 - Digitální komunikaci — data posílá po jediném datovém pinu v digitálním formátu.
+
+![image](https://github.com/user-attachments/assets/6f302fde-7002-46a4-9dac-08bd8cdb30da)
+
+*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
+
+![image](https://github.com/user-attachments/assets/b9a93f46-3a72-4a17-a86e-00dbc87ed46e)
+
+![image](https://github.com/user-attachments/assets/7a04283b-2c96-4b60-8328-cd3b5d107ec3)
+
+*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
 Čidlo je levné, snadno se připojuje k Arduinu (3 piny: VCC, GND, DATA). Hodí se pro jednoduché projekty s měřením podmínek v místnosti.
 
