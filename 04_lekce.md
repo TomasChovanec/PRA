@@ -101,11 +101,17 @@ Výhody I2C s Arduinem
 ### Práce s LCD displejem a knihovnou ???
 
 ```#include <LiquidCrystal_I2C.h>```
+
 ```LiquidCrystal_I2C lcd(0x3F,16,2);```
+
 ```lcd.init();```
+
 ```lcd.clear();```         
+
 ```lcd.backlight();```
+
 ```lcd.setCursor(2,0);```
+
 ```lcd.print("Hello world!");```
 
 
