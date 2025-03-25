@@ -10,17 +10,17 @@ Proč používat knihovny? Zjednodušení kódu – nemusíš psát všechno od 
 - V horním menu vyber: Tools > Manage Libraries…
 - Do vyhledávacího pole napiš název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšeš.
 - Výsledky jsou seřazené abecedně, takže možná budeš muset posunout dolů, než ji najdeš.
-- Nainstaluj knihovnu: Klikni na knihovnu, kterou chceš. Můžeš si přečíst popis a jméno autora.Pak klikni na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
+- Nainstaluj knihovnu: Klikni na knihovnu, kterou chceš. Můžeš si přečíst popis a jméno autora. Pak klikni na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
   
 ![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
 
 
-### Přidání knihovny  ze zip souboru
-In the menu bar, go to Sketch > Include Library > Add .ZIP Library…
-You will be prompted to select the library you want to add. Navigate to the .zip file’s location and open it.
+### Přidání knihovny ze zip souboru
+- V horním menu vyber: Sketch > Include Library > Add .ZIP Library…
+- V dialogovém okně najdi soubor s knihovnou s příponou .zip a klikni na Open.
+- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdeš ji pak v Sketch  → Include library.
 
-
-## Teplotní a vlhkostní čidlo DHT-11
+## Teplotní a vlhkostní čidlo DHT11
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 - Teplotní senzor — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
 - Senzor vlhkosti — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
@@ -72,7 +72,7 @@ void loop() {
 }
 ```
 
-## LCD display
+## LCD displej
 
 <img src="https://github.com/user-attachments/assets/bca81828-3aa8-42fd-a01e-f5fd5cd19ad4" width="900"/>
 
