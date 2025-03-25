@@ -33,6 +33,8 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Má p
 
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
+![image](https://github.com/user-attachments/assets/f7816d45-ff25-4df3-ad74-6a9cdfc20167)
+
 ![image](https://github.com/user-attachments/assets/b9a93f46-3a72-4a17-a86e-00dbc87ed46e)
 
 ![image](https://github.com/user-attachments/assets/7a04283b-2c96-4b60-8328-cd3b5d107ec3)
