@@ -25,7 +25,7 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 
 - **Teplotní senzor** — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
 - **Senzor vlhkosti** — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
-- **Digitální komunikaci** — data posílá po jediném datovém pinu v digitálním formátu.
+- **Integrovaný obvod** — měří vlhkost a teplotu pomocí dvou výše zmíněných čidel a data posílá digitálně po jediném datovém pinu.
 
 ![image](https://github.com/user-attachments/assets/f7816d45-ff25-4df3-ad74-6a9cdfc20167)
 
