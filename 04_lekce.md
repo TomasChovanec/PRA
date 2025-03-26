@@ -111,7 +111,7 @@ Výhody I2C s Arduinem
 ### Úkoly:
 1. Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru.
 2. Připojte k Arduinu LCD displej a zobrazte na první řádek své jméno, na druhý příjmení
-3. Zobrazte na displeji odpocet od 10 do 0 po 0,5s. Po skoncení odpočtu zobrazte libovolný vzkaz.
+3. Zobrazte na displeji odpočet od 10 do 0 po 0,5s. Po skončení odpočtu zobrazte libovolný vzkaz.
 4. Na LCD displeji zobrazujte na jednom řádku teplotu, na druhém vlhkost.
 5. Na displeji zobrazujte aktuální teplotu a pak také minimální a maximální teplotu od startu programu.
 6. Vytvořte program, který sleduje teplotu z DHT11 a porovnává ji s limitem. Limit se bude nastavovat potenciometrem. Pokud teplota překročí tento limit, na LCD se zobrazí varování. Na LCD zobrazujte aktuální teplotu i nastavený limit.
