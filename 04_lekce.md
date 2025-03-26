@@ -10,10 +10,6 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 - Do vyhledávacího pole napite název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšte.
 - Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
 - Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
-  
-![image](https://github.com/user-attachments/assets/1dd94d18-4994-4dde-9b1e-e68cc9587888)
-*Zdroj obrázku: https://openlab.citytech.cuny.edu/cet4711/dht11/*
-
 
 ### Přidání knihovny ze zip souboru
 - V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
