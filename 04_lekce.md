@@ -23,8 +23,8 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
-- **Teplotní senzor** — měří teplotu v rozsahu 0–50 °C s přesností ±2 °C.
-- **Senzor vlhkosti** — měří relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
+- **Teplotní senzor** — umožňuje měřit teplotu v rozsahu 0–50 °C s přesností ±2 °C.
+- **Senzor vlhkosti** — umožňuje měřit relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
 - **Integrovaný obvod** — měří vlhkost a teplotu pomocí dvou výše zmíněných čidel a data posílá digitálně po jediném datovém pinu.
 
 ![image](https://github.com/user-attachments/assets/f7816d45-ff25-4df3-ad74-6a9cdfc20167)
