@@ -24,7 +24,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 1. [Stejnosměrný motor, vlastní funkce](06_lekce.md)
 1. [Časování s millis()](07_lekce.md)
 1. [Vstup ze sériového portu](08_lekce.md)
-1. [Program ve dvojicích](09_lekce.md)
 1. [Bluetooth](10_lekce.md)
 1. [Fotorezistor](11_lekce.md)
 1. [Arduino jako měřící přístroj](12_lekce.md)
@@ -35,4 +34,12 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 - [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
 13. [Závěr](13_zaver.md)
+--->
+
+## Testy
+Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
+
+1. [Test - cykly, servo, RGB LED](files/Test_1.md)
+<!---
+2. [Program ve dvojicích](09_lekce.md)
 --->
