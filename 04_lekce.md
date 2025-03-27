@@ -34,7 +34,7 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 *Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
 
-Příklad kódu s knihovnou [DHTlib by Rob Tillaart](https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTlib):
+Příklad kódu s knihovnou [DHTlib by Rob Tillaart](https://github.com/RobTillaart/DHTlib/releases):
 
 ```c
 #include <dht.h>        // Include library
