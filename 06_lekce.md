@@ -1,9 +1,3 @@
-
-## Vlastní funkce v jazyce C
-- Zopakujeme si princip funkcí v jazyce C, co je návratová hodnota, argument, jak se funkce volá
-  
-- Zkusíme si nadefinovat [vlastní funkci](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/funkce-a-knihovny)
-
 ## Stejnosměrný motor
 - Ukážeme si princip funkce [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
