@@ -99,7 +99,7 @@ Výhody I2C s Arduinem
 
 ```LiquidCrystal_I2C lcd(0x27, 16, 2);``` Vytvoří objekt lcd s adresou 0x27. 16, 2 znamená, že displej má 16 sloupců a 2 řádky.
 
-```lcd.init();``` Inicializuje displej — připraví ho na použití.
+```lcd.begin();``` Inicializuje displej — připraví ho na použití.
 
 ```lcd.clear();```  Vyčistí obsah displeje.
 
