@@ -36,6 +36,7 @@ void loop() {
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ![image](https://blog.seeedstudio.com/wp-content/uploads/2019/03/StepperMotorgif.gif)
+
 *Zdroj obrázku: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/*
 
 ### Driver ULN2003 
