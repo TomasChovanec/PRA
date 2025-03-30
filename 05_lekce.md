@@ -26,6 +26,11 @@ void loop() {
   Serial.println(duration);
 }
 ```
+
+### Úkoly
+1. Připojte k Arduinu ultrazvukový senzor. Měřte vzdálenost a změřenou hodnotu posílejte na serial monitor.
+2. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte v centimetrech. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
+
 # Krokový motor
 
 ![image](https://github.com/user-attachments/assets/236626cf-0e17-4728-8f1b-6cb44cc3b303)
@@ -75,6 +80,12 @@ void loop() {
 }
 ```
 
+### Úkoly
+1. Připojte k Arduinu krokový motor a otáčejte čtvrt otáčky doleva a půl otáčky doprava.
+2. Přidejte ještě tlačítko. Při držení tlačítka se bude motor točit doleva, pokud tlačítko není stisknuto tak doprava.
+
+
+
 # Definice vlastní funkce v jazyce C 
 
 ### Funkce bez parametru a návratové hodnoty
@@ -115,3 +126,9 @@ int b = 10;
 int obsah = obsah_obdelniku(a, b)
 Serial.println(obsah);
 ```
+
+### Úkoly
+1. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```.
+2. Vytvořt program, který umožní uživateli nejprve změřit šířku místnosti, pak délku a následně zobrazí plochu místnosti.
+
+
