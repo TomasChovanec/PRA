@@ -2,12 +2,15 @@
 
 ![image](https://github.com/user-attachments/assets/b9491ccf-c2ee-4d43-abfb-c589ddbb5567)
 
+*Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/*
+
 ![image](https://github.com/user-attachments/assets/97bf9bf2-9d66-4816-bda1-f13b5380f0e9)
 
 ![image](https://lastminuteengineers.com/wp-content/uploads/arduino/HC-SR04-Ultrasonic-Sensor-Working-Echo-reflected-from-Obstacle.gif)
 
 ![image](https://github.com/user-attachments/assets/999d9d9c-e60e-4769-892b-5b77e7c7be82)
 
+*Zdroj obrázků: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/*
 
 ## Funkce pulseIn()
 
@@ -27,10 +30,7 @@ void loop() {
 ```
 # Krokový motor
 
-
 ![image](https://github.com/user-attachments/assets/0bf31bf3-3fa2-4b1c-a9af-a77890bed561)
-
-![image](https://github.com/user-attachments/assets/5d9f0b83-d1fb-4aac-9db3-7c90850fc972)
 
 ![image](https://github.com/user-attachments/assets/ae61c638-8816-4a27-8a5a-bcce41df2f18)
 
