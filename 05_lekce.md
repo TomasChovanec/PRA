@@ -28,11 +28,15 @@ void loop() {
 ```
 # Krokový motor
 
-![image](https://github.com/user-attachments/assets/0bf31bf3-3fa2-4b1c-a9af-a77890bed561)
+![image](https://github.com/user-attachments/assets/92a783b5-af06-4c82-855d-a072e3054543)
+
+*Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
+
+### Driver ULN2003 
 
 ![image](https://github.com/user-attachments/assets/ae61c638-8816-4a27-8a5a-bcce41df2f18)
 
-*Zdroj obrázku: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
+*Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ![image](https://github.com/user-attachments/assets/3a35d953-4fe2-48ca-ba4c-d6140944218b)
 
@@ -68,12 +72,9 @@ void loop() {
 }
 ```
 
-- Chápat princip funkce [krokového motoru](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
-- Umět použít krokový motor se základní [knihovnou Stepper.](https://www.instructables.com/How-to-Control-28BYJ-48-Stepper-Motor-With-ULN2003/)
-- 
 # Definice vlastní funkce v jazyce C 
 
-### FUnkce bez parametru a návratové hodnoty
+### Funkce bez parametru a návratové hodnoty
 
 ```c
 void pozdrav(void)
