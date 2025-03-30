@@ -10,7 +10,7 @@
 
 *Zdroj obrázků: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/*
 
-## Funkce pulseIn()
+### Funkce pulseIn()
 
 ```c
 int pin = 7;
@@ -44,7 +44,7 @@ void loop() {
 
 *Zdroj obrázku: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/*
 
-### Driver ULN2003 
+## Driver ULN2003 
 
 ![image](https://github.com/user-attachments/assets/ae61c638-8816-4a27-8a5a-bcce41df2f18)
 
