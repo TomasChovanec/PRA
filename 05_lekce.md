@@ -28,6 +28,9 @@ void loop() {
 ```
 # Krokový motor
 
+![image](https://github.com/user-attachments/assets/236626cf-0e17-4728-8f1b-6cb44cc3b303)
+*Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
+
 ![image](https://github.com/user-attachments/assets/92a783b5-af06-4c82-855d-a072e3054543)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
