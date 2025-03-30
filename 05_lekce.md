@@ -103,7 +103,7 @@ void pozdrav(void)
 void pozdrav(char jmeno[])
 {
     Serial.print("Dobrý den ");
-    Serial.print(jmeno[]);
+    Serial.print(jmeno);
     Serial.println("!");
 }
 ```
