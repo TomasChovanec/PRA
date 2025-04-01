@@ -145,6 +145,7 @@ void loop() {
 ```
 
 ### Funkce s parametrem
+Funkce může mít libovolný počet vstupních parametrů (také nazývaných argumenty), které se zapisují do závorek při její definici. Parametry umožňují funkci přizpůsobit její chování podle konkrétních hodnot. Příklad: Pokud chceme aby funkce z předchozího příkladu pozdravila s oslovením jménem, přidáme do funkce parametr ```jmeno```, který následně použijeme v těle funkce. Při volání funkce pak tento parametr předáme s konkrétní hodnotou.
 
 ```c
 void pozdrav(char jmeno[]) {
@@ -158,7 +159,7 @@ void setup() {
 }
 
 void loop() {
-    pozdrav("Alice");
+    pozdrav("Horymíre");
     delay(1000);
 }
 
