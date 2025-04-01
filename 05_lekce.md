@@ -127,6 +127,7 @@ Hlavní výhody funkcí:
 Funkce mají název, mohou (ale nemusí) přijímat argumenty a vracet hodnotu.
 
 ### Funkce bez parametru a návratové hodnoty
+Vytvoříme jednoduchou funkci. Klíčové slovo void před názvem funkce označuje, že funkce nevrací žádnou hodnotu. ```void```v závorkách pak znamená, že funkce nepřijímá žádné vstupní argumenty.
 
 ```c
 void pozdrav(void)
