@@ -46,6 +46,8 @@ Motor má v sobě dvě cívky, které mají vyvedený středy vinutí. Tyto stř
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ### Převodovka
+Pro dosažení vyššího momentu a jemnějšího přesnějšího řízení polohy je motor vybaven převodovkou 1:64, tedy pro jedno plné otočení výstuponí hřídele je potřeba 64 otáček motoru.
+
 ![image](https://github.com/user-attachments/assets/92a783b5-af06-4c82-855d-a072e3054543)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
