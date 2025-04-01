@@ -116,6 +116,15 @@ void loop() {
 
 
 # Definice vlastní funkce v jazyce C 
+Funkce v jazyce C slouží k rozdělení programu na menší, přehlednější části, které lze znovu použít.
+
+Hlavní výhody funkcí:
+- Zjednodušují kód – program je přehlednější a lépe organizovaný.
+- Umožňují opakované použití kódu – stejnou funkci lze volat vícekrát, čímž se snižuje duplicita.
+- Usnadňují ladění a údržbu – chyby se hledají snadněji, protože jsou izolovány v konkrétní funkci.
+- Podporují modulární programování – umožňují rozdělit kód na logické bloky, což zlepšuje strukturu programu.
+
+Funkce mají název, mohou (ale nemusí) přijímat argumenty a vracet hodnotu.
 
 ### Funkce bez parametru a návratové hodnoty
 
