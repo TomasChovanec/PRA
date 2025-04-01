@@ -52,22 +52,25 @@ void loop() {
 
 
 # Krokový motor
-Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý levný unipolární krokový motor 28byj48 vybavený převodovkou 1:64
+Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý unipolární krokový motor **28BYJ-48**.
 
 ### Schema zapojení
-Motor má v sobě dvě cívky, které mají vyvedený středy vinutí. Tyto středy jsou připojeny na 5V. Pokud pak kterýkoli konec cívky připojíme na zem, danou cívkou začne procházet proud, vytvoří magnetické pole, které v reakci s magnetickám polem permanentního magnetu v rotoru pootočí motorem o jeden krok. Následně cívku odpojíme, připojíme další cívku a takto postupně motorem po krocích otáčíme.
+Motor 28BYJ-48 je unipolární krokový motor se čtyřmi cívkami uspořádanými do dvou sekcí. Každá sekce má střední odbočku připojenou na 5V. Když připojíme jeden z konců cívky k zemi, začne cívkou procházet proud, což vytvoří magnetické pole. Interakce tohoto pole s magnetickým polem permanentního magnetu v rotoru způsobí pootočení motoru o jeden krok. Postupným přepínáním napájení mezi jednotlivými cívkami dochází k rotaci motoru krok za krokem
 
 ![image](https://github.com/user-attachments/assets/236626cf-0e17-4728-8f1b-6cb44cc3b303)
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ### Převodovka
-Pro dosažení vyššího momentu a jemnějšího přesnějšího řízení polohy je motor vybaven převodovkou 1:64, tedy pro jedno plné otočení výstuponí hřídele je potřeba 64 otáček motoru.
+Pro dosažení vyššího momentu a jemnějšího řízení polohy je motor vybaven převodovkou s přibližným převodovým poměrem1:64, tedy pro jedno plné otočení výstuponí hřídele je potřeba přibližně 64 otáček motoru.
 
 ![image](https://github.com/user-attachments/assets/92a783b5-af06-4c82-855d-a072e3054543)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ### Princip funkce
+
+Princip pohybu motoru jsme už popsali u schematu výše. Spínáním jednotlivých cívek proti zemi se vytváří magnetické pole, které interaguje s permanentním magnetem v rotoru a způsobuje jeho pootočení o jeden krok. Postupným přepínáním cívek motor rotuje.
+
 ![image](https://blog.seeedstudio.com/wp-content/uploads/2019/03/StepperMotorgif.gif)
 
 *Zdroj obrázku: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/*
