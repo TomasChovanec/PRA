@@ -20,7 +20,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu to
 1. [Proměnné, podmínky, analogový vstup](02_lekce.md)
 1. [Servo, PWM, RGB LEDka](03_lekce.md)
 1. [Teplotní čidlo, LCD displej](04_lekce.md)
-<!---1. [Ultrazvukový sensor, krokový motor](05_lekce.md)--->
+1. [Ultrazvukový sensor, krokový motor](05_lekce.md)
 1. [Řízení DC motoru](06_lekce.md)
 1. [Časování s millis()](07_lekce.md)
 1. [Vstup ze sériového portu](08_lekce.md)
