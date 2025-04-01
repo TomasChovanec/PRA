@@ -40,6 +40,8 @@ void loop() {
 Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý levný unipolární krokový motor 28byj48 vybavený převodovkou 1:64
 
 ### Schema zapojení
+Motor má v sobě dvě cívky, které mají vyvedený středy vinutí. Tyto středy jsou připojeny na 5V. Pokud pak kterýkoli konec cívky připojíme na zem, danou cívkou začne procházet proud, vytvoří magnetické pole, které v reakci s magnetickám polem permanentního magnetu v rotoru pootočí motorem o jeden krok. Následně cívku odpojíme, připojíme další cívku a takto postupně motorem po krocích otáčíme.
+
 ![image](https://github.com/user-attachments/assets/236626cf-0e17-4728-8f1b-6cb44cc3b303)
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
