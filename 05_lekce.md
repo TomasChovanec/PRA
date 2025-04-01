@@ -1,8 +1,12 @@
 # Ultrazvukový sensor HC-SR04
+V dnešní lekci se naučíme pracovat se senzorem HC-SR04, který umožňuje měření vzdálenosti pomocí ultrazvuku. 
 
 ![image](https://github.com/user-attachments/assets/b9491ccf-c2ee-4d43-abfb-c589ddbb5567)
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/*
+
+### Zapojení
+Kromě obligátního +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digitálním pinům Arduina. Pin Trig slouží ke spuštění měření (vyslání ultrazvukového pulzu), musíme jej tedy v Arduinu nastavit jako výstup. Pin Echo je výstup senzoru (tedy z pohledu Arduina vstup), na kterém senzor generuje puls, jehož délka odpovídá době od vyslání signálu do návratu odražené vlny.
 
 ![image](https://github.com/user-attachments/assets/97bf9bf2-9d66-4816-bda1-f13b5380f0e9)
 
@@ -11,6 +15,7 @@
 *Zdroj obrázků: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/*
 
 ### Funkce pulseIn()
+Abychom zjistili změřenou vzdálenost, potřebujeme změřit délku pulzu na pinu Echo. Mohli bychom pro to použít periferii mikrokontroleru časovač, ale usnadníme si práci využitím standartní funkce Arduino pulseIn().
 
 ```c
 int pin = 7;
@@ -32,14 +37,18 @@ void loop() {
 2. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte v centimetrech. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
 
 # Krokový motor
+Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý levný unipolární krokový motor 28byj48 vybavený převodovkou 1:64
 
+### Schema zapojení
 ![image](https://github.com/user-attachments/assets/236626cf-0e17-4728-8f1b-6cb44cc3b303)
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
+### Převodovka
 ![image](https://github.com/user-attachments/assets/92a783b5-af06-4c82-855d-a072e3054543)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
+### Princip funkce
 ![image](https://blog.seeedstudio.com/wp-content/uploads/2019/03/StepperMotorgif.gif)
 
 *Zdroj obrázku: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/*
