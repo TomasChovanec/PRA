@@ -133,6 +133,15 @@ void pozdrav(void)
 {
     Serial.println("Dobrý den!");
 }
+
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+    pozdrav();
+    delay(1000);
+}
 ```
 
 ### Funkce s parametrem
@@ -163,15 +172,19 @@ int obsah_obdelniku(int sirka, int vyska)
     int vysledek = sirka * vyska;
     return vysledek;
 }
-```
 
-### Volání funkce
+void setup() {
+    Serial.begin(9600);
+}
 
-```c
-int a = 5;
-int b = 10;
-int obsah = obsah_obdelniku(a, b)
-Serial.println(obsah);
+void loop() {
+    int sirka = 5;
+    int vyska = 10;
+    int obsah = obsah_obdelniku(sirka, vyska);
+    Serial.print("Obsah obdélníku: ");
+    Serial.println(obsah);
+    delay(1000);
+}
 ```
 
 ### Úkoly
