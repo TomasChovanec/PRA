@@ -1,6 +1,20 @@
 # Ultrazvukový sensor HC-SR04
 V dnešní lekci se naučíme pracovat se senzorem HC-SR04, který umožňuje měření vzdálenosti pomocí ultrazvuku. 
 
+Hlavní parametry senzoru:
+
+| Parametr              | Hodnota           |
+|-----------------------|------------------|
+| Napájecí napětí       | 5V               |
+| Proudový odběr   | ~15 mA           |
+| Frekvence ultrazvuku | 40 kHz       |
+| Měřicí rozsah    | 2 – 400 cm       |
+| Přesnost         | ±3 mm            |
+| Úhel detekce     | ~15°             |
+| Rozhraní         | 2 digitální piny (Trig, Echo) |
+
+## Princip senzoru
+
 ![image](https://github.com/user-attachments/assets/b9491ccf-c2ee-4d43-abfb-c589ddbb5567)
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/*
@@ -35,6 +49,7 @@ void loop() {
 ### Úkoly
 1. Připojte k Arduinu ultrazvukový senzor. Měřte vzdálenost a změřenou hodnotu posílejte na serial monitor.
 2. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte v centimetrech. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
+
 
 # Krokový motor
 Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý levný unipolární krokový motor 28byj48 vybavený převodovkou 1:64
