@@ -157,9 +157,8 @@ Serial.println(obsah);
 ```
 
 ### Úkoly
-1. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```.
-2. Vytvořt program, který umožní uživateli nejprve změřit šířku místnosti, pak délku a následně zobrazí plochu místnosti.
-3. Vytvořte funkci, která pootočí krokovým motorem o čtyři kroky (postupným sepnutím všech čtyř cívek
-4. Upravte funkci z předchozího bodu tak, aby jako vstupní argument přijímala počet počet kroků motoru
-
-
+1. Vytvořte funkci pro blikání LEDkou ```blikej(int pocet_bliknuti, int delka_bliknuti);```
+2. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```, která bude vracet délku v centimetrech.
+3. Vytvořte program, který umožní uživateli nejprve změřit šířku místnosti, pak délku a následně zobrazí plochu místnosti.
+4. Vytvořte funkci, která pootočí krokovým motorem o čtyři kroky (postupným sepnutím všech čtyř cívek
+5. Upravte funkci z předchozího bodu tak, aby jako vstupní argument přijímala počet počet kroků motoru
