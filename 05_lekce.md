@@ -138,12 +138,21 @@ void pozdrav(void)
 ### Funkce s parametrem
 
 ```c
-void pozdrav(char jmeno[])
-{
+void pozdrav(char jmeno[]) {
     Serial.print("Dobrý den ");
     Serial.print(jmeno);
     Serial.println("!");
 }
+
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+    pozdrav("Alice");
+    delay(1000);
+}
+
 ```
 
 ### Návratová hodnota funkce
