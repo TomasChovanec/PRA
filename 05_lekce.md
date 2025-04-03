@@ -194,5 +194,5 @@ void loop() {
 1. Vytvořte funkci pro blikání LEDkou ```blikej(int pocet_bliknuti, int delka_bliknuti);```
 2. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```, která bude vracet délku v centimetrech.
 3. Vytvořte program, který umožní uživateli nejprve změřit šířku místnosti, pak délku a následně zobrazí plochu místnosti.
-4. Vytvořte funkci, která pootočí krokovým motorem o čtyři kroky (postupným sepnutím všech čtyř cívek).
+4. Vytvořte funkci, která pootočí krokovým motorem o čtyři kroky (postupným sepnutím všech čtyř cívek). Nepoužívejne žádnou knihovnu, cívky motoru spínejte pomocí funkce ```digitalWrite()```.
 5. Upravte funkci z předchozího bodu tak, aby jako vstupní argument přijímala počet počet kroků motoru.
