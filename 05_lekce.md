@@ -161,6 +161,7 @@ void setup() {
 
 void loop() {
     pozdrav("Horymíre");
+    pozdrav("Petro");
     delay(1000);
 }
 
