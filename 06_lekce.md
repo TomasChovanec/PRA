@@ -1,16 +1,20 @@
 ## Stejnosměrný motor
-- Ukážeme si princip funkce [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
+DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou energii na mechanickou – konkrétně na otáčivý pohyb.
+- Video [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
 <img src="https://github.com/user-attachments/assets/3ea712a0-9cc0-4406-ba1f-e87f0a42a647" width="450"/>
 
 *Zdroj obrázku: https://dronebotworkshop.com/dc-motors-l298n-h-bridge/*
 
 ## H-můstek
-- Projdeme si princip řízení směru otáčení motoru pomocí [H-můstku](https://www.circuitbread.com/ee-faq/how-does-an-h-bridge-work)
+H-můstek (anglicky H-bridge) je elektronický obvod, který slouží k řízení směru otáčení DC motoru. Umožňuje motor otáčet na jednu stranu,na druhou stranu nebo zastavit (volitelně i regulovat rychlost pomocí PWM).
+Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Přepínáním těchto spínačů lze změnit směr proudu procházejícího motorem a tím směr otáčení.
+
+[H-můstku](https://www.circuitbread.com/ee-faq/how-does-an-h-bridge-work)
 
 <img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/9/3/h-bridge-circuit-600w.gif" width="450"/>
 
-- Použijeme funkci analogWrite pro řízení rychlosti DC motoru
+Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
 <img src="https://github.com/user-attachments/assets/4adedba1-d284-4885-8916-f354b1a89779" width="450"/>
 
@@ -32,4 +36,11 @@ Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sob
 Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a IN2 pro první motor a IN3 A IN4 pro druhý motor:
 
 ![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
+
+### Úkoly
+1. Napiš program, kde robot jede vpřed 2 sekundy, pak se otočí doprava a jede dál.
+2. Robot se spustí až po stisknutí tlačítka
+3. Pokud překážka do 20 cm → zastavit.
+4. Varianta: automatické couvání a otočení.
+5. 
 
