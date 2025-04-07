@@ -27,6 +27,9 @@ Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWri
 
 <img src="https://github.com/user-attachments/assets/4adedba1-d284-4885-8916-f354b1a89779" width="450"/>
 
+![image](https://github.com/user-attachments/assets/cbc39d94-90ac-44ce-9285-784b1466631f)
+*Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/*
+
 
 ## Výukový robot
 <img src="https://github.com/user-attachments/assets/121c0a41-5f67-464c-952a-cd94e64ed80b" width="450"/>
