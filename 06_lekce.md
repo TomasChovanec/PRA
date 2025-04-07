@@ -25,9 +25,8 @@ Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Př
 
 Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
-<img src="https://github.com/user-attachments/assets/4adedba1-d284-4885-8916-f354b1a89779" width="450"/>
+<img src="https://github.com/user-attachments/assets/cbc39d94-90ac-44ce-9285-784b1466631f" width="800"/>
 
-![image](https://github.com/user-attachments/assets/cbc39d94-90ac-44ce-9285-784b1466631f)
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/*
 
 
