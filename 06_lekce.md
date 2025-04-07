@@ -9,7 +9,7 @@ DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou en
 
 **Kartáče (uhlíky)** – přivádějí proud do komutátoru.
 
-- Video [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
+Video [o konstrukci stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
 <img src="https://github.com/user-attachments/assets/3ea712a0-9cc0-4406-ba1f-e87f0a42a647" width="450"/>
 
@@ -47,10 +47,12 @@ Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a 
 ![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
 
 ## Úkoly
-1. Napište program, kde robot jede vpřed 2 sekundy, pak se otočí doprava a jede dál.
-2. Přidejte bezpečnostní funkci - robot se spustí až po stisknutí tlačítka.
-3. Použijte ultrazvukový senzor pro detekci překážky - pokud je detekována překážka do 20 cm, zastavte robota.
-4. Stejně jako v předchozím bodě, ale přidejte při detekci překážky automatické couvání a otočení.
+1.Prostudujte si schéma robota. Zkuste roztočit oba motory.
+2. Vytvořte funkce ```vpred(int rychlost)```, ```vzad(int rychlost)```, ```vlevo(int rychlost)```, ```vpravo(int rychlost)``` a ```stop()```
+3. Napište program, kde robot jede vpřed 2 sekundy, pak se otočí doprava a jede dál.
+4. Přidejte bezpečnostní funkci - robot se spustí až po stisknutí tlačítka.
+5. Použijte ultrazvukový senzor pro detekci překážky - pokud je detekována překážka do 20 cm, zastavte robota.
+6. Stejně jako v předchozím bodě, ale přidejte při detekci překážky automatické couvání a otočení.
 
 
 ## [Zpět na obsah](README.md)
