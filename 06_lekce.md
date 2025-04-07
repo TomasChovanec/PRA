@@ -46,10 +46,11 @@ Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a 
 
 ![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
 
-### Úkoly
+## Úkoly
 1. Napiš program, kde robot jede vpřed 2 sekundy, pak se otočí doprava a jede dál.
 2. Robot se spustí až po stisknutí tlačítka
-3. Pokud překážka do 20 cm → zastavit.
-4. Varianta: automatické couvání a otočení.
-5. 
+3. Použijte ultrazvukový senzor pro detekci překážky - pokud je detekována překážka do 20 cm, zastavte robota.
+4. Stejně jako v předchozím bodě, ale přidejte při detekci překážky automatické couvání a otočení.
 
+
+## [Zpět na obsah](README.md)
