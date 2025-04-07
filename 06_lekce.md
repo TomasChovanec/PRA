@@ -1,5 +1,14 @@
 ## Stejnosměrný motor
-DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou energii na mechanickou – konkrétně na otáčivý pohyb.
+DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou energii na mechanickou – konkrétně na otáčivý pohyb. Komutátor při otáčení motoru přepíná směr proudu, takže se motor točí stále stejným směrem.
+
+**Stator** – pevná část, vytváří stálé magnetické pole (např. pomocí permanentních magnetů).
+
+**Rotor (kotva)** – točivá část, obsahuje vinutí (cívky), do kterých se přivádí proud.
+
+**Komutátor** – mechanický přepínač, který přepíná směr proudu ve vinutí během otáčení.
+
+**Kartáče (uhlíky)** – přivádějí proud do komutátoru.
+
 - Video [stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
 <img src="https://github.com/user-attachments/assets/3ea712a0-9cc0-4406-ba1f-e87f0a42a647" width="450"/>
