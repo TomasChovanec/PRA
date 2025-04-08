@@ -23,26 +23,22 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
-- Teploměr a vlhkoměr s dvěma čidly a displejem
 - Elektronická hrací kostka
-- Vánoční osvětlení s různými módy blikání
 - Parkovací čidlo s ultrazvukovým senzorem a bzučákem
-- Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
-- Hra na postřeh pro dva hráče
 - Elektronické piano
-- Hodinky, budík a stopky
+- Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
+- Hra na postřeh pro dva hráče
+- Hodinky, budík a stopky
+- Teplotní čidlo se záznamem na SD kartu
 - Voltmetr
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
-- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
-- Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
-- Úprava školního robota pro ovládání přes Bluetooth
-- Stavba robota podle vlastního návrhu
-- CO2 čidlo se záznamem na SD kartu
-- Regulace teploty (nastavení žádané tepoloty, spínání topení a ventilátoru)
+- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)+
 - Hračka s mp3 modulem
 - Reklamní banner s maticovým displejem
+- Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
+- Stavba robota podle vlastního návrhu
 
 
 <!---
