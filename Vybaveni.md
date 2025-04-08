@@ -5,7 +5,8 @@ Můžete si pro potřeby projektu zapůjčit následující vybavení:
 
 | Komponenta                  | Obrázek                                                                                          | Popis                                                                                   |
 |-----------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Arduino MEGA**            | ![image](https://github.com/user-attachments/assets/dfc68c81-4204-4c18-a1e6-f4638a4aeb8a)        | Výkonná vývojová deska s 56 IO piny, 16 analogovými vstupy a UART, SPI, I2C komunikací. |
+| **Arduino Nano**            | ![image](https://github.com/user-attachments/assets/a0d4935d-25f5-4c34-b37f-c15b99fd0de5)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozmě, dá se zapojit přímo do nepájivého pole |
+| **Arduino MEGA**            | ![image](https://github.com/user-attachments/assets/dfc68c81-4204-4c18-a1e6-f4638a4aeb8a)        | Deska s ATmega 2560 (stejný jako používáme v MIT) s 56 IO piny, 16 analogovými vstupy  |
 | **RTC modul**               | ![image](https://github.com/user-attachments/assets/9adb2038-1ba2-457f-baee-32b699a0cb4c)        | Modul reálného času s bateriovým zálohováním, komunikace přes I2C.                     |
 | **Bluetooth modul HC-05**   | ![image](https://github.com/user-attachments/assets/5efbe6b5-2384-48c9-8fb8-18d609b244aa)        | Bezdrátový modul pro sériovou komunikaci přes Bluetooth.                               |
 | **Joystick shield**         | ![image](https://github.com/user-attachments/assets/846f1cbd-9d8c-4cbc-9f25-cf07cc208c24)        | Rozšiřující deska s joystickem a několika tlačítky pro ovládání projektů.              |
