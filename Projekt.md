@@ -24,7 +24,6 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Elektronická hrací kostka
-- Parkovací čidlo s ultrazvukovým senzorem a bzučákem
 - Elektronické piano
 - Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
