@@ -14,7 +14,9 @@ Můžete si pro potřeby projektu zapůjčit následující vybavení:
 | **LCD displej**             | ![image](https://github.com/user-attachments/assets/f4f11759-0de7-4584-8c27-df3feec07481)        | Znakový LCD displej 16x2 pro zobrazení textových informací.                            |
 | **OLED displej**            | ![image](https://github.com/user-attachments/assets/5f3feb45-f8dd-4a34-b154-d15ea7ddebbc)        | Malý grafický displej s vysokým kontrastem, komunikace přes I2C                        |
 | **Klávesnice**              | ![image](https://github.com/user-attachments/assets/44a55e49-8228-4338-b892-ba8b03b8bc3b)        | Membránová klávesnice 4x4                                                              |
-| **Školní robot**            | ![image](https://github.com/user-attachments/assets/d504eca5-61b3-4e1d-9c69-c97d469868f1)        | Robot s Arduninem, motory, ultrazvukovým senzorem a senzory čáry                       |
+| **Školní robot**            | ![image](https://github.com/user-attachments/assets/d504eca5-61b3-4e1d-9c69-c97d469868f1)        | Robot s Arduinem, motory, ultrazvukovým senzorem a senzory čáry                        |
+| **DC motor s kolem**        |![image](https://github.com/user-attachments/assets/12e4e6b4-a12c-49b0-9d16-295ab26846ae)         | Stejnosměrný motor s převodovkou a kolem, vhodný pro stavbu vlastního robota           |
 | **Servo**                   | ![image](https://github.com/user-attachments/assets/cc43b452-5f89-42c7-b5ea-1453c391aade)        | Malý servomotor s přesným řízením polohy 0-180°                                        |
 | **Krokový motor s řadičem** | ![image](https://github.com/user-attachments/assets/ce0ec819-3d65-4164-b5d5-1739c47b3e6a)        | Motor s přesným krokovým řízením, používaný např. v CNC nebo 3D tisku.                 |
+
 
