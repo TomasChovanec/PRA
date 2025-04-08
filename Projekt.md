@@ -5,7 +5,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 
 ### Termín odevzdání je úterý 17.6. do 23:59. Odevzdání po termínu znamená snížení známky o jeden stupeň.
 
-## Hodnocení:
+## Hodnocení
 - Jedna známka za samotný program
     - funkčnost
     - splnění všech bodů zadání
@@ -22,6 +22,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - závěr
     - svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
 
+### [Vybavení](vybaveni.md), které lze zapůjčit na projekt
 
 ### Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Teploměr a vlhkoměr s dvěma čidly a displejem
