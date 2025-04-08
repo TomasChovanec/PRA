@@ -1,4 +1,4 @@
-# Časování s funkcí millis()
+# Multitasking s Arduinem
 
 Když jsme doteď chtěli nastavit v programu nějaké časování (např blikat LEDkou jednou za sekundu), používali jsme funkci delay(). Výhoda této funkce je, že je jednoduchá a snadno se používá. Ale nevýhodou je, že během čekání ve funkci dleay() nemůže procesor dělat nic jiného. Pokud děláme jednoduchý program, který dělá jen jednu věc, tak nám to nevadí.
 
