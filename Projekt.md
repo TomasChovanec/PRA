@@ -30,6 +30,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
 - Hra na postřeh pro dva hráče
 - Elektronické piano
+- Hodinky, budík a stopky
 - Automatické otvírání dveří se servem a ultrazvukovým čidlem
 - Voltmetr
 - Ovládání výtahu (krokový motor, tlačítka, displej)
@@ -38,6 +39,11 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
 - Úprava školního robota pro ovládání přes Bluetooth
 - Stavba robota podle vlastního návrhu
+- CO2 čidlo se záznamem na SD kartu
+- Regulace teploty (nastavení žádané tepoloty, spínání topení a ventilátoru)
+- Hračka s mp3 modulem
+- Reklamní banner s maticovým displejem
+
 
 <!---
 - Přidání funkce počitadla ujeté vzdálenosti pro robota
@@ -51,8 +57,8 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 Můžete si pro potřeby projektu zapůjčit následující vybavení:
 
 
-| Komponenta                  | Obrázek                                                                                          | Popis                                                                                   |
-|-----------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Komponenta                  | Obrázek                                                                                          | Popis                                                                                  |
+|-----------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | **Arduino Nano**            | ![image](https://github.com/user-attachments/assets/a0d4935d-25f5-4c34-b37f-c15b99fd0de5)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozmě, dá se zapojit přímo do nepájivého pole |
 | **Arduino MEGA**            | ![image](https://github.com/user-attachments/assets/dfc68c81-4204-4c18-a1e6-f4638a4aeb8a)        | Deska s ATmega 2560 (stejný jako používáme v MIT) s 56 IO piny, 16 analogovými vstupy  |
 | **Arduino Nano 33 IoT**     | ![image](https://github.com/user-attachments/assets/786927d7-a9dd-4b7f-a89b-2dadaec56278)        | Arduino s výkonnějším procesorem, Bluetooth a WiFi modulem                             |
