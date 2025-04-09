@@ -42,6 +42,7 @@ Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sob
 
 ![image](https://github.com/user-attachments/assets/f02e396e-7b49-419c-a0f7-dc624c312414)
 
+*Zdroj obrázků: https://lastminuteengineers.com/drv8833-arduino-tutorial/*
 
 ## Režimy ovládání motoru
 Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a IN2 pro první motor a IN3 A IN4 pro druhý motor:
