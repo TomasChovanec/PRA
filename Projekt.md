@@ -13,13 +13,13 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - **Prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
     
 - Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/prezentace/Praxe_projekt_vzor.pdf) obsahující:
-    - **Zadání** (kompletní zadání zkopírované z githubu)
-    - **Popis řešení** (několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
-    - **Schéma** (můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno))
+    - **Zadání** - kompletní zadání zkopírované z githubu
+    - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
+    - **Schéma** - můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno))
     - **Fotografii** zapojení
-    - **Kód** (přehledně naformátovaný a opatřený komentáři)
+    - **Kód** - přehledně naformátovaný a opatřený komentáři
     - **Seznam použitých zdrojů** včetně knihoven
-    - **Závěr** (několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.)
+    - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
     - svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
