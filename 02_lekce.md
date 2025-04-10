@@ -12,7 +12,7 @@ Při pojmenovávání proměnných si dávejte pozor, aby jména měla smysl a p
 // Příklad vytvoření a změny hodnoty proměnné
 int cislo = 10;  // Proměnná "cislo" obsahuje hodnotu 10
 cislo = 20;      // Změníme hodnotu na 20
-cislo = cislo/2;      // Vydělíme obsah proměnné 2
+cislo = cislo/2; // Vydělíme obsah proměnné 2
 ```
 
 V jazyce C musíme při vytvoření proměnné zadat i její datový typ. Ten vybereme podle toho, jaká data chceme do proměnné ukládat.
