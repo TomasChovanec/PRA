@@ -4,7 +4,7 @@
 
 Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na Gymnáziu a Střední průmyslové škole elektrotechniky a informatiky ve Frenštátě pod Radhoštěm.
 
-Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu tomas.chovanec@frengp.cz.
+Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
