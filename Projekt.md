@@ -70,6 +70,19 @@ Můžete si pro potřeby projektu zapůjčit následující vybavení:
 | **OLED displej**            | ![image](https://github.com/user-attachments/assets/5f3feb45-f8dd-4a34-b154-d15ea7ddebbc)        | Malý grafický displej s vysokým kontrastem, komunikace přes I2C                        |
 | **Klávesnice**              | ![image](https://github.com/user-attachments/assets/44a55e49-8228-4338-b892-ba8b03b8bc3b)        | Membránová klávesnice 4x4                                                              |
 | **Školní robot**            | ![image](https://github.com/user-attachments/assets/d504eca5-61b3-4e1d-9c69-c97d469868f1)        | Robot s Arduinem, motory, ultrazvukovým senzorem a senzory čáry                        |
-| **DC motor s kolem**        |![image](https://github.com/user-attachments/assets/12e4e6b4-a12c-49b0-9d16-295ab26846ae)         | Stejnosměrný motor s převodovkou a kolem, vhodný pro stavbu vlastního robota           |
+| **DC motor s kolem**        | ![image](https://github.com/user-attachments/assets/12e4e6b4-a12c-49b0-9d16-295ab26846ae)        | Stejnosměrný motor s převodovkou a kolem, vhodný pro stavbu vlastního robota           |
 | **Servo**                   | ![image](https://github.com/user-attachments/assets/cc43b452-5f89-42c7-b5ea-1453c391aade)        | Malý servomotor s přesným řízením polohy 0-180°                                        |
 | **Krokový motor s řadičem** | ![image](https://github.com/user-attachments/assets/ce0ec819-3d65-4164-b5d5-1739c47b3e6a)        | Motor s přesným krokovým řízením, používaný např. v CNC nebo 3D tisku.                 |
+| **Hmotnostní senzor**       | ![image](https://github.com/user-attachments/assets/435b2db6-b121-45dc-9bb7-cdd16db466c9)        | Hmotnostní senzor s modulem HX711 (24bit ADC)    do 5kg nebo do 20kg                   |
+| **Senzor srdečního tepu**   | ![image](https://github.com/user-attachments/assets/8c8339d4-405a-4f54-91cc-93a885459251)        | Senzor srdečního tepu s modulem MAX30100                                               |
+| **Modul s MP3 přehrávačem** | ![image](https://github.com/user-attachments/assets/ba4816ad-7358-4d1d-a095-14d75729c329)        | Modul s MP3 přehrávačem a integrovaným zesilovačem, který může být připojen přímo k reproduktoru. |
+| **Maticový displej**        | ![image](https://github.com/user-attachments/assets/ce55a66e-66bf-4612-8767-1b0fb3e7b16d)        | MLED Matrix matice 8x8x4 s MAX7219 - červená                                           |
+| **GPS modul**               | ![image](https://github.com/user-attachments/assets/f1f0bdf0-8aa3-4169-b0f4-8e826ada5ae6)        | Modul GPS NEO-6M s anténou                                                             |
+| **Ventilátor**              | ![image](https://github.com/user-attachments/assets/930a4832-fa11-4301-b7da-c95f7e6ad3ea)        | ventilator 50mm 5V                                                                     |
+| **Senzor proudu**           | ![image](https://github.com/user-attachments/assets/85b04020-4a6c-4f47-8267-13466546ddda)        | Senzor INA219 pro měření proudu. Připojení pře I2C                                                                    |
+| **Akcelerometr**            | ![image](https://github.com/user-attachments/assets/b2b206cc-8c32-4718-8a89-a7c9d34fce3d)        | Tříosý akcelerometr GY 521                                                                   |
+
+
+
+
+
