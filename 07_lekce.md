@@ -1,6 +1,6 @@
 # Multitasking s Arduinem
 
-Když jsme doteď chtěli nastavit v programu nějaké časování (např blikat LEDkou jednou za sekundu), používali jsme funkci delay(). Výhoda této funkce je, že je jednoduchá a snadno se používá. Ale nevýhodou je, že během čekání ve funkci dleay() nemůže procesor dělat nic jiného. Pokud děláme jednoduchý program, který dělá jen jednu věc, tak nám to nevadí.
+Když jsme doteď chtěli nastavit v programu nějaké časování (např. blikat LEDkou jednou za sekundu), používali jsme funkci delay(). Výhoda této funkce je, že je jednoduchá a snadno se používá. Ale nevýhodou je, že během čekání ve funkci dleay() nemůže procesor dělat nic jiného. Pokud děláme jednoduchý program, který dělá jen jednu věc, tak nám to nevadí.
 
 Např. pokud chceme blikat  LEDkou jednou za sekundu , není to problém:
 
@@ -11,7 +11,7 @@ Např. pokud chceme blikat  LEDkou jednou za sekundu , není to problém:
   delay(1000);
 ```
 
-Co ale když budeme k příkladu výše chtít přidat druhou LEDku a tou blikat 10x za sekundu? Nebo číst stav tlačítka každých 200ms? Nebo posílat data na displej každých 100ms? Nic z toho dělat nemůžeme, protže během vykonávání funkce delay() procesor nic jiného nedělá, jen čeká.
+Co ale když budeme k příkladu výše chtít přidat druhou LEDku a tou blikat 10x za sekundu? Nebo číst stav tlačítka každých 200ms? Nebo posílat data na displej každých 100ms? Nic z toho dělat nemůžeme, protože během vykonávání funkce delay() procesor nic jiného nedělá, jen čeká.
 
 **Úkol:** Vytvořte program, který bliká LEDkou jednou za sekundu pomocí funkce delay. Pak program rozšiřte tak, aby se při stisknutí tlačítka rozsvítila jiná LEDka. Funguje program vždy správně? Reaguje na tlačítko vždy okamžitě? 
 
