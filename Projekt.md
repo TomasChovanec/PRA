@@ -20,7 +20,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - **Kód** - přehledně naformátovaný a opatřený komentáři
     - **Seznam použitých zdrojů** včetně knihoven
     - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
-    - svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
+    - Svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Elektronická hrací kostka
