@@ -5,7 +5,6 @@
   
 2. Připojte červenou LED k Arduinu.
     - Použijte pin, který podporuje funkci analogWrite()
-    - Nezapomeňte zapojit rezistor pro omezení proudu.
   
 3. Naprogramujte plynulou změnu jasu LED pomocí funkce analogWrite().
     - Jas zvyšujte od 0 do 255 po krocích 10.
