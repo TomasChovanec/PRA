@@ -1,4 +1,4 @@
-# Test
+# Test - cykly, tlačítko, servo
 
 Vytvořte program s Arduinem, která bude pomocí tlačítka ovládat bránu ve vjezdu. Použijte tlačítko, servo a červenou LEDku.
 - Pokud není stisknuto tlačítko, servo je v poloze 0° a dioda je zhasnutá
