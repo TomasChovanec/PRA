@@ -34,7 +34,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 - Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
 
 
-### Hodinky se stopkami stopky (O.E.)
+### Hodinky se stopkami a budíkem (O.E.)
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
 - Jedním tlačítkem se bude měnit aktálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
 - Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
