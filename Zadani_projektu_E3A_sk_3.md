@@ -3,7 +3,7 @@
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
 ### Otevírání dveří na RFID karty (Jakub. J.)
-Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
+- Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
@@ -14,7 +14,7 @@ Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou
 - Budou k dispozici dvě další tlačítka, jejichž stiskem se spustí jedna ze tří přednastavených melodií.
 
 ### Elektronická kostka (F.D.)
-Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
+- Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
 - Po puštění tlačítka se hodnota zastaví 
 
