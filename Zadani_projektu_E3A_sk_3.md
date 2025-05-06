@@ -26,13 +26,21 @@ Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
 - Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Hodiny, stopky (E.K.)
-
-### Robotické rameno (T.D.)
+- Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
+- Jedním tlačítkem se bude měnit aktálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
+- Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
+- Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 
 ### MP3 přehrávač s BT ovládáním (A.K.)
+- Sestrojte a naprogramujte jednoduchý MP3 přehrávač, který přehrává zvuky z SD karty a je ovládán přes mobilní aplikaci pomocí Bluetooth modulu HC-05.
+- Ovládání přes Bluetooth HC-05 (příjem příkazů přes Serial), možnost play/pause, přepnutí na další skladbu
 
-### Detonační zařízení (M.J.)
+### "Bomba" s časovačem (M.J.)
+ - Navrhněte a naprogramujte zařízení, které simuluje bombu s časovačem.
+ - Bomba má být aktivována tlačítkem, zobrazovat odpočet, a může být deaktivována zadáním správného kódu na klávesnici.
+ - Při aktivaci a deaktivaci hraje zvukové efekty pomocí MP3 modulu.
 
 
-
+### Robotické rameno (T.D.)
+- Doplníme na hodině
 
