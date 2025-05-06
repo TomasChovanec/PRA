@@ -25,7 +25,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 
 
 ### Otvírání dveří (J.G., J.B.)
-Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
+- Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
 - Dokud není detekováno auto, brána je zavřená.
 - Po detekci auta se brána otevře.
 - Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto projede, brána se zavře.
@@ -47,3 +47,8 @@ Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevř
 
 
 ### Regulace ventilátoru (D.G.)
+- Pomocí teplotního čidla a Arduina ovládejte otáčky ventilátoru v závislosti na aktuální teplotě.
+- Pod 25 °C: ventilátor vypnutý
+- 25–30 °C: 30–60 % výkonu
+- Nad 30 °C: 100 % výkonu
+- Aktuální hodnotu teploty a PWM posílejte na Serial monitor
