@@ -7,7 +7,7 @@ Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
-### Elektronické piano (Jan.J.)
+### Elektronické piano (Jan. J.)
 - Pomocí Arduina, pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
