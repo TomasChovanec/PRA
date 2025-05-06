@@ -2,28 +2,28 @@
 
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit. 
 
-### Otevírání dveří na RFID karty (Jakub.J.)
+### Otevírání dveří na RFID karty (Jakub. J.)
 Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
 ### Elektronické piano (Jan.J.)
-Pomocí Arduina pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
-Po stisku tlačítka se přehraje příslušný tón.
-Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
-Budou k dispozici dvě další tlačítka, jejichž stiskem se spustí jedna ze tří přednastavených melodií.
+- Pomocí Arduina, pieza a alespoň 8 tlačítek vytvořte jedoduché "piano".
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Budou k dispozici dvě další tlačítka, jejichž stiskem se spustí jedna ze tří přednastavených melodií.
 
 ### Elektronická kostka (F.D.)
 Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
-- Po stisku tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
-- Při puštění tlačítka se hodnota zastaví 
+- Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
+- Po puštění tlačítka se hodnota zastaví 
 
 ### Hra na postřeh 2 hráče (J.H.)
-Pomocí Arduina vytvořte hru na postřeh pro dva hráče
-Po spuštění hry se v náhodném intervalu rozsvítí LEDka
-Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
-Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
-Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
+- Pomocí Arduina vytvořte hru na postřeh pro dva hráče
+- Po spuštění hry se v náhodném intervalu rozsvítí LEDka
+- Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
+- Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
+- Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Hodiny, stopky (E.K.)
 
@@ -31,7 +31,7 @@ Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o
 
 ### MP3 přehrávač s BT ovládáním (A.K.)
 
-## Detonační zařízení (M.J.)
+### Detonační zařízení (M.J.)
 
 
 
