@@ -14,7 +14,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 - Při hodnotě 6 se hází automaticky ještě jednou a výsledek se ukáže postupně.
 
 
-### Burý	Marek	Voltmetr (M.B.)
+### Voltmetr (M.B.)
 - Pomocí Arduina vytvořte multimetr
 - Alespoň dva napěťové rozsahy
 - Měření proudu pomocí obvodu INA219
