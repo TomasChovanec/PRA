@@ -42,7 +42,8 @@ Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevř
 
 ### Ultrazvukový senzor vzdálenosti s výpočtem plochy (M.B.)
 - Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
--  Hodnoty se zobrazí na displeji.
+- Měřená hodnota se průběžne zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
+- Po zadání všech hodnot se zobrazí všechny naměřené hodnoty spolu s výslednou plochou
 
 
 ### Regulace ventilátoru (D.G.)
