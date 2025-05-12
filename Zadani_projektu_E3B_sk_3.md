@@ -25,7 +25,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 - Ošetřete například případy, kdy čidlo někdo krátkodobě zakryje rukou, nebo na něj naopak krátkodobě zasvítí např. světlo projíždějícího auta
 
 
-### Otvírání dveří (J.G., J.B.)
+### Automatické ovládání brány (J.G., J.B.)
 - Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
 - Dokud není detekováno auto, brána je zavřená.
 - Po detekci auta se brána otevře.
