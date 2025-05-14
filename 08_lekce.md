@@ -39,10 +39,11 @@ Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku,
 ## Úkoly
 Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Bluetooth.
 
-**1.** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.) V jazyce C se jednotlivé znaky píší v jednoduchách uvozovokách (např. ```char znak = 'a';```), zatímco textové řetězce v dvojitých (např. ```Atring slovo = "Ahoj";```). Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
+**1.** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.)  Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
 
 ![image](https://github.com/user-attachments/assets/f4c72565-cb2a-4f85-b54f-3b0c4842cc7f)
 
+Pozor, v jazyce C se jednotlivé znaky píší v jednoduchách uvozovokách (např. ```char znak = 'a';```), zatímco textové řetězce v dvojitých (např. ```Atring slovo = "Ahoj";```).
 
 **2.** Naprogramujte Arduino s Joystick shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely (stejné, jako má nakonfigurován robot). Pro vysílání použijte funkci [Serial.write()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/write/). Mezi jednotlivými znaky vložte čekání 100ms. Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
 
