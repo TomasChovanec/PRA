@@ -54,7 +54,7 @@ Můžete si pro potřeby projektu zapůjčit následující vybavení:
 
 | Komponenta                  | Obrázek                                                                                          | Popis                                                                                  |
 |-----------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **Arduino Nano**            | ![image](https://github.com/user-attachments/assets/a0d4935d-25f5-4c34-b37f-c15b99fd0de5)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozmě, dá se zapojit přímo do nepájivého pole |
+| **Arduino Nano**            | ![image](https://github.com/user-attachments/assets/a0d4935d-25f5-4c34-b37f-c15b99fd0de5)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozměry, dá se zapojit přímo do nepájivého pole |
 | **Arduino MEGA**            | ![image](https://github.com/user-attachments/assets/dfc68c81-4204-4c18-a1e6-f4638a4aeb8a)        | Deska s ATmega 2560 (stejný jako používáme v MIT) s 56 IO piny, 16 analogovými vstupy  |
 | **Arduino Nano 33 IoT**     | ![image](https://github.com/user-attachments/assets/786927d7-a9dd-4b7f-a89b-2dadaec56278)        | Arduino s výkonnějším procesorem, Bluetooth a WiFi modulem                             |
 | **RTC modul**               | ![image](https://github.com/user-attachments/assets/9adb2038-1ba2-457f-baee-32b699a0cb4c)        | Modul reálného času s bateriovým zálohováním, komunikace přes I2C.                     |
