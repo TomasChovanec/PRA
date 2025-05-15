@@ -20,10 +20,10 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 
 ### Hra na postřeh 2 hráče (J.H.)
 - Pomocí Arduina vytvořte hru na postřeh pro dva hráče
-- Po spuštění hry se v náhodném intervalu rozsvítí LEDka
+- Po spuštění hry se postupně rozsítí všechny LED a pak po náhodném intervalu zhasnou
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
 - Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
-- Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
+- Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Hodiny, stopky (E.K.)
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
