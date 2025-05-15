@@ -32,8 +32,9 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 
 ### MP3 přehrávač s BT ovládáním (A.K.)
-- Sestrojte a naprogramujte jednoduchý MP3 přehrávač, který přehrává zvuky z SD karty a je ovládán přes mobilní aplikaci pomocí Bluetooth modulu HC-05.
-- Ovládání přes Bluetooth HC-05 (příjem příkazů přes Serial), možnost play/pause, přepnutí na další skladbu
+- Sestrojte a naprogramujte jednoduchý MP3 přehrávač, který přehrává hudbu z SD karty 
+- Ovládání přes tlačítka, možnost play/pause, přepnutí na další skladbu
+- Zobrazování stavu přehrávače na OLED displeji
 
 ### "Bomba" s časovačem (M.J.)
  - Navrhněte a naprogramujte zařízení, které simuluje bombu s časovačem.
