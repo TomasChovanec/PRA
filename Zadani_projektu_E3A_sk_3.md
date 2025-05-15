@@ -5,6 +5,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 ### Otevírání dveří na RFID karty (Jakub. J.)
 - Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
+- Na OLED displeji se bude zobrazovat informace o tom, zdsa je karta načtena a zda je povolená
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
 ### Elektronické piano (Jan. J.)
@@ -42,6 +43,8 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
  - Při aktivaci a deaktivaci hraje zvukové efekty pomocí MP3 modulu.
 
 
-### Robotické rameno (T.D.)
-- Doplníme na hodině
+### Alarm s IR ovládáním (T.D.)
+ - Navrhněte a naprogramujte alarm ovládaný přes infračervené rozhranní
+ - Po zakódování pomocí IR vysílače Arduino sleduje stav dveřního spínače
+ - Pokud se dvěřní spínač otevře a do 5 sekund nedojde k deaktivaci IR kódem, rozezní se alarm pomocí piezza
 
