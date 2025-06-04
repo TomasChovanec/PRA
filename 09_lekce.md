@@ -33,19 +33,9 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 ## Kondenzátor
 ![image](https://github.com/user-attachments/assets/2250a376-a511-4eb7-a1a4-39e957d17f1a)
 
-Kondenzátor se ve stejnosměrném obvodu chová jako zásobník energie.
+Kondenzátor se ve stejnosměrném obvodu chová jako zásobník energie.P o připojení ke zdroji napětí se začne rychle nabíjet a protéká jím velký proud. Jakmile se jeho napětí vyrovná s napětím zdroje, proud klesne na minimální hodnotu. Pak kondenzátor uchovává elektrický náboj a může dodávat energii do obvodu (fungovat jako zdroj). Při vybíjení postupně ztrácí náboj a napětí na něm exponenciálně klesá.
 
-**Při připojení ke zdroji napětí (nabíjení)**
-- Nejprve se začne rychle nabíjet a proud teče obvodem.
-- Jakmile se jeho napětí vyrovná s napětím zdroje, proud se zastaví.
-
-**Po odpojení zdroje**
-- Uchovává náboj a může dodávat energii do obvodu.
-
-**Při vybíjení přes rezistor**
-Postupně ztrácí náboj a napětí na něm klesá exponenciálně.
-
-Klíčová vlastnost: Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožňuje přenos změn napětí (to je důležité v AC obvodech).
+Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožňuje přenos změn napětí (to je důležité v AC obvodech).
 
 :warning: U elektrolytického kondenzátoru musíme dodržet správnou polaritu, jinak dojde ke zničení kondenzátoru s možnou [explozí](https://www.youtube.com/watch?v=rr7bPmGTQUk&ab_channel=ElectroBOOM)
 
