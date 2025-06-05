@@ -3,9 +3,8 @@
 Níže najdete detailní zadání projektu. V odůvodněných případech lze zadání po ústní nebo mailové dohodě změnit.
 
 
-### Ovládání robota pomocí gamepadu pro Playstation (J.H.)
- - Upravte školního robota tak, aby motory byly řízeny deskou s procesorem ESP32
- - Naprogramujte robota tak, aby jej bylo možné ovládat gamepadem přes Bluetooth.
+### Ovládání robota pomocí joysticku přes Bluetooth (J.H.)
+ - Naprogramujte robota tak, aby jej bylo možné ovládat joystickem přes Bluetooth.
 
 
 ### Elektronická hrací kostka (T.H., V.H.)
