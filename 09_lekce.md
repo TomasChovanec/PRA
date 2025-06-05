@@ -13,7 +13,7 @@ Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plot
 ![image](https://github.com/user-attachments/assets/6a673e10-8fd6-433a-ba71-812124b480e4)
 
 ### Úkoly:
-1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince. Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
+1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince (použijte rychlejší baudrate 115200 bps). Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
 2. Přidejte druhý kanál - opačnou hodnotu potenciometru
 
 ## Better Serial Plotter
@@ -54,13 +54,6 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
   
 ![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
-
-**3.** Zapojte obvod dle schématu níže
-- Napětí v obvodu s LEDkou a kondenzátorem nastavujte na pinu D11 pomocí PWM (funkcí analogWrite())
-- Hodnotu střídy PWM nastavujte potenciometrem, který budete číst pinem A2
-- Naměřené hodnoty (včetně hodnoty potenciometru) posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
-
-![image](https://github.com/user-attachments/assets/1d375d7b-2259-438a-9620-864e915abebf)
 
 ## Další užitečné články a videa
 
