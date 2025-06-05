@@ -11,7 +11,7 @@ Níže najdete detailní zadání projektu. V odůvodněných případech lze za
 ### Elektronická hrací kostka (T.H., V.H.)
 - Pomocí Arduina, tlačítka a 6 LEDek vytvořte elektronickou kostku.
 - Po stisknutí tlačítka se kostka "hodí" a po puštění zobrazí výsledek pomocí LED.
-- Při hodnotě 6 se hází automaticky ještě jednou a výsledek se ukáže postupně.
+- Při hodnotě 6 se hází automaticky ještě jednou.
 
 
 ### Voltmetr (M.B.)
