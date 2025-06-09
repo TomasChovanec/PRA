@@ -33,7 +33,7 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
 - Voltmetr
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
-- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)+
+- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Hračka s mp3 modulem
 - Reklamní banner s maticovým displejem
 - Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
