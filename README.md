@@ -31,10 +31,12 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Sledovač čáry](11_lekce.md)
     
 <!---
+
+1. [Závěr](13_zaver.md)
+
 - [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
 - [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
-13. [Závěr](13_zaver.md)
 --->
 
 ## Testy
