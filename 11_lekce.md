@@ -12,7 +12,7 @@ IR senzory na školním robotovi jsou analogové. Můžeme je tedy měřit AD p�
 ## Postup
 1. Zjistěte ze [schématu](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) na které piny jsou připojeny IR sensory. Pomocí funkce analogRead() měřte napětí na nich a posílejte je na sériový port.
 2. Nyní jsme schopni měřit hodnotu odrazu na všech pěti čidlech. Potřebujeme zjistit, na které pozici je čára, abychom pak podle toho mohli nastavit rychlost motorů. Jedna z možností je najít minimálníí hodnotu senzoru.
-3. Příkaz [switch](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti#_switch)
+3. Pro nastavení rychlosti motorů pro všechny různé polohy čáry můžeme použít příkaz [switch](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/podminky-a-jejich-pouziti#_switch). Například pokud je čára vlevo, musí robot zabočit doleva, tedy nastavit na pravém motoru větší rychlost než na levém.
 
 ## Tipy	
 - Pokud robot ztratí čáru, nech ho otáčet na místě a hledat ji.
