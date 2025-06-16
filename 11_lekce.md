@@ -4,10 +4,10 @@
 
 
 ## Cíl
-Naprogramujte robota tak, aby sledoval černou čáru na světlém podkladu. Robot využívá analogové IR senzory, které detekují odrazivost povrchu pod nimi. Protože černá čára odráží světlo méně než bílý podklad, lze tak detekovat, pod kterými čidly se čára nachází.
+Naprogramujte robota tak, aby sledoval černou čáru na světlém podkladu. Využijte analogové IR senzory, které detekují odrazivost povrchu pod nimi. 
 
 ## Princip funkce
-IR senzory na školním robotovi jsou analogové. Můžeme je tedy měřit AD převodníkem a výstup každého čidla se bude měnit podle toho, jakou odrazivost má povrch pod ním. Poté nastavíme rychlost motorů podle polohy čáry.
+IR senzory na školním robotovi jsou analogové. Můžeme je tedy měřit AD převodníkem a výstup každého čidla se bude měnit podle toho, jakou odrazivost má povrch pod ním. Protože černá čára odráží světlo méně než bílý podklad, lze tak detekovat, pod kterými čidly se čára nachází. Poté nastavíme rychlost motorů podle polohy čáry.
 
 Například:
 - pokud je čára pod pravým senzorem → zatočíme doprava,
