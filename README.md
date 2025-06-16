@@ -28,10 +28,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Bluetooth](08_lekce.md)
 1. [Arduino jako měřící přístroj](09_lekce.md)
 1. [Fotorezistor](10_lekce.md)
-
+1. [Sledovač čáry](11_lekce.md)
     
 <!---
-1. [](11_lekce.md)
 - [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
 - [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
