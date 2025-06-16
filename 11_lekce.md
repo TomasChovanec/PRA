@@ -1,4 +1,4 @@
-# Robot - Line follower
+# Robot - sledovač čáry
 
 ![image](https://github.com/user-attachments/assets/301a7379-6dd8-475c-8167-543b4badf264)
 
