@@ -7,7 +7,12 @@
 Naprogramujte robota tak, aby sledoval černou čáru na světlém podkladu. Robot využívá analogové IR senzory, které detekují odrazivost povrchu pod nimi. Protože černá čára odráží světlo méně než bílý podklad, lze tak detekovat, pod kterými čidly se čára nachází.
 
 ## Princip funkce
-IR senzory na školním robotovi jsou analogové. Můžeme je tedy měřit AD převodníkem a výstup každého čidla se bude měnit podle toho, jakou odrazivost má povrch pod ním. Pokud pak víme, že čára je pod pravým čidlem, musíme robotem zatočit doprava. Pokud je čára uprostřed, pojedeme robotem rovně.
+IR senzory na školním robotovi jsou analogové. Můžeme je tedy měřit AD převodníkem a výstup každého čidla se bude měnit podle toho, jakou odrazivost má povrch pod ním. Poté nastavíme rychlost motorů podle polohy čáry.
+
+Například:
+- pokud je čára pod pravým senzorem → zatočíme doprava,
+- pokud je čára uprostřed → jedeme rovně,
+- pokud je pod levým senzorem → zatočíme doleva.
 
 ## Postup
 1. Zjistěte ze [schématu](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) na které piny jsou připojeny IR sensory. Pomocí funkce analogRead() měřte napětí na nich a posílejte je na sériový port.
