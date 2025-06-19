@@ -29,7 +29,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Arduino jako měřící přístroj](09_lekce.md)
 1. [Fotorezistor](10_lekce.md)
 1. [Sledovač čáry](11_lekce.md)
-1. [Závěr](13_zaver.md)
+1. [Závěr](11_zaver.md)
 
 <!---
 
