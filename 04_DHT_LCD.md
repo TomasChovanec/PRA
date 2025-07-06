@@ -17,9 +17,9 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
 
 ## Teplotní a vlhkostní čidlo DHT11
-![image](https://github.com/user-attachments/assets/243bede4-bb75-435e-8b21-c4da6e532cab)
+![image](img/04_DHT_LCD_1.png)
 
-![image](https://github.com/user-attachments/assets/ba6c9da1-206a-4120-9a8f-80f5cb696062)
+![image](img/04_DHT_LCD_2.png)
 
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
@@ -27,9 +27,9 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 - **Senzor vlhkosti** — umožňuje měřit relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
 - **Integrovaný obvod** — měří vlhkost a teplotu pomocí dvou výše zmíněných čidel a data posílá digitálně po jediném datovém pinu.
 
-![image](https://github.com/user-attachments/assets/f7816d45-ff25-4df3-ad74-6a9cdfc20167)
+![image](img/04_DHT_LCD_3.png)
 
-![image](https://github.com/user-attachments/assets/7a04283b-2c96-4b60-8328-cd3b5d107ec3)
+![image](img/04_DHT_LCD_4.png)
 
 *Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
@@ -76,21 +76,21 @@ Výhody I2C s Arduinem
 - Možnost rozšíření – připojení až 128 zařízení na stejnou sběrnici (adresy 7bit).
 - Obousměrná komunikace – Master (Arduino) může posílat i přijímat data.
  
-![image](https://github.com/user-attachments/assets/abc6c42b-abeb-4a6f-a850-ca47433e5dd9)
+![image](img/04_DHT_LCD_5.png)
  
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
-![image](https://github.com/user-attachments/assets/8d93955c-0cee-41fa-94fe-6d2272da27a4)
+![image](img/04_DHT_LCD_6.png)
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
 [Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
-<img src="https://github.com/user-attachments/assets/bca81828-3aa8-42fd-a01e-f5fd5cd19ad4" width="900"/>
+<img src="img/04_DHT_LCD_7.png" width="900"/>
 
-![image](https://github.com/user-attachments/assets/b6db3a5d-ad19-4cc1-95c1-e09f09fd3db1)
+![image](img/04_DHT_LCD_8.png)
 
-![image](https://github.com/user-attachments/assets/78b70043-0437-481e-8bdc-5a0c43e8cd9d)
+![image](img/04_DHT_LCD_9.png)
 
 *Zdroj obrázku:  https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/*
  

@@ -1,6 +1,6 @@
 ## Závěrečné ohlédnutí
 
-![image](https://github.com/user-attachments/assets/2073b082-adbb-43e0-acd0-52cbd513b684)
+![image](img/11_zaver_1.png)
 
 ## Co dál?
 

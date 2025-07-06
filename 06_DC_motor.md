@@ -11,7 +11,7 @@ DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou en
 
 Video [o konstrukci stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
-<img src="https://github.com/user-attachments/assets/3ea712a0-9cc0-4406-ba1f-e87f0a42a647" width="450"/>
+<img src="img/06_DC_motor_1.png" width="450"/>
 
 *Zdroj obrázku: https://dronebotworkshop.com/dc-motors-l298n-h-bridge/*
 
@@ -25,29 +25,29 @@ Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Př
 
 Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
-<img src="https://github.com/user-attachments/assets/cbc39d94-90ac-44ce-9285-784b1466631f" width="800"/>
+<img src="img/06_DC_motor_2.png" width="800"/>
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/*
 
 
 ## Výukový robot
-<img src="https://github.com/user-attachments/assets/121c0a41-5f67-464c-952a-cd94e64ed80b" width="450"/>
+<img src="img/06_DC_motor_3.png" width="450"/>
 
 Robot, kterého budeme ve výuce použivat, v sobě obsahuje Arduino Nano (má stejný procesor jako Arduino UNO, které obvykle používáme, ale má menší desku). Aby mohl jezdit, má dva stejnosměrné motory s převodovkou, kteér jsou řízeny pomocí H můstku DRV8833. [Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/master/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/master/FrenGP_robot/Robot_schematics.pdf)
 
 ## Pinout modulu DRV8833 a princip použití
 Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sobě obsahuje dva H můstky, můžeme s ním tedy řídít dva stejnosměrné motory. Vstupy IN1-4 připojíme k pinům Arduina, které podporují PWM výstup, abychom mohli řídit plynule rychlost motorů.
 
-![image](https://github.com/user-attachments/assets/da091db0-988e-4b6a-8ebb-67f0800a81e2)
+![image](img/06_DC_motor_4.png)
 
-![image](https://github.com/user-attachments/assets/f02e396e-7b49-419c-a0f7-dc624c312414)
+![image](img/06_DC_motor_5.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/drv8833-arduino-tutorial/*
 
 ## Režimy ovládání motoru
 Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a IN2 pro první motor a IN3 A IN4 pro druhý motor:
 
-![image](https://github.com/user-attachments/assets/09f7810d-7b68-41ac-b7b3-3359092e08af)
+![image](img/06_DC_motor_6.png)
 
 ## Úkoly
 1. Prostudujte si schéma robota. Zkuste roztočit oba motory.

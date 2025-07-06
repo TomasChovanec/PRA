@@ -5,13 +5,13 @@ Uvnitř najdeme:
 - Převodovku – zpomalí a zvýší moment (sílu serva)
 - Elektroniku s potenciometrem – hlídá polohu
 
-![image](https://github.com/user-attachments/assets/5848885d-49c4-4c21-ab24-8e94c17b9db6)
+![image](img/03_Servo_PWM_1.png)
 
 *Zdroj obrázku: https://docs.arduino.cc/tutorials/generic/basic-servo-control/*
 
 ## Zapojení serva
 
-![image](https://github.com/user-attachments/assets/e86aa102-bf35-4b9f-9e2c-6fcf93433303)
+![image](img/03_Servo_PWM_2.png)
 
 *Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
 
@@ -34,7 +34,7 @@ servo.write(úhel) — nastaví úhel (0 až 180°).
 
 *Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
 
-<img src="https://github.com/user-attachments/assets/679321bf-ee7d-42cc-9ea8-ecc5c2172239" width="800"/>
+<img src="img/03_Servo_PWM_3.png" width="800"/>
 
 *Zdroj obrázku: https://howtomechatronics.com/how-it-works/how-servo-motors-work-how-to-control-servos-using-arduino/*
 
@@ -111,11 +111,11 @@ RGB LED jsou vlastně 3 LEDky v jednom pouzdře – červená (R), zelená (G) a
 
 Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme kombinací intenzit jednotlivých barevných složek namíchat různé barvy.
 
-![image](https://github.com/user-attachments/assets/465749f3-a24b-405c-ab2b-98ac3fbccb0c)
+![image](img/03_Servo_PWM_4.png)
 
 *Zdroj obrázku: https://www.build-electronic-circuits.com/rgb-led/*
 
-![image](https://github.com/user-attachments/assets/b545e2e4-bc11-4919-a790-c9a725298bcb)
+![image](img/03_Servo_PWM_5.png)
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
 

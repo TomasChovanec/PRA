@@ -1,16 +1,16 @@
 ## Arduino jako jednoduchý měřící přístroj
 Arduino má mnoho vstupů, na kterých dokáže měřit jak digitálně stav logické 1 nebo 0, tak i několik analogových pinů, schopných měřit napětí od nuly do 5V. Lze ho tedy použít jako jednoduchý měřící přístroj. Může kontinuálně měřit data a posílat je do počítače, který už je dále zpracuje (uloží, zobrazí, vykreslí graf,...)
 
-<img src="https://github.com/user-attachments/assets/c62ad356-7e5c-49e4-8dc7-0fa6dd343c3d" width="450"/>
+<img src="img/09_Serial_plotter_1.png" width="450"/>
 
 V této lekci si ukážeme, jak z arduina udělat jednoduchý osciloskop, vykreslíme průběh napětí na kondenzátoru při nabíjení a vybíjení.
 
 
-## Serial Plotter     ![image](https://github.com/user-attachments/assets/745f94db-69d8-4204-b9f0-b735ca78a35f)
+## Serial Plotter     ![image](img/09_Serial_plotter_2.png)
 
 Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plotter**, který je standartní součástí Arduino IDE (ikonka hned vedle Serial Monitoru). Na základní zobrazení signálu se dá použít, neumí ale třeba nastavit rozsah osy Y nebo zoomovat v zobrazeném grafu atd.
 
-![image](https://github.com/user-attachments/assets/6a673e10-8fd6-433a-ba71-812124b480e4)
+![image](img/09_Serial_plotter_3.png)
 
 ### Úkoly:
 1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince (použijte rychlejší baudrate 115200 bps). Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
@@ -23,7 +23,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 
 :warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial Plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial Plotter buď zavřít, nebo v něm nastavit jiný port.
 
-![image](https://github.com/user-attachments/assets/41677a14-07b7-466c-8c68-02acaf63060b)
+![image](img/09_Serial_plotter_4.png)
 
 
 ### Úkol:
@@ -31,7 +31,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 
 
 ## Kondenzátor
-![image](https://github.com/user-attachments/assets/2250a376-a511-4eb7-a1a4-39e957d17f1a)
+![image](img/09_Serial_plotter_5.png)
 
 Kondenzátor se ve stejnosměrném obvodu chová jako zásobník energie.P o připojení ke zdroji napětí se začne rychle nabíjet a protéká jím velký proud. Jakmile se jeho napětí vyrovná s napětím zdroje, proud klesne na minimální hodnotu. Pak kondenzátor uchovává elektrický náboj a může dodávat energii do obvodu (fungovat jako zdroj). Při vybíjení postupně ztrácí náboj a napětí na něm exponenciálně klesá.
 
@@ -46,14 +46,14 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 - Připojte k LEDce a rezistoru paralelně kondenzátor
 - Zkuste opět tlačítkem připojovat a odpojovat 5V. Popište, co se děje
 
-![image](https://github.com/user-attachments/assets/1f9bf321-3fab-4f3a-b77c-f1841292ac0f)
+![image](img/09_Serial_plotter_6.png)
 
 **2.** Nyní upravte zapojení tak, abychom obvod nenapájeli přes tlačítko z +5V, ale z pinu D13.
 - Naprogramujte Arduino, aby se na pinu 13 střídala log. 1 a log. 0 každou sekundu
 - Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
   
-![image](https://github.com/user-attachments/assets/4d1f9df0-2a8e-4e13-9e79-d1cb902f2294)
+![image](img/09_Serial_plotter_7.png)
 
 ## Další užitečné články a videa
 

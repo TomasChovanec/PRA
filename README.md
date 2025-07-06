@@ -1,6 +1,6 @@
 # Praxe - Arduino
 
-<img src="https://github.com/user-attachments/assets/63f53169-3490-4967-8baf-041eefeb903b" width="300"/>
+<img src="img/README_1.png" width="300"/>
 
 Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na Gymnáziu a Střední průmyslové škole elektrotechniky a informatiky ve Frenštátě pod Radhoštěm.
 

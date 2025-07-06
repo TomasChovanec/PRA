@@ -5,17 +5,17 @@ Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarov�
 ## Hardware
 Existuje mnoho typů Arduino desek s různými mikrokontrolery - liší se výkonem, počtem pinů, možnostmi WiFi, Bluetooth atd. V našich hodinách budeme používat Arduino UNO s procesorem ATmega 328.
 
-<img src="https://github.com/user-attachments/assets/67526fb9-81c3-4751-8cc7-a90bdcac962f" width="600"/>
+<img src="img/01_Uvod_LED_1.png" width="600"/>
 
 ## Princip fungování embedded systémů
 Slovo „embedded“ znamená, že jde o systémy, které jsou součástí nějakého zařízení, například mikrokontrolér v ledničce, autě nebo robotu, který vykonává specifické úkoly.
 
-![image](https://github.com/user-attachments/assets/fcd1f49d-0d64-4522-bc9d-b6a09e957146)
+![image](img/01_Uvod_LED_2.png)
 
 ## Příklad projektu s Arduinem
 Dokážete při pohledu na obrázek popsat, k čemu tento projekt slouží a jaký asi program běží v Arduinu?
 
-<img src="https://github.com/user-attachments/assets/23add251-c948-4f6d-aee2-ac1156b4b2e6" width="600"/>
+<img src="img/01_Uvod_LED_3.png" width="600"/>
 
 
 ## Psaní programu pro Arduino - funkce setup() a loop()
@@ -75,13 +75,13 @@ void loop() {
 ## Přidání další LEDky, nepájivé pole
 Na desce Arduina je jen jedna LEDka, kterou můžeme ovládat (pokud nepočítáme LEDky na pinech Tx a Rx, které ale využíváme k programování Arduina). Zkusíme si teď připojit další LEDku s pomocí nepájivého pole. Nesmíme zapomenout na sŕiový odpor. Jak spočítat jeho velikost?
 
-![image](https://github.com/user-attachments/assets/c0ef5e16-2868-4a8b-bdbd-ce0d6e61d2f3)
+![image](img/01_Uvod_LED_4.png)
 
 Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástk nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
 
-![image](https://github.com/user-attachments/assets/96bc81ee-790b-4701-971f-c4b25fc4a8d6)
+![image](img/01_Uvod_LED_5.png)
 
-![image](https://github.com/user-attachments/assets/02211268-d885-4128-9d1c-1276a615c6b7)
+![image](img/01_Uvod_LED_6.png)
 
 
 ## Úkoly
@@ -91,7 +91,7 @@ Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení
 
 **3.** Vytvořte semafor pomocí Arduina a 3 LED
 
-![image](https://github.com/user-attachments/assets/0f2d2cfc-5609-4967-ac88-f330f1c490b2)
+![image](img/01_Uvod_LED_7.png)
 
 **4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu).
 

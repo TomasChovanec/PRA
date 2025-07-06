@@ -1,6 +1,6 @@
 ## Fotorezistor
 
-![image](https://github.com/user-attachments/assets/8741bca8-a22a-43d7-b47f-33488a30549a)
+![image](img/10_Fotorezistor_1.png)
 
 Fotorezistor je polovodičová součástka, která mění svůj odpor v závislosti na osvětlení - čím více fotonů na něj dopadá, tím více se v něm tvoří volných elektronů a roste jeho vodivost. Fotorezistor, který budeme používat na cvičení má odpor od 100Ohmů při maximální osvětlení, přes  10-20kΩ při slabém osvětlení až po 1MΩ v temnu.
 
@@ -19,7 +19,7 @@ Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme p
 **4.** Zajistěte, aby se žaluzie neustále nehýbaly při kolísání intenzity světla kolem hraniční hodnoty. Implementujte **hysterezi** – nastavte různé prahy pro zavření a otevření žaluzií, aby servo nereagovalo na malé změny světla.
 
 
-<img src="https://github.com/user-attachments/assets/7c966978-5c7d-47f2-86e8-cbc1e7beea6e" width="600"/>
+<img src="img/10_Fotorezistor_2.png" width="600"/>
 
 *Zdroj obrázku: https://www.lorric.com/en/Articles/flowmeter-technology/flowmeter-technology/hysteresis-function*
 

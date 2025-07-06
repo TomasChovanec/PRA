@@ -54,34 +54,34 @@ Můžete si pro potřeby projektu zapůjčit následující vybavení:
 
 | Komponenta                  | Obrázek                                                                                          | Popis                                                                                  |
 |-----------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **Arduino Nano**            | ![image](https://github.com/user-attachments/assets/a0d4935d-25f5-4c34-b37f-c15b99fd0de5)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozměry, dá se zapojit přímo do nepájivého pole |
-| **Arduino MEGA**            | ![image](https://github.com/user-attachments/assets/dfc68c81-4204-4c18-a1e6-f4638a4aeb8a)        | Deska s ATmega 2560 (stejný jako používáme v MIT) s 56 IO piny, 16 analogovými vstupy  |
-| **Arduino Nano 33 IoT**     | ![image](https://github.com/user-attachments/assets/786927d7-a9dd-4b7f-a89b-2dadaec56278)        | Arduino s výkonnějším procesorem, Bluetooth a WiFi modulem                             |
-| **RTC modul**               | ![image](https://github.com/user-attachments/assets/9adb2038-1ba2-457f-baee-32b699a0cb4c)        | Modul reálného času s bateriovým zálohováním, komunikace přes I2C.                     |
-| **Datalogger shield**       | ![image](https://github.com/user-attachments/assets/5f35e26e-2472-4b9e-89f0-07c8c61d907c)        | Shield s RTC modulem a SD kartou, vhodný pro ukládání naměřených dat                   |
-| **Piezzo bzučák**           | ![image](https://github.com/user-attachments/assets/915a154c-2437-498b-b360-782f329b54b0)        | Pro jednoduché zvukové efekty (pípání, tóny,...)                                       |
-| **Fotorezistor**            | ![image](https://github.com/user-attachments/assets/57229505-4e4a-4947-8ad7-ceed27a86a5b)        | Součástka s odporem závislým na osvětlení                                              |
-| **Senzor DHT-10**           | ![image](https://github.com/user-attachments/assets/35651040-5b12-45d1-b351-469374d36977)        | Senzor pro měření teploty a vlhkosti                                                   |
-| **Bluetooth modul HC-05**   | ![image](https://github.com/user-attachments/assets/5efbe6b5-2384-48c9-8fb8-18d609b244aa)        | Bezdrátový modul pro sériovou komunikaci přes Bluetooth.                               |
-| **Senzor HC-SR04**          | ![image](https://github.com/user-attachments/assets/28d46ed1-19c9-4963-9539-1507a4778653)        | Ultrazvukový senzor vzdálenosti rozsah 2cm - 3m                                        |
-| **Joystick shield**         | ![image](https://github.com/user-attachments/assets/846f1cbd-9d8c-4cbc-9f25-cf07cc208c24)        | Rozšiřující deska s joystickem a několika tlačítky pro ovládání projektů.              |
-| **RFID sada**               | ![image](https://github.com/user-attachments/assets/18e01a5d-d6fa-4ce4-baf8-5643684a0bbf)        | Modul pro čtení RFID karet a čipů s frekvencí 13.56 MHz.                               |
-| **LCD displej**             | ![image](https://github.com/user-attachments/assets/f4f11759-0de7-4584-8c27-df3feec07481)        | Znakový LCD displej 16x2 pro zobrazení textových informací.                            |
-| **OLED displej**            | ![image](https://github.com/user-attachments/assets/5f3feb45-f8dd-4a34-b154-d15ea7ddebbc)        | Malý grafický displej s vysokým kontrastem, komunikace přes I2C                        |
-| **Klávesnice**              | ![image](https://github.com/user-attachments/assets/44a55e49-8228-4338-b892-ba8b03b8bc3b)        | Membránová klávesnice 4x4                                                              |
-| **Školní robot**            | ![image](https://github.com/user-attachments/assets/d504eca5-61b3-4e1d-9c69-c97d469868f1)        | Robot s Arduinem, motory, ultrazvukovým senzorem a senzory čáry                        |
-| **DC motor s kolem**        | ![image](https://github.com/user-attachments/assets/12e4e6b4-a12c-49b0-9d16-295ab26846ae)        | Stejnosměrný motor s převodovkou a kolem, vhodný pro stavbu vlastního robota           |
-| **Servo**                   | ![image](https://github.com/user-attachments/assets/cc43b452-5f89-42c7-b5ea-1453c391aade)        | Malý servomotor s přesným řízením polohy 0-180°                                        |
-| **Krokový motor s řadičem** | ![image](https://github.com/user-attachments/assets/ce0ec819-3d65-4164-b5d5-1739c47b3e6a)        | Motor s přesným krokovým řízením, používaný např. v CNC nebo 3D tisku.                 |
-| **Hmotnostní senzor**       | ![image](https://github.com/user-attachments/assets/435b2db6-b121-45dc-9bb7-cdd16db466c9)        | Hmotnostní senzor s modulem HX711 (24bit ADC)    do 5kg nebo do 20kg                   |
-| **Senzor srdečního tepu**   | ![image](https://github.com/user-attachments/assets/8c8339d4-405a-4f54-91cc-93a885459251)        | Senzor srdečního tepu s modulem MAX30100                                               |
-| **Modul s MP3 přehrávačem** | ![image](https://github.com/user-attachments/assets/ba4816ad-7358-4d1d-a095-14d75729c329)        | Modul s MP3 přehrávačem a integrovaným zesilovačem, který může být připojen přímo k reproduktoru. |
-| **Maticový displej**        | ![image](https://github.com/user-attachments/assets/ce55a66e-66bf-4612-8767-1b0fb3e7b16d)        | MLED Matrix matice 8x8x4 s MAX7219 - červená                                           |
-| **GPS modul**               | ![image](https://github.com/user-attachments/assets/f1f0bdf0-8aa3-4169-b0f4-8e826ada5ae6)        | Modul GPS NEO-6M s anténou                                                             |
-| **Ventilátor**              | ![image](https://github.com/user-attachments/assets/930a4832-fa11-4301-b7da-c95f7e6ad3ea)        | Ventilátor 50mm 5V                                                                     |
-| **Senzor proudu**           | ![image](https://github.com/user-attachments/assets/85b04020-4a6c-4f47-8267-13466546ddda)        | Senzor INA219 pro měření proudu. Připojení pře I2C                                     |
-| **Akcelerometr**            | ![image](https://github.com/user-attachments/assets/b2b206cc-8c32-4718-8a89-a7c9d34fce3d)        | Tříosý akcelerometr GY 521                                                             |
-| **Kruh z RGB LEDek**        | ![image](https://github.com/user-attachments/assets/39759344-8994-4ae4-8e0c-1cecbe9eb759)        | 24x RGB LED WS2812B                                                                    |
+| **Arduino Nano**            | ![image](img/Projekt_1.png)        | Deska se stejným procesorem jako Arduino UNO, které používáme na cvičeních, menší rozměry, dá se zapojit přímo do nepájivého pole |
+| **Arduino MEGA**            | ![image](img/Projekt_2.png)        | Deska s ATmega 2560 (stejný jako používáme v MIT) s 56 IO piny, 16 analogovými vstupy  |
+| **Arduino Nano 33 IoT**     | ![image](img/Projekt_3.png)        | Arduino s výkonnějším procesorem, Bluetooth a WiFi modulem                             |
+| **RTC modul**               | ![image](img/Projekt_4.png)        | Modul reálného času s bateriovým zálohováním, komunikace přes I2C.                     |
+| **Datalogger shield**       | ![image](img/Projekt_5.png)        | Shield s RTC modulem a SD kartou, vhodný pro ukládání naměřených dat                   |
+| **Piezzo bzučák**           | ![image](img/Projekt_6.png)        | Pro jednoduché zvukové efekty (pípání, tóny,...)                                       |
+| **Fotorezistor**            | ![image](img/Projekt_7.png)        | Součástka s odporem závislým na osvětlení                                              |
+| **Senzor DHT-10**           | ![image](img/Projekt_8.png)        | Senzor pro měření teploty a vlhkosti                                                   |
+| **Bluetooth modul HC-05**   | ![image](img/Projekt_9.png)        | Bezdrátový modul pro sériovou komunikaci přes Bluetooth.                               |
+| **Senzor HC-SR04**          | ![image](img/Projekt_10.png)        | Ultrazvukový senzor vzdálenosti rozsah 2cm - 3m                                        |
+| **Joystick shield**         | ![image](img/Projekt_11.png)        | Rozšiřující deska s joystickem a několika tlačítky pro ovládání projektů.              |
+| **RFID sada**               | ![image](img/Projekt_12.png)        | Modul pro čtení RFID karet a čipů s frekvencí 13.56 MHz.                               |
+| **LCD displej**             | ![image](img/Projekt_13.png)        | Znakový LCD displej 16x2 pro zobrazení textových informací.                            |
+| **OLED displej**            | ![image](img/Projekt_14.png)        | Malý grafický displej s vysokým kontrastem, komunikace přes I2C                        |
+| **Klávesnice**              | ![image](img/Projekt_15.png)        | Membránová klávesnice 4x4                                                              |
+| **Školní robot**            | ![image](img/Projekt_16.png)        | Robot s Arduinem, motory, ultrazvukovým senzorem a senzory čáry                        |
+| **DC motor s kolem**        | ![image](img/Projekt_17.png)        | Stejnosměrný motor s převodovkou a kolem, vhodný pro stavbu vlastního robota           |
+| **Servo**                   | ![image](img/Projekt_18.png)        | Malý servomotor s přesným řízením polohy 0-180°                                        |
+| **Krokový motor s řadičem** | ![image](img/Projekt_19.png)        | Motor s přesným krokovým řízením, používaný např. v CNC nebo 3D tisku.                 |
+| **Hmotnostní senzor**       | ![image](img/Projekt_20.png)        | Hmotnostní senzor s modulem HX711 (24bit ADC)    do 5kg nebo do 20kg                   |
+| **Senzor srdečního tepu**   | ![image](img/Projekt_21.png)        | Senzor srdečního tepu s modulem MAX30100                                               |
+| **Modul s MP3 přehrávačem** | ![image](img/Projekt_22.png)        | Modul s MP3 přehrávačem a integrovaným zesilovačem, který může být připojen přímo k reproduktoru. |
+| **Maticový displej**        | ![image](img/Projekt_23.png)        | MLED Matrix matice 8x8x4 s MAX7219 - červená                                           |
+| **GPS modul**               | ![image](img/Projekt_24.png)        | Modul GPS NEO-6M s anténou                                                             |
+| **Ventilátor**              | ![image](img/Projekt_25.png)        | Ventilátor 50mm 5V                                                                     |
+| **Senzor proudu**           | ![image](img/Projekt_26.png)        | Senzor INA219 pro měření proudu. Připojení pře I2C                                     |
+| **Akcelerometr**            | ![image](img/Projekt_27.png)        | Tříosý akcelerometr GY 521                                                             |
+| **Kruh z RGB LEDek**        | ![image](img/Projekt_28.png)        | 24x RGB LED WS2812B                                                                    |
 
 
 
