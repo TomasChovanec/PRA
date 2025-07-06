@@ -29,10 +29,10 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Arduino jako měřící přístroj](09_Serial_plotter.md)
 1. [Fotorezistor](10_Fotorezistor.md)
 1. [Sledovač čáry](11_Line_follower.md)
-1. [Závěr](11_zaver.md)
+
 
 <!---
-
+1. [Závěr](11_zaver.md)
 - [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
 - [Zadání E3B](Zadani_projektu_E3B_sk_2.md)
 
