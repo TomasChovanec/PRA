@@ -9,9 +9,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Informace k samostatnému projektu](Projekt.md)
-- [Zadání projektů E3A](Zadani_projektu_E3A_sk_3.md)
-- [Zadání projektů E3B](Zadani_projektu_E3B_sk_3.md)
-
 
 ## Podpůrné materiály
 - [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf)
