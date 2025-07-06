@@ -20,7 +20,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou](01_Uvod_LED.md)
 1. [Proměnné, podmínky, analogový vstup](02_Zaklady_C_potenciometr.md)
-1. [Servo, PWM, RGB LEDka](03_lekce.md)
+1. [Servo, PWM, RGB LEDka](03_Servo_PWM.md)
 1. [Teplotní čidlo, LCD displej](04_lekce.md)
 1. [Ultrazvukový sensor, krokový motor](05_lekce.md)
 1. [Řízení DC motoru](06_lekce.md)
