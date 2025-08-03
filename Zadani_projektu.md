@@ -109,13 +109,6 @@ Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, servo, dis
 - Po stisku tlačítka se výtah rozjede, na displeji bude zobrazovat aktuální polohu
 - Servo bude simulovat ovládání dveří
 
-### Hra na postřeh
-Pomocí Arduina vytvořte hru na postřeh pro dva hráče
-- Po spuštění hry se v náhodném intervalu rozsvítí LEDka
-- Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
-- Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
-- Po pěti kolech se na displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
-
 ### Řízení akvária
 Připravte program pro Arduino, který bude spínat osvětlení akvária podle nastaveného času. Dále bude měřit a na displeji zobrazovat teplotu v akváriu.
 
