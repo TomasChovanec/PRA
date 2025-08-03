@@ -24,25 +24,11 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 
-### Automatické otvírání brány
-Vytvořte program a zrealizuj zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
-- Dokud není detekováno auto, brána je zavřená.
-- Po detekci auta se brána otevře.
-- Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto projede, brána se zavře.
-- Pokud by ale auto neprojelo do 30s, brána se zavře.
-- Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
-
 ### Teploměr a vlhkoměr
 Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. 
 Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
 
-### RFID čtečka pro otvírání dveří
-Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
-- Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
-- Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
-
 ### Robot Line follower
-
 Vytvořte program pro školního Arduino robota, který bude fungovat jako sledovač čáry.
 - Robot bude detekovat černou čáru optickými čidly a pojede po ní
 - Optimalizujte program robota na co nejrychlejší projetí trati
@@ -54,7 +40,6 @@ Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a serve
 - Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem
 - Po 3 chybných zadáních se zámek na 10s zablokuje (odpočet bude na displeji)
 - Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina)
-
 
 ### Otevírání dveří na RFID karty 
 - Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
@@ -90,9 +75,7 @@ Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a serve
  - Bomba má být aktivována tlačítkem, zobrazovat odpočet, a může být deaktivována zadáním správného kódu na klávesnici.
  - Při aktivaci a deaktivaci hraje zvukové efekty pomocí MP3 modulu.
 
-
 ### Robot line follower
-
 Vytvořte program pro školního Arduino robota, který bude fungovat jako sledovač čáry.
 - Robot bude detekovat černou čáru optickými čidly a pojede po ní
 - Optimalizujte program robota na co nejrychlejší projetí trati
@@ -100,7 +83,6 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 - Po resetu Arduina musí být robot v bezpečném stavu (motory zastaveny), rozjede se až po stisknutí startovacího tlačítka (mikrospínač na robotovi, nikoli vypínač napájení)
 
 ### Automatické otvírání brány
-
 Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
 - Dokud není detekováno auto, brána je zavřená.
 - Po detekci auta se brána otevře.
@@ -109,13 +91,11 @@ Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevř
 - Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
 
 ### Vánoční osvětlení
-
 Pomocí Arduina, LED diod vytvořte dekorativní osvětlení s několika módy blikání, které lze měnit tlačítkem
 - Liché LEDky jsou zhasnuté, sudé se plynule rozsvěcejí, až se rozsvítí doplna, plynule se rozsvítí liché LEDky  a opačně plynule zhasnou nejprve liché, pak sudé
 - Všechny LEDky jsou zhasnuté, jedna rozsvícená LEDka "jezdí" zleva doprava
 - Další alespoň dva módy dle vlastního výběru
 - Pro tvorbu kódu používejte for cyklus
-
 
 ### Ovládání robota přes Bluetooth
 Vytvořte program pro školního robota, aby jej bylo možné ovládat přes Bluetooth. Použijte Bluetooth modul HC-05 a robota ovládejte aplikací z telefonu.
@@ -129,9 +109,6 @@ Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, servo, dis
 - Po stisku tlačítka se výtah rozjede, na displeji bude zobrazovat aktuální polohu
 - Servo bude simulovat ovládání dveří
 
-### Teploměr a vlhkoměr
-Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
-
 ### Hra na postřeh
 Pomocí Arduina vytvořte hru na postřeh pro dva hráče
 - Po spuštění hry se v náhodném intervalu rozsvítí LEDka
@@ -142,40 +119,17 @@ Pomocí Arduina vytvořte hru na postřeh pro dva hráče
 ### Řízení akvária
 Připravte program pro Arduino, který bude spínat osvětlení akvária podle nastaveného času. Dále bude měřit a na displeji zobrazovat teplotu v akváriu.
 
-### Voltmetr (M.B.)
+### Voltmetr
 - Pomocí Arduina vytvořte multimetr
 - Alespoň dva napěťové rozsahy
 - Měření proudu pomocí obvodu INA219
 
-
-### Otvírání dveří dle slunce (J.D.)
-- Pomocí Arduina, fotorezistoru a krokového motoru vytvořte automatické ovládání vrátek do kurníku v závislosti na slunečním svitu.
-- Ošetřete například případy, kdy čidlo někdo krátkodobě zakryje rukou, nebo na něj naopak krátkodobě zasvítí např. světlo projíždějícího auta
-
-
-### Automatické ovládání brány (J.G., J.B.)
-- Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
-- Dokud není detekováno auto, brána je zavřená.
-- Po detekci auta se brána otevře.
-- Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto projede, brána se zavře.
-- Pokud by ale auto neprojelo do 30s, brána se zavře.
-- Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 5x zazní varovný zvukový signál.
-
-
-### Hodinky se stopkami a budíkem (O.E.)
-- Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
-- Jedním tlačítkem se bude měnit aktálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
-- Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
-- Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
-
-
-### Ultrazvukový senzor vzdálenosti s výpočtem plochy (M.B.)
+### Ultrazvukový senzor vzdálenosti s výpočtem plochy
 - Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
 - Měřená hodnota se průběžne zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
 - Po zadání všech hodnot se zobrazí všechny naměřené hodnoty spolu s výslednou plochou
 
-
-### Regulace ventilátoru (D.G.)
+### Regulace ventilátoru
 - Pomocí teplotního čidla a Arduina ovládejte otáčky ventilátoru v závislosti na aktuální teplotě.
 - Pod 25 °C: ventilátor vypnutý
 - 25–30 °C: 30–60 % výkonu
