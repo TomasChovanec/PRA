@@ -11,7 +11,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Informace k samostatnému projektu](Projekt.md)
 
 ## Podpůrné materiály
-- [Tahák k Arduinu](/prezentace/Arduino_tahak.pdf)
+- [Tahák k Arduinu](/files/Arduino_tahak.pdf)
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Materiály k výuce
