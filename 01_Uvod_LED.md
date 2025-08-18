@@ -1,5 +1,12 @@
-## Co je to Arduino?
+## Cíle lekce
+- Vysvětlit, co je Arduino a k čemu se používá.
+- Otevřít Arduino IDE a ukázat, jak se píše a nahrává program.
+- Naučit se základní strukturu programu (setup(), loop()).
+- Ovládat Arduinem LEDku pomocí funkce digitalWrite().
+- Zopakovat si práci s nepájivým polem (napájení, správné zapojování součástek).
 
+
+## Co je to Arduino?
 Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarového pohledu je to deska s procesorem, ke které můžete připojit různé senzory, motory, světla a další komponenty, a poté je ovládat pomocí kódu. Programování probíhá v jednoduchém jazyce a jsou k dispozici spousty hotových knihoven, což Arduino činí ideálním nástrojem pro začátečníky i pokročilé, kteří se chtějí naučit základy elektroniky a programování. Arduino se používá ve spoustě projektů, od domácí automatizace po robotiku.
 
 ## Hardware
