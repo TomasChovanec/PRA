@@ -1,4 +1,4 @@
-## Úvod do Arduina
+# Úvod do Arduina
 
 ### Cíle lekce
 - Vysvětlit, co je Arduino a k čemu se používá.
