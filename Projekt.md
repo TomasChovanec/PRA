@@ -14,7 +14,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
     - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
     - **Schéma** - můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno))
     - **Fotografii** zapojení
-    - **Kód** - přehledně naformátovaný a opatřený komentáři
+    - **Kód** - přehledně naformátovaný a opatřený komentáři. Kód vkládejte do dokumentu jako text, nikoli jako obrázek.
     - **Seznam použitých zdrojů** včetně knihoven
     - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
 
