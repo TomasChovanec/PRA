@@ -1,8 +1,17 @@
+# Opakování jazyka C, analogový vstup Arduina
+
+### Cíle lekce
+- Vytvořit proměnnou, zapisovat do ní a číst z ní
+- Používat pro opakovaný kód cyklus for nebo while
+- Použít komunikaci přes sériový port k ověření funkce programu
+- Umět využívat funkci analogRead() pro měření napětí
+
+
 <script type="text/javascript" id="MathJax-script" async 
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
-# Proměnné
+## Proměnné
 Proměnná je pojmenované místo v paměti, kam můžeme uložit a kdykoliv změnit hodnotu.
 
 Při pojmenovávání proměnných si dávejte pozor, aby jména měla smysl a popisovala, co proměnná obsahuje. Např. místo názvu ```x``` nebo ```a``` použijte něco jako ```teplota```, ```pocetHracu```, ```stavTlacitka``` – to pomůže, aby byl kód přehledný a snadno pochopitelný pro ostatní (i pro vás v budoucnu).
