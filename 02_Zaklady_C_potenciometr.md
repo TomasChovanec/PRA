@@ -1,9 +1,8 @@
+## Proměnné
 <script type="text/javascript" id="MathJax-script" async 
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
-
-## Proměnné
 Proměnná je pojmenované místo v paměti, kam můžeme uložit a kdykoliv změnit hodnotu.
 
 Při pojmenovávání proměnných si dávejte pozor, aby jména měla smysl a popisovala, co proměnná obsahuje. Např. místo názvu ```x``` nebo ```a``` použijte něco jako ```teplota```, ```pocetHracu```, ```stavTlacitka``` – to pomůže, aby byl kód přehledný a snadno pochopitelný pro ostatní (i pro vás v budoucnu).
