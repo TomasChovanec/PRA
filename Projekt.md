@@ -15,7 +15,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
     - **Schéma** - můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno))
     - **Fotografii** zapojení
     - **Kód** - přehledně naformátovaný a opatřený komentáři. Kód vkládejte do dokumentu jako text, nikoli jako obrázek.
-    - **Seznam použitých zdrojů** včetně knihoven
+    - **Seznam použitých zdrojů** včetně odkazů na použité knihovny
     - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
