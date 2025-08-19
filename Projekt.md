@@ -1,6 +1,6 @@
 # Samostatný projekt
 Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, čidla, ...).
-Projekt budete vypracovávat převážně doma, na hpodinách bude vyhrazern prostor pro dotazy a konzultace. Projekt mi můžete před odesláním poslat k připomínkování, není to povinné, ale můžete si pak do odevzdání opravit chyby. Projekt odevzdávejte a konzultujte přes aplikaci Teams.
+Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prostor pro dotazy a řešení problémů. Konzultovat se mnou můžete také kdykoli prostřednictvím aplikace Teams.
 
 ## Hodnocení
 - Jedna známka za samotný program
