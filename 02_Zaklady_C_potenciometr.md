@@ -1,4 +1,4 @@
-# Opakování jazyka C, analogový vstup Arduina
+# Základní příkazy jazyka C, analogový vstup Arduina
 
 ### Cíle lekce
 - Vytvořit proměnnou, zapisovat do ní a číst z ní
