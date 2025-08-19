@@ -3,13 +3,12 @@ Program a zapojení s Arduinem a alespoň dvěma periferiemi (motory, displeje, 
 Projekt budete vypracovávat jak ve škole na hodinách praxe (vždy cca 1 hodinu), tak doma. Projekt musíte odevzdat a odprezentovat do konce tohoto bloku praxe. 
 Projekt mi můžete před odesláním poslat k připomínkování, není to povinné, ale můžete si pak do odevzdání opravit chyby.
 
-### Termín odevzdání je úterý 10.6. do 23:59. Odevzdání po termínu znamená snížení známky o jeden stupeň.
-
 ## Hodnocení
 - Jedna známka za samotný program
     - Funkčnost
     - Splnění všech bodů zadání
     - Včasné odevzdání
+    - Prezentace před třídou včetně předvedení funkčnosti
     - **Prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
     
 - Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) obsahující:
@@ -20,7 +19,6 @@ Projekt mi můžete před odesláním poslat k připomínkování, není to povi
     - **Kód** - přehledně naformátovaný a opatřený komentáři
     - **Seznam použitých zdrojů** včetně knihoven
     - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
-    - Svůj projekt na hodině krátce představíte (do 5min). Pokud chcete, můžete si nachystat prezentaci, ale postačí i jen využít odevzdaný pdf dokument.
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Elektronická hrací kostka
