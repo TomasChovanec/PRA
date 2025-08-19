@@ -12,7 +12,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
 - Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) obsahující:
     - **Zadání** - kompletní zadání zkopírované z githubu
     - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
-    - **Schéma** - můžete použít např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno))
+    - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
     - **Fotografii** zapojení
     - **Kód** - přehledně naformátovaný a opatřený komentáři. Kód vkládejte do dokumentu jako text, nikoli jako obrázek.
     - **Seznam použitých zdrojů** včetně odkazů na použité knihovny
