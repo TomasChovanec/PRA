@@ -4,8 +4,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
 
 ## Hodnocení
 - Jedna známka za samotný program
-    - Funkčnost
-    - Splnění všech bodů zadání
+    - Funkčnost, splnění všech bodů zadání
     - Včasné odevzdání
     - Prezentace před třídou včetně předvedení funkčnosti
     - **Prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
