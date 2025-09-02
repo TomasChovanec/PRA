@@ -74,10 +74,10 @@ void setup() {
 void loop() {
     // zde vlozte kod hlavni kod, ktery se bude opakovat donekonecna
     digitalWrite(led, HIGH); //zapnutí led
-    delay(1000); // po dobu jedné sekundy
+    delay(1000); // čekání po dobu jedné sekundy
 
     digitalWrite(led, LOW); // vypnuti LED
-    delay(1000); // po dobu jedné sekundy
+    delay(1000); // čekání po dobu jedné sekundy
 }
 ```
 
