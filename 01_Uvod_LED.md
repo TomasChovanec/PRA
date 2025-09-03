@@ -92,6 +92,23 @@ Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení
 
 ![image](img/01_Uvod_LED_6.png)
 
+## Tlačítko
+Tlačítko může sloužit jako jednoduché vstupní zařízení pro Arduino. Mechanicky je to vlastně jen pružný kontakt, který při stisku propojí dva vodiče. Způsobů, jak zapojit tlačítko je více, ukážeme si ten nejjednodušší, který nevyžaduje další součástky.
+
+Jeden pól tlačítka zapojíme na digitální vstup Arduina (např. D2). Druhý pól tlačítka zapojíme na GND. V programu nastavíme vstup takto:
+
+```c
+pinMode(2, INPUT_PULLUP);
+```
+
+Arduino má uvnitř tzv. pull-up rezistor (cca 20–50 kΩ), který je zapojen mezi pin a napájecí napětí (+5V). To zajistí, že pin je normálně v logické HIGH. Když je tlačítko stisknuto, spojí se pin s GND a vstup se změní na LOW.
+
+Nezapomeňte při psaní programu, že logika je obrácená:
+- Stisknuté tlačítko = LOW
+- Nestisknuté tlačítko = HIGH
+
+<img width="880" height="527" alt="image" src="https://github.com/user-attachments/assets/8a3c93d7-799e-4c42-a0a0-cc83bef7be78" />
+
 
 ## Úkoly
 **1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
