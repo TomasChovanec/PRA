@@ -151,28 +151,8 @@ void loop() {
 Další typ cyklu je while. Zatímco for používáme, když víme kolikrát se má cyklus opakovat, while je lepší, když nevíme předem, kdy má cyklus skončit (čekání na vstup, tlačítko atd.).
 
 ```c
-const int buttonPin = 7;  // Pin, kam je připojené tlačítko
-int buttonState = 0;       // Proměnná pro stav tlačítka
-
-void setup() {
-  Serial.begin(9600);       
-  pinMode(buttonPin, INPUT);  // Nastavíme pin tlačítka jako vstup
-
-  int i = 0;  
-
-  // Cyklus běží, dokud není tlačítko stisknuté
-  while (digitalRead(buttonPin) == HIGH) {  
-    Serial.print("Číslo: ");
-    Serial.println(i);
-    i++;
-    delay(500);
-  }
-
-  Serial.println("Tlačítko stisknuto, cyklus ukončen!");
-}
-
-void loop() {
-  // Nic, program skončil v setupu
+while (digitalRead(2) == HIGH) {
+  // čekám, dokud tlačítko není stisknuté
 }
 ```
 
