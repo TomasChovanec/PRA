@@ -22,22 +22,22 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
 - Elektronická hrací kostka
 - Elektronické piano
 - Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
-- Automatické otvírání dveří se servem a ultrazvukovým čidlem
 - Hra na postřeh pro dva hráče
-- Hodinky, budík a stopky
+- Hodinky s budíkem a stopkami
 - Teplotní čidlo se záznamem na SD kartu
-- Voltmetr
+- Voltmetr se třemi napěťovými rozsahy
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
-- Hračka s mp3 modulem
+- Hudební přehrávač s dálkovým ovládáním
 - Reklamní banner s maticovým displejem
-- Naprogramování školního robota jako sledovače čáry s funkcí objetí překážky
+- Měření kapacity kondenzátorů
+- Robot jako sledovač čáry s funkcí objetí překážky
+- Přidání funkce počitadla ujeté vzdálenosti pro robota
 - Stavba robota podle vlastního návrhu
 
 
 <!---
-- Přidání funkce počitadla ujeté vzdálenosti pro robota
 - Naprogramování školního robota pro soutěž sumo 
 - Časomíra pro závody robotů
 - Úprava školního robota pro ovládání joystickem po drátech
