@@ -1,8 +1,7 @@
-# Test - cykly, tlačítko, servo
+# Test - cykly, analogRead(), analogWrite()
 
-Vytvořte program s Arduinem, která bude pomocí tlačítka ovládat bránu ve vjezdu. Použijte tlačítko, servo a červenou LEDku.
-- Pokud není stisknuto tlačítko, servo je v poloze 0° a dioda je zhasnutá
-- Po stisku tlačítka 5x blikne LEDka, jako výstraha osobám v blízkosti brány
-- Po skončení blikání se servo plynule (pomalu) přesune do polohy 180°
-- Po 5 sekundách se servo opět plynule vrátí do polohy 0°
-
+	1. Do nepájivého pole zapojte LED diodu s rezistorem (cca 220 Ω) a připojte ji na nějaký pin Arduina, který podporuje PWM výstup. 
+	2. Naprogramujte arduino tak, aby po každém resetu touto LEDkou 7x bliknulo (300ms ON/30ms OFF)
+	3. Připojte potenciometr jako napěťový dělič, střední vývod na analogový vstup A0
+	4. Pomocí funkce analogRead(A0) získejte hodnotu (0–1023) a vypište ji na sériový monitor (Serial.print).
+  5. Převádějte hodnotu potenciometru na rozsah 0–255 (např. pomocí funkce map) a použijte funkci analogWrite() k nastavení jasu LED.
