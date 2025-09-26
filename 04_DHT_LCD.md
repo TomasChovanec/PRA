@@ -65,12 +65,12 @@ void loop() {
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
+[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
+
 ### Přidání knihovny ze zip souboru
 - V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
 - V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
-
-[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
 <img src="img/04_DHT_LCD_7.png" width="900"/>
 
