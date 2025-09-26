@@ -29,7 +29,7 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 - Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
 - Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
 
-Úkol: Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
+**Úkol:** Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
 
 Příklad kódu s touto knihovnou
 
@@ -61,22 +61,6 @@ void loop() {
 }
 ```
 
-## I2C sběrnice
-I2C (Inter-Integrated Circuit) je sériová sběrnice, která umožňuje komunikaci mezi více zařízeními (senzory, displeje, moduly) pomocí pouze dvou vodičů:
-- SDA (Data) – přenáší data mezi zařízeními.
-- SCL (Clock) – řídí časování přenosu dat.
-
-Výhody I2C s Arduinem
-- Úspora pinů – stačí jen 2 dráty pro připojení více zařízení (každé má unikátní adresu).
-- Jednoduché zapojení – méně kabelů, méně zmatků.
-- Podpora knihoven – Arduino má knihovny jako Wire.h pro snadné ovládání.
-- Možnost rozšíření – připojení až 128 zařízení na stejnou sběrnici (adresy 7bit).
-- Obousměrná komunikace – Master (Arduino) může posílat i přijímat data.
- 
-![image](img/04_DHT_LCD_5.png)
- 
-*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
-
 ![image](img/04_DHT_LCD_6.png)
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
@@ -95,6 +79,23 @@ Výhody I2C s Arduinem
 ![image](img/04_DHT_LCD_9.png)
 
 *Zdroj obrázku:  https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/*
+
+## I2C sběrnice
+I2C (Inter-Integrated Circuit) je sériová sběrnice, která umožňuje komunikaci mezi více zařízeními (senzory, displeje, moduly) pomocí pouze dvou vodičů:
+- SDA (Data) – přenáší data mezi zařízeními.
+- SCL (Clock) – řídí časování přenosu dat.
+
+Výhody I2C s Arduinem
+- Úspora pinů – stačí jen 2 dráty pro připojení více zařízení (každé má unikátní adresu).
+- Jednoduché zapojení – méně kabelů, méně zmatků.
+- Podpora knihoven – Arduino má knihovny jako Wire.h pro snadné ovládání.
+- Možnost rozšíření – připojení až 128 zařízení na stejnou sběrnici (adresy 7bit).
+- Obousměrná komunikace – Master (Arduino) může posílat i přijímat data.
+ 
+![image](img/04_DHT_LCD_5.png)
+ 
+*Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
+
  
 ### Použití knihovny [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
