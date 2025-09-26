@@ -1,21 +1,3 @@
-## Přidání knihovny do Arduina
-
-Knihovny v Arduinu jsou předpřipravené balíčky kódu, které usnadňují práci s různými senzory, moduly nebo složitějšími funkcemi. Díky tomu nemusíme psát všechno od nuly, knihovna se postará o složitější části programu, např. komunikaci se senzorem. 
-
-Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme je přes menu **File -> Examples -> Název knihovny** . Z  příkladů můžeme snadno pochopit, jak pracovat s danou knihovnou.
-
-### Přidání knihovny pomocí Library manageru
-
-- V horním menu vyberte Tools > Manage Libraries…
-- Do vyhledávacího pole napite název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšte.
-- Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
-- Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
-
-### Přidání knihovny ze zip souboru
-- V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
-- V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
-- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
-
 ## Teplotní a vlhkostní čidlo DHT11
 ![image](img/04_DHT_LCD_1.png)
 
@@ -34,7 +16,22 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 *Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
 
-Příklad kódu s knihovnou [DHTlib by Rob Tillaart](https://github.com/RobTillaart/DHTlib/releases):
+## Přidání knihovny do Arduina
+
+Knihovny v Arduinu jsou předpřipravené balíčky kódu, které usnadňují práci s různými senzory, moduly nebo složitějšími funkcemi. Díky tomu nemusíme psát všechno od nuly, knihovna se postará o složitější části programu, např. komunikaci se senzorem. 
+
+Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme je přes menu **File -> Examples -> Název knihovny** . Z  příkladů můžeme snadno pochopit, jak pracovat s danou knihovnou.
+
+### Přidání knihovny pomocí Library manageru
+
+- V horním menu vyberte Tools > Manage Libraries…
+- Do vyhledávacího pole napite název knihovny (nebo část názvu). Seznam knihoven se bude filtrovat podle toho, co píšte.
+- Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
+- Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
+
+Úkol: Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
+
+Příklad kódu s touto knihovnou
 
 ```c
 #include <dht.h>        // Include library
@@ -83,6 +80,11 @@ Výhody I2C s Arduinem
 ![image](img/04_DHT_LCD_6.png)
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+
+### Přidání knihovny ze zip souboru
+- V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
+- V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
+- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
 
 [Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
