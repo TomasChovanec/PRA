@@ -101,7 +101,7 @@ Výhody I2C s Arduinem
 
 ```#include <LiquidCrystal_I2C.h>``` Načte knihovnu pro ovládání LCD displeje s I2C adaptérem.
 
-```LiquidCrystal_I2C lcd(0x27, 16, 2);``` Vytvoří objekt lcd s adresou 0x27. 16, 2 znamená, že displej má 16 sloupců a 2 řádky.
+```LiquidCrystal_I2C lcd(0x27, 16, 2);``` Vytvoří objekt lcd s adresou 0x27. 16, 2 znamená, že displej má 16 sloupců a 2 řádky. Tento kód umístěte nad funkci setup, aby byl objekt displeje globální a mohli jste ho používat jak ve funkci setup() tak ve funkci loop().
 
 ```lcd.begin();``` Inicializuje displej — připraví ho na použití.
 
