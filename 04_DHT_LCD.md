@@ -29,9 +29,9 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 - Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
 - Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
 
-**Úkol:** Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
-
-Příklad kódu s touto knihovnou
+### Úkoly:
+1. Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
+2. Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru. Použijte příklad níže, nezapomeňte správně nastavit číslo pinu, kam jste čidlo připojili.
 
 ```c
 #include <dht.h>        // Include library
@@ -60,8 +60,6 @@ void loop() {
 	delay(2000); // wait two seconds
 }
 ```
-
-**Úkol:** Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru.
 
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
