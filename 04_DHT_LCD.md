@@ -61,7 +61,8 @@ void loop() {
 }
 ```
 
-![image](img/04_DHT_LCD_6.png)
+**Úkol:** Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru.
+
 
 ## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
@@ -96,6 +97,7 @@ Výhody I2C s Arduinem
  
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
+![image](img/04_DHT_LCD_6.png)
  
 ### Použití knihovny [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
