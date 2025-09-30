@@ -104,7 +104,9 @@ V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite():
 ```analogWrite(pin, hodnota);```
 
 ```hodnota``` je od 0 (0%) do 255 (100%)
-```pin```je označení pinu, na kterých PWM nastavujeme :warning:Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.
+```pin```je označení pinu, na kterých PWM nastavujeme 
+
+:warning:**Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.**
 
 ## RGB LED
 RGB LED jsou vlastně 3 LEDky v jednom pouzdře – červená (R), zelená (G) a modrá (B).
