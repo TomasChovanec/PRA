@@ -109,6 +109,10 @@ V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite():
 
 :warning:**Pozor, funkce analogWrite je dostupná pouze pro některé piny. Ty jsou označené na desce znakem vlnovky. U Arduino UNO jsou to piny 3, 5, 6, 9, 10, a 11.**
 
+![image](img/03_Servo_PWM_5.png)
+
+*Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
+
 ## RGB LED
 RGB LED jsou vlastně 3 LEDky v jednom pouzdře – červená (R), zelená (G) a modrá (B).
 
@@ -117,10 +121,6 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 ![image](img/03_Servo_PWM_4.png)
 
 *Zdroj obrázku: https://www.build-electronic-circuits.com/rgb-led/*
-
-![image](img/03_Servo_PWM_5.png)
-
-*Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
 
 ### Úkoly:
 1. Připojte k Arduinu RGB LEDku. Vyberte si jednu barvu a napište program tak, aby se každou sekundu měnily postupně tři stavy:1.LEDKa je zhasnutá, 2.LEDka svítí na 50%, 3. LEDka svítí na 100%.
