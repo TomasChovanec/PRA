@@ -122,9 +122,9 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/*
 
 ### Úkoly:
-1. Připojte k Arduinu LEDku a přecházejte mezi 3 stavy - LEDKa je zhasnutá, ledka svítí na 50%, LEDka svítí na 100%.
-2. Připojte k Arduinu LEDku a plynule nastavujte její jas od minima do maxima a zpět
-3. Připojte k Arduinu LEDku a potenciometr. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
+1. Připojte k Arduinu RGB LEDku. Vyberte si jednu barvu a napište program tak, aby se každou sekundu měnily postupně tři stavy:1.LEDKa je zhasnutá, 2.LEDka svítí na 50%, 3. LEDka svítí na 100%.
+2. Změňte program z předchozího bodu tak, aby se jas LEDky měnil plynule od minima do maxima a zpět.
+3. Připojte k Arduinu ještě potenciometr. Podle polohy potenciometru nastavujte jas LEDky funkcí analogWrite().
 4. Nastavte na RGB LEDce růžovou barvu.
 5. Pomocí cyklu for měňte plynule barvu LEDky z modré na zelenou a zpět.
 6. Pomocí tří potenciometrů nastavujte všechny tři barevné složky RGB LEDKy.
