@@ -2,8 +2,9 @@
 Je to malý motor s převodovkou, který umí přesně natočit hřídel do určitého úhlu (většinou 0–180°).
 Uvnitř najdeme:
 - DC motor – pohon
-- Převodovku – zpomalí a zvýší moment (sílu serva)
-- Elektroniku s potenciometrem – hlídá polohu
+- Převodovku – zpomalí a zvýší moment (sílu) serva
+- Potenciometr – snímá polohu hřídele
+- Deska s řídící elektronikou - řídí motor na základě signálu z řidícího vodiče a potenciometru
 
 ![image](img/03_Servo_PWM_1.png)
 
