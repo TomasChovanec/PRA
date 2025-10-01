@@ -16,7 +16,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 ## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou](01_Uvod_LED.md)
-1. [Proměnné, podmínky, analogový vstup](02_Zaklady_C_potenciometr.md)
+1. [Serial monitor, analogový vstup](02_Serial_monitor_potenciometr.md)
 1. [Servo, PWM, RGB LEDka](03_Servo_PWM.md)
 1. [Teplotní čidlo, LCD displej](04_DHT_LCD.md)
 1. [Ultrazvukový sensor](05_Ultrasonic_stepper.md)
@@ -38,8 +38,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Testy
 Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
 
-1. [Test - cykly, servo](Test_1.md)
-2. [Test - displej, analogWrite()](Test_2.md)
+1. [Test 1](Test_1.md)
+2. [Test 2](Test_2.md)
    
 <!---
 2. [Program ve dvojicích](09_lekce.md)
