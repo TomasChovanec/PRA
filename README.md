@@ -19,7 +19,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Serial monitor, analogový vstup](02_Serial_monitor_potenciometr.md)
 1. [Servo, PWM, RGB LEDka](03_Servo_PWM.md)
 1. [Teplotní čidlo, LCD displej](04_DHT_LCD.md)
-1. [Ultrazvukový sensor](05_Ultrasonic_stepper.md)
+1. [Ultrazvukový sensor](05_Ultrasonic.md)
 1. [Řízení DC motoru](06_DC_motor.md)
 1. [Multitasking s Arduinem](07_Millis.md)
 1. [Bluetooth](08_Bluetooth.md)
