@@ -3,20 +3,22 @@ Projekt sestává z vytvoření fyzického zapojení s Arduinem a alespoň dvěm
 Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prostor pro dotazy a řešení problémů. Konzultovat se mnou můžete také kdykoli prostřednictvím aplikace Teams.
 
 ## Hodnocení
-- Jedna známka za samotný program
-    - Funkčnost, splnění všech bodů zadání
-    - Včasné odevzdání
-    - Prezentace před třídou včetně předvedení funkčnosti
-    - **Prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali**
+- Jedna známka za samotný projekt (fyzické zapojení a program) a jeho prezentaci
+    - Funkčnost, splnění všech bodů zadání (7 bodů)
+    - Znalost toho, jak program funguje (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali) (8 bodů)
+    - Včasné odevzdání (5 bodů)
+    - Prezentace před třídou včetně předvedení funkčnosti (5 bodů)
     
-- Druhá známka za dokumentaci a prezentaci projektu - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) obsahující:
-    - **Zadání** - kompletní zadání zkopírované z githubu
-    - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
-    - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno)
-    - **Fotografii** zapojení
-    - **Kód** - přehledně naformátovaný a opatřený komentáři,  vložený jako text, nikoli jako obrázek
-    - **Seznam použitých zdrojů** včetně odkazů na použité knihovny
-    - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
+- Druhá známka za dokumentaci a prezentaci projektu
+    - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) (1 bod)
+    - **Zadání** - kompletní zadání zkopírované z Githubu (1 bod)
+    - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...) (5 bodů)
+    - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno), [CircuitCanvas](https://circuitcanvas.com/) nebo nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným.
+ (10 bodů)
+    - **Fotografii** zapojení (2body)
+    - **Kód** - přehledně naformátovaný a opatřený komentáři,  vložený jako text, nikoli jako obrázek (2 body)
+    - **Seznam použitých zdrojů** včetně odkazů na použité knihovny (2 body)
+    - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (2 body)
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Elektronická hrací kostka
