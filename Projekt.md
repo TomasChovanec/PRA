@@ -4,8 +4,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
 
 ## Využití AI nástrojů
 
-###AI je váš konzultant, ne řešitel
-
+### AI je váš konzultant, ne řešitel
 Můžete ho používat k vysvětlení nejasností, nalezení chyb, získání nápadů na postup nebo pochopení principů. Nesmíte ale pouze zadat celé zadání a použít odpověď jako hotové řešení.
 Pokud něco nechápete, zeptejte se modelu tak, abyste dostali vysvětlení (např. „Proč mi tenhle cyklus končí o jeden krok dřív?“, „Jaký je rozdíl mezi analogRead a digitalRead?“).
 
