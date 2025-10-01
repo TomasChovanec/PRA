@@ -16,7 +16,7 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
         - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným.
  (10 bodů)
         - **Fotografii** zapojení (2body)
-        - **Kód** - přehledně naformátovaný a opatřený komentáři,  vložený jako text, nikoli jako obrázek (2 body)
+        - **Kód** - přehledně naformátovaný a opatřený komentáři, vložený jako text, nikoli jako obrázek (2 body)
         - **Seznam použitých zdrojů** včetně odkazů na použité knihovny (2 body)
         - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (5 body)
 
