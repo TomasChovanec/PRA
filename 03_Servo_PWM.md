@@ -1,12 +1,10 @@
+# Servomotor
+
 ### Cíle lekce
 - Pochopit jak funguje modelářské servo, z čeho se skládá, jak se řídí
 - Umět přidat do Arduino program knihovnu
 - Ovládat servo pomocí knihovny
-- Pochopit jak funguje pulzně šířková modulace (PWM) a k čemu ji lze použít
-- Umět použít na Arduinu PWM pomocí funkce analogWrite()
-- Umět řídit pomocí PWM jednotlivé barvy RGB LEDky
 
-# Servomotor
 Je to malý motor s převodovkou, který umí přesně natočit hřídel do určitého úhlu (většinou 0–180°).
 Uvnitř najdeme:
 - DC motor – pohon
@@ -101,7 +99,13 @@ servo.write(angle);
 analogRead() vrátí hodnotu od 0 do 1023
 map() ji převede na úhel od 0 do 180 stupňů pro servo
 
-## PWM s Arduinem - funkce analogWrite()
+# PWM s Arduinem - funkce analogWrite()
+
+### Cíle lekce
+- Pochopit jak funguje pulzně šířková modulace (PWM) a k čemu ji lze použít
+- Umět použít na Arduinu PWM pomocí funkce analogWrite()
+- Umět řídit pomocí PWM jednotlivé barvy RGB LEDky
+  
 PWM (Pulse Width Modulation) je metoda, která mění průměrnou hodnotu napětí rychlým zapínáním a vypínáním signálu. 
 
 Čím déle je signál v logické 1 (zapnutý), tím vyšší je výsledné napětí.
