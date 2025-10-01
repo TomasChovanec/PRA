@@ -1,3 +1,11 @@
+### Cíle lekce
+- Pochopit jak funguje modelářské servo, z čeho se skládá, jak se řídí
+- Umět přidat do Arduino program knihovnu
+- Ovládat servo pomocí knihovny
+- Pochopit jak funguje pulzně šířková modulace (PWM) a k čemu ji lze použít
+- Umět použít na Arduinu PWM pomocí funkce analogWrite()
+- Umět řídit pomocí PWM jednotlivé barvy RGB LEDky
+
 # Servomotor
 Je to malý motor s převodovkou, který umí přesně natočit hřídel do určitého úhlu (většinou 0–180°).
 Uvnitř najdeme:
