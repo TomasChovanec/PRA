@@ -3,13 +3,13 @@ Projekt sestává z vytvoření fyzického zapojení s Arduinem a alespoň dvěm
 Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prostor pro dotazy a řešení problémů. Konzultovat se mnou můžete také kdykoli prostřednictvím aplikace Teams.
 
 ## Hodnocení
-- Jedna známka za samotný projekt (fyzické zapojení a program) a jeho prezentaci
+- Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
     - Funkčnost, splnění všech bodů zadání (7 bodů)
     - Znalost toho, jak program funguje (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali) (8 bodů)
     - Včasné odevzdání (5 bodů)
     - Prezentace před třídou včetně předvedení funkčnosti (5 bodů)
     
-- Druhá známka za dokumentaci a prezentaci projektu
+- Druhá známka s váhou 1.0 za dokumentaci projektu
     - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) (1 bod)
     - **Zadání** - kompletní zadání zkopírované z Githubu (1 bod)
     - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...) (5 bodů)
