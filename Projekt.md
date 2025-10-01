@@ -20,6 +20,14 @@ Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prost
         - **Seznam použitých zdrojů** včetně odkazů na použité knihovny (2 body)
         - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (2 body)
 
+| Body    | Známka|
+|---------|-------|
+| 25 - 22 | 1     |
+| 21 - 16 | 2     |
+| 15 - 10 | 3     |
+| 9 - 5   | 4     |
+| 5 - 0   | 5     |
+
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Elektronická hrací kostka
 - Elektronické piano
