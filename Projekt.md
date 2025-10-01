@@ -14,6 +14,13 @@ Každé využití AI, které vám pomohlo, stručně popište v dokumentaci proj
 ### Buďte schopni obhájit řešení
 Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvětlit, proč to tam je a jak to funguje. Během prezentace se na to budu ptát, viz. hodnocení projektu. **V extrémním případě, pokud nebudete tušit, jak program funguje a bude zjevné, že vznikl jen zkopírováním výsledku vygenerovaného z kompletního zadání, nebude projekt přijat a pokud nebude do dalšího termínu přepracován, bude hodnocen známkami 5.**
 
+## 	Obecná pravidla pro psaní programu
+- Zarovnávejte kód (klidně použijte funkci autoformat v Arduino IDE CTRL+T)
+- Pro kód, který se opakuje za sebou použijte cyklus
+- Kód, který se opakuje na různých místech programu vytvořte jako samostatnou funkci
+- Pro čísla pinů a různé výpočetní konstanty si nadefinujte konstantní proměnné, nepoužívejte "magic numbers"
+- Používejte komentáře, ne nutně na každém řádku, ale okomentujte jednotlivé bloky kódu, aby bylo jasné, jaká je jejich funkce
+
 
 ## Hodnocení
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
