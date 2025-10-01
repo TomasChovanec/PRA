@@ -12,7 +12,7 @@ Pokud něco nechápete, zeptejte se modelu tak, abyste dostali vysvětlení (nap
 Každé využití AI, které vám pomohlo, stručně popište v dokumentaci projektu v popisu řešení. Např.: „LLM jsem použil k vysvětlení funkce map().“ nebo  „LLM mi pomohl najít chybu v syntaxi if podmínky.“
 
 ### Buďte schopni obhájit řešení
-Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvětlit, proč to tam je a jak to funguje. Během prezentace se na to budu ptát, viz. hodnocení projektu. V extrémním případě, pokud nebudete tušit, jak program funguje a bude zjevné, že vzninl jen zkopírováním výsledku vygenerovaného z kompletního zadání, nebude projekt přijat a pokud nebude do dalšího termínu přepracován, bude hodnocen známkami 5.
+Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvětlit, proč to tam je a jak to funguje. Během prezentace se na to budu ptát, viz. hodnocení projektu. V extrémním případě, pokud nebudete tušit, jak program funguje a bude zjevné, že vznikl jen zkopírováním výsledku vygenerovaného z kompletního zadání, nebude projekt přijat a pokud nebude do dalšího termínu přepracován, bude hodnocen známkami 5.
 
 
 ## Hodnocení
