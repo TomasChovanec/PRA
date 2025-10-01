@@ -17,10 +17,10 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 
 ## Hodnocení
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
-    - Funkčnost, splnění všech bodů zadání (7 bodů)
-    - Znalost toho, jak program funguje (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali) (8 bodů)
-    - Včasné odevzdání (5 bodů)
-    - Prezentace před třídou včetně předvedení funkčnosti (5 bodů)
+    - **Funkčnost**, splnění všech bodů zadání (7 bodů)
+    - **Znalost toho, jak program funguje** (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali) (8 bodů)
+    - **Včasné odevzdání** (5 bodů)
+    - **Prezentace** před třídou včetně předvedení funkčnosti (2min prezentace plus čas na dotazy. Vhodné je během prezentace buďto promítnout fotky/video projektu nebo projekt předvést na živo) (5 bodů)
     
 - Druhá známka s váhou 1.0 za dokumentaci projektu
     - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
