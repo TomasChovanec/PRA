@@ -1,4 +1,8 @@
-## Teplotní a vlhkostní čidlo DHT11
+# Teplotní a vlhkostní čidlo DHT11
+
+### Cíle lekce
+- Chápat princip čidla DHT11
+- Umět nainstalovat novou knihovnu do Arduina pomocí Library manageru
 
 DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Připojuje se k Arduinu 3 piny: VCC, GND, DATA. Má plastové pouzdro s otvory pro proudění vzduchu a uvnitř obsahuje:
 
@@ -63,7 +67,12 @@ void loop() {
 ```
 
 
-## LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+# LCD displej s I2C modulem a knihovnou [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+
+### Cíle lekce
+- Umět nainstalovat novou knihovnu do Arduina ze .zip souboru
+- Chápat princip sběrnice I2C
+- Umět použít LCD displej pro zobrazení dat z Arduina
 
 [Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
