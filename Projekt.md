@@ -2,6 +2,20 @@
 Projekt sestává z vytvoření fyzického zapojení s Arduinem a alespoň dvěmi periferiemi (motory, displeje, čidla, ...) a vytvoření programu.
 Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prostor pro dotazy a řešení problémů. Konzultovat se mnou můžete také kdykoli prostřednictvím aplikace Teams.
 
+## Využití AI nástrojů
+
+###AI je váš konzultant, ne řešitel
+
+Můžete ho používat k vysvětlení nejasností, nalezení chyb, získání nápadů na postup nebo pochopení principů. Nesmíte ale pouze zadat celé zadání a použít odpověď jako hotové řešení.
+Pokud něco nechápete, zeptejte se modelu tak, abyste dostali vysvětlení (např. „Proč mi tenhle cyklus končí o jeden krok dřív?“, „Jaký je rozdíl mezi analogRead a digitalRead?“).
+
+### Dokumentujte použití
+Každé využití AI, které vám pomohlo, stručně popište v závěrečné zprávě/projektu. Např.: „LLM jsem použil k vysvětlení funkce map().“nebo  „LLM mi pomohl najít chybu v syntaxi if podmínky.“
+
+### Buďte schopni obhájit řešení
+Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvětlit, proč to tam je a jak to funguje. Během prezentace se na to budu ptát, viz. hodnocení projektu. V extrémním případě, pokud nebudete tušit, jak program funguje a bude zjevné, že vzninl jen zkopírováním výsledku vygenerovaného z kompletního zadání, nebude projekt přijat a pokud nebude do dalšího termínu přepracován, bude hodnocen známkami 5.
+
+
 ## Hodnocení
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
     - Funkčnost, splnění všech bodů zadání (7 bodů)
