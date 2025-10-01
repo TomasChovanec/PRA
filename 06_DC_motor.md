@@ -31,7 +31,7 @@ Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWri
 
 
 ## Výukový robot
-<img src="img/06_DC_motor_3.png" width="450"/>
+<img src="https://github.com/user-attachments/assets/13c0c4fc-5f4b-4c16-a229-e5a02be392b2" width="600"/>
 
 Robot, kterého budeme ve výuce použivat, v sobě obsahuje Arduino Nano (má stejný procesor jako Arduino UNO, které obvykle používáme, ale má menší desku). Aby mohl jezdit, má dva stejnosměrné motory s převodovkou, kteér jsou řízeny pomocí H můstku DRV8833. [Schéma](https://github.com/TomasChovanec/Arduino_robotek/blob/main/FrenGP_robot/Robot_schematics.pdf) pro výukového robota ke stažení [zde](https://github.com/TomasChovanec/Arduino_robotek/raw/main/FrenGP_robot/Robot_schematics.pdf)
 
