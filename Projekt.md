@@ -1,5 +1,5 @@
 # Samostatný projekt
-Projekt sestává z vytvoření fyzického zapojení s Arduinem a alespoň dvěmi periferiemi (motory, displeje, čidla, ...) a vytvoření programu.
+Projekt sestává z vytvoření fyzického zapojení **s Arduinem a alespoň dvěmi periferiemi** (motory, displeje, čidla, ...) a vytvoření programu.
 Projekt budete vypracovávat převážně doma, na hodinách bude vyhrazen prostor pro dotazy a řešení problémů. Konzultovat se mnou můžete také kdykoli prostřednictvím aplikace Teams.
 
 ## Využití AI nástrojů
