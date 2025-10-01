@@ -107,9 +107,8 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 - Stisknuté tlačítko = LOW
 - Nestisknuté tlačítko = HIGH
 
-<img width="880" height="527" alt="image" src="https://github.com/user-attachments/assets/8a3c93d7-799e-4c42-a0a0-cc83bef7be78" />
+<img width="880" height="527" alt="image" src="https://github.com/user-attachments/assets/636b5ca5-db93-403b-84df-f84a689a0729" />
 
-*Zdroj obrázku: https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/*
 
 ## Úkoly
 **1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
