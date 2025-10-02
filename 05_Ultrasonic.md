@@ -128,7 +128,7 @@ void loop() {
 ```
 
 ## Úkoly
-1. Vytvořte funkci pro blikání LEDkou ```blikej(int pocet_bliknuti, int delka_bliknuti);``` Aby například kód ```blikej(5, 200);``` bliknul LEDkou 5x s periodou 200 ms.
+1. Vytvořte funkci pro blikání LEDkou ```blikej(int pocet_bliknuti, int delka_bliknuti)``` Aby například kód ```blikej(5, 200);``` bliknul LEDkou 5x s periodou 200 ms.
 2. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```, která bude vracet délku v centimetrech.
 
 
