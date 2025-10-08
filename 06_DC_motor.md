@@ -50,14 +50,13 @@ Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a 
 ![image](img/06_DC_motor_6.png)
 
 ## Úkoly
-1. Prostudujte si schéma robota. Zkuste roztočit oba motory.
+1. Prostudujte si schéma robota. Zkuste roztočit oba motory oběma směry.
 1. Vytvořte funkce ```vpred(int rychlost)```, ```vzad(int rychlost)```, ```vlevo(int rychlost)```, ```vpravo(int rychlost)``` a ```stop()```
-1. Napište program, kde robot jede vpřed 2 sekundy, pak se otočí doprava a jede dál.
-1. Robot pojede rychle dopředu, po 3s se otočí o 180°a pojede pomalu zpět.
+1. Napište program, kde robot pojede rychle dopředu, po 3s se otočí o 180°a pojede pomalu zpět.
 1. Pokud jede šikmo, upravte rychlosti jednotlivých motorů, aby jel rovně.
-1. Přidejte bezpečnostní funkci - robot se spustí až po stisknutí tlačítka.
+1. Přidejte bezpečnostní funkci - robot se nerozjede hned po nahrání programu, ale až po stisknutí tlačítka na robotovi.
 1. Použijte ultrazvukový senzor pro detekci překážky - pokud je detekována překážka do 20 cm, zastavte robota.
-1. Stejně jako v předchozím bodě, ale přidejte při detekci překážky automatické couvání a otočení.
+1. Stejně jako v předchozím bodě, ale přidejte při detekci překážky krátce zacouvejte a pokračujte jiným směrem.
 
 
 ## [Zpět na obsah](README.md)
