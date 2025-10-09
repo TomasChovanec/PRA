@@ -47,7 +47,12 @@ Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sob
 ## Režimy ovládání motoru
 Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a IN2 pro první motor a IN3 A IN4 pro druhý motor:
 
-![image](img/06_DC_motor_6.png)
+| IN1     | IN2     | Spinning Direction |
+|----------|----------|--------------------|
+| Low (0)  | Low (0)  | Motor OFF          |
+| Low (0)  | High (1) | Forward            |
+| High (1) | Low (0)  | Reverse            |
+| High (1) | High (1) | Motor OFF          |
 
 ## Úkoly
 1. Prostudujte si schéma robota. Zkuste roztočit oba motory oběma směry.
