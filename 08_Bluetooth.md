@@ -32,7 +32,7 @@ Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku,
 
 *Zdroj obrázku: https://wiki.keyestudio.com/Ks0153_keyestudio_JoyStick_Shield*
 
-<img width="1250" height="487" alt="image" src="https://github.com/user-attachments/assets/ed105bf0-5f1e-4768-8752-d4816620848b" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/ed105bf0-5f1e-4768-8752-d4816620848b" />
 
 *Připojení Bluetooth modulu do školního robota a Joystick shieldu*
 
