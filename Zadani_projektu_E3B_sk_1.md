@@ -39,4 +39,7 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 - Pomocí ultrazvukového čidla implementujte zastavení před překážkou
 - Po resetu Arduina musí být robot v bezpečném stavu (motory zastaveny), rozjede se až po stisknutí startovacího tlačítka (mikrospínač na robotovi, nikoli vypínač napájení)
 
+### Docházkový systém
+- Pomocí Arduina, logger shieldu (RTC modul a modul pro SD kartu) a RFID modulu vytvořte jednoduchou evidenci docházky
+- Po přiložení čipu začne Arduino počítat čas na pracovišti. Po opětovném přiložení na SD kartu zapíše čas příchdou, odchodu a celkovou odpracovanou dobu
 
