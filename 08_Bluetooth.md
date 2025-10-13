@@ -32,9 +32,9 @@ Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku,
 
 *Zdroj obrázku: https://wiki.keyestudio.com/Ks0153_keyestudio_JoyStick_Shield*
 
-![image](img/08_Bluetooth_4.png)
+<img width="1250" height="487" alt="image" src="https://github.com/user-attachments/assets/ed105bf0-5f1e-4768-8752-d4816620848b" />
 
-*Připojení Bluetooth modulu do Joystick shieldu a na školního robota*
+*Připojení Bluetooth modulu do školního robota a Joystick shieldu*
 
 ## Úkoly
 Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Bluetooth.
