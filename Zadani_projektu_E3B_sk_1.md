@@ -12,6 +12,12 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 - Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
 - Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
+### Regulace ventilátoru (Jiří 6.11.)
+- Pomocí teplotního čidla a Arduina ovládejte otáčky ventilátoru v závislosti na aktuální teplotě.
+- Pod 25 °C: ventilátor vypnutý
+- 25–30 °C: 30–60 % výkonu
+- Nad 30 °C: 100 % výkonu a přerušovaný zvukový signál
+- Aktuální hodnotu teploty a PWM zobrazujte na LCD displeji
 
 ### Elektronická kostka (Sebastian 13.11.)
 - Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
