@@ -6,10 +6,10 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 
 
 ### Hra na postřeh 2 hráče (Ondřej 6.11.)
-- Pomocí Arduina vytvořte hru na postřeh pro dva hráče
-- Po spuštění hry se postupně rozsítí všechny LED a pak po náhodném intervalu zhasnou
+- Pomocí Arduina a OLED displaye vytvořte hru na postřeh pro dva hráče
+- Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
-- Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
+- Program po každém kole se na OLED displayi ukáže, který hráč vyhrál a o kolik sekund
 - Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Regulace ventilátoru (Jiří 6.11.)
