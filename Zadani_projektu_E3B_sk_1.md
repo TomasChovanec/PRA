@@ -19,6 +19,10 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 - Nad 30 °C: 100 % výkonu a přerušovaný zvukový signál
 - Aktuální hodnotu teploty a PWM zobrazujte na LCD displeji
 
+### Ovládání robota joystickem (Tomáš 6.11.)
+ - Naprogramujte školního robota tak, aby se dal ovládat přes Bluetooth joystickem
+ - Přidejte funkci automatického zastavení před překážkou pomocí ultrazvukového čidla
+
 ### Elektronická kostka (Sebastian 13.11.)
 - Pomocí Arduina, LED diod a  tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
