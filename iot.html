@@ -30,8 +30,23 @@
   </head>
   <body>
     <div class="card">
-      <h1>Aktuální teplota</h1>
-      <div id="value">...</div>
+      <h1>Teplota_1</h1>
+      <div id="value1">...</div>
+    </div>
+	
+	    <div class="card">
+      <h1>Teplota_2</h1>
+      <div id="value2">...</div>
+    </div>
+	
+	    <div class="card">
+      <h1>Teplota_3</h1>
+      <div id="value3">...</div>
+    </div>
+	
+	    <div class="card">
+      <h1>Teplota_4</h1>
+      <div id="value4">...</div>
     </div>
 
     <script>
@@ -44,17 +59,25 @@
       firebase.initializeApp(firebaseConfig);
       const db = firebase.database();
 
-      // 📡 Odběr hodnoty teplota
       const ref = db.ref("Temperature_1");
-      ref.on("value", (snapshot) => {
+      ref.on("value1", (snapshot) => {
         const val = snapshot.val();
-        document.getElementById("value").textContent = val + " °C";
+        document.getElementById("value1").textContent = val + " °C";
       });
+	  
+      const ref = db.ref("Temperature_2");
+      ref.on("value2", (snapshot) => {
+        const val = snapshot.val();
+        document.getElementById("value2").textContent = val + " °C";
+      });
+
+      const ref = db.ref("Temperature_3");
+      ref.on("value3", (snapshot) => {
+        const val = snapshot.val();
+        document.getElementById("value3").textContent = val + " °C";
+      });
+	  
     </script>
 
-    <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-</div>
-    
   </body>
 </html>
