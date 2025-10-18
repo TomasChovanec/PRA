@@ -44,6 +44,30 @@
       <h3>Temperature 3</h3>
       <div class="value" id="t3">-- °C</div>
     </div>
+    <div class="card">
+      <h3>Temperature 4</h3>
+      <div class="value" id="t4">-- °C</div>
+    </div>
+    <div class="card">
+      <h3>Temperature 5</h3>
+      <div class="value" id="t5">-- °C</div>
+    </div>
+    <div class="card">
+      <h3>Temperature 6</h3>
+      <div class="value" id="t6">-- °C</div>
+    </div>
+    <div class="card">
+      <h3>Temperature 7</h3>
+      <div class="value" id="t7">-- °C</div>
+    </div>
+    <div class="card">
+      <h3>Temperature 8</h3>
+      <div class="value" id="t8">-- °C</div>
+    </div>
+    <div class="card">
+      <h3>Temperature 9</h3>
+      <div class="value" id="t9">-- °C</div>
+    </div>
   </div>
 
   <script>
@@ -57,6 +81,12 @@
         document.getElementById("t1").textContent = (data.Temperature_1 ?? "--") + " °C";
         document.getElementById("t2").textContent = (data.Temperature_2 ?? "--") + " °C";
         document.getElementById("t3").textContent = (data.Temperature_3 ?? "--") + " °C";
+        document.getElementById("t1").textContent = (data.Temperature_4 ?? "--") + " °C";
+        document.getElementById("t2").textContent = (data.Temperature_5 ?? "--") + " °C";
+        document.getElementById("t3").textContent = (data.Temperature_6 ?? "--") + " °C";
+        document.getElementById("t1").textContent = (data.Temperature_7 ?? "--") + " °C";
+        document.getElementById("t2").textContent = (data.Temperature_8 ?? "--") + " °C";
+        document.getElementById("t3").textContent = (data.Temperature_9 ?? "--") + " °C";
       } catch (err) {
         console.error("Chyba při načítání dat:", err);
       }
