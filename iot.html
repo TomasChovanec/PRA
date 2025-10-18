@@ -65,18 +65,6 @@
         document.getElementById("value").textContent = val + " °C";
       });
 	  
-      const ref = db.ref("Temperature_2");
-      ref.on("value2", (snapshot) => {
-        const val = snapshot.val();
-        document.getElementById("value2").textContent = val + " °C";
-      });
-
-      const ref = db.ref("Temperature_3");
-      ref.on("value3", (snapshot) => {
-        const val = snapshot.val();
-        document.getElementById("value3").textContent = val + " °C";
-      });
-	  
     </script>
 
   </body>
