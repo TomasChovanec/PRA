@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Online teplota</title>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background: #f8fafc;
+        margin-top: 50px;
+      }
+      .card {
+        display: inline-block;
+        background: white;
+        padding: 30px 50px;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+      #value {
+        font-size: 4em;
+        color: #007aff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Aktuální teplota</h1>
+      <div id="value">...</div>
+    </div>
+
+    <script>
+      // 🔧 Sem vlož svou konfiguraci
+      const firebaseConfig = {
+        apiKey: "BOQInyAAfsXbPbrzWa1KNnrkY72D24yUatM0nQd0",
+        databaseURL: "arduino-pokus-default-rtdb.firebaseio.com",
+      };
+
+      // 🔥 Inicializace Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+
+      // 📡 Odběr hodnoty teplota
+      const ref = db.ref("teplota");
+      ref.on("value", (snapshot) => {
+        const val = snapshot.val();
+        document.getElementById("value").textContent = val + " °C";
+      });
+    </script>
+  </body>
+</html>
