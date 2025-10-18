@@ -45,7 +45,7 @@
       const db = firebase.database();
 
       // 📡 Odběr hodnoty teplota
-      const ref = db.ref("ADC_input/int/data");
+      const ref = db.ref("Temperature_1");
       ref.on("value", (snapshot) => {
         const val = snapshot.val();
         document.getElementById("value").textContent = val + " °C";
