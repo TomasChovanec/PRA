@@ -31,7 +31,7 @@
   <body>
     <div class="card">
       <h1>Teplota_1</h1>
-      <div id="value1">...</div>
+      <div id="value">...</div>
     </div>
 	
 	    <div class="card">
@@ -60,9 +60,9 @@
       const db = firebase.database();
 
       const ref = db.ref("Temperature_1");
-      ref.on("value1", (snapshot) => {
+      ref.on("value", (snapshot) => {
         const val = snapshot.val();
-        document.getElementById("value1").textContent = val + " °C";
+        document.getElementById("value").textContent = val + " °C";
       });
 	  
       const ref = db.ref("Temperature_2");
