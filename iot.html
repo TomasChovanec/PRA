@@ -98,14 +98,25 @@
     // Načíst ihned po otevření
     fetchTemperatures();
 
-    slider.addEventListener("input", () => {
-      const val = slider.value;
-      valueLabel.textContent = val;
+    // 🔥 ODESÍLÁNÍ HODNOTY SLIDERU DO FIREBASE
+    const slider = document.getElementById("slider");
+    const sliderValue = document.getElementById("sliderValue");
 
-      // Zápis do Realtime Database
-      set(ref(db, "Temperature_2"), val)
-        .then(() => console.log("Uloženo:", val))
-        .catch((err) => console.error("Chyba:", err));
+    slider.addEventListener("input", async () => {
+      const val = Number(slider.value);
+      sliderValue.textContent = val;
+
+      try {
+        // PUT přepíše hodnotu Temperature_6
+        await fetch(dbURL + "/Temperature_6.json", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(val)
+        });
+        console.log("Hodnota Temperature_6 uložena:", val);
+      } catch (err) {
+        console.error("Chyba při zápisu do Firebase:", err);
+      }
     });
 
     // Obnovovat každých 5 sekund
