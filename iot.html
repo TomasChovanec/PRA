@@ -104,7 +104,7 @@
     const slider = document.getElementById("slider");
     const sliderValue = document.getElementById("sliderValue");
 
-    slider.addEventListener("input", async () => {
+    slider.addEventListener("change", async () => {
       const val = Number(slider.value);
       if (sliderValue) sliderValue.textContent = val;
 
