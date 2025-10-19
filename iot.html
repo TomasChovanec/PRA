@@ -68,7 +68,10 @@
       <h3>Temperature 9</h3>
       <div class="value" id="t9">-- °C</div>
     </div>
-  </div>
+
+    <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="slider">
+</div>
 
   <script>
     const dbURL = "https://arduino-pokus-default-rtdb.firebaseio.com";
@@ -94,6 +97,16 @@
 
     // Načíst ihned po otevření
     fetchTemperatures();
+
+    slider.addEventListener("input", () => {
+      const val = slider.value;
+      valueLabel.textContent = val;
+
+      // Zápis do Realtime Database
+      set(ref(db, "Temperature_2"), val)
+        .then(() => console.log("Uloženo:", val))
+        .catch((err) => console.error("Chyba:", err));
+    });
 
     // Obnovovat každých 5 sekund
     setInterval(fetchTemperatures, 5000);
