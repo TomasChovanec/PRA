@@ -48,4 +48,84 @@
 
   <div id="temperatures">
     <div class="card"><h3>Temperature 1</h3><div class="value" id="t1">-- °C</div></div>
-    <div class="card"><h3>Temperature 2</h3><div class="value" id="t2">-- °C</div></
+    <div class="card"><h3>Temperature 2</h3><div class="value" id="t2">-- °C</div></div>
+    <div class="card"><h3>Temperature 3</h3><div class="value" id="t3">-- °C</div></div>
+    <div class="card"><h3>Temperature 4</h3><div class="value" id="t4">-- °C</div></div>
+    <div class="card"><h3>Temperature 5</h3><div class="value" id="t5">-- °C</div></div>
+    <div class="card"><h3>Temperature 6</h3><div class="value" id="t6">-- °C</div></div>
+    <div class="card"><h3>Temperature 7</h3><div class="value" id="t7">-- °C</div></div>
+    <div class="card"><h3>Temperature 8</h3><div class="value" id="t8">-- °C</div></div>
+    <div class="card"><h3>Temperature 9</h3><div class="value" id="t9">-- °C</div></div>
+  </div>
+
+  <div class="slidecontainer">
+    <h2>Nastav Temperature_6</h2>
+    <input type="range" min="1" max="100" value="50" class="slider" id="slider">
+    <p>Aktuální hodnota: <span id="sliderValue">50</span> °C</p>
+  </div>
+
+  <div id="errorBox"></div>
+
+  <script>
+    const dbURL = "https://arduino-pokus-default-rtdb.firebaseio.com";
+
+    async function fetchTemperatures() {
+      try {
+        const response = await fetch(dbURL + "/.json");
+        const data = await response.json();
+
+        document.getElementById("t1").textContent = (data.Temperature_1 ?? "--") + " °C";
+        document.getElementById("t2").textContent = (data.Temperature_2 ?? "--") + " °C";
+        document.getElementById("t3").textContent = (data.Temperature_3 ?? "--") + " °C";
+        document.getElementById("t4").textContent = (data.Temperature_4 ?? "--") + " °C";
+        document.getElementById("t5").textContent = (data.Temperature_5 ?? "--") + " °C";
+        document.getElementById("t6").textContent = (data.Temperature_6 ?? "--") + " °C";
+        document.getElementById("t7").textContent = (data.Temperature_7 ?? "--") + " °C";
+        document.getElementById("t8").textContent = (data.Temperature_8 ?? "--") + " °C";
+        document.getElementById("t9").textContent = (data.Temperature_9 ?? "--") + " °C";
+      } catch (err) {
+        showError("Chyba při načítání dat: " + err.message);
+      }
+    }
+
+    function showError(msg) {
+      console.error(msg);
+      const box = document.getElementById("errorBox");
+      if (box) box.textContent = msg;
+    }
+
+    // 🔄 Načíst ihned po otevření
+    fetchTemperatures();
+
+    // ♻️ Obnovovat každých 5 sekund
+    setInterval(fetchTemperatures, 5000);
+
+    // 🎚️ Ovládání slideru
+    const slider = document.getElementById("slider");
+    const sliderValue = document.getElementById("sliderValue");
+
+    slider.addEventListener("input", async () => {
+      const val = Number(slider.value);
+      if (sliderValue) sliderValue.textContent = val;
+
+      try {
+        const res = await fetch(dbURL + "/Temperature_6.json", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(val)
+        });
+
+        if (!res.ok) {
+          const txt = await res.text();
+          showError(`Chyba zápisu (${res.status}): ${txt}`);
+        } else {
+          console.log("Hodnota Temperature_6 uložena:", val);
+          showError(""); // vymaž chybu, pokud vše OK
+        }
+      } catch (err) {
+        showError("Fetch selhal: " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>
