@@ -26,52 +26,37 @@
       font-weight: bold;
       color: #007bff;
     }
+    .slidecontainer {
+      margin-top: 2rem;
+    }
+    input[type=range] {
+      width: 300px;
+    }
+    #sliderValue {
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <h1>Aktuální teploty</h1>
 
   <div id="temperatures">
-    <div class="card">
-      <h3>Temperature 1</h3>
-      <div class="value" id="t1">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 2</h3>
-      <div class="value" id="t2">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 3</h3>
-      <div class="value" id="t3">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 4</h3>
-      <div class="value" id="t4">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 5</h3>
-      <div class="value" id="t5">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 6</h3>
-      <div class="value" id="t6">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 7</h3>
-      <div class="value" id="t7">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 8</h3>
-      <div class="value" id="t8">-- °C</div>
-    </div>
-    <div class="card">
-      <h3>Temperature 9</h3>
-      <div class="value" id="t9">-- °C</div>
-    </div>
+    <div class="card"><h3>Temperature 1</h3><div class="value" id="t1">-- °C</div></div>
+    <div class="card"><h3>Temperature 2</h3><div class="value" id="t2">-- °C</div></div>
+    <div class="card"><h3>Temperature 3</h3><div class="value" id="t3">-- °C</div></div>
+    <div class="card"><h3>Temperature 4</h3><div class="value" id="t4">-- °C</div></div>
+    <div class="card"><h3>Temperature 5</h3><div class="value" id="t5">-- °C</div></div>
+    <div class="card"><h3>Temperature 6</h3><div class="value" id="t6">-- °C</div></div>
+    <div class="card"><h3>Temperature 7</h3><div class="value" id="t7">-- °C</div></div>
+    <div class="card"><h3>Temperature 8</h3><div class="value" id="t8">-- °C</div></div>
+    <div class="card"><h3>Temperature 9</h3><div class="value" id="t9">-- °C</div></div>
+  </div>
 
-    <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="slider">
-</div>
+  <div class="slidecontainer">
+    <h2>Nastav Temperature_6</h2>
+    <input type="range" min="1" max="100" value="50" class="slider" id="slider">
+    <p>Aktuální hodnota: <span id="sliderValue">50</span> °C</p>
+  </div>
 
   <script>
     const dbURL = "https://arduino-pokus-default-rtdb.firebaseio.com";
@@ -98,6 +83,9 @@
     // Načíst ihned po otevření
     fetchTemperatures();
 
+    // Obnovovat každých 5 sekund
+    setInterval(fetchTemperatures, 5000);
+
     // 🔥 ODESÍLÁNÍ HODNOTY SLIDERU DO FIREBASE
     const slider = document.getElementById("slider");
     const sliderValue = document.getElementById("sliderValue");
@@ -118,9 +106,6 @@
         console.error("Chyba při zápisu do Firebase:", err);
       }
     });
-
-    // Obnovovat každých 5 sekund
-    setInterval(fetchTemperatures, 5000);
   </script>
 </body>
 </html>
