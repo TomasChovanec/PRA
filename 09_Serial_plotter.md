@@ -52,7 +52,26 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 - Naprogramujte Arduino, aby se na pinu 13 střídala log. 1 a log. 0 každou sekundu
 - Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
-  
+
+Protože pokud bychom pro blikání používali funkci delay(), procesor by měřil data jen jednou za sekundu, použijeme pro blikání fuknci millis():
+ ```c
+unsigned long previousMillis = 0;  // poslední čas, kdy se LEDou blinkulo
+int ledPin = 13;
+ 
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+ 
+  unsigned long currentMillis = millis(); // uloží současný čas
+  if (currentMillis - previousMillis >= 1000) { //pokud od minulého blinkutí uplynulo více než 1s
+    digitalWrite(ledPin, !digitalRead(ledPin)); // zneguje stav LEDky
+    previousMillis = currentMillis; // uloží nový čas posledního bliknutí
+  }
+}
+```
+
 ![image](img/09_Serial_plotter_7.png)
 
 ## Další užitečné články a videa
