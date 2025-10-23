@@ -43,5 +43,5 @@ Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché "piano".
 - Po puštění tlačítka se hodnota zastaví
 
 
-### Hra Snake (Filip 13.11.)
-- Pomocí Arduina, OLED displeje a joysticku vytvořte hru Snake
+### Herní konzole(Filip 13.11.)
+- Pomocí Arduina, OLED displeje a joysticku vytvořte herní konzoli s hrami: Snake, Tetris popř. další
