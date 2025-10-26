@@ -78,3 +78,5 @@ void loop() {
 1. Vytvořte funkci pro blikání LEDkou ```void blikej(int pocet_bliknuti)``` Aby například kód ```blikej(5);``` bliknul 5x LEDkou na pinu 13. Periodu blikání nechám na vás.
 2. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```, která bude vracet délku v centimetrech.
 
+
+### [Zpět na obsah](README.md)
