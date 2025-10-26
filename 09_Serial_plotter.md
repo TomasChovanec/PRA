@@ -1,4 +1,10 @@
 ## Arduino jako jednoduchý měřící přístroj
+
+### Cíle lekce
+- Umět použít Arduino pro měření napětí
+- Umět naměřená data vizualizovat na PC
+- Praktickým měřením si připomenout chování kondenzátoru ve stejnosměrném obvodu
+  
 Arduino má mnoho vstupů, na kterých dokáže měřit jak digitálně stav logické 1 nebo 0, tak i několik analogových pinů, schopných měřit napětí od nuly do 5V. Lze ho tedy použít jako jednoduchý měřící přístroj. Může kontinuálně měřit data a posílat je do počítače, který už je dále zpracuje (uloží, zobrazí, vykreslí graf,...)
 
 <img src="img/09_Serial_plotter_1.png" width="450"/>
