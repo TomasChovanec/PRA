@@ -59,3 +59,5 @@ void loop() {
 ### Úkoly
 1. Připojte k Arduinu krokový motor a otáčejte čtvrt otáčky doleva a půl otáčky doprava.
 2. Přidejte ještě tlačítko. Při držení tlačítka se bude motor točit doleva, pokud tlačítko není stisknuto tak doprava.
+
+### [Zpět na obsah](README.md)
