@@ -24,7 +24,9 @@ Kromě obligátního +5V napájení a GND musíme čidlo připojit ke dvěma lib
 
 ![image](img/05_Ultrasonic_stepper_2.png)
 
-![image](https://howtomechatronics.com/wp-content/uploads/2015/07/Ultrasonic-Sensor-Diagram.png)
+### Průběh signálu na pinech Trig a Echo:
+
+<img src="https://howtomechatronics.com/wp-content/uploads/2015/07/Ultrasonic-Sensor-Diagram.png" width="600"/>
 
 ### Funkce pulseIn()
 Abychom zjistili změřenou vzdálenost, potřebujeme změřit délku pulzu na pinu Echo. Mohli bychom pro to použít periferii mikrokontroleru časovač, ale usnadníme si práci využitím standartní funkce Arduino pulseIn(). Funkce vyžaduje dva argumenty -  na jakém pinu chceme pulz měřit a zda chceme měřit délku HIGH nebo LOW pulzu.
