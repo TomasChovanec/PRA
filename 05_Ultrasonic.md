@@ -1,11 +1,15 @@
 # Ultrazvukový sensor HC-SR04
-V dnešní lekci se naučíme pracovat se senzorem HC-SR04, který umožňuje měření vzdálenosti pomocí ultrazvuku. 
+
+### Cíle lekce
+- Pochopit princip ultrazvukového měření vzdálenosti
+- Seznámit se se senzorem HC-SR04
+- Vytvořit funkční zapojení a aprogram pro měření vzdálenosti
 
 Hlavní parametry senzoru:
 
-| Parametr              | Hodnota           |
-|-----------------------|------------------|
-| Napájecí napětí       | 5V               |
+| Parametr         | Hodnota          |
+|------------------|------------------|
+| Napájecí napětí  | 5V               |
 | Proudový odběr   | ~15 mA           |
 | Frekvence ultrazvuku | 40 kHz       |
 | Měřicí rozsah    | 2 – 400 cm       |
