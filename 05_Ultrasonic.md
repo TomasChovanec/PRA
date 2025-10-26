@@ -24,7 +24,7 @@ Kromě obligátního +5V napájení a GND musíme čidlo připojit ke dvěma lib
 
 ![image](img/05_Ultrasonic_stepper_2.png)
 
-![image](https://lastminuteengineers.com/wp-content/uploads/arduino/HC-SR04-Ultrasonic-Sensor-Working-Echo-reflected-from-Obstacle.gif)
+![image](https://howtomechatronics.com/wp-content/uploads/2015/07/Ultrasonic-Sensor-Diagram.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/*
 
