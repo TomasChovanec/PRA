@@ -28,6 +28,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Arduino jako měřící přístroj](09_Serial_plotter.md)
 1. [Fotorezistor](10_Fotorezistor.md)
 1. [Multitasking s Arduinem](07_Millis.md)
+2. [WiFi a IoT](Firebase_Nano_IoT.md)
 1. [Sledovač čáry](11_Line_follower.md)
 1. [Krokový motor](xx_Krokovy_motor.md)
 
