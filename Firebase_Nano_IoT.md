@@ -1,4 +1,4 @@
-# Internet of things
+# Internet of Things
 
 Internet věcí je propojení běžných zařízení do sítě, kde spolu mohou komunikovat a sdílet data bez přímého zásahu člověka.
 Zařízení (např. senzory, termostaty, osvětlení, kamery, meteostanice) posílají údaje přes Wi-Fi, Bluetooth nebo jiné protokoly do cloudu, kde se data ukládají, vyhodnocují nebo dál zpracovávají. Například:
