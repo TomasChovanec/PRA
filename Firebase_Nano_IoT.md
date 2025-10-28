@@ -143,11 +143,11 @@ void setup() {
 // --------------------------------------------------
 void loop() {
   // 🔹 1. Zápis hodnoty do Firebase
-  float teplota = random(200, 300) / 10.0;  // simulace 20.0–30.0
-  String value = String(teplota, 1);
-  send_data_to_firebase("/Temperature_1", value);
+  float teplota = 12.3;
+  String value = String(teplota, 1); // druhý argument udává počet desetinných míst
+  send_data_to_firebase("/Temperature_10", value);
   // 🔹 2. Čtení z Firebase
-  String json = get_data_from_firebase("/Temperature_2");
+  String json = get_data_from_firebase("/Slider_10");
   int precteno = parse_number(json);
   Serial.print("Přečtená teplota: ");
   Serial.print(precteno);
@@ -158,8 +158,8 @@ void loop() {
 ```
 
 ## Úkoly
-1. Připojte potenciometr, měřte a hodnotu odesílejte do Firebase
-2. čtěte z Firebase a nastavujte podle toho LEDku
-3. Zkuste natsavovat LEDku z telefonu
+1. Připojte potenciometr k Arduinu NANO 33 IoT, měřte a hodnotu odesílejte do Firebase pomocé funkce ```send_data_to_firebase("/Temperature_xxx", value);``` kde xxx bude číslo vaší Arduino sady.
+2. Čtěte z Firebase hodnotu slideru pomocí funkce ```get_data_from_firebase("/Slider_xxx");``` (opět za xxx dosaďte číslo své sady) a nastavujte podle toho jas LEDky připojené k Arduinu (funkcí analogWrite)
+3. Zkuste nastavovat stav LEDky z telefonu přes [https://tomaschovanec.github.io/PRA/iot](https://tomaschovanec.github.io/PRA/iot)
 
 ### [Zpět na obsah](README.md)
