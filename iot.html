@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Teplota z Firebase</title>
+  <title>IoT – Teploty a Slidery (Firebase)</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -11,7 +11,7 @@
       text-align: center;
       padding: 2rem;
     }
-    h1 { color: #333; }
+    h1, h2 { color: #333; }
     .card {
       display: inline-block;
       background: white;
@@ -21,19 +21,20 @@
       box-shadow: 0 3px 6px rgba(0,0,0,0.15);
       min-width: 180px;
     }
-    .value {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #007bff;
-    }
     .slidecontainer {
-      margin-top: 2rem;
+      margin: 2rem auto;
+      max-width: 600px;
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
     }
     input[type=range] {
-      width: 300px;
+      width: 80%;
     }
-    #sliderValue {
+    .slider-label {
       font-weight: bold;
+      margin-top: 0.5rem;
       color: #007bff;
     }
     #errorBox {
@@ -44,48 +45,98 @@
   </style>
 </head>
 <body>
-  <h1>Aktuální teploty</h1>
+  <h1>IoT – Teploty a Ovládání Sliderů</h1>
 
-  <div id="temperatures">
-    <div class="card"><h3>Temperature 1</h3><div class="value" id="t1">-- °C</div></div>
-    <div class="card"><h3>Temperature 2</h3><div class="value" id="t2">-- °C</div></div>
-    <div class="card"><h3>Temperature 3</h3><div class="value" id="t3">-- °C</div></div>
-    <div class="card"><h3>Temperature 4</h3><div class="value" id="t4">-- °C</div></div>
-    <div class="card"><h3>Temperature 5</h3><div class="value" id="t5">-- °C</div></div>
-    <div class="card"><h3>Temperature 6</h3><div class="value" id="t6">-- °C</div></div>
-    <div class="card"><h3>Temperature 7</h3><div class="value" id="t7">-- °C</div></div>
-    <div class="card"><h3>Temperature 8</h3><div class="value" id="t8">-- °C</div></div>
-    <div class="card"><h3>Temperature 9</h3><div class="value" id="t9">-- °C</div></div>
-  </div>
+  <!-- 🔹 Sekce pro zobrazení teplot -->
+  <h2>Aktuální teploty</h2>
+  <div id="temperatures"></div>
 
-  <div class="slidecontainer">
-    <h2>Nastav Temperature_6</h2>
-    <input type="range" min="1" max="100" value="50" class="slider" id="slider">
-    <p>Aktuální hodnota: <span id="sliderValue">50</span> °C</p>
-  </div>
+  <!-- 🔹 Sekce pro slidery -->
+  <h2>Ovládání Sliderů</h2>
+  <div id="sliders"></div>
 
   <div id="errorBox"></div>
 
   <script>
     const dbURL = "https://arduino-pokus-default-rtdb.firebaseio.com";
 
-    async function fetchTemperatures() {
-      try {
-        const response = await fetch(dbURL + "/.json");
-        const data = await response.json();
+    // === 🔸 ZOBRAZENÍ TELOT Z FIREBASE ===
+    const NUM_TEMPS = 10; // počet teplotních čidel
+    const tempContainer = document.getElementById("temperatures");
 
-        document.getElementById("t1").textContent = (data.Temperature_1 ?? "--") + " °C";
-        document.getElementById("t2").textContent = (data.Temperature_2 ?? "--") + " °C";
-        document.getElementById("t3").textContent = (data.Temperature_3 ?? "--") + " °C";
-        document.getElementById("t4").textContent = (data.Temperature_4 ?? "--") + " °C";
-        document.getElementById("t5").textContent = (data.Temperature_5 ?? "--") + " °C";
-        document.getElementById("t6").textContent = (data.Temperature_6 ?? "--") + " °C";
-        document.getElementById("t7").textContent = (data.Temperature_7 ?? "--") + " °C";
-        document.getElementById("t8").textContent = (data.Temperature_8 ?? "--") + " °C";
-        document.getElementById("t9").textContent = (data.Temperature_9 ?? "--") + " °C";
+    for (let i = 1; i <= NUM_TEMPS; i++) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>Temperature_${i}</h3>
+        <p><span id="temp${i}">--</span> °C</p>
+      `;
+      tempContainer.appendChild(card);
+    }
+
+    async function readTemperatures() {
+      try {
+        const res = await fetch(`${dbURL}/.json`);
+        if (!res.ok) throw new Error("Chyba čtení dat");
+        const data = await res.json();
+
+        for (let i = 1; i <= NUM_TEMPS; i++) {
+          const el = document.getElementById("temp" + i);
+          if (el && data && data[`Temperature_${i}`] != null) {
+            el.textContent = data[`Temperature_${i}`];
+          }
+        }
       } catch (err) {
-        showError("Chyba při načítání dat: " + err.message);
+        showError("Chyba čtení teplot: " + err.message);
       }
+    }
+
+    setInterval(readTemperatures, 2000);
+    readTemperatures();
+
+    // === 🔸 OVLÁDÁNÍ SLIDERŮ ===
+    const NUM_SLIDERS = 10;
+    const sliderContainer = document.getElementById("sliders");
+
+    for (let i = 1; i <= NUM_SLIDERS; i++) {
+      const div = document.createElement("div");
+      div.className = "slidecontainer";
+      div.innerHTML = `
+        <h3>Slider_${i}</h3>
+        <input type="range" min="0" max="100" value="50" class="slider" id="slider${i}">
+        <p>Aktuální hodnota: <span class="slider-label" id="value${i}">50</span></p>
+      `;
+      sliderContainer.appendChild(div);
+    }
+
+    for (let i = 1; i <= NUM_SLIDERS; i++) {
+      const slider = document.getElementById("slider" + i);
+      const valEl = document.getElementById("value" + i);
+
+      slider.addEventListener("input", () => {
+        valEl.textContent = slider.value;
+      });
+
+      slider.addEventListener("change", async () => {
+        const val = Number(slider.value);
+        try {
+          const res = await fetch(`${dbURL}/Slider_${i}.json`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(val)
+          });
+
+          if (!res.ok) {
+            const txt = await res.text();
+            showError(`Chyba zápisu Slider_${i} (${res.status}): ${txt}`);
+          } else {
+            console.log(`Slider_${i} -> ${val}`);
+            showError("");
+          }
+        } catch (err) {
+          showError(`Fetch selhal pro Slider_${i}: ${err.message}`);
+        }
+      });
     }
 
     function showError(msg) {
@@ -93,39 +144,6 @@
       const box = document.getElementById("errorBox");
       if (box) box.textContent = msg;
     }
-
-    // 🔄 Načíst ihned po otevření
-    fetchTemperatures();
-
-    // ♻️ Obnovovat každých 5 sekund
-    setInterval(fetchTemperatures, 5000);
-
-    // 🎚️ Ovládání slideru
-    const slider = document.getElementById("slider");
-    const sliderValue = document.getElementById("sliderValue");
-
-    slider.addEventListener("change", async () => {
-      const val = Number(slider.value);
-      if (sliderValue) sliderValue.textContent = val;
-
-      try {
-        const res = await fetch(dbURL + "/Temperature_6.json", {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(val)
-        });
-
-        if (!res.ok) {
-          const txt = await res.text();
-          showError(`Chyba zápisu (${res.status}): ${txt}`);
-        } else {
-          console.log("Hodnota Temperature_6 uložena:", val);
-          showError(""); // vymaž chybu, pokud vše OK
-        }
-      } catch (err) {
-        showError("Fetch selhal: " + err.message);
-      }
-    });
   </script>
 </body>
 </html>
