@@ -1,25 +1,53 @@
 # Internet of things
 
-- Stručně princip, příklady použití
+Internet věcí je propojení běžných zařízení do sítě, kde spolu mohou komunikovat a sdílet data bez přímého zásahu člověka.
+Zařízení (např. senzory, termostaty, osvětlení, kamery, meteostanice) posílají údaje přes Wi-Fi, Bluetooth nebo jiné protokoly do cloudu, kde se data ukládají, vyhodnocují nebo dál zpracovávají. Například:
+
+- chytrý dům (ovládání světel, topení, žaluzií)
+- měření teploty, vlhkosti, spotřeby energie
+- sledování polohy nebo stavu zařízení
+- průmyslové a zemědělské senzory
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/744c6894-e7f3-4fa4-b635-8f8818019169" />
 
 ## Google Firebase
-- Co to je, odkaz na tutorialy
+Firebase je cloudová platforma od Googlu, která umožňuje jednoduše ukládat a číst data z aplikací nebo IoT zařízení přes internet.
+Pro IoT se často používá Realtime Database – databáze, kde se data mění okamžitě a lze je číst i zapisovat přes jednoduché HTTP požadavky (GET, PUT).
 
-<img width="1080" height="756" alt="image" src="https://github.com/user-attachments/assets/744c6894-e7f3-4fa4-b635-8f8818019169" />
+Základní vlastnosti:
+- Realtime Database – ukládání dat ve formátu JSON
+- Autentizace uživatelů (není nutná v test režimu)
+- Webová konzole pro sledování dat
+
+
+Užitečné odkazy:
+- [Oficiální web Firebase](https://firebase.google.com/)
+- [Návod: Arduino + Firebase](https://randomnerdtutorials.com/esp32-firebase-realtime-database/)
+
 
 ## Deska Arduino Nano 33 IoT
 
-Jiný procesor, wifi
+Arduino Nano 33 IoT je moderní vývojová deska s vestavěným Wi-Fi modulem u-blox NINA-W102 a procesorem SAMD21 (ARM Cortex-M0+).
+Oproti klasickému Arduinu UNO má tedy:
+- jiný procesor (32bit ARM)
+- integrované Wi-Fi a Bluetooth LE
+- možnost přímé komunikace s webem nebo cloudem
 
-<img width="318" height="207" alt="image" src="https://github.com/user-attachments/assets/70114d5e-8089-4350-8b2f-e53840de0520" />
-
-<img width="303" height="177" alt="image" src="https://github.com/user-attachments/assets/752209db-3e17-471b-872d-e170f6e80c9d" />
+Díky tomu se hodí pro IoT projekty, kde Arduino posílá data do internetu nebo přijímá příkazy z telefonu či webové aplikace.
 
 
-<img width="862" height="851" alt="image" src="https://github.com/user-attachments/assets/8b6e4e0b-ae7e-48f9-acf5-c86379dd0154" />
+<img width="595" height="403" alt="image" src="https://github.com/user-attachments/assets/85658303-de47-458b-9aca-aeb9ea23e033" />
+
+Dále si přes Library manager nainstalujte knihovnu WifiNINA.
+
+<img width="303" alt="image" src="https://github.com/user-attachments/assets/ba6db824-14e7-429e-aade-a5fb3c553457" />
+
+## Pinout desky Arduino Nano 33 IoT
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/8b6e4e0b-ae7e-48f9-acf5-c86379dd0154" />
 
 
 ## Kostra programu pro čtení a zápis do Firebase
+Kód demonstruje připojení Arduina k Wi-Fi, čtení a zápis hodnot do Firebase pomocí protokolu HTTPS a jednoduchého JSON formátu.
 
 ```c
 #include <WiFiNINA.h>
