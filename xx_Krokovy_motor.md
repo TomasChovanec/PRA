@@ -14,50 +14,28 @@ Motor 28BYJ-48 je unipolární krokový motor se čtyřmi cívkami uspořádaný
 
 ### Převodovka
 Pro dosažení vyššího momentu a jemnějšího řízení polohy je motor vybaven převodovkou s přibližným převodovým poměrem1:64, tedy pro jedno plné otočení výstuponí hřídele je potřeba přibližně 64 otáček motoru.
-
 ![image](img/05_Ultrasonic_stepper_4.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
+
+### Konstrukce
+Jak vypadá motor uvnitř můžete vidět [zde](https://cookierobotics.com/042/).
 
 ## Driver ULN2003 
 Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Arduina napřímo, použijeme driver pro krokový motor. Ten nám poslouží jako výkonový spínač.
 
 ![image](img/05_Ultrasonic_stepper_5.png)
 
+<img width="694" height="334" alt="image" src="https://github.com/user-attachments/assets/21065e20-5ce7-4942-8bfb-8c027724b6e1" />
+
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
-```c
-#include <Stepper.h>
-
-//define Input pins of the Motor
-#define OUTPUT1   7                // Connected to the Blue coloured wire
-#define OUTPUT2   6                // Connected to the Pink coloured wire
-#define OUTPUT3   5                // Connected to the Yellow coloured wire
-#define OUTPUT4   4                // Connected to the Orange coloured wire
-
-// Define the number of steps per rotation
-const int stepsPerRotation = 2048;  // 28BYJ-48 has 2048 steps per rotation in full step mode as given in data sheet
-
-// Initialize the stepper motor with the sequence of control pins OUTPUT1, OUTPUT3, OUTPUT2, IN4
-// OUTPUT1 and OUTPUT3 are connected to one coil and OUTPUT2 and OUTPUT4 are connected to one Coil
-Stepper myStepper(stepsPerRotation, OUTPUT1, OUTPUT3, OUTPUT2, OUTPUT4);  
-void setup() {
-  // Set the speed of the motor in RPM (adjust as needed)
-  myStepper.setSpeed(15);  // 15 RPM
-}
-
-void loop() {
-  // Rotate in One Direction and complete one complete rotation i.e 2048 steps
-  myStepper.step(stepsPerRotation);  
-  delay(1000);  // Delay between rotations
-  // For Rotation in opposite direction provide the variable to the parameter with negative Sign
-  myStepper.step(-stepsPerRotation);  
-  delay(1000);  // Delay between rotations
-}
-```
 
 ### Úkoly
-1. Připojte k Arduinu krokový motor a otáčejte čtvrt otáčky doleva a půl otáčky doprava.
-2. Přidejte ještě tlačítko. Při držení tlačítka se bude motor točit doleva, pokud tlačítko není stisknuto tak doprava.
+1. Připojte ke krokovému motoru napájení a zkuste ručně postupným připojováním 5V na piny IN1-4 motor rozpohybovat.
+2. Až zjistíte, jak motorem pohybovat ručně, připojte piny IN1-4 k Arduinu a ovládejte je pomocí fenkce ```digitalWrite()``` - točte motorem pomocí Arduina
+3. Vytvořte si funkce ```stepForward(int numSteps)```a ```stepBackward(int numSteps)``` argument ```int numSteps``` bude udávat, o kolik kroků se má motor otočit.
+4. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
+5. Vytvořte univerzální funkci ```step(int numSteps)``` která nastavuzje směr motoru podle znaménka argumentu numSteps (záporný počet kroků znamená, že motor pojede proti směru hodinových ručiček, kladný naopak).
 
 ### [Zpět na obsah](README.md)
