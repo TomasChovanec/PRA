@@ -146,12 +146,12 @@ void loop() {
   float teplota = 12.3;
   String value = String(teplota, 1); // druhý argument udává počet desetinných míst
   send_data_to_firebase("/Temperature_10", value);
+
   // 🔹 2. Čtení z Firebase
   String json = get_data_from_firebase("/Slider_10");
   int precteno = parse_number(json);
-  Serial.print("Přečtená teplota: ");
-  Serial.print(precteno);
-  Serial.println(" °C");
+  Serial.print("Přečtená hodnota: ");
+  Serial.println(precteno);
   delay(2000);
 }
 
