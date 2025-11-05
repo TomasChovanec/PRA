@@ -7,9 +7,9 @@
     - Použijte pin, který podporuje funkci analogWrite()
   
 3. Naprogramujte plynulou změnu jasu LED pomocí funkce analogWrite().
-    - Jas zvyšujte od 0 do 250 po krocích 10.
-    - Poté snižujte zpět z 250 na 0 opět po krocích 10.
-    - Každý krok trvá 100 ms.
+    - Jas zvyšujte od 0 do 250 po krocích 25.
+    - Poté snižujte zpět z 250 na 0 opět po krocích 25.
+    - Každý krok trvá 200 ms.
   
 4. Zobrazujte aktuální hodnotu PWM signálu na displeji.
     - Například ve formátu: PWM = 120
