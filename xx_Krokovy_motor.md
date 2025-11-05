@@ -13,7 +13,7 @@ Motor 28BYJ-48 je unipolární krokový motor se čtyřmi cívkami uspořádaný
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
 ### Převodovka
-Pro dosažení vyššího momentu a jemnějšího řízení polohy je motor vybaven převodovkou s přibližným převodovým poměrem1:64, tedy pro jedno plné otočení výstuponí hřídele je potřeba přibližně 64 otáček motoru.
+Pro dosažení vyššího momentu a jemnějšího řízení polohy je motor vybaven převodovkou s přibližným převodovým poměrem1:64, tedy pro jedno plné otočení výstupní hřídele je potřeba přibližně 64 otáček motoru.
 ![image](img/05_Ultrasonic_stepper_4.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
