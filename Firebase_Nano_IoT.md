@@ -52,7 +52,7 @@ Kód demonstruje připojení Arduina k Wi-Fi, čtení a zápis hodnot do Firebas
 ```c
 #include <WiFiNINA.h>
 #include <Arduino_JSON.h>
-const char* ssid = "mojeWiFi";
+const char* ssid = "FrenGP.Cz-Vyuka";
 const char* password = "heslo";
 const char* host = "arduino-pokus-default-rtdb.firebaseio.com";
 const int httpsPort = 443;
