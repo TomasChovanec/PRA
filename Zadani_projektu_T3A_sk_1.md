@@ -31,7 +31,11 @@
 - ???
 
 ### Max F. - Elektronická hrací kostka
-
+- Pomocí Arduina, sedmisegmentového displeje a tlačítka vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty.
+- Při každé změne čísla se zárove%n i náhodně změní pozice čísla na displeji
+- Po puštění tlačítka se hodnota zastaví
+  
 ### Vít K. - Hudební přehrávač s dálkovým ovládáním
 - 
 
