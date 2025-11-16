@@ -37,5 +37,7 @@
 - Po puštění tlačítka se hodnota zastaví
   
 ### Vít K. - Hudební přehrávač s dálkovým ovládáním
-- 
+- Pomocí dvou Arduin a mp3 modulu vytvořte hudební přehrávač
+- Dálkový ovladač bude představovat druhé Arduino. Bude umožňovat funkce spuštění přehrávání, pauzu a přechod na další skladbu.
+- Spojení mezi ovladačem a přehrávačem může být buĎ drátové nebo bezdrátové (Bluetooth)
 
