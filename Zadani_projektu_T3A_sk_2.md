@@ -13,7 +13,9 @@
 ## Jan S. - Hra s OLED displejem a akcelerometrem
 - ???
 
+### Denis. M.
 
+### Marek. O.
 
 ## Termín 22.1., odevzdání dokumentace emailem nejpozději 20.1. 23:59
 
