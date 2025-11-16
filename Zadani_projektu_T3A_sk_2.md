@@ -42,3 +42,10 @@ Pomocí Arduina pieza a 5 tlačítek vytvořte jedoduché "piano".
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 - Na OLED displeji se bude zobrazovat aktuálně přehrávaný tón
+
+### Tadeáš V., Stanislav P. - Hra na postřeh pro dva hráče
+Pomocí Arduina vytvořte hru na postřeh pro dva hráče
+- Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
+- Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
+- Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
+- Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
