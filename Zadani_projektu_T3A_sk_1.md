@@ -4,7 +4,24 @@
 - ???
 - ???
 
+### Dominik G.
+- Zadat
 
+### Josef K.
+- Zadat
+
+### Jakub Kr.
+- Zadat
+
+### Matouš G.
+-Zadat
+
+### Richard F.
+- Zadat
+
+### Dan L.
+- Zadat
+- 
 ## Termín 18.12., odevzdání dokumentace emailem nejpozději 16.12. 23:59
 
 ### Marek H. - ???
@@ -17,7 +34,7 @@
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 - Když se čas shoduje s časem budíku, ozve se melodie z piezo buzzeru
 
-### Jakub K. - Had
+### Jakub Ku. - Had
 - Pomocí Arduina, OLED displeje a joysticku vytvořte hru Had
 
 ### Dominik K., Daniel F. - Hra na postřeh 2 hráče 
