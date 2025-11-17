@@ -10,7 +10,7 @@ Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a serve
 - Po 3 chybných zadáních se zámek na 10s zablokuje (odpočet bude na displeji)
 - Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina)
 
-### Josef K. - PArkovací senzor
+### Josef K. - Parkovací senzor
 Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro auto
 - Senzor je aktivní pouze když je stisknuto tlačítko (simulujeme spínač na zpátečce v autě)
 - Když je překážka vzdálena více než 100 cm, bzučák nebude vydávat žádný zvuk.
@@ -20,7 +20,7 @@ Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro
   
 ### Richard F.
 Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
-- Měřená hodnota se průběžne zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
+- Měřená hodnota se průběžně zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
 - Po zadání všech hodnot se zobrazí všechny naměřené hodnoty spolu s výslednou plochou
 
 ### Dan L. - Teploměr a vlhkoměr
@@ -28,7 +28,7 @@ Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - 
 Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
   
 ### Jakub Kr. - Elektronické piano
-Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché “piano”.
+Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jednoduché “piano”.
 
 Po stisku tlačítka se přehraje příslušný tón.
 Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
@@ -52,7 +52,7 @@ započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražn
 
 ### Petr K. - Hodiny, stopky, budík
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
-- Jedním tlačítkem se bude měnit aktálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
+- Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
 - Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 - Když se čas shoduje s časem budíku, ozve se melodie z piezo buzzeru
@@ -61,7 +61,7 @@ započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražn
 - Pomocí Arduina, OLED displeje a joysticku vytvořte hru Had
 
 ### Dominik K., Daniel F. - Hra na postřeh 2 hráče 
-- Pomocí Arduina a OLED displaye vytvořte hru na postřeh pro dva hráče
+- Pomocí Arduina a OLED displeje vytvořte hru na postřeh pro dva hráče
 - Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
 - Program po každém kole se na OLED displayi ukáže, který hráč vyhrál a o kolik sekund
@@ -73,11 +73,11 @@ započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražn
 ### Max F. - Elektronická hrací kostka
 - Pomocí Arduina, sedmisegmentového displeje a tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty.
-- Při každé změne čísla se zároveň i náhodně změní pozice čísla na displeji
+- Při každé změně čísla se zároveň i náhodně změní pozice čísla na displeji
 - Po puštění tlačítka se hodnota zastaví
   
 ### Vít K. - Hudební přehrávač s dálkovým ovládáním
 - Pomocí dvou Arduin a mp3 modulu vytvořte hudební přehrávač
 - Dálkový ovladač bude představovat druhé Arduino. Bude umožňovat funkce spuštění přehrávání, pauzu a přechod na další skladbu.
-- Spojení mezi ovladačem a přehrávačem může být buĎ drátové nebo bezdrátové (Bluetooth)
+- Spojení mezi ovladačem a přehrávačem může být buď drátové nebo bezdrátové (Bluetooth)
 
