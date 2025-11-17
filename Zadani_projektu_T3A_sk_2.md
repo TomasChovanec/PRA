@@ -10,7 +10,7 @@
 - ??? Vkládání textu přes serial monitor
 - Nastavitelný směr rotace
 
-## Jan S. - Hra s OLED displejem a akcelerometrem
+### Jan S. - Hra s OLED displejem a akcelerometrem
 - ???
 
 ### Denis. M. - Elektronická hrací kostka
