@@ -10,7 +10,7 @@
 - Pomocí Arduina a maticového displeje vytvořte reklamní banner
 - Text zobrazovaný na banneru se bude nastavovat přes Serial monitor
 - Dále bude možné přes serial monitor nastavit rychlost a směr rotace textu
-- BUde možné kromě textu zobrazit i jednoduchý obrázek
+- Bude možné kromě textu zobrazit i jednoduchý obrázek
 
 ### Jan S. - Hra s OLED displejem a akcelerometrem
 - ???
@@ -33,7 +33,7 @@
 
 ### Tomáš M.- Hodinky s budíkem a stopkami
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
-- Jedním tlačítkem se bude měnit aktálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
+- Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
 - Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 - Když se čas shoduje s časem budíku, ozve se melodie z piezo buzzeru
@@ -46,7 +46,7 @@ Vytvořte program pro školního Arduino robota, který bude fungovat jako sledo
 - Po resetu Arduina musí být robot v bezpečném stavu (motory zastaveny), rozjede se až po stisknutí startovacího tlačítka (mikrospínač na robotovi, nikoli vypínač napájení)
 
 ### Libor R., Lukáš M. - Elektronické piano 
-Pomocí Arduina pieza a 5 tlačítek vytvořte jedoduché "piano".
+Pomocí Arduina pieza a 5 tlačítek vytvořte jednoduché "piano".
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
