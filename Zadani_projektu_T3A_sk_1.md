@@ -1,4 +1,4 @@
-## Termín 4.12., odevzdání dokumentace emailem nejpozději 2.12. 23:59
+## Termín 18.12., odevzdání dokumentace emailem nejpozději 16.12. 23:59
 
 ### Adam H.  - Arduino a RFID modul
 - ???
@@ -22,7 +22,9 @@
 ### Dan L.
 - Zadat
 - 
-## Termín 18.12., odevzdání dokumentace emailem nejpozději 16.12. 23:59
+
+
+## Termín 15.1., odevzdání dokumentace emailem nejpozději 13.1. 23:59
 
 ### Marek H. - ???
 - ???
