@@ -5,24 +5,36 @@
 - ???
 
 ### Dominik G.
-- Zadat
+- Zadat 2
 
 ### Josef K.
-- Zadat
-
-### Jakub Kr.
-- Zadat
-
-### Matouš G.
--Zadat
-
+- Zadat 3
+  
 ### Richard F.
-- Zadat
+Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
+- Měřená hodnota se průběžne zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
+- Po zadání všech hodnot se zobrazí všechny naměřené hodnoty spolu s výslednou plochou
 
 ### Dan L.
-- Zadat
-- 
+- Zadat 3,5
+  
+### Jakub Kr. - Elektronické piano
+Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jedoduché “piano”.
 
+Po stisku tlačítka se přehraje příslušný tón.
+Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
+
+### Matouš G.
+Vytvořte program a zrealizujte zapojení pro Arduino, které automaticky otevře bránu, když k ní přijede auto a po projetí ji opět zavře. Požadované funkce:
+- Dokud není detekováno auto, brána je zavřená.
+- Po detekci auta se brána otevře.
+- Dokud auto stojí před branou, brána zůstává otevřená. Teprve až auto 
+projede, brána se zavře.
+- Pokud by ale auto neprojelo do 30s, brána se zavře.
+- Jako bezpečnostní prvek, aby nedošlo ke zranění případných chodců, před 
+započetím pohybu (otvírání nebo zavírání) 5x blikne červené výstražné světlo a 
+5x zazní varovný zvukový signál.
 
 ## Termín 15.1., odevzdání dokumentace emailem nejpozději 13.1. 23:59
 
