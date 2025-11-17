@@ -7,20 +7,29 @@
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
 ### Tomáš S., Vilém S. - Reklamní banner s maticovým displejem
-- ??? Vkládání textu přes serial monitor
-- Nastavitelný směr rotace
+- Pomocí Arduina a maticového displeje vytvořte reklamní banner
+- Text zobrazovaný na banneru se bude nastavovat přes Serial monitor
+- Dále bude možné přes serial monitor nastavit rychlost a směr rotace textu
+- BUde možné kromě textu zobrazit i jednoduchý obrázek
 
 ### Jan S. - Hra s OLED displejem a akcelerometrem
 - ???
 
 ### Denis. M. - Elektronická hrací kostka
+- Pomocí Arduina, OLED displeje a tlačítka vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na displeji budou měnit obrázky kostky s různými hodnotami
+- Po puštění tlačítka se hodnota zastaví
 
 ### Marek. O.-  Elektronická hrací kostka
+- Pomocí Arduina, LCD displeje a RGB LEDky vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty 1-6.
+- Po puštění tlačítka se hodnota zastaví
+- Každé hodnotě bude odpovídat jedna barva. Podle toho, jaké číslo "padne" na kostce se zbarví RGB LEDka
 
 ### Tomáš T. -  Elektronická hrací kostka
-- kostka s LEDkama
-
-## Termín 22.1., odevzdání dokumentace emailem nejpozději 20.1. 23:59
+- Pomocí Arduina, LED diod a tlačítka vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty.
+- Po puštění tlačítka se hodnota zastaví
 
 ### Tomáš M.- Hodinky s budíkem a stopkami
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
