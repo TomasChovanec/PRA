@@ -16,7 +16,7 @@ Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro
 - Když je překážka vzdálena více než 100 cm, bzučák nebude vydávat žádný zvuk.
 - Pokud se překážka nachází mezi 100 cm a 50 cm, bzučák vydá krátký zvuk jednou za sekundu.
 - Když se překážka přiblíží na 50–20 cm, pípání bude jednou za půl sekundy.
-- Pokud je překážka blíže než 20 cm, bzučák bude pípat neustále.
+- Pokud je překážka blíže než 20 cm, bzučák bude znít neustále.
   
 ### Richard F.
 Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
