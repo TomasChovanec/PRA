@@ -4,13 +4,13 @@
 - ???
 - ???
 
-### Dominik G. - Elektronický zámek
+### Josef K.  - Elektronický zámek
 Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a servem
 - Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem
 - Po 3 chybných zadáních se zámek na 10s zablokuje (odpočet bude na displeji)
 - Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina)
 
-### Josef K. - Parkovací senzor
+### Dominik G. - Parkovací senzor
 Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro auto
 - Senzor je aktivní pouze když je stisknuto tlačítko (simulujeme spínač na zpátečce v autě)
 - Když je překážka vzdálena více než 100 cm, bzučák nebude vydávat žádný zvuk.
