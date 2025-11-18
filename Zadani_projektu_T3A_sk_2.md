@@ -20,14 +20,14 @@
 - Při stisku (a držení) tlačítka se na displeji budou měnit obrázky kostky s různými hodnotami
 - Po puštění tlačítka se hodnota zastaví
 
-
-## Termín 22.1., odevzdání dokumentace emailem nejpozději 20.1. 23:59
-
 ### Marek. O.-  Elektronická hrací kostka
 - Pomocí Arduina, LCD displeje a RGB LEDky vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty 1-6.
 - Po puštění tlačítka se hodnota zastaví
 - Každé hodnotě bude odpovídat jedna barva. Podle toho, jaké číslo "padne" na kostce se zbarví RGB LEDka
+
+
+## Termín 22.1., odevzdání dokumentace emailem nejpozději 20.1. 23:59§
 
 ### Tomáš T. -  Elektronická hrací kostka
 - Pomocí Arduina, LED diod a tlačítka vytvořte elektronickou hrací kostku.
