@@ -11,4 +11,4 @@ Eshopy s Arduiny a další elektronikou [Laskakit.cz](Laskakit.cz), [Dratek.cz](
 Dále budeme s mikroprocesory více do hloubky pokračovat v předmětu MIT.
 
 ## Zpětná vazba po dokončení bloku
-Vyplňte prosím dobrovolný [dotazník](https://forms.gle/d5Jsk1Lv6ZnYK22r8) se zpětnou vazbou na tento kurz.
+Vyplňte prosím dobrovolný [dotazník](https://forms.gle/9H24UGsy1PyR5yC58) se zpětnou vazbou na tento kurz.
