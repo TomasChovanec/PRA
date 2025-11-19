@@ -40,11 +40,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Logický analyzer ](xx_Logicky_analyzer.md)
 1. [Sériový vstup](xx_Serial_input.md)
 
-
 <!---
 1. [Závěr](11_zaver.md)
-- [Zadání E3A](Zadani_projektu_E3A_sk_2.md)
-
 --->
 
 ## Testy
