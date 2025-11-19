@@ -37,6 +37,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Krokový motor](xx_Krokovy_motor.md)
 1. [WiFi a IoT](Firebase_Nano_IoT.md)
 1. [Sledovač čáry](11_Line_follower.md)
+1. [Logický analyzer ](xx_Logicky_analyzer.md)
+1. [Sériový vstup](xx_Serial_input.md)
 
 
 <!---
