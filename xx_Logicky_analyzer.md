@@ -18,7 +18,7 @@ Umožňuje:
 - měřit časové intervaly
 - automaticky dekódovat protokoly (UART, I2C, SPI atd.).
 
-Typický analyzátor pracuje s napěťovou úrovní 0–5 V (ověřte specifikace!).
+Typický analyzátor pracuje s napěťovou úrovní 0–5 V.
 
 ### Měření PWM signálu (např. Arduino analogWrite)
 - Připojte k Arduinu potenciometr a podle jeho polohy nastavujte PWM na LEDce na pinu 13.
