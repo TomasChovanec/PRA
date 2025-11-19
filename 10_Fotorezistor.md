@@ -1,6 +1,6 @@
 ## Fotorezistor
 
-![image](img/10_Fotorezistor_1.png)
+<img width="913" height="355" alt="image" src="https://github.com/user-attachments/assets/94c63406-30a0-4d0e-a137-35daa09bb3c7" />
 
 Fotorezistor je polovodičová součástka, která mění svůj odpor v závislosti na osvětlení - čím více fotonů na něj dopadá, tím více se v něm tvoří volných elektronů a roste jeho vodivost. Fotorezistor, který budeme používat na cvičení má odpor od 100Ohmů při maximální osvětlení, přes  10-20kΩ při slabém osvětlení až po 1MΩ v temnu.
 
