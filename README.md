@@ -39,10 +39,10 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Sledovač čáry](11_Line_follower.md)
 1. [Logický analyzer ](xx_Logicky_analyzer.md)
 1. [Sériový vstup](xx_Serial_input.md)
-
+1. [Závěr](11_zaver.md)
    
 <!---
-1. [Závěr](11_zaver.md)
+
 --->
 
 ## Testy
