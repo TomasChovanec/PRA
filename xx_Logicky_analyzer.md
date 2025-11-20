@@ -21,8 +21,8 @@ Umožňuje:
 Typický analyzátor pracuje s napěťovou úrovní 0–5 V.
 
 ### Měření PWM signálu (např. Arduino analogWrite)
-- Připojte k Arduinu potenciometr a podle jeho polohy nastavujte PWM na LEDce na pinu 13.
-- Připojte logický analyzer na pin 13
+- Připojte k Arduinu potenciometr a podle jeho polohy nastavujte PWM na LEDce. Pro LEDKu zvolte pin, který podporuje PWM
+- Připojte logický analyzer na pin s LEDkou
 - Změřte periodu a frekvenci PWM signálu.
 - Sledujte střídu (duty cycle) pro různé hodnoty analogWrite().
 
