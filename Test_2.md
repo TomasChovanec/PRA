@@ -1,14 +1,8 @@
-# Test - displej, analogWrite()
+## Zadání
+- Připojte k Arduinu I2C LCD displej k Arduinu a ověřte funkčnost výpisem krátké zprávy (např. „RGB START“).
 
-1. Připojte I2C displej k Arduinu.
-- Použijte vhodnou knihovnu (např. LiquidCrystal_I2C) a ověřte funkčnost výpisem testovacího textu.
-  
-2. Připojte červenou LED k Arduinu.
-- Použijte pin, který podporuje funkci analogWrite() (např. D3, D5, D6, D9, D10 nebo D11).
-- Nezapomeňte zapojit rezistor pro omezení proudu.
-  
-3. Naprogramujte plynulou změnu jasu LED.
-- Jas zvyšujte od 0 do 255 po krocích 10. Každý krok trvá 100 ms (použijte delay(100))
-- Poté snižujte zpět na 0 opět po krocích 50. Každý krok trvá 500 ms.
+- Připojte RGB LED. Vývody pro zelenou a modrou barvu připojte k Arduinu na piny, které podporuje funkci PWM (např. D3, D5, D6, D9, D10 nebo D11).
 
-4. Zobrazujte aktuální hodnotu PWM signálu na displeji ve formátu: "Hodnota PWM = 120"
+- Pomocí for cyklu postupně měňte jas jedné barvy od 0 do 250 po krocích 10. Jakmile jedna barva dosáhne maxima, začněte stejným způsobem měnit další barvu (postupně G → B). Každý krok změny jasu trvá 100 ms pomocí delay(100).
+
+- Na LCD displeji zobrazujte aktuální hodnotu PWM pro obě barvy, například: "B:255   B:125"
