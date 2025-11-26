@@ -8,8 +8,7 @@
 - Nezapomeňte zapojit rezistor pro omezení proudu.
   
 3. Naprogramujte plynulou změnu jasu LED.
-- Jas zvyšujte od 0 do 255 po krocích 10.
-- Poté snižujte zpět na 0 opět po krocích 10.
-- Každý krok trvá 100 ms (použij delay(100)).
-  
-4. Zobrazujte aktuální hodnotu PWM signálu na displeji. Například ve formátu: PWM = 120
+- Jas zvyšujte od 0 do 255 po krocích 10. Každý krok trvá 100 ms (použijte delay(100))
+- Poté snižujte zpět na 0 opět po krocích 50. Každý krok trvá 500 ms.
+
+4. Zobrazujte aktuální hodnotu PWM signálu na displeji ve formátu: "Hodnota PWM = 120"
