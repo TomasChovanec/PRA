@@ -33,12 +33,13 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
     - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
         - **Zadání** - kompletní zadání zkopírované z Githubu (1 bod)
         - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...) (2 bodů)
-        - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným.
- (10 bodů)
+        - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným. (5 bodů)
+        - **Včasné odevzdání** (5 bodů)
         - **Fotografii** zapojení (2body)
         - **Kód** - přehledně naformátovaný a opatřený komentáři, vložený jako text, nikoli jako obrázek (2 body)
         - **Seznam použitých zdrojů** včetně odkazů na použité knihovny (2 body)
-        - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (5 body)
+        - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (2 body)
+        - **Celková úprava dokumentu** - zarovnání písma do bloku, použití vhodného písma, žádné osamocené nadpisy na konci stránky (3 body)
 
 | Body    | Známka|
 |---------|-------|
