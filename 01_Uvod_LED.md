@@ -82,11 +82,11 @@ void loop() {
 ```
 
 ## Přidání další LEDky, nepájivé pole
-Na desce Arduina je jen jedna LEDka, kterou můžeme ovládat (pokud nepočítáme LEDky na pinech Tx a Rx, které ale využíváme k programování Arduina). Zkusíme si teď připojit další LEDku s pomocí nepájivého pole. Nesmíme zapomenout na sŕiový odpor. Jak spočítat jeho velikost?
+Na desce Arduina je jen jedna LEDka, kterou můžeme ovládat (pokud nepočítáme LEDky na pinech Tx a Rx, které ale využíváme k programování Arduina). Zkusíme si teď připojit další LEDku s pomocí nepájivého pole. Nesmíme zapomenout na sériový odpor. Jak spočítat jeho velikost?
 
 ![image](img/01_Uvod_LED_4.png)
 
-Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástk nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
+Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástky nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
 
 ![image](img/01_Uvod_LED_5.png)
 
@@ -111,11 +111,11 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 
 
 ## Úkoly
-**1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!)
+**1.** Blikejte s LEDkou na nepájivém poli (nezapomeňte na rezistor!). Blikání naprogramujte tak, aby se střídavě rozvědcovala LEDka na Arudino desce (na pinu 13) a nově přidaná LEDka na nepájivém poli.
 
 **2.** Připojte tlačítko a LED – LED se rozsvítí po stisknutí tlačítka. Pro tlačítko použijte pinMode INPUT_PULLUP.
 
-**3.** Vytvořte semafor pomocí Arduina a 3 LED
+**3.** Vytvořte semafor pomocí Arduina a 3 LED. Vytvořte si pro to nový sketch (program). Předchozí program si uložte, bude se vám v budoucnu hodit. 
 
 ![image](img/01_Uvod_LED_7.png)
 
