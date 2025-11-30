@@ -68,7 +68,7 @@ $$
 Například pokud `analogRead()` vrátí hodnotu **724**, vypočítáme napětí takto:  
 
 $$  
-\Large724 \times 4.88 \text{ mV} = 3,53 \text{ V}  
+\Large724 \times 4,88 \text{ mV} = 3,53 \text{ V}  
 $$  
 
 Napětí na vstupu je tedy přibližně 3,53 V.
