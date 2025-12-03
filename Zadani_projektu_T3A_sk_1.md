@@ -2,14 +2,14 @@
 
 ### Adam H.  - Prodejní automat na RFID karty
 Automat bude obsahovat displej, 4 tlačítka, RFID modul a bzučák.
-• Po přiložení karty nebo čipu se na chvíli zobrazí na displeji jméno majitele a zbývající 
+- Po přiložení karty nebo čipu se na chvíli zobrazí na displeji jméno majitele a zbývající 
 kredit (popř. upozornění na neznámého uživatele)
-• Poté se zobrazí nabídka nápojů s cenou
-• Uživatel vybere pomocí tlačítek nápoj, pokud má dostatečný kredit nápoj se připraví a 
+- Poté se zobrazí nabídka nápojů s cenou
+- Uživatel vybere pomocí tlačítek nápoj, pokud má dostatečný kredit nápoj se připraví a 
 vydá
-• Příprava nápoje bude simulována zvuky z bzučáku, po dokončení přípravy se ozve krátký 
+- Příprava nápoje bude simulována zvuky z bzučáku, po dokončení přípravy se ozve krátký 
 vysoký tón
-• Cena nápoje se strhne uživateli z kreditu. Informace o kreditu může být uložena v Arduinu nebo na kartě (vyber dle uvážení, výhody a nevýhody uveď v závěru).
+- Cena nápoje se strhne uživateli z kreditu. Informace o kreditu může být uložena v Arduinu nebo na kartě (vyber dle uvážení, výhody a nevýhody uveď v závěru).
 
 
 ### Josef K.  - Elektronický zámek
