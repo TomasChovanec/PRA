@@ -35,7 +35,8 @@ Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Ar
 1. Připojte ke krokovému motoru napájení a zkuste ručně postupným připojováním 5V na piny IN1-4 motor rozpohybovat.
 2. Až zjistíte, jak motorem pohybovat ručně, připojte piny IN1-4 k Arduinu a ovládejte je pomocí fenkce ```digitalWrite()``` - točte motorem pomocí Arduina
 3. Vytvořte si funkce ```stepForward(int numSteps)```a ```stepBackward(int numSteps)``` argument ```int numSteps``` bude udávat, o kolik kroků se má motor otočit.
-4. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
-5. Vytvořte univerzální funkci ```step(int numSteps)``` která nastavuzje směr motoru podle znaménka argumentu numSteps (záporný počet kroků znamená, že motor pojede proti směru hodinových ručiček, kladný naopak).
+4. Pomocí funkcí z předchozího úkolu točte motorem střídavě čtvrt otáčky po směru a půl otáčky proti směru hodinových ručiček.
+5. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a vytvořte funkce ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
+6. Vyberte takový způsob řízení, aby se motor točil co nejrychleji.
 
 ### [Zpět na obsah](README.md)
