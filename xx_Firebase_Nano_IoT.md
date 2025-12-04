@@ -66,6 +66,7 @@ void connect_to_wifi() {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
+    WiFi.begin(ssid, password);
   }
   Serial.println("\nWiFi připojena!");
   Serial.print("IP adresa: ");
