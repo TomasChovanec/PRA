@@ -25,7 +25,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou](01_Uvod_LED.md)
 1. [Serial monitor, analogový vstup](02_Serial_monitor_potenciometr.md)
-1. [Servo](03_Servo_PWM.md)
+1. [Servo](03_Servo.md)
 1. [PWM, RGB LEDka](03_1_PWM.md) 
 1. [Teplotní čidlo](04_DHT.md)
 1. [LCD displej](LCD.md)
