@@ -5,9 +5,9 @@
 - Chápat princip sběrnice I2C
 - Umět použít LCD displej pro zobrazení dat z Arduina
 
-[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 
 ### Přidání knihovny ze zip souboru
+[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
 - V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
 - V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
