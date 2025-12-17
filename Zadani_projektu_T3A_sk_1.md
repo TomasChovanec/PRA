@@ -44,8 +44,17 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 
 ## Termín 15.1., odevzdání dokumentace emailem nejpozději 13.1. 23:59
 
-### Marek H. - ???
-- ???
+### Marek H. - Univerzální senzory s mikrokontrolérem XIAO ESP32c6 pro chytrou domácnost s komunikací přes Zigbee protokol
+- Kompletace univerzálních desek plošného spoje s ESP32c6
+    - BME680 pro teplotu, tlak, vlhkost, stav vzduchu
+    - PIR senzor pro detekci pohybu
+    - Fotorezistor pro detekci osvětlení místnosti
+    - Siréna pro upozorňení na krizové situace
+    - Ostatní piny vyvedeny na dutinky pro připojení externích senzorů (wattmetry, detekce zavření oken, dveří, detekce hladiny vody, teplota v kotli, bojleru apod.)
+    - Bateriové napájení pro případ vypadnutí proudu
+- 3D modelování krabičky a uchycení zařízení
+- Komunikace přístrojů s HomeAssistantem na Raspberry Pi přes Zigbee protokol (ESPIDF)  - mashová struktura, jednotlivé zařízení nemusí být připojena na hlavní router, pouze na další Zigbee zařízení (jiný node)
+- Pro prezentaci ve škole - ukázka komunikace a výměny dat v Zigbee protokolu mezi dvěma zařízeními, ukázka kódu v ESPIDF
 
 ### Petr K. - Hodiny, stopky, budík
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
@@ -65,7 +74,8 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 - Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Matouš K. - Robotická ruka
-- ???
+- Vytvořte program a zapojení pro posílení pohybu ruky servem
+- K projektu přidejte OLED displej se zobrazením času a hrou
 
 ### Max F., Matouš G. - Elektronická hrací kostka
 - Pomocí Arduina, sedmisegmentového displeje a tlačítka vytvořte elektronickou hrací kostku.
