@@ -56,10 +56,6 @@ Výhody I2C s Arduinem
 ### Úkoly:
 1. Připojte k Arduinu LCD displej a zobrazte na první řádek své jméno, na druhý příjmení
 1. Zobrazte na displeji odpočet od 10 do 0 po 0,5s. Po skončení odpočtu zobrazte libovolný vzkaz.
-1. Na LCD displeji zobrazujte na jednom řádku teplotu, na druhém vlhkost.
-1. Použijte pro zobrazení teploty znak °C. Vysvětlení, jak zobrazovat speciální znaky najdete například [zde](https://arduino.stackexchange.com/questions/46828/how-to-show-the-%C2%BA-character-in-a-lcd).
-1. Připojte čidlo DHT11 a na displeji zobrazujte aktuální teplotu a pak také minimální a maximální teplotu od startu programu.
-1. Vytvořte program, který sleduje teplotu z DHT11 a porovnává ji s limitem. Limit se bude nastavovat potenciometrem. Pokud teplota překročí tento limit, na LCD se zobrazí varování. Na LCD zobrazujte aktuální teplotu i nastavený limit.
-   
+1. Připojte potenciometr a na displeji zobrazujte polohu potencimetru v procentech.  
 
 ## [Zpět na obsah](README.md)
