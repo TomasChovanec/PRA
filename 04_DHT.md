@@ -66,4 +66,9 @@ void loop() {
 }
 ```
 
+1. Připojte ještě LCD displej a zobrazujte na jednom řádku teplotu, na druhém vlhkost.
+1. Použijte pro zobrazení teploty znak °C. Vysvětlení, jak zobrazovat speciální znaky najdete například [zde](https://arduino.stackexchange.com/questions/46828/how-to-show-the-%C2%BA-character-in-a-lcd).
+1. Na displeji zobrazujte aktuální teplotu a pak také minimální a maximální teplotu od startu programu.
+1. Vytvořte program, který sleduje teplotu z DHT11 a porovnává ji s limitem. Limit se bude nastavovat potenciometrem. Pokud teplota překročí tento limit, na LCD se zobrazí varování. Na LCD zobrazujte aktuální teplotu i nastavený limit.
+
 ## [Zpět na obsah](README.md)
