@@ -51,7 +51,6 @@ Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu.
 
 1. [Test 1](Test_1.md)
 2. [Test 2](Vyber_z_projektu_T3A_1.md)
-3. [Vyber_z_projektu_T3A_1](Vyber_z_projektu_T3A_1.md)
    
 <!---
 2. [Program ve dvojicích](09_lekce.md)
