@@ -50,7 +50,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
 
 1. [Test 1](Test_1.md)
-2. [Test 2](Test_2.md)
+2. [Test 2](Vyber_z_projektu_T3A_1.md)
    
 <!---
 2. [Program ve dvojicích](09_lekce.md)
