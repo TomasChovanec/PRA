@@ -19,9 +19,7 @@ Video [o konstrukci stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?featur
 H-můstek (anglicky H-bridge) je elektronický obvod, který slouží k řízení směru otáčení DC motoru. Umožňuje motor otáčet na jednu stranu,na druhou stranu nebo zastavit (volitelně i regulovat rychlost pomocí PWM).
 Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Přepínáním těchto spínačů lze změnit směr proudu procházejícího motorem a tím směr otáčení.
 
-[H-můstku](https://www.circuitbread.com/ee-faq/how-does-an-h-bridge-work)
-
-<img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/9/3/h-bridge-circuit-600w.gif" width="450"/>
+<img src="https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif" width="400"/>
 
 Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
