@@ -13,7 +13,11 @@
 - Bude možné kromě textu zobrazit i jednoduchý obrázek
 
 ### Jan S. - Hra s OLED displejem a akcelerometrem
-- ???
+- Pomocí Arduina, OLED displeje a akcelerometru vytvořte jednoduchou hru
+- Použijte piezo buzzer pro jednoduché zvukové efekty
+​- Vytvořte menu ovládané akcelerometrem, které bude mít možnosti: hrát, změnit rychlost pohybu a resetovat rychlost do původního stavu
+- Hra bude spočívat ve sbírání bodů pohybem hráče (kuličky) podle náklonu akcelerometru, po sebrání bodu se ozve zvukový efekt
+- Skóre zobrazujte v pravém horním rohu displeje; Ošetřete pohyb hráče tak, aby se do této oblasti nemohl dostat
 
 ### Denis. M. - Elektronická hrací kostka
 - Pomocí Arduina, OLED displeje a tlačítka vytvořte elektronickou hrací kostku.
