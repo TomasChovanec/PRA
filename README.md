@@ -38,8 +38,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Fotorezistor](Fotorezistor.md)
 2. [Logický analyzer](Logicky_analyzer.md)
 1. [Sériový vstup](Serial_input.md)
-1. :hot_pepper: [WiFi a IoT](Firebase_Nano_IoT.md)
-1. :hot_pepper: [Sledovač čáry](Line_follower.md)
+1. [WiFi a IoT](Firebase_Nano_IoT.md)
+1. [Sledovač čáry](Line_follower.md)
 
    
 <!---
