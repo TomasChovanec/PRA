@@ -1,4 +1,4 @@
-## Termín 18.12., odevzdání dokumentace emailem nejpozději 16.12. 23:59
+## Termín prezentace ve škole: 18.12., termín odevzdání dokumentace mailem: 16.12. 23:59
 
 ### Adam H.  - Prodejní automat na RFID karty
 Automat bude obsahovat displej, 4 tlačítka, RFID modul a bzučák.
@@ -42,7 +42,8 @@ Po stisku tlačítka se přehraje příslušný tón.
 Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 
-## Termín 15.1., odevzdání dokumentace emailem nejpozději 13.1. 23:59
+
+## Termín prezentace ve škole: 15.1., termín odevzdání dokumentace mailem: 13.1. 23:59
 
 ### Marek H. - Univerzální senzory s mikrokontrolérem XIAO ESP32c6 pro chytrou domácnost s komunikací přes Zigbee protokol
 - Kompletace univerzálních desek plošného spoje s ESP32c6
