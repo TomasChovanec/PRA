@@ -42,6 +42,5 @@ Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Ar
 3. Vytvořte si funkce ```stepForward(int numSteps)```a ```stepBackward(int numSteps)``` argument ```int numSteps``` bude udávat, o kolik kroků se má motor otočit.
 4. Pomocí funkcí z předchozího úkolu točte motorem střídavě čtvrt otáčky po směru a půl otáčky proti směru hodinových ručiček.
 5. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a vytvořte funkce ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
-6. Vyberte takový způsob řízení, aby se motor točil co nejrychleji.
 
 ### [Zpět na obsah](../README.md)
