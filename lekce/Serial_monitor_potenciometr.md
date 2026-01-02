@@ -46,7 +46,7 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
-![image](img/02_Zaklady_C_potenciometr_1.png)
+![image](../img/02_Zaklady_C_potenciometr_1.png)
 
 Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Arduina. Ovšem pro měření analogového signálu můžeme použít pouze piny označené písmenem A0-A7. Ty totiž lze připojit k AD převodníku na čipu mikroprocesoru (viz. [lekce ADC v MIT](https://tomaschovanec.github.io/MIT/13_ADC.html))
 
@@ -76,7 +76,7 @@ Napětí na vstupu je tedy přibližně 3,53 V.
 ## Potenciometr
 Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v obvodu. Má tři vývody – dva krajní pro pevný odpor a střední (jezdec), kterým nastavujeme hodnotu odporu mezi jedním krajem a jezdcem. Tím, že měníme odpor, měníme i napětí v obvodu (dělič napětí).
 
-![image](img/02_Zaklady_C_potenciometr_2.png)
+![image](../img/02_Zaklady_C_potenciometr_2.png)
 
 *Zdroj obrázku: https://www.electronicshub.org/how-potentiometer-works/*
 

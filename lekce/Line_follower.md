@@ -1,6 +1,6 @@
 # Robot - sledovač čáry
 
-![image](img/11_Line_follower_1.png)
+![image](../img/11_Line_follower_1.png)
 
 
 ## Cíl

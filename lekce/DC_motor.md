@@ -36,9 +36,9 @@ Robot, kterého budeme ve výuce použivat, v sobě obsahuje Arduino Nano (má s
 ## Pinout modulu DRV8833 a princip použití
 Obvod [DRV8833](https://lastminuteengineers.com/drv8833-arduino-tutorial/) v sobě obsahuje dva H můstky, můžeme s ním tedy řídít dva stejnosměrné motory. Vstupy IN1-4 připojíme k pinům Arduina, které podporují PWM výstup, abychom mohli řídit plynule rychlost motorů.
 
-![image](img/06_DC_motor_4.png)
+![image](../img/06_DC_motor_4.png)
 
-![image](img/06_DC_motor_5.png)
+![image](../img/06_DC_motor_5.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/drv8833-arduino-tutorial/*
 

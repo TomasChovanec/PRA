@@ -1,6 +1,6 @@
 ## Závěrečné ohlédnutí
 
-![image](img/11_zaver_1.png)
+![image](../img/11_zaver_1.png)
 
 ## Co dál?
 

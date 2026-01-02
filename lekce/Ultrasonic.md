@@ -19,14 +19,14 @@ Hlavní parametry senzoru:
 
 ## Princip senzoru
 
-![image](img/05_Ultrasonic_stepper_1.png)
+![image](../img/05_Ultrasonic_stepper_1.png)
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/*
 
 ### Zapojení
 Kromě obligátního +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digitálním pinům Arduina. **Pin Trig** slouží ke spuštění měření (vyslání ultrazvukového pulzu), musíme jej tedy v Arduinu nastavit jako výstup. **Pin Echo** je výstup senzoru (tedy z pohledu Arduina vstup), na kterém senzor generuje puls, jehož délka odpovídá době od vyslání signálu do návratu odražené vlny.
 
-![image](img/05_Ultrasonic_stepper_2.png)
+![image](../img/05_Ultrasonic_stepper_2.png)
 
 ### Průběh signálu na pinech Trig a Echo:
 

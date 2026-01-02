@@ -14,9 +14,9 @@
 
 <img src="img/04_DHT_LCD_7.png" width="900"/>
 
-![image](img/04_DHT_LCD_8.png)
+![image](../img/04_DHT_LCD_8.png)
 
-![image](img/04_DHT_LCD_9.png)
+![image](../img/04_DHT_LCD_9.png)
 
 *Zdroj obrázku:  https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/*
 
@@ -32,11 +32,11 @@ Výhody I2C s Arduinem
 - Možnost rozšíření – připojení až 128 zařízení na stejnou sběrnici (adresy 7bit).
 - Obousměrná komunikace – Master (Arduino) může posílat i přijímat data.
  
-![image](img/04_DHT_LCD_5.png)
+![image](../img/04_DHT_LCD_5.png)
  
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
-![image](img/04_DHT_LCD_6.png)
+![image](../img/04_DHT_LCD_6.png)
  
 ### Použití knihovny [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 

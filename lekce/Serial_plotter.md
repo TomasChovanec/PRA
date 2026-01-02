@@ -13,11 +13,11 @@ Arduino má mnoho vstupů, na kterých dokáže měřit jak digitálně stav log
 V této lekci si ukážeme, jak z arduina udělat jednoduchý osciloskop, vykreslíme průběh napětí na kondenzátoru při nabíjení a vybíjení.
 
 
-## Serial Plotter     ![image](img/09_Serial_plotter_2.png)
+## Serial Plotter     ![image](../img/09_Serial_plotter_2.png)
 
 Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plotter**, který je standartní součástí Arduino IDE (ikonka hned vedle Serial Monitoru). Na základní zobrazení signálu se dá použít, neumí ale třeba nastavit rozsah osy Y nebo zoomovat v zobrazeném grafu atd.
 
-![image](img/09_Serial_plotter_3.png)
+![image](../img/09_Serial_plotter_3.png)
 
 ### Úkoly:
 1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince (použijte rychlejší baudrate 115200 bps). Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
@@ -30,7 +30,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 
 :warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial Plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial Plotter buď zavřít, nebo v něm nastavit jiný port.
 
-![image](img/09_Serial_plotter_4.png)
+![image](../img/09_Serial_plotter_4.png)
 
 
 ### Úkol:
@@ -38,7 +38,7 @@ V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Form
 
 
 ## Kondenzátor
-![image](img/09_Serial_plotter_5.png)
+![image](../img/09_Serial_plotter_5.png)
 
 Kondenzátor se ve stejnosměrném obvodu chová jako zásobník energie.P o připojení ke zdroji napětí se začne rychle nabíjet a protéká jím velký proud. Jakmile se jeho napětí vyrovná s napětím zdroje, proud klesne na minimální hodnotu. Pak kondenzátor uchovává elektrický náboj a může dodávat energii do obvodu (fungovat jako zdroj). Při vybíjení postupně ztrácí náboj a napětí na něm exponenciálně klesá.
 
@@ -53,7 +53,7 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 - Připojte k LEDce a rezistoru paralelně kondenzátor
 - Zkuste opět tlačítkem připojovat a odpojovat 5V. Popište, co se děje
 
-![image](img/09_Serial_plotter_6.png)
+![image](../img/09_Serial_plotter_6.png)
 
 **2.** Nyní upravte zapojení tak, abychom obvod nenapájeli přes tlačítko z +5V, ale z pinu D13.
 - Naprogramujte Arduino, aby se na pinu 13 střídala log. 1 a log. 0 každou sekundu
@@ -79,7 +79,7 @@ void loop() {
 }
 ```
 
-![image](img/09_Serial_plotter_7.png)
+![image](../img/09_Serial_plotter_7.png)
 
 ## Další užitečné články a videa
 

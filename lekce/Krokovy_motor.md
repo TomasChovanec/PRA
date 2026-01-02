@@ -8,7 +8,7 @@ Motor 28BYJ-48 je unipolární krokový motor se čtyřmi cívkami uspořádaný
 
 *Zdroj obrázku: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/*
 
-![image](img/05_Ultrasonic_stepper_3.png)
+![image](../img/05_Ultrasonic_stepper_3.png)
 
 *Zdroj obrázků: https://playwithcircuit.com/28byj48-stepper-motor-arduino-tutorial/*
 
@@ -19,7 +19,7 @@ Podle datasheetu odpovídá u motoru 28BYJ-48 v režimu plného kroku každý kr
 
 Uvnitř motoru je navíc převodovka s převodem 64:1. Výsledkem je 2048 kroků na jednu otáčku (32×64).
 
-![image](img/05_Ultrasonic_stepper_4.png)
+![image](../img/05_Ultrasonic_stepper_4.png)
 
 *Zdroj obrázků: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/*
 
@@ -29,7 +29,7 @@ Jak vypadá motor uvnitř můžete vidět [zde](https://cookierobotics.com/042/)
 ## Driver ULN2003 
 Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Arduina napřímo, použijeme driver pro krokový motor. Ten nám poslouží jako výkonový spínač.
 
-![image](img/05_Ultrasonic_stepper_5.png)
+![image](../img/05_Ultrasonic_stepper_5.png)
 
 <img width="694" height="334" alt="image" src="https://github.com/user-attachments/assets/21065e20-5ce7-4942-8bfb-8c027724b6e1" />
 

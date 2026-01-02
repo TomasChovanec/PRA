@@ -19,7 +19,7 @@ Existuje mnoho typů Arduino desek s různými mikrokontrolery - liší se výko
 ## Princip fungování embedded systémů
 Slovo „embedded“ znamená, že jde o systémy, které jsou součástí nějakého zařízení, například mikrokontrolér v ledničce, autě nebo robotu, který vykonává specifické úkoly.
 
-![image](img/01_Uvod_LED_2.png)
+![image](../img/01_Uvod_LED_2.png)
 
 ## Příklad projektu s Arduinem
 Dokážete při pohledu na obrázek popsat, k čemu tento projekt slouží a jaký asi program běží v Arduinu?
@@ -84,13 +84,13 @@ void loop() {
 ## Přidání další LEDky, nepájivé pole
 Na desce Arduina je jen jedna LEDka, kterou můžeme ovládat (pokud nepočítáme LEDky na pinech Tx a Rx, které ale využíváme k programování Arduina). Zkusíme si teď připojit další LEDku s pomocí nepájivého pole. Nesmíme zapomenout na sériový odpor. Jak spočítat jeho velikost?
 
-![image](img/01_Uvod_LED_4.png)
+![image](../img/01_Uvod_LED_4.png)
 
 Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení elektronických obvodů bez nutnosti pájení. Má řadu malých děr, které jsou elektricky propojené, a do těchto děr se zasouvají součástky nebo vodiče. Umožňuje tedy snadno testovat a upravovat obvody.
 
-![image](img/01_Uvod_LED_5.png)
+![image](../img/01_Uvod_LED_5.png)
 
-![image](img/01_Uvod_LED_6.png)
+![image](../img/01_Uvod_LED_6.png)
 
 ## Tlačítko
 Tlačítko může sloužit jako jednoduché vstupní zařízení pro Arduino. Mechanicky je to vlastně jen pružný kontakt, který při stisku propojí dva kontakty. Způsobů, jak zapojit tlačítko je více, ukážeme si ten nejjednodušší, který nevyžaduje další součástky.
@@ -117,7 +117,7 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 
 **3.** Vytvořte semafor pomocí Arduina a 3 LED. Vytvořte si pro to nový sketch (program). Předchozí program si uložte, bude se vám v budoucnu hodit. 
 
-![image](img/01_Uvod_LED_7.png)
+![image](../img/01_Uvod_LED_7.png)
 
 **4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu).
 

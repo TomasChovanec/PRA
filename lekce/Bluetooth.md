@@ -4,7 +4,7 @@
 V dnešní lekci si ukážeme jak použít s Arduinem bezdrátovou komunikaci. Asi nejsnazší cestou je technologie Bluetooth. Je to 2,4GHz rádiový přenos určený na krátké vzdálenosti, který běžně používáme k připojení bezdrátových periferií jako sluchátek, reproduktorů, myší, klávesnic a mnoha dalšího. Dále můžeme s jeho pomocí například sbírat data ze senzorů nebo ovládat různá zařízení přes aplikaci na telefonu.
 
 ## Modul HC-05
-![image](img/08_Bluetooth_1.png)
+![image](../img/08_Bluetooth_1.png)
 
 
 V této lekci budeme používat bluetooth modul HC-05, který je velmi rozšířený, pro svou nízkou cenu a jednoduchou obsluhu. Nevýhoda je, že podporuje pouze starší standard Bluetooth 2.0, a proto není například kompatibilní s výrobky firmy Apple. Ovšem lze ho použít ke komunikaci s telefony Android, s notebooky či navázat komunikaci mezi dvěma moduly HC-05.
@@ -14,7 +14,7 @@ HC-05 funguje jako bezdrátový UART bridge. Tedy pokud ho připojíme k pinům 
 
 **Pozor:** Modul HC-05 lze napájet 5V, ale jeho vnitřní logika je 3,3V, tedy na jeho Rx pin nesmíme přivést vyšší napětí. To je problém, protože Arduino, které používáme má 5V napájení a pokud bychom napřímo propojili Tx Arduina a Rx HC-05, mohli bychom bluetooth modul zničit. Jak na školním robotovi tak na Joystick shieldu je to vyřešeno tak, že je Tx pin Arduina připojen přes dělič napětí, který 5V Arduina sníží na 3,3V pro HC-05. Pokud však budete dělat vlastní zapojení, nezapomeňte toto ošetřit.
 
-![image](img/08_Bluetooth_2.png)
+![image](../img/08_Bluetooth_2.png)
 
 Modul HC-05 může pracovat ve dvou režimech:
 
@@ -28,7 +28,7 @@ Modul HC-05 může pracovat ve dvou režimech:
 ## Joystick shield
 Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku, která se nasadí na Arduino a obsahuje směrová tlačítka, joystick a řadu praktických konektorů, mimo jiné i na bluetooth modul.
 
-![image](img/08_Bluetooth_3.png)
+![image](../img/08_Bluetooth_3.png)
 
 *Zdroj obrázku: https://wiki.keyestudio.com/Ks0153_keyestudio_JoyStick_Shield*
 
@@ -41,7 +41,7 @@ Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Blue
 
 **Program pro robota** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.)  Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
 
-![image](img/08_Bluetooth_5.png)
+![image](../img/08_Bluetooth_5.png)
 
 Pozor, v jazyce C se jednotlivé znaky píší v jednoduchách uvozovokách (např. ```char znak = 'a';```), zatímco textové řetězce v dvojitých (např. ```String slovo = "Ahoj";```).
 

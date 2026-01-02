@@ -10,13 +10,13 @@ DHT11 je jednoduché digitální čidlo, které měří teplotu a vlhkost. Přip
 - **Senzor vlhkosti** — umožňuje měřit relativní vlhkost v rozsahu 20–90 % s přesností ±5 %.
 - **Integrovaný obvod** — měří vlhkost a teplotu pomocí dvou výše zmíněných čidel a data posílá digitálně po jediném datovém pinu.
 
-![image](img/04_DHT_LCD_1.png)
+![image](../img/04_DHT_LCD_1.png)
 
-![image](img/04_DHT_LCD_2.png)
+![image](../img/04_DHT_LCD_2.png)
 
-![image](img/04_DHT_LCD_3.png)
+![image](../img/04_DHT_LCD_3.png)
 
-![image](img/04_DHT_LCD_4.png)
+![image](../img/04_DHT_LCD_4.png)
 
 *Zdroj obrázků: https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/ *
 
