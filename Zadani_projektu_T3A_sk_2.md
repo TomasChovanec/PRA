@@ -1,4 +1,4 @@
-## Termín 8.1., odevzdání dokumentace emailem nejpozději 6.1. 23:59
+## Termín prezentace ve škole: 8.1., termín odevzdání dokumentace mailem: 6.1. 23:59
 
 ### Radim P., Ivan R. - Otevírání dveří na RFID karty
 - Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
@@ -31,7 +31,7 @@
 - Každé hodnotě bude odpovídat jedna barva. Podle toho, jaké číslo "padne" na kostce se zbarví RGB LEDka
 
 
-## Termín 22.1., odevzdání dokumentace emailem nejpozději 20.1. 23:59§
+## Termín prezentace ve škole: 22.1., termín odevzdání dokumentace mailem: 20.1. 23:59
 
 ### Tomáš T. -  Elektronická hrací kostka
 - Pomocí Arduina, LED diod a tlačítka vytvořte elektronickou hrací kostku.
