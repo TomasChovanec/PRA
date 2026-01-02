@@ -8,13 +8,13 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
-- [Informace k samostatnému projektu](Projekt.md)
-- [Zadání T3A sk. 1](Zadani_projektu_T3A_sk_1.md)
-- [Zadání T3A sk. 2](Zadani_projektu_T3A_sk_2.md)
+- [Informace k samostatnému projektu](/projekty/Projekt.md)
+- [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
+- [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
 
 <!---
-- [Zadání E3A](Zadani_projektu_E3A_sk_1.md)
-- [Zadání E3B](Zadani_projektu_E3B_sk_1.md)
+- [Zadání E3A](/projekty/Zadani_projektu_E3A_sk_1.md)
+- [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_1.md)
 
 --->
 
