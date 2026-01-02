@@ -28,6 +28,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Servo](/lekce/Servo.md)
 1. [PWM, RGB LEDka](/lekce/PWM.md)
 1. [LCD displej](/lekce/LCD.md)
+1. [Logický analyzer](/lekce/Logicky_analyzer.md)
 1. [Teplotní čidlo](/lekce/DHT.md)
 1. [Ultrazvukový sensor](/lekce/Ultrasonic.md)
 1. [Krokový motor](/lekce/Krokovy_motor.md)
@@ -36,12 +37,10 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Multitasking s Arduinem](/lekce/Millis.md)
 1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
 1. [Fotorezistor](/lekce/Fotorezistor.md)
-2. [Logický analyzer](/lekce/Logicky_analyzer.md)
 1. [Sériový vstup](/lekce/Serial_input.md)
 1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
 1. [Sledovač čáry](/lekce/Line_follower.md)
 
-   
 <!---
 1. [Závěr](/lekce/zaver.md)
 --->
