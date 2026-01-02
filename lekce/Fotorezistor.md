@@ -19,7 +19,7 @@ Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme p
 **4.** Zajistěte, aby se žaluzie neustále nehýbaly při kolísání intenzity světla kolem hraniční hodnoty. Implementujte **hysterezi** – nastavte různé prahy pro zavření a otevření žaluzií, aby servo nereagovalo na malé změny světla.
 
 
-<img src="img/10_Fotorezistor_2.png" width="600"/>
+<img src="../img/10_Fotorezistor_2.png" width="600"/>
 
 *Zdroj obrázku: https://www.lorric.com/en/Articles/flowmeter-technology/flowmeter-technology/hysteresis-function*
 
