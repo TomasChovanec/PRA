@@ -126,4 +126,4 @@ while (digitalRead(2) == HIGH) {
 4. Napište program, který po startu čeká, dokud není stisknuto tlačítko, pak 25x blikne LEDkou
 
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

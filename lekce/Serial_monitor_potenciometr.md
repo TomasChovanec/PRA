@@ -86,4 +86,4 @@ Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v
 3. Pokud je vyšší než 2,5V, rozsviťte LEDku
 4. Potenciometrem měňte frekvenci blikání LEDky
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

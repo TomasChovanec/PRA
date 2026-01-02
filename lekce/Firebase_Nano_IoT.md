@@ -163,4 +163,4 @@ void loop() {
 2. Čtěte z Firebase hodnotu slideru pomocí funkce ```get_data_from_firebase("/Slider_xxx");``` (opět za xxx dosaďte číslo své sady) a nastavujte podle toho jas LEDky připojené k Arduinu (funkcí analogWrite)
 3. Zkuste nastavovat stav LEDky z telefonu přes [https://tomaschovanec.github.io/PRA/iot](https://tomaschovanec.github.io/PRA/iot)
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

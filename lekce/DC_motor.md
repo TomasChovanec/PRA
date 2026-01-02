@@ -62,4 +62,4 @@ Zda a jakým směrem se motory budou točit nastavíme kombinací vstupů IN1 a 
 1. Stejně jako v předchozím bodě, ale přidejte při detekci překážky krátce zacouvejte a pokračujte jiným směrem.
 
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

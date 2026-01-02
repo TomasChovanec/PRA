@@ -49,4 +49,4 @@ Pozor, v jazyce C se jednotlivé znaky píší v jednoduchách uvozovokách (nap
 
 **Ovládání robota** Až budete mít hotový program pro robota i pro ovladač, připojte jak k robotovi tak k Arduinu s Joystick shieldem moduly HC-05 (nakonfigurované jako master a slave) a ověřte, že komunikace funguje a že lze robota dálkově ovládat.
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

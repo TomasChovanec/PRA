@@ -122,4 +122,4 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 **4.** Přidejte k semaforu tlačítko pro chodce (stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu).
 
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

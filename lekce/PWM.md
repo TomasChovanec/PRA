@@ -44,4 +44,4 @@ Každou barvu můžeme ovládat zvlášť. Pokud k tomu použijeme PWM, můžeme
 5. Pomocí cyklu for měňte plynule barvu LEDky z modré na zelenou a zpět.
 6. Pomocí tří potenciometrů nastavujte všechny tři barevné složky RGB LEDKy.
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

@@ -58,4 +58,4 @@ Výhody I2C s Arduinem
 1. Zobrazte na displeji odpočet od 10 do 0 po 0,5s. Po skončení odpočtu zobrazte libovolný vzkaz.
 1. Připojte potenciometr a na displeji zobrazujte polohu potencimetru v procentech.  
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

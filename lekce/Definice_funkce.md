@@ -79,4 +79,4 @@ void loop() {
 2. Pro snadnější práci s ultrazvukovým senzorem vytvořte funkci ```zmer_vzdalenost()```, která bude vracet délku v centimetrech.
 
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

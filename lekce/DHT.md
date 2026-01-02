@@ -72,4 +72,4 @@ void loop() {
 1. Na displeji zobrazujte aktuální teplotu a pak také minimální a maximální teplotu od startu programu.
 1. Vytvořte program, který sleduje teplotu z DHT11 a porovnává ji s limitem. Limit se bude nastavovat potenciometrem. Pokud teplota překročí tento limit, na LCD se zobrazí varování. Na LCD zobrazujte aktuální teplotu i nastavený limit.
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

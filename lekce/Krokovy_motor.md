@@ -44,4 +44,4 @@ Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Ar
 5. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a vytvořte funkce ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
 6. Vyberte takový způsob řízení, aby se motor točil co nejrychleji.
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

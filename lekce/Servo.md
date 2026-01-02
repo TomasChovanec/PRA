@@ -100,4 +100,4 @@ servo.write(angle);
 analogRead() vrátí hodnotu od 0 do 1023
 map() ji převede na úhel od 0 do 180 stupňů pro servo
 
-## [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

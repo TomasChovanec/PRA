@@ -26,4 +26,4 @@ Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme p
 **5.** Zabraňte tomu, aby žaluzie reagovaly okamžitě na každé krátké zastínění senzoru (např. když kolem projde člověk). Stav žaluzií se změní pouze tehdy, pokud světlo nebo tma trvá déle než 5 sekund.
 
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)

@@ -23,4 +23,4 @@ Například:
 - Pokud robot ztratí čáru, nech ho otáčet na místě a hledat ji.
 - Pro rychlejší a plynulejší pohyb robota můžete použít PID regulaci. Nastudujte si stručně o co se jedná a zkuste ji implementovat.
 
-### [Zpět na obsah](README.md)
+### [Zpět na obsah](../README.md)
