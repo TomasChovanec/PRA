@@ -2,8 +2,7 @@
 
 ### Cíle lekce
 - Pochopit princip ultrazvukového měření vzdálenosti
-- Seznámit se se senzorem HC-SR04
-- Vytvořit funkční zapojení a aprogram pro měření vzdálenosti
+- Vytvořit funkční zapojení a program pro měření vzdálenosti se senzorem HC-SR04
 
 Hlavní parametry senzoru:
 
