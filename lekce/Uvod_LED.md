@@ -2,9 +2,9 @@
 
 ### Cíle lekce
 - Vysvětlit, co je Arduino a k čemu se používá.
-- Otevřít Arduino IDE a ukázat, jak se píše a nahrává program.
+- Seznámit se s Arduino IDE a ukázat, jak napsat program a jak jej nahrát do desky.
 - Naučit se základní strukturu programu (setup(), loop()).
-- Ovládat Arduinem LEDku pomocí funkce digitalWrite().
+- Ovládat Arduinem piny arduina pomocí funkce digitalWrite() a blikat tak LEDkou.
 - Zopakovat si práci s nepájivým polem (napájení, správné zapojování součástek).
 
 
