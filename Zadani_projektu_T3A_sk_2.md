@@ -19,12 +19,12 @@
 - Hra bude spočívat ve sbírání bodů pohybem hráče (kuličky) podle náklonu akcelerometru, po sebrání bodu se ozve zvukový efekt
 - Skóre zobrazujte v pravém horním rohu displeje; Ošetřete pohyb hráče tak, aby se do této oblasti nemohl dostat
 
-### Denis. M. - Elektronická hrací kostka
+### Denis M. - Elektronická hrací kostka
 - Pomocí Arduina, OLED displeje a tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou měnit obrázky kostky s různými hodnotami
 - Po puštění tlačítka se hodnota zastaví
 
-### Marek. O.-  Elektronická hrací kostka
+### Marek O.-  Elektronická hrací kostka
 - Pomocí Arduina, LCD displeje a RGB LEDky vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty 1-6.
 - Po puštění tlačítka se hodnota zastaví
