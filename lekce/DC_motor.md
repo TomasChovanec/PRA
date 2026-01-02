@@ -11,7 +11,7 @@ DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou en
 
 Video [o konstrukci stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
-<img src="img/06_DC_motor_1.png" width="450"/>
+<img src="../img/06_DC_motor_1.png" width="450"/>
 
 *Zdroj obrázku: https://dronebotworkshop.com/dc-motors-l298n-h-bridge/*
 
@@ -23,7 +23,7 @@ Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Př
 
 Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
-<img src="img/06_DC_motor_2.png" width="800"/>
+<img src="../img/06_DC_motor_2.png" width="800"/>
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/*
 
