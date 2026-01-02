@@ -45,17 +45,17 @@ void loop() {
 ## Blikání LEDkou na desce Arduina
 Přímo na desce Arduina je jedna LED, kteoru můžeme z programu ovládat. Je připojena na pin 13. Co budeme potřebovat?
 
-Nastavit pin, kde je připojena LEDka jako výstup
+Touto funkcí nastavíme pin 13, kde je připojena LEDka, jako výstup.
 ```c
 pinMode(13, OUTPUT);
 ```
 
-Rozsvítit LEDku, tím, že na pin, kde je připojena nastavíme logickou jedničku (tedy 5V)
+Touto funkcí přivedeme na pin 13 logickou jedničku. Tím se na pin připojí 5V a LEDka se rozsvítí.
 ```c
 digitalWrite(13, HIGH); //zapnutí led
 ```
 
-Počkat nějakou dobu, abychom lidské oko vidělo, že LEDka svítí
+Protože mikroprocesor v Arduinu pracuje s frekvencí 16MHz, tak pokud bychom jen neustále měnili stav na pinu, nebylo by blikání pro lidksé oko viditelné (viděli bychom jej jen na osciloskopu). Proto přidáme "pauzu", aby oko stihlo vnímat, že LEDka svítí.
 ```c
 delay(1000); // čekání po dobu jedné sekundy
 ```
