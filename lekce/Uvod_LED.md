@@ -55,7 +55,7 @@ Touto funkcí přivedeme na pin 13 logickou jedničku (HIGH). Tím se na pin př
 digitalWrite(13, HIGH); //zapnutí led
 ```
 
-Protože mikroprocesor v Arduinu pracuje s frekvencí 16MHz, tak pokud bychom jen neustále měnili stav na pinu, nebylo by blikání pro lidksé oko viditelné (viděli bychom jej jen na osciloskopu). Proto přidáme "pauzu", aby oko stihlo vnímat, že LEDka svítí.
+Protože mikroprocesor v Arduinu pracuje s frekvencí 16MHz, tak pokud bychom jen neustále měnili stav na pinu, nebylo by blikání pro lidské oko viditelné (viděli bychom jej jen na osciloskopu). Proto přidáme "pauzu", aby oko stihlo vnímat, že LEDka svítí.
 ```c
 delay(1000); // čekání po dobu jedné sekundy
 ```
