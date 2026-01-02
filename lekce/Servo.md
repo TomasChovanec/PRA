@@ -13,13 +13,13 @@ Uvnitř najdeme:
 - Potenciometr – snímá polohu hřídele
 - Deska s řídící elektronikou - řídí motor na základě signálu z řidícího vodiče a potenciometru
 
-![image](img/03_Servo_PWM_1.png)
+![image](../img/03_Servo_PWM_1.png)
 
 *Zdroj obrázku: https://docs.arduino.cc/tutorials/generic/basic-servo-control/*
 
 ## Zapojení serva
 
-![image](img/03_Servo_PWM_2.png)
+![image](../img/03_Servo_PWM_2.png)
 
 *Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
 
@@ -42,7 +42,7 @@ servo.write(úhel) — nastaví úhel (0 až 180°).
 
 *Zdroj obrázku: https://lastminuteengineers.com/servo-motor-arduino-tutorial/*
 
-<img src="img/03_Servo_PWM_3.png" width="800"/>
+<img src="../img/03_Servo_PWM_3.png" width="800"/>
 
 *Zdroj obrázku: https://howtomechatronics.com/how-it-works/how-servo-motors-work-how-to-control-servos-using-arduino/*
 
