@@ -1,9 +1,10 @@
 # Serial monitor, analogový vstup Arduina
 
 ### Cíle lekce
-- Použít komunikaci přes sériový port k ověření funkce programu
+- Použít komunikaci přes sériový port funkcí ```Serial.println()``` k ověření funkce programu
 - Zopakovat si základy jazyka C - práce s proměnnou, podmínka a cyklus
-- Umět využívat funkci analogRead() pro měření napětí
+- Umět využívat funkci ```analogRead()``` pro měření napětí
+- Umět zapojit potenciometr a číst z programu jeho polohu
 
 
 <script type="text/javascript" id="MathJax-script" async 
