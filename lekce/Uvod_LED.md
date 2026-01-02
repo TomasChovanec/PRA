@@ -50,7 +50,7 @@ Touto funkcí nastavíme pin 13, kde je připojena LEDka, jako výstup.
 pinMode(13, OUTPUT);
 ```
 
-Touto funkcí přivedeme na pin 13 logickou jedničku. Tím se na pin připojí 5V a LEDka se rozsvítí.
+Touto funkcí přivedeme na pin 13 logickou jedničku (HIGH). Tím se na pin připojí 5V a LEDka se rozsvítí.
 ```c
 digitalWrite(13, HIGH); //zapnutí led
 ```
