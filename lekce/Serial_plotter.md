@@ -62,7 +62,7 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 
 Protože pokud bychom pro blikání používali funkci delay(), procesor by měřil data jen jednou za sekundu, použijeme pro blikání funkci millis():
  ```c
-unsigned long previousMillis = 0;  // poslední čas, kdy se LEDou blinkulo
+unsigned long previousMillis = 0;  // poslední čas, kdy se LEDou bliknulo
 int ledPin = 13;
  
 void setup() {
