@@ -14,7 +14,7 @@ Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarov�
 ## Hardware
 Existuje mnoho typů Arduino desek s různými mikrokontrolery - liší se výkonem, počtem pinů, možnostmi WiFi, Bluetooth atd. V našich hodinách budeme používat Arduino UNO s procesorem ATmega 328.
 
-<img src="img/01_Uvod_LED_1.png" width="600"/>
+<img src="../img/01_Uvod_LED_1.png" width="600"/>
 
 ## Princip fungování embedded systémů
 Slovo „embedded“ znamená, že jde o systémy, které jsou součástí nějakého zařízení, například mikrokontrolér v ledničce, autě nebo robotu, který vykonává specifické úkoly.
@@ -24,7 +24,7 @@ Slovo „embedded“ znamená, že jde o systémy, které jsou součástí něja
 ## Příklad projektu s Arduinem
 Dokážete při pohledu na obrázek popsat, k čemu tento projekt slouží a jaký asi program běží v Arduinu?
 
-<img src="img/01_Uvod_LED_3.png" width="600"/>
+<img src="../img/01_Uvod_LED_3.png" width="600"/>
 
 
 ## Psaní programu pro Arduino - funkce setup() a loop()
