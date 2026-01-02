@@ -1,6 +1,6 @@
 ## Termín prezentace ve škole: 18.12., termín odevzdání dokumentace mailem: 16.12. 23:59
 
-### Adam H.  - Prodejní automat na RFID karty
+### :x: Adam H. - Prodejní automat na RFID karty
 Automat bude obsahovat displej, 4 tlačítka, RFID modul a bzučák.
 - Po přiložení karty nebo čipu se na chvíli zobrazí na displeji jméno majitele a zbývající 
 kredit (popř. upozornění na neznámého uživatele)
@@ -12,13 +12,13 @@ vysoký tón
 - Cena nápoje se strhne uživateli z kreditu. Informace o kreditu může být uložena v Arduinu nebo na kartě (vyber dle uvážení, výhody a nevýhody uveď v závěru).
 
 
-### Josef K.  - Elektronický zámek
+### :white_check_mark: Josef K.  - Elektronický zámek
 Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a servem
 - Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem
 - Po 3 chybných zadáních se zámek na 10s zablokuje (odpočet bude na displeji)
 - Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina)
 
-### Dominik G. - Parkovací senzor
+### :white_check_mark: Dominik G. - Parkovací senzor
 Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro auto
 - Senzor je aktivní pouze když je stisknuto tlačítko (simulujeme spínač na zpátečce v autě)
 - Když je překážka vzdálena více než 100 cm, bzučák nebude vydávat žádný zvuk.
@@ -26,16 +26,16 @@ Pomocí Arduina, pieza a ultrazvukového senzoru vytvořte parkovací senzor pro
 - Když se překážka přiblíží na 50–20 cm, pípání bude jednou za půl sekundy.
 - Pokud je překážka blíže než 20 cm, bzučák bude znít neustále.
   
-### Richard F.
+### :white_check_mark: Richard F.
 Pomocí ultrazvukového senzoru HC-SR04, Arduina a tlačítek vytvořte zařízení, které změří délku a šířku objektu a vypočítá plochu.
 - Měřená hodnota se průběžně zobrazuje na displeji, stiskem tlačítka se potvrdí a přejde se na měření další hodnoty
 - Po zadání všech hodnot se zobrazí všechny naměřené hodnoty spolu s výslednou plochou
 
-### Dan L. - Teploměr a vlhkoměr
+### :white_check_mark: Dan L. - Teploměr a vlhkoměr
 Pomocí Arduina vytvořte teploměr a vlhkoměr s měřením na dvou místech - v místnosti a venku. 
 Použijte čidla DHT11, LCD displej pro zobrazení a tlačítko pro přepínání mezi zobrazením hodnot v místnosti a venku.
   
-### Jakub Kr. - Elektronické piano
+### :white_check_mark: Jakub Kr. - Elektronické piano
 Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jednoduché “piano”.
 
 Po stisku tlačítka se přehraje příslušný tón.
