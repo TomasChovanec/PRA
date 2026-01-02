@@ -60,7 +60,7 @@ Kondenzátor nepropouští stejnosměrný proud po úplném nabití, ale umožň
 - Pomocí analogových pinů měřte napětí na pinu D13 a napětí na kondenzátoru
 - Naměřené hodnoty posílejte na sériový port a zobrazujte pomocí programu Better Serial Plotter.
 
-Protože pokud bychom pro blikání používali funkci delay(), procesor by měřil data jen jednou za sekundu, použijeme pro blikání fuknci millis():
+Protože pokud bychom pro blikání používali funkci delay(), procesor by měřil data jen jednou za sekundu, použijeme pro blikání funkci millis():
  ```c
 unsigned long previousMillis = 0;  // poslední čas, kdy se LEDou blinkulo
 int ledPin = 13;
