@@ -23,27 +23,27 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Materiály k výuce
-1. [Úvod do Arduina, blikání LEDkou](Uvod_LED.md)
-1. [Serial monitor, analogový vstup](Serial_monitor_potenciometr.md)
-1. [Servo](Servo.md)
-1. [PWM, RGB LEDka](PWM.md)
-1. [LCD displej](LCD.md)
-1. [Teplotní čidlo](DHT.md)
-1. [Ultrazvukový sensor](Ultrasonic.md)
-1. [Krokový motor](Krokovy_motor.md)
-1. [Řízení DC motoru](DC_motor.md)
-1. [Bluetooth](Bluetooth.md)
-1. [Multitasking s Arduinem](Millis.md)
-1. [Arduino jako měřící přístroj](Serial_plotter.md)
-1. [Fotorezistor](Fotorezistor.md)
-2. [Logický analyzer](Logicky_analyzer.md)
-1. [Sériový vstup](Serial_input.md)
-1. [WiFi a IoT](Firebase_Nano_IoT.md)
-1. [Sledovač čáry](Line_follower.md)
+1. [Úvod do Arduina, blikání LEDkou](/lekce/Uvod_LED.md)
+1. [Serial monitor, analogový vstup](/lekce/Serial_monitor_potenciometr.md)
+1. [Servo](/lekce/Servo.md)
+1. [PWM, RGB LEDka](/lekce/PWM.md)
+1. [LCD displej](/lekce/LCD.md)
+1. [Teplotní čidlo](/lekce/DHT.md)
+1. [Ultrazvukový sensor](/lekce/Ultrasonic.md)
+1. [Krokový motor](/lekce/Krokovy_motor.md)
+1. [Řízení DC motoru](/lekce/DC_motor.md)
+1. [Bluetooth](/lekce/Bluetooth.md)
+1. [Multitasking s Arduinem](/lekce/Millis.md)
+1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
+1. [Fotorezistor](/lekce/Fotorezistor.md)
+2. [Logický analyzer](/lekce/Logicky_analyzer.md)
+1. [Sériový vstup](/lekce/Serial_input.md)
+1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
+1. [Sledovač čáry](/lekce/Line_follower.md)
 
    
 <!---
-1. [Závěr](zaver.md)
+1. [Závěr](/lekce/zaver.md)
 --->
 
 <!---
@@ -56,8 +56,5 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
 
 1. [Test 1](Test_1.md)
-2. [Test 2](Vyber_z_projektu_T3A_1.md)
-   
-<!---
-2. [Program ve dvojicích](09_lekce.md)
---->
+2. [Test 2](Test_2.md)
+
