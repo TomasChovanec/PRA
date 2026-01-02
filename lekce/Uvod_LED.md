@@ -115,7 +115,7 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 
 **2.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Připojte na jeden pin Arduina tlačítko a na jiný pin LEDku (nezapomeňte na rezistor). Pomocí funkce ```digitalRead()``` čtěte stav tlačítka. Pokud je stisknuté, rozsviťte LEDku. Pokud není stisknuté, LEDku zhasněte. Pin s tlačítkem  nastavte funkcí ```pinMode``` jako ```INPUT_PULLUP```.
 
-**3.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Vytvořte semafor pomocí Arduina a 3 LED (zelená, žlutá, červená). 
+**3.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Vytvořte semafor pomocí Arduina a 3 LED (zelená, žlutá, červená). Vyberte si tři piny Arduina, připojte na každý pin jednu LEDku. Pak naprogramujte pomocí funkcí ```digitalWrite()``` a ```delay()``` aby se stav LEDek měnil podle fází semaforu viz obrázek níže.
 
 ![image](../img/01_Uvod_LED_7.png)
 
