@@ -1,7 +1,7 @@
 # Úvod do Arduina
 
 ### Cíle lekce
-- Vysvětlit, co je Arduino a k čemu se používá.
+- Vysvětlit, co je Arduino, k čemu ho můžeme použít
 - Umět použít piny arduina jako výstupy a pomocí funkce digitalWrite() blikat  LEDkou.
 - Umět použít piny arduina jako vstupy a číst stav tlačítka.
 - Umět použít nepájivé pole k propojení součástek a Arduina
