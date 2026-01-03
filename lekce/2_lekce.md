@@ -11,6 +11,15 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
+## Opakování z první lekce - digitální výstup
+Program z předchozího bodu si uložte a vytvořte nový sketch (program). Vytvořte semafor pomocí Arduina a 3 LED (zelená, žlutá, červená). Vyberte si tři piny Arduina, připojte na každý pin jednu LEDku. Pak naprogramujte pomocí funkcí ```digitalWrite()``` a ```delay()``` aby se stav LEDek měnil podle fází semaforu viz obrázek níže.
+
+![image](../img/01_Uvod_LED_7.png)
+
+**Bonus:** Přidejte k semaforu tlačítko pro chodce (pro auta svítí stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu, aby stihli chodci přejít a pak opět bude stále svítit zelená, až do dalšího stisknutí).
+
+
+
 ## Tlačítko
 Tlačítko může sloužit jako jednoduché vstupní zařízení pro Arduino. Mechanicky je to vlastně jen pružný kontakt, který při stisku propojí dva kontakty. Způsobů, jak zapojit tlačítko je více, ukážeme si ten nejjednodušší, který nevyžaduje další součástky.
 
@@ -28,6 +37,8 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 
 <img width="880" height="527" alt="image" src="https://github.com/user-attachments/assets/636b5ca5-db93-403b-84df-f84a689a0729" />
 
+## Úkoly
+**1.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Připojte na jeden pin Arduina tlačítko a na jiný pin LEDku (nezapomeňte na rezistor). Pomocí funkce ```digitalRead()``` čtěte stav tlačítka. Pokud je stisknuté, rozsviťte LEDku. Pokud není stisknuté, LEDku zhasněte. Pin s tlačítkem  nastavte funkcí ```pinMode``` jako ```INPUT_PULLUP```.
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
