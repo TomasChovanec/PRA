@@ -1,4 +1,4 @@
-# Serial monitor, analogový vstup Arduina
+# Digitální a analogový vstup Arduina
 
 ### Cíle lekce
 - Použít komunikaci přes sériový port funkcí ```Serial.println()``` k ověření funkce programu
@@ -11,38 +11,22 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
-## Sériová linka
+## Tlačítko
+Tlačítko může sloužit jako jednoduché vstupní zařízení pro Arduino. Mechanicky je to vlastně jen pružný kontakt, který při stisku propojí dva kontakty. Způsobů, jak zapojit tlačítko je více, ukážeme si ten nejjednodušší, který nevyžaduje další součástky.
 
-`Serial.print()` se používá k odeslání dat do seriového monitoru. Můžete tak zobrazit hodnoty proměnných, zprávy nebo výsledky výpočtů během běhu programu.
+Jeden pól tlačítka zapojíme na digitální vstup Arduina (např. D2). Druhý pól tlačítka zapojíme na GND. V programu nastavíme vstup takto:
 
-- `Serial.print("text");` – vypíše text do seriového monitoru.  
-- `Serial.print(variable);` – vypíše hodnotu proměnné.  
-- `Serial.println()` Funguje stejně jako Serial.print() ale na konci přejde na nový řádek
-
-### Příklad:
-```cpp
-int cislo = 5; // Proměnná, kterou poté budeme posílat
-
-void setup()
-{
-Serial.begin(9600);
-}
-
-void loop()
-{
-Serial.print("Hodnota promenne cislo je: ");
-Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řádek
-}
+```c
+pinMode(2, INPUT_PULLUP);
 ```
 
-## Úkoly
-1. Otevřete si program s blikáním LEDky a přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru.
-1. Připojte k Arduinu tlačítko a napište program, který každých 500ms odesílá do sériového monitoru informaci o tom, zda je tlačítko stisknuto.
-1. Napište program, který neustále inkrementuje (zvyšuje) hodnotu proměnné a posílá její hodnotu do sériového monitoru. Pomocí volby typu proměnné nebo velikosti inkrementu zajistěte, aby došlo k jejímu přetečení.
-1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15 včetně
-1. Pomocí cyklu vypište do sériového monitoru čísla od 10 do -5
-1. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
-1. Napište program, který po startu čeká, dokud není stisknuto tlačítko, pak 25x blikne LEDkou
+Arduino má uvnitř tzv. pull-up rezistor (cca 20–50 kΩ), který je zapojen mezi pin a napájecí napětí (+5V). Pokud je pullup rezistor aktivován, zajistí, že pin je za normálních okolností (nestisknut tlačítko) v úrovni HIGH. Když je tlačítko stisknuto, spojí se pin s GND a vstup se změní na LOW.
+
+Nezapomeňte při psaní programu, že logika je obrácená:
+- Stisknuté tlačítko = LOW
+- Nestisknuté tlačítko = HIGH
+
+<img width="880" height="527" alt="image" src="https://github.com/user-attachments/assets/636b5ca5-db93-403b-84df-f84a689a0729" />
 
 
 ## Analogový vstup
