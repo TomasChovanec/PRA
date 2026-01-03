@@ -12,7 +12,7 @@
 - V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
 - Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
 
-<img src="img/04_DHT_LCD_7.png" width="900"/>
+<img src="../img/04_DHT_LCD_7.png" width="900"/>
 
 ![image](../img/04_DHT_LCD_8.png)
 
