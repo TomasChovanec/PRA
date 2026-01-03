@@ -93,17 +93,42 @@ Nepájivé pole (breadboard) je nástroj, který slouží k rychlému sestavení
 
 
 
-
 ## Úkoly
 **1.** Zapojte do nepájivého pole LEDku s rezistorem. Připojte anodu LEDky na některý digitální pin Arduina (vyberte jeden z pinů 2-12). Napište program tak, aby se vždy po 1s střídavě rozsvěcovala LEDka na Arduino desce (na pinu 13) a LEDka na nepájivém poli.
 
-**2.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Připojte na jeden pin Arduina tlačítko a na jiný pin LEDku (nezapomeňte na rezistor). Pomocí funkce ```digitalRead()``` čtěte stav tlačítka. Pokud je stisknuté, rozsviťte LEDku. Pokud není stisknuté, LEDku zhasněte. Pin s tlačítkem  nastavte funkcí ```pinMode``` jako ```INPUT_PULLUP```.
 
-**3.** Program z předchozího bodu si uložte a vytvořte nový sketch (program). Vytvořte semafor pomocí Arduina a 3 LED (zelená, žlutá, červená). Vyberte si tři piny Arduina, připojte na každý pin jednu LEDku. Pak naprogramujte pomocí funkcí ```digitalWrite()``` a ```delay()``` aby se stav LEDek měnil podle fází semaforu viz obrázek níže.
+## Sériová linka
 
-![image](../img/01_Uvod_LED_7.png)
+`Serial.print()` se používá k odeslání dat do seriového monitoru. Můžete tak zobrazit hodnoty proměnných, zprávy nebo výsledky výpočtů během běhu programu.
 
-**4.** Přidejte k semaforu tlačítko pro chodce (pro auta svítí stále zelená, po stiknutí tlačítka se provede jeden cyklus semaforu, aby stihli chodci přejít a pak opět bude stále svítit zelená, až do dalšího stisknutí).
+- `Serial.print("text");` – vypíše text do seriového monitoru.  
+- `Serial.print(variable);` – vypíše hodnotu proměnné.  
+- `Serial.println()` Funguje stejně jako Serial.print() ale na konci přejde na nový řádek
+
+### Příklad:
+```cpp
+int cislo = 5; // Proměnná, kterou poté budeme posílat
+
+void setup()
+{
+Serial.begin(9600);
+}
+
+void loop()
+{
+Serial.print("Hodnota promenne cislo je: ");
+Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řádek
+}
+```
+
+## Úkoly
+1. Otevřete si program s blikáním LEDky a přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru.
+1. Připojte k Arduinu tlačítko a napište program, který každých 500ms odesílá do sériového monitoru informaci o tom, zda je tlačítko stisknuto.
+1. Napište program, který neustále inkrementuje (zvyšuje) hodnotu proměnné a posílá její hodnotu do sériového monitoru. Pomocí volby typu proměnné nebo velikosti inkrementu zajistěte, aby došlo k jejímu přetečení.
+1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15 včetně
+1. Pomocí cyklu vypište do sériového monitoru čísla od 10 do -5
+1. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
+1. Napište program, který po startu čeká, dokud není stisknuto tlačítko, pak 25x blikne LEDkou
 
 
 ### [Zpět na obsah](../README.md)
