@@ -23,8 +23,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Materiály k výuce
-1. [Úvod do Arduina, blikání LEDkou](/lekce/1_lekce.md)
-1. [Serial monitor, analogový vstup](/lekce/2_lekce.md)
+1. [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
+1. [Tlačítka, analogový vstup](/lekce/2_lekce.md)
 1. [Servo](/lekce/Servo.md)
 1. [PWM, RGB LEDka](/lekce/PWM.md)
 1. [LCD displej](/lekce/LCD.md)
