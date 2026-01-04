@@ -30,7 +30,7 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
     - **Prezentace** před třídou včetně předvedení funkčnosti (2min prezentace plus čas na dotazy. Vhodné je během prezentace buďto promítnout fotky/video projektu nebo projekt předvést na živo) (5 bodů)
     
 - Druhá známka s váhou 1.0 za dokumentaci projektu
-    - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](/files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
+    - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
         - **Zadání** - kompletní zadání zkopírované z Githubu (1 bod)
         - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...) (2 bodů)
         - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným. (5 bodů)
