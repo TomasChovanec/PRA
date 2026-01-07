@@ -18,17 +18,15 @@ Hlavní parametry senzoru:
 
 
 ## Princip senzoru
+HC-SR04 měří vzdálenost pomocí ultrazvuku. Po impulsu na pinu TRIG vyšle krátký ultrazvukový signál (40 kHz) a čeká na jeho odraz od překážky. Od doby odeslání signálu až do chvíle, kdy se odražený signál vrátí, pin je pin ECHO v log. 1. V okamžiku kdy je detekován odraz, nastaví se do log. 0. Z délky tohoto impulzu se podle rychlosti zvuku spočítá vzdálenost.
 
 ![image](../img/05_Ultrasonic_stepper_1.png)
 
 *Zdroj obrázku: https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/*
 
 
-### Zapojení
-Kromě obligátního +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digitálním pinům Arduina. **Pin Trig** slouží ke spuštění měření (vyslání ultrazvukového pulzu), musíme jej tedy v Arduinu nastavit jako výstup. **Pin Echo** je výstup senzoru (tedy z pohledu Arduina vstup), na kterém senzor generuje puls, jehož délka odpovídá době od vyslání signálu do návratu odražené vlny.
-
-![image](../img/05_Ultrasonic_stepper_2.png)
-
+### Komunikace čidla s Arduinem
+Kromě +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digitálním pinům Arduina. **Pin Trig** slouží ke spuštění měření (vyslání ultrazvukového pulzu), musíme jej tedy v Arduinu nastavit jako výstup. **Pin Echo** je výstup senzoru (tedy z pohledu Arduina vstup), na kterém senzor generuje puls, jehož délka odpovídá době od vyslání signálu do návratu odražené vlny.
 
 ### Průběh signálu na pinech Trig a Echo:
 
