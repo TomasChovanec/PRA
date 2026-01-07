@@ -64,5 +64,6 @@ void loop() {
 1. Připojte k Arduinu ultrazvukový senzor. Měřte délku pulzu na pinu Echo pomocí funkce pulseIn() a tuto hodnotu posílejte na Serial monitor.
 2. Upravte program tak, aby délku pulzu přepočítal na zdálenost v centimetrech a tu opět posílejte na Serial monitor.
 3. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
+4. Připojte k Arduinu ještě LEDku. Nastavujte intenzitu LEDky podle toho, jak daleko je překážka od ultrazvukového senzoru. Pro méně než 2cm vzdálenosti bude intenzity LEDky 0%. Pro více než 30cm bude intenzita 100%. Mezi těmito hodnotami se bude intenzita LEDky plynule měnit. Použijte funkci analogWrite() a map() z předešlých hodin.
 
 ### [Zpět na obsah](../README.md)
