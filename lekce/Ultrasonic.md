@@ -61,7 +61,8 @@ void loop() {
 ```
 
 ### Úkoly
-1. Připojte k Arduinu ultrazvukový senzor. Měřte vzdálenost a změřenou hodnotu posílejte na serial monitor.
-2. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte v centimetrech. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
+1. Připojte k Arduinu ultrazvukový senzor. Měřte délku pulzu na pinu Echo pomocí funkce pulseIn() a tuto hodnotu posílejte na Serial monitor.
+2. Upravte program tak, aby délku pulzu přepočítal na zdálenost v centimetrech a tu opět posílejte na Serial monitor.
+3. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
 
 ### [Zpět na obsah](../README.md)
