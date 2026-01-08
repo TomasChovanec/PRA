@@ -6,12 +6,6 @@
 - Umět použít LCD displej pro zobrazení dat z Arduina
 
 
-### Přidání knihovny ze zip souboru
-[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
-- V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
-- V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
-- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
-
 <img src="../img/04_DHT_LCD_7.png" width="900"/>
 
 ![image](../img/04_DHT_LCD_8.png)
@@ -37,6 +31,14 @@ Výhody I2C s Arduinem
 *Zdroj obrázku: https://www.hibit.dev/posts/102/communication-protocols-uart-i2c-and-spi*
 
 ![image](../img/04_DHT_LCD_6.png)
+
+
+### Přidání knihovny ze zip souboru
+[Knihovna ke stažení zde](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library/archive/refs/heads/master.zip)
+- V horním menu vyberte: Sketch > Include Library > Add .ZIP Library…
+- V dialogovém okně najděte soubor s knihovnou s příponou .zip a klikni na Open.
+- Knihovna se automaticky rozbalí a přidá mezi ostatní knihovny. Najdete ji pak v Sketch  → Include library.
+
  
 ### Použití knihovny [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 
