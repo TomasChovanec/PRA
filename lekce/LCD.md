@@ -50,7 +50,7 @@ Výhody I2C s Arduinem
 
 ```lcd.clear();```  Vyčistí obsah displeje.
 
-```lcd.setCursor(0,1);``` Nastaví kurzor na 1. sloupec (indexuje se od 0) a 2. řádek.
+```lcd.setCursor(0,1);``` Nastaví kurzor na (sloupec, řádek). Např. lcd.setCursor(0,1) na levý krajní sloupec a 2. řádek (indexuje se od 0, proto 1 vybere 2. řádek).
 
 ```lcd.print("Hello world!");```  Vypíše text "Hello world!" od zadané pozice kurzoru.
 
