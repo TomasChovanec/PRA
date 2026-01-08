@@ -8,9 +8,9 @@
 ## PWM
 PWM (Pulse Width Modulation) je metoda, která mění průměrnou hodnotu napětí rychlým zapínáním a vypínáním signálu. 
 
-Čím déle je signál v logické 1 (zapnutý), tím vyšší je výsledné napětí.
+Čím déle je signál v logické 1 (zapnutý), tím vyšší je výsledné efektivní napětí.
 
-Čím kratší je zapnutý stav, tím nižší je výsledné napětí.
+Čím kratší je zapnutý stav, tím nižší je výsledné efektivní napětí.
 
 Zkuste měnit nastavení duty cycle a frekvenci PWM [na této stránce](https://pico.implrust.com/core-concepts/pwm/index.html#duty-cycle)
 
