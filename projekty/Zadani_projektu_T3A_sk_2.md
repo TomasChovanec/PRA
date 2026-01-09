@@ -1,30 +1,30 @@
 ## Termín prezentace ve škole: 8.1., termín odevzdání dokumentace mailem: 6.1. 23:59
 
-### Radim P., Ivan R. - Otevírání dveří na RFID karty
+### :heavy_check_mark: Radim P., Ivan R. - Otevírání dveří na RFID karty
 - Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
 - Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
 - Na OLED displeji se bude zobrazovat informace o tom, zda je karta načtena a zda je povolená
 - Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
 
-### Tomáš S., Vilém S. - Reklamní banner s maticovým displejem
+### :heavy_check_mark: Tomáš S., Vilém S. - Reklamní banner s maticovým displejem
 - Pomocí Arduina a maticového displeje vytvořte reklamní banner
 - Text zobrazovaný na banneru se bude nastavovat přes Serial monitor
 - Dále bude možné přes serial monitor nastavit rychlost a směr rotace textu
 - Bude možné kromě textu zobrazit i jednoduchý obrázek
 
-### Jan S. - Hra s OLED displejem a akcelerometrem
+### :heavy_check_mark: Jan S. - Hra s OLED displejem a akcelerometrem
 - Pomocí Arduina, OLED displeje a akcelerometru vytvořte jednoduchou hru
 - Použijte piezo buzzer pro jednoduché zvukové efekty
 ​- Vytvořte menu ovládané akcelerometrem, které bude mít možnosti: hrát, změnit rychlost pohybu a resetovat rychlost do původního stavu
 - Hra bude spočívat ve sbírání bodů pohybem hráče (kuličky) podle náklonu akcelerometru, po sebrání bodu se ozve zvukový efekt
 - Skóre zobrazujte v pravém horním rohu displeje; Ošetřete pohyb hráče tak, aby se do této oblasti nemohl dostat
 
-### Denis M. - Elektronická hrací kostka
+### :heavy_check_mark: Denis M. - Elektronická hrací kostka
 - Pomocí Arduina, OLED displeje a tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou měnit obrázky kostky s různými hodnotami
 - Po puštění tlačítka se hodnota zastaví
 
-### Marek O.-  Elektronická hrací kostka
+### :heavy_check_mark: Marek O.-  Elektronická hrací kostka
 - Pomocí Arduina, LCD displeje a RGB LEDky vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty 1-6.
 - Po puštění tlačítka se hodnota zastaví
