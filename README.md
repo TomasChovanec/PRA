@@ -32,7 +32,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Teplotní čidlo](/lekce/DHT.md)
 1. [Ultrazvukový sensor](/lekce/Ultrasonic.md)
 1. [Krokový motor](/lekce/Krokovy_motor.md)
-1. [Řízení DC motoru](/lekce/DC_motor.md)
+1. [Stejnosměrný motor](/lekce/DC_motor.md)
 1. [Bluetooth](/lekce/Bluetooth.md)
 1. [Multitasking s Arduinem](/lekce/Millis.md)
 1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
