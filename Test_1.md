@@ -7,4 +7,4 @@
    - nejprve cyklus pro červenou (od 0 do 240, krok 20),
    - po jeho dokončení cyklus pro modrou (od 0 do 240, krok 20),
 
-- Na LCD displeji zobrazujte aktuální hodnotu PWM pro obě barvy, například: "Red:250   Blue:130"
+- Na LCD displeji zobrazujte aktuální hodnotu PWM pro obě barvy, například: "Red:240   Blue:120"
