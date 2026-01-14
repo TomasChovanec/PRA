@@ -23,7 +23,7 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 
 
 ## Hodnocení
-- Jedna známka s váhou 0.25 za kontrolu HW viz. [instrukce](kontrola_HW.md).
+- Jedna známka s váhou 0.25 za kontrolu HW viz. [instrukce](Kontrola_HW.md).
 
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
     - **Funkčnost**, splnění všech bodů zadání (7 bodů)
