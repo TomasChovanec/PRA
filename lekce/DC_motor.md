@@ -3,11 +3,11 @@ DC motor (stejnosměrný motor) je zařízení, které převádí elektrickou en
 
 **Stator** – pevná část, vytváří stálé magnetické pole (např. pomocí permanentních magnetů).
 
-**Rotor (kotva)** – točivá část, obsahuje vinutí (cívky), do kterých se přivádí proud.
+**Rotor (kotva)** – točivá část, obsahuje vinutí (cívky), do kterých se přivádí proud přes komutátor.
 
-**Komutátor** – mechanický přepínač, který přepíná směr proudu ve vinutí během otáčení.
+**Komutátor** – mechanický přepínač, který přepíná směr proudu ve vinutí během otáčení (bez něj by se motor jen jednou natočil a zůstal stát).
 
-**Kartáče (uhlíky)** – přivádějí proud do komutátoru.
+**Kartáče (uhlíky)** – pružné kontakty které přivádějí proud do komutátoru. Dochází k jejich opotřebení.
 
 Video [o konstrukci stejnosměrného motoru](https://youtu.be/LAtPHANEfQo?feature=shared)
 
