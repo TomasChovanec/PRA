@@ -1,5 +1,5 @@
 ## Zadání
-- Připojte k Arduinu I2C LCD displej k Arduinu a ověřte funkčnost výpisem krátké zprávy (např. „RGB START“).
+- Připojte k Arduinu I2C LCD displej a ověřte funkčnost výpisem krátké zprávy (např. „RGB START“).
 
 - Připojte k Arduinu RGB LEDku. Vývody pro zelenou a modrou barvu připojte k Arduinu na piny, které podporuje funkci PWM (např. D3, D5, D6, D9, D10 nebo D11). Nezapomeňte zapojit rezistor pro omezení proudu.
 
