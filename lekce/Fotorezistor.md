@@ -6,7 +6,8 @@ Fotorezistor je polovodičová součástka, která mění svůj odpor v závislo
 
 Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme pak AD převodníkem měřit spojitě intenzitu světla.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/6f820448-a9e2-469f-8de1-89fefef5d17c" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8b70f42e-e958-4d17-ad49-3e6e975809f6" />
+
 
 ### Zadání:
 
