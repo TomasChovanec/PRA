@@ -13,7 +13,7 @@ Pokud jej zapojíme spolu s pevným rezistorem jako dělič napětí, můžeme p
 
 **1.** Zapojte k Arduinu napěťový dělič s fotorezistorem a na serial monitoru zobrazujte intenzitu osvětlení
 
-**2.** Pomocí LEDky na Arduino desce indikujte, zda je v místnosti světlo nebo tma. Hraniční hodnotu si určete dle svého uvážení.
+**2.** Pomocí LEDky na Arduino desce indikujte, zda je v místnosti světlo (LEDka bude svítit) nebo tma (LEDka bude zhasnutá). Hraniční hodnotu si určete dle svého uvážení.
 
 **3.** Připojte k Arduinu servo a simulujte zavírání žaluzií na základě slunečního svitu 
 - při dostatečném osvětlení (nad nastavenou hranicí) se žaluzie zavřou (servo se přesune na 90°).
