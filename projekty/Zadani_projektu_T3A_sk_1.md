@@ -45,7 +45,7 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 
 ## Termín prezentace ve škole: 15.1., termín odevzdání dokumentace mailem: 13.1. 23:59
 
-### Marek H. - Univerzální senzory s mikrokontrolérem XIAO ESP32c6 pro chytrou domácnost s komunikací přes Zigbee protokol
+### :heavy_check_mark: Marek H. - Univerzální senzory s mikrokontrolérem XIAO ESP32c6 pro chytrou domácnost s komunikací přes Zigbee protokol
 - Kompletace univerzálních desek plošného spoje s ESP32c6
     - BME680 pro teplotu, tlak, vlhkost, stav vzduchu
     - PIR senzor pro detekci pohybu
@@ -57,7 +57,7 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 - Komunikace přístrojů s HomeAssistantem na Raspberry Pi přes Zigbee protokol (ESPIDF)  - mashová struktura, jednotlivé zařízení nemusí být připojena na hlavní router, pouze na další Zigbee zařízení (jiný node)
 - Pro prezentaci ve škole - ukázka komunikace a výměny dat v Zigbee protokolu mezi dvěma zařízeními, ukázka kódu v ESPIDF
 
-### Petr K. - Hodiny, stopky, budík
+### :heavy_check_mark: Petr K. - Hodiny, stopky, budík
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
 - Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
 - Druhé tlačítko bude mít u stopek funkci start/stop, u budíku zvýšení minut u času buzení
@@ -67,7 +67,7 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 ### Jakub Ku. - Had
 - Pomocí Arduina, OLED displeje a joysticku vytvořte hru Had
 
-### Dominik K., Daniel F. - Hra na postřeh 2 hráče 
+### :heavy_check_mark: Dominik K., Daniel F. - Hra na postřeh 2 hráče 
 - Pomocí Arduina a OLED displeje vytvořte hru na postřeh pro dva hráče
 - Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
@@ -78,13 +78,13 @@ Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 - Vytvořte program a zapojení pro posílení pohybu ruky servem
 - K projektu přidejte OLED displej se zobrazením času a hrou
 
-### Max F., Matouš G. - Elektronická hrací kostka
+### :heavy_check_mark: Max F., Matouš G. - Elektronická hrací kostka
 - Pomocí Arduina, sedmisegmentového displeje a tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty.
 - Při každé změně čísla se zároveň i náhodně změní pozice čísla na displeji
 - Po puštění tlačítka se hodnota zastaví
   
-### Vít K. - Hudební přehrávač s dálkovým ovládáním
+### :heavy_check_mark: Vít K. - Hudební přehrávač s dálkovým ovládáním
 - Pomocí dvou Arduin a mp3 modulu vytvořte hudební přehrávač
 - Dálkový ovladač bude představovat druhé Arduino. Bude umožňovat funkce spuštění přehrávání, pauzu a přechod na další skladbu.
 - Spojení mezi ovladačem a přehrávačem může být buď drátové nebo bezdrátové (Bluetooth)
