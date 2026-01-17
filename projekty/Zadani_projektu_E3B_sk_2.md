@@ -7,7 +7,7 @@
 
 
 
-### Kr.Pa. - Elektronická kostka se sedmisegmentovým displejem
+### Kr. Pa. - Elektronická kostka se sedmisegmentovým displejem
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
@@ -21,7 +21,7 @@
 
 --- 
 
-### Ja.Ře. - Elektronické piano
+### Ja. Ře. - Elektronické piano
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
@@ -35,7 +35,7 @@
 
 --- 
 
-### Ja.Ma. - Elektronická kostka s LEDkami
+### Ja. Ma. - Elektronická kostka s LEDkami
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
@@ -48,7 +48,7 @@
 
 --- 
 
-### Jo.Ma. - Automatické zavírání kurníku s funkcí počítání slepic
+### Jo. Ma. - Automatické zavírání kurníku s funkcí počítání slepic
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
@@ -59,7 +59,7 @@
 
 --- 
 
-### Ad.My. - Hra na postřeh pro dva hráče
+### Ad. My. - Hra na postřeh pro dva hráče
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
@@ -74,7 +74,7 @@
 
 --- 
 
-### Vo.Po. - Hodinky s budíkem a stopkami
+### Vo. Po. - Hodinky s budíkem a stopkami
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
