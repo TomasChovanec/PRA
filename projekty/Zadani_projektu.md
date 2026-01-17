@@ -53,10 +53,10 @@ Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a serve
 - Po puštění tlačítka se hodnota zastaví 
 
 ### Hra na postřeh 2 hráče
-- Pomocí Arduina vytvořte hru na postřeh pro dva hráče
+- Pomocí Arduina , 2 tlačítek, LEDky a LCD displeje vytvořte hru na postřeh pro dva hráče
 - Po spuštění hry se postupně rozsítí všechny LED a pak po náhodném intervalu zhasnou
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
-- Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
+- Program po každém kole na LCD displej vypíše, který hráč vyhrál a o kolik milisekund
 - Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ### Hodiny, stopky
