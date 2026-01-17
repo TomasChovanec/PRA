@@ -84,8 +84,12 @@ TBD
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
-- ???
-
+- Pomocí Arduina a LCD 2×16 vytořte jednoduchou hru typu Dino game: dinosaurus běží zleva doprava a proti němu se objevují překážky.
+- Pomocí tlačítka umožněte skok dinosaura. Při skoku se dinosaurus zobrazí v horním řádku LCD.
+- Překážky se pohybují z pravé strany displeje doleva a jejich rychlost se postupně zvyšuje.
+- Při srážce dinosaura s překážkou hra končí a na displeji se zobrazí „GAME OVER“ a skóre.
+- Hra nepoužívá pro časování hlavní herní smyčky delay() a je řízena pomocí času (millis()).
+- 
 --- 
 
 ### Ja.Su. - ???
