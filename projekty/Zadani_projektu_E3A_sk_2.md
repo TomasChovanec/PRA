@@ -5,8 +5,8 @@
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
-- Na OLED displeji zobrazte elektronickou ruletu s čísly 0–36.
-- Krátkým stiskem tlačítka spusťte roztočení rulety; čísla se rychle střídají a postupně se zpomalují.
+- Na OLED displeji zobrazte ilustrační obrázek rulety.
+- Krátkým stiskem tlačítka spusťte roztočení rulety; na displeji se rychle střídají čísla a postupně se zpomalují.
 - Po zastavení se na displeji zobrazí výsledné číslo a text „VÝSLEDEK“.
 - RGB LED signalizuje výsledek: zelená = 0, červená = červené číslo, modrá = černé číslo.
 
