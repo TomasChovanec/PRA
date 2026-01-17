@@ -46,11 +46,10 @@
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
-- Pomocí optického infrasnímače detekujte průchod slepic otvorem kurníku (předpokládejte směr pohybu ráno ven, večer dovnitř).
+- Pomocí dvojice optických infrasnímačů detekujte průchod slepic otvorem kurníku (podle pořadí aktivovaných čidel detekujte, zda se slepice pohybuje ven nebo dovnitř).
 - Podle směru průchodu zvyšujte nebo snižujte čítač slepic v kurníku.
 - Na LCD displeji zobrazujte aktuální počet slepic, denní režim (ráno / večer) a stav dvířek.
-- Rozednění a soumrak detekujte fotorezistorem
-- Servo motor použijte pro simulaci otevírání a zavírání dvířek kurníku.
+- Rozednění a soumrak detekujte fotorezistorem a podle toho zavírejte nebo otevírejte kurník servomotorem
 - Pokud po večerním zavření dvířek nejsou v kurníku všechny slepice, zobrazte na displeji varování
 
 --- 
