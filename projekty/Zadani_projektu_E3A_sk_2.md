@@ -76,7 +76,11 @@
 - Prezentace ve škole  **19.2.**
 
  **Zadání:**
- - ???
+- Vytvořte elektronický dveřní zámek ovládaný číselným kódem z klávesnice nebo RFID čipem.
+- Zadaný kód / přiložený čip porovnejte s uloženými hodnotami a rozhodněte o povolení či zamítnutí vstupu.
+- Na LCD displeji zobrazujte stav systému (zadejte kód, přístup povolen / zamítnut).
+- Zelená LED signalizuje odemčení, červená LED zamknutí; bzučák akusticky potvrdí výsledek.
+- Po třech chybných pokusech zámek zablokujte na 20 sekund.
 
 --- 
 
