@@ -1,15 +1,6 @@
+### Kr.Pa. - Elektronická kostka se sedmisegmentovým displejem
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
-- Prezentace ve škole  **19.2.**
-
-
-
-
-
-### Kr. Pa. - Elektronická kostka se sedmisegmentovým displejem
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
@@ -21,9 +12,9 @@
 
 --- 
 
-### Ja. Ře. - Elektronické piano
+### Ja.Ře. - Elektronické piano
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
@@ -35,9 +26,9 @@
 
 --- 
 
-### Ja. Ma. - Elektronická kostka s LEDkami
+### Ja.Ma. - Elektronická kostka s LEDkami
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
@@ -48,9 +39,9 @@
 
 --- 
 
-### Jo. Ma. - Automatické zavírání kurníku s funkcí počítání slepic
+### Jo.Ma. - Automatické zavírání kurníku s funkcí počítání slepic
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
@@ -59,9 +50,9 @@
 
 --- 
 
-### Ad. My. - Hra na postřeh pro dva hráče
+### Ad.My. - Hra na postřeh pro dva hráče
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
@@ -74,11 +65,10 @@
 
 --- 
 
-### Vo. Po. - Hodinky s budíkem a stopkami
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+### Vo.Po. - Hodinky s budíkem a stopkami
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
 
 **Zadání:**
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
@@ -87,3 +77,31 @@
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 - Když se čas shoduje s časem budíku, ozve se melodie z piezo buzzeru
 
+--- 
+
+### Ja.Po. - ???
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
+- ???
+
+--- 
+
+### Lu.Ma. - ???
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
+- ???
+--- 
+
+### Ja.Pa. - ???
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
+- ???
