@@ -1,10 +1,3 @@
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
-- Prezentace ve škole  **19.2.**
-
-
-
 ### Mi.Pr. - Ruleta
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
@@ -44,4 +37,61 @@ TBD
 - Během jízdy bude na displeji bude zobrazovat aktuální polohu výtahu a šipku směru jízdy (nahoru/dolů)
 - Pokud bude během jízdy výtahu stisknuto další tlačítko, výtah nejprve dojede do původního cíle a po času na vystoupení se rozjede do nového cíle
 
-- 
+--- 
+
+### Da.Šp. - Elektronická kostka s LEDkami
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- Prezentace ve škole  **12.2.**
+
+**Zadání:**
+- Pomocí Arduina, 6ks LED diod a  tlačítka vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
+- Po puštění tlačítka se hodnota zastaví
+
+--- 
+
+### To.Ře - Elektronické piano
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
+- Pomocí Arduina pieza a alespoň 6 tlačítek vytvořte jednoduché “piano”.
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
+
+--- 
+
+### Mi.Sa. - Elektronický dveřní zámek s otevíráním na kód a na čip
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+ **Zadání:**
+ - ???
+
+--- 
+
+### Ji.Pš. Dino game
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
+- ???
+
+--- 
+
+### Ja.Su. - ???
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- Prezentace ve škole  **19.2.**
+
+**Zadání:**
