@@ -33,11 +33,6 @@
 
 ## Termín prezentace ve škole: 22.1., termín odevzdání dokumentace mailem: 20.1. 23:59
 
-### Tomáš T. -  Elektronická hrací kostka
-- Pomocí Arduina, LED diod a tlačítka vytvořte elektronickou hrací kostku.
-- Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty.
-- Po puštění tlačítka se hodnota zastaví
-
 ### Tomáš M.- Hodinky s budíkem a stopkami
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
 - Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
