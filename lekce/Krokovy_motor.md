@@ -1,6 +1,10 @@
 # Krokový motor
-Dalším zařízení, které si zkusíme řídit Arduinem bude krokový motor. V našem případě malý unipolární krokový motor **28BYJ-48**.
 
+### Cíle lekce
+- Pochopit princip fungování krokového motoru
+- Řídit pohyb krokového motoru jak ručně, jak pomocí mikrokontroleru
+- Vytvořit si vlastní funkce pro ovládání motoru
+  
 ### Schema zapojení, princip funkce
 Motor 28BYJ-48 je unipolární krokový motor se čtyřmi cívkami uspořádanými do dvou sekcí. Každá sekce má střední odbočku připojenou na 5V. Když připojíme jeden z konců cívky k zemi, začne cívkou procházet proud, což vytvoří magnetické pole. Interakce tohoto pole s magnetickým polem permanentního magnetu v rotoru způsobí pootočení motoru o jeden krok. Postupným přepínáním napájení mezi jednotlivými cívkami dochází k rotaci motoru krok za krokem
 
