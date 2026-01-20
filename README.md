@@ -13,7 +13,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_2.md)
 - [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
 - [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
-- 
+
 <!---
 
 --->
