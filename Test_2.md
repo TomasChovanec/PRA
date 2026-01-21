@@ -8,4 +8,4 @@
 
 - Nakreslete schéma RGB LEDky se společnou katodou a dvě tlačítka. Zapojte je tak, aby při stisku (a držení) jednoho tlačítka svítila zelená LEDka a při stisku druhého tlačítka modrá LEDka
 
-- Zapojte schéma z bodu 3 na nepájivém poli.
+- Zapojte schéma z předchozího bodu na nepájivém poli.
