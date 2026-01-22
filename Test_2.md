@@ -2,7 +2,7 @@
 
 - Napište **na papír** for cyklus, který třikrát rozsvítí a zase zhasne LEDku na pinu 5. Délka fáze svícení bude 200ms, délka fáze bez svícení bude 700ms.
 
-- Spočítejte napětí U2.  R1=22k, R2 = 28k.
+- Spočítejte napětí U2.  R1=22k, R2 = 28k, U1 = 5V.
 
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/301d95f8-03a9-406d-97e3-d26d9291647f" />
 
