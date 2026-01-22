@@ -83,7 +83,7 @@
 
 --- 
 
-### Ja.Po. - ???
+### Jo.Po. - ???
 - [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
@@ -93,13 +93,15 @@
 
 --- 
 
-### Lu.Ma. - ???
+### Lu.Ma. - Hudební přehrávač s dálkovým ovládáním
 - [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
-- ???
+- Pomocí dvou Arduin a mp3 modulu vytvořte hudební přehrávač
+- Dálkový ovladač bude představovat druhé Arduino. Bude umožňovat funkce spuštění přehrávání, pauzu a přechod na další skladbu.
+- Spojení mezi ovladačem a přehrávačem může být buď drátové nebo bezdrátové (Bluetooth)
 --- 
 
 ### Ja.Pa. - ???
