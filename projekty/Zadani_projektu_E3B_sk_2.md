@@ -108,10 +108,14 @@ Pomocí Arduina, pieza, OLED displeje a 5 tlačítek vytvořte jednoduché "pian
 - Spojení mezi ovladačem a přehrávačem může být buď drátové nebo bezdrátové (Bluetooth)
 --- 
 
-### Ja.Pa. - ???
+### Ja.Pa. - Hra na postřeh pro dva hráče
 - [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
-- ???
+Pomocí Arduina vytvořte hru na postřeh pro dva hráče
+- Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
+- Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
+- Program po každém kole na OLED displeji zobrazí, který hráč vyhrál a o kolik milisekund
+- Po pěti kolech se na sdispleji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
