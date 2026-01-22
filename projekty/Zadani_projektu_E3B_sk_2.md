@@ -106,6 +106,7 @@ Pomocí Arduina, pieza, OLED displeje a 5 tlačítek vytvořte jednoduché "pian
 - Pomocí dvou Arduin a mp3 modulu vytvořte hudební přehrávač
 - Dálkový ovladač bude představovat druhé Arduino. Bude umožňovat funkce spuštění přehrávání, pauzu a přechod na další skladbu.
 - Spojení mezi ovladačem a přehrávačem může být buď drátové nebo bezdrátové (Bluetooth)
+
 --- 
 
 ### Ja.Pa. - Hra na postřeh pro dva hráče
