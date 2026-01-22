@@ -83,13 +83,17 @@
 
 --- 
 
-### Jo.Po. - ???
+### Jo.Po. - Elektronické piano 
 - [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
-- ???
+Pomocí Arduina, pieza, OLED displeje a 5 tlačítek vytvořte jednoduché "piano".
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
+- Na OLED displeji se bude zobrazovat aktuálně přehrávaný tón
 
 --- 
 
