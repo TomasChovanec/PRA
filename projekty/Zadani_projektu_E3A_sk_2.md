@@ -49,7 +49,7 @@
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
-- Pomocí Arduina, 6ks LED diod a  tlačítka vytvořte elektronickou hrací kostku.
+- Pomocí Arduina, 7ks LED diod a  tlačítka vytvořte elektronickou hrací kostku.
 - Při stisku (a držení) tlačítka se na LEDkách budou velmi rychle měnit náhodné hodnoty. 
 - Po puštění tlačítka se hodnota zastaví
 
