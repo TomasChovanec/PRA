@@ -96,7 +96,7 @@
 - Překážky se pohybují z pravé strany displeje doleva a jejich rychlost se postupně zvyšuje.
 - Při srážce dinosaura s překážkou hra končí a na displeji se zobrazí „GAME OVER“ a skóre.
 - Hra nepoužívá pro časování hlavní herní smyčky delay() a je řízena pomocí času (millis()).
-- 
+
 --- 
 
 ### Ja.Su. - ???
