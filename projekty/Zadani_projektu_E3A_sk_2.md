@@ -99,11 +99,15 @@
 
 --- 
 
-### Ja.Su. - ???
+### Ja.Su. - Otevírání dveří na RFID karty
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
-- ???
+- Pomocí Arduina a RFID modulu připravte projekt pro otevírání dveří kartou. 
+- Po přiložení karty, která je v seznamu přístupů se dveře otevřou (otevření zámku simulujte pohybem serva)
+- Na OLED displeji se bude zobrazovat informace o tom, zda je karta načtena a zda je povolená
+- Seznam povolených karet by měl být implementovaný tak, aby se do něj snadno daly přidávat další karty.
+
