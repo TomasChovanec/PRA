@@ -99,7 +99,7 @@
 
 --- 
 
-### Ja.Su. - Otevírání dveří na RFID karty
+### :heavy_check_mark: Ja.Su. - Otevírání dveří na RFID karty
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
