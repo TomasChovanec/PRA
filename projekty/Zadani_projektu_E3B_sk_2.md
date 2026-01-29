@@ -98,7 +98,7 @@ Pomocí Arduina, pieza, OLED displeje a 5 tlačítek vytvořte jednoduché "pian
 --- 
 
 ### Lu.Ma. - Hudební přehrávač s dálkovým ovládáním
-- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
