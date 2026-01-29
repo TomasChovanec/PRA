@@ -14,7 +14,7 @@
 
 ### Ja.Ře. - Elektronické piano
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
+- :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
