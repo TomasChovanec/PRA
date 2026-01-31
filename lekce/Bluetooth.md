@@ -43,7 +43,21 @@ Pozor, narozdíl od jiných lekcí, dnes budeme psát dva programy - jeden po Ar
 
 Jediné, co musí mít oba programy stejné jsou příkazy. Tedy, pokud ovladač zjistí, že uživatel stisknul tlačítko vpřed, odešle přes sériovou linku např zprávu 'F'. A naopak, Arduino v robotovi bude stále dokola kontrolovat, zda mu nepřišla nějaká zpráva. Pokud mu přijde 'F', nastaví oba motory pro jízdu dopředu.
 
-**Program pro robota** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.)  Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
+**Program pro robota** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.)  Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). 
+
+```c
+void loop() {
+  if (Serial.available()) {
+    char received = Serial.read();  // Čtení jednoho znaku
+
+    if(received == 'F'){
+    // Zde bude kód, který chceme vykonat, pokud robot přijme 'F'
+    }
+
+}
+```
+
+Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
 
 ![image](../img/08_Bluetooth_5.png)
 
