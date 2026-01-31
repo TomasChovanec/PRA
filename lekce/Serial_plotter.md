@@ -21,7 +21,10 @@ Pro zobrazování měřených dat máme možnost využít nástroj **Serial Plot
 
 ### Úkoly:
 1. Připojte k Arduinu potenciometr, měřte na něm napětí funkcí analogRead() a posílejte naměřená data po sériové lince (použijte rychlejší baudrate 115200 bps). Pak je zobrazte pomocí Serial Plotteru v Arduino IDE
-2. Přidejte druhý kanál - opačnou hodnotu potenciometru
+2. Přidejte druhý kanál - opačnou hodnotu potenciometru. Přidáte ho tak, že vždy na jeden řádek v serial monitoru budete posílat dvě čísla oddělená mezerou. Viz příklad níže:
+
+ <img width="284" height="231" alt="image" src="https://github.com/user-attachments/assets/6a86d6be-c431-4dad-be87-a7269a0e5287" />
+
 
 ## Better Serial Plotter
 Pro více funkcí můžeme zkusit program [Better Serial Plotter](https://github.com/nathandunk/BetterSerialPlotter) ke stažení [zde](https://github.com/nathandunk/BetterSerialPlotter/releases/download/v0.1.2/BetterSerialPlotter-v0.1.2-Windows.zip)
