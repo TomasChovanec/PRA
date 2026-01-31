@@ -39,6 +39,8 @@ Pro pohodlné ovládání robota použijeme Joystick shield - přídavnou desku,
 ## Úkoly
 Cílem této lekce je ovládat pohyb školního robota bezdrátově pomocí Bluetooth.
 
+Pozor, narozdíl od jiných lekcí, dnes budeme psát dva programy - jeden po Arduino s ovladačem a druhý pro Arduino na robotovi. Ty programy budou samozřejmě odlišné, protože Arduino v ovladači nepotřebuje příkazy pro spouštení motorů a naopak Arduino v robotovi nepotřebuje vědět, na kterých pinech jsou připojeny tlačítka ovladače. Jediné, co musí mít stejné jsou příkazy. Tj, pokud ovladač zjistí, že uživatel stisknul tlačítko vpřed, odešle přes sériovou linku např zprávu 'F'. A naopak, Arduino v robotovi bude stále dokola kontrolovat, zda mu nepřišlka nějaká zpráva. Pokud mu při+jde 'F',, nastaví oba motory pro jízdu dopředu.
+
 **Program pro robota** Naprogramujte robota tak, aby reagoval na jednoznakové povely přes sériovou linku (např. 'F' dopředu, 'B' dozadu atd.)  Použijte funkce [Serial.available()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/available/) a [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/). Funkčnost programu můžete ověřit tak, že budete povely posílat přes Serial monitor. Zvolte možnost *No line ending*, aby se neposílaly i znaky ```\n``` a ```\r```.
 
 ![image](../img/08_Bluetooth_5.png)
