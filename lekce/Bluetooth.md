@@ -65,6 +65,14 @@ Pozor, v jazyce C se jednotlivé znaky píší v jednoduchách uvozovokách (nap
 
 **Program pro dálkový ovladač** Naprogramujte Arduino s Joystick shieldem, aby při stisku tlačítek A/B/C/D vysílalo po sériové lince jednoznakové povely (stejné, jako má nakonfigurován robot). Pro vysílání použijte funkci [Serial.write()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/write/). Mezi jednotlivými znaky vložte čekání 100ms. Funkčnost programu můžete ověřit na PC s použitím sériového monitoru.
 
+```c
+int vpravo = digitalRead(prave_tlacitko);
+if (vpravo==0)
+  {
+    Serial.write('R');
+}
+```
+
 **Ovládání robota** Až budete mít hotový program pro robota i pro ovladač, připojte jak k robotovi tak k Arduinu s Joystick shieldem moduly HC-05 (nakonfigurované jako master a slave) a ověřte, že komunikace funguje a že lze robota dálkově ovládat.
 
 ### [Zpět na obsah](../README.md)
