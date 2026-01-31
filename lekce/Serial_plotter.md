@@ -31,6 +31,10 @@ Pro více funkcí můžeme zkusit program [Better Serial Plotter](https://github
 
 V programu stačí vybrat sériový port, na kterém je připojeno Arduino. Formát dat je stejný jako pro Serial Plotter - stačí tedy posílat pokaždé jeden řádek dat, pokud je čísel více, mohou být odděleny mezerou.
 
+<img width="743" height="236" alt="image" src="https://github.com/user-attachments/assets/1d9441b4-a6f1-4176-91be-490d0e007d55" />
+
+<img width="757" height="334" alt="image" src="https://github.com/user-attachments/assets/1dbb5e96-ee37-4d11-889b-a7a41add98da" />
+
 :warning: Protože v jednu chvíli může být k sériovému portu připojen jen jeden program, ve chvíli, kdy zobrazujete data v Serial Plotteru, nemůžete do Arduina nahrát nový program. Je nutné vždy předtím Serial Plotter buď zavřít, nebo v něm nastavit jiný port.
 
 ![image](../img/09_Serial_plotter_4.png)
