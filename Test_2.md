@@ -1,11 +1,7 @@
 ## Zadání
 
-- Napište **na papír** for cyklus, který třikrát rozsvítí a zase zhasne LEDku na pinu 5. Délka fáze svícení bude 200ms, délka fáze bez svícení bude 700ms.
-
-- Spočítejte napětí U2.  R1=22k, R2 = 28k, U1 = 5V.
-
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/301d95f8-03a9-406d-97e3-d26d9291647f" />
-
-- Nakreslete schéma RGB LEDky se společnou katodou a dvě tlačítka. Zapojte je tak, aby při stisku (a držení) jednoho tlačítka svítila zelená LEDka a při stisku druhého tlačítka modrá LEDka
-
-- Zapojte schéma z předchozího bodu na nepájivém poli.
+## Zadání
+- Připojte k Arduinu RGB LEDku tak aby se dala ovládat její intenzita (použijte piny, které podporují PWM) a naprogramujte Arduino tak, aby se po startu programu společně na 1s rozsvítila modrá a červená barva
+- Vytvořte vlatní funkci ```void blinkGreen()```. Ta po zavolání jednou blikne příslušnou barvou RGB LEDky (300ms ON, 300ms OFF)
+- Upravte funkci tak, aby se vstupním argumentem dal nastavit počet bliknutí (tj. např. blinkGreen(10) by bliknulo zelenou ledkou desetkrát. Hint: Použijte uvnitř funkce for cyklus a v jeho podmínce použijte argument funkce.
+- Upravte funkci tak, aby kromě počtu bliknutí měla ješte další vstupní parametr, který by udával intenzitu svitu LEDky v %. Např. blinkGreen(10,75); by bliknulo zelenou LEDkou desetkrát a intenzita svícení by byla 75%. Hint: použijte uvnitř funkce namísto digitalWrite funkci analogWrite
