@@ -1,10 +1,5 @@
 ## Zadání
-- Připojte k Arduinu I2C LCD displej a ověřte funkčnost výpisem krátké zprávy (např. „RGB START“).
-
-- Připojte k Arduinu RGB LEDku. Vývody pro červenou a modrou barvu připojte k Arduinu na piny, které podporuje funkci PWM (např. D3, D5, D6, D9, D10 nebo D11). Nezapomeňte zapojit rezistor pro omezení proudu.
-
-- Pomocí for cyklu postupně měňte jas jedné barvy od 0 do 240 po krocích 20. Každý krok změny jasu bude trvat 200ms.
-   - nejprve cyklus pro červenou (od 0 do 240, krok 20),
-   - po jeho dokončení cyklus pro modrou (od 0 do 240, krok 20),
-
-- Na LCD displeji zobrazujte aktuální hodnotu PWM pro obě barvy, například: "Red:240   Blue:120"
+- Připojte k Arduinu RGB LEDku tak aby se dala ovládat její intenzita (použijte piny, které podporují PWM) a naprogramujte Arduino tak, aby se po startu programu společně na 1s rozsvítila modrá a červená barva
+- Vytvořte vlatní funkci ```void blinkRed()```. Ta po zavolání jednou blikne příslušnou barvou RGB LEDky (500ms ON, 500ms OFF)
+- Upravte funkci tak, aby se vstupním argumentem dal nastavit počet bliknutí (tj. např. blinkRed(10) by bliknulo červenou ledkou desetkrát. Hint: Použijte uvnitř funkce for cyklus a v jeho podmínce použijte argument funkce.
+- Upravte funkci tak, aby kromě počtu bliknutí měla ješte další vstupní parametr, který by udával intenzitu svitu LEDky v %. Např. blinkRed(10,75); by bliknulo červenou LEDkou desetkrát a intenzita svícení by byla 75%. Hint: použijte uvnitř funkce namísto digitalWrite funkci analogWrite
