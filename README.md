@@ -33,13 +33,14 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Logický analyzer](/lekce/Logicky_analyzer.md)
 1. [Krokový motor](/lekce/Krokovy_motor.md)
 1. [Stejnosměrný motor](/lekce/DC_motor.md)
+1. [Sériová komunikace](/lekce/Serial_input.md)
 1. [Bluetooth](/lekce/Bluetooth.md)
 1. [Multitasking s Arduinem](/lekce/Millis.md)
 1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
+1. [Ovládání ventilátoru](/lekce/Tranzistor.md)
 1. [Fotorezistor](/lekce/Fotorezistor.md)
-1. [Sériový vstup](/lekce/Serial_input.md)
+
 1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
-1. [Sledovač čáry](/lekce/Line_follower.md)
 
 <!---
 1. [Závěr](/lekce/zaver.md)
