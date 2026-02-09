@@ -29,7 +29,7 @@ Změřte proud ventilátoru a porovnejte ho s maximálním proudem z pinu Arduin
 ## Použití tranzistoru jako výkonového spínače
 
 **Úkol 4:**
-Pin Arduina nám tedy na napájení ventilátoru nestačí. Můžeme pro spínání použít NPN tranzistor BC337, který máme k dispozici. Popište, jak funguje zapojní tranzistoru se společným emitorem a jak ho můžeme použít pro spínání ventilátoru.
+Pin Arduina nám tedy na napájení ventilátoru nestačí. Můžeme pro spínání použít NPN tranzistor BC337, který máme k dispozici. Popište, jak funguje zapojení tranzistoru se společným emitorem a jak ho můžeme použít pro spínání ventilátoru.
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/748a58ee-fcab-47d5-abd8-f9bc8b0ab6a0" />
 
