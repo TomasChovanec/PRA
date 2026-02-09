@@ -14,7 +14,7 @@ Pokud se podíváme do datasheetu mikrokontroleru ATmega328, který je použit v
 Pokud nevíme (např. z dokumentace), jaký proud ventilátor odebírá, můžeme ho snadno změřit.
 
 **Úkol 1:**
-Nakreslete schéma ventilátoru spínaného tlačítkem (Arduino použijte jen jako zdroj napětí 5V). Do schematu zakreslete i ampermetr, kterým změříte proudový odběr ventilátoru. Jako schematickou značku pro ventilátor můžete použít např. značku motoru.
+Nakreslete schéma ventilátoru spínaného tlačítkem (Arduino použijte jen jako zdroj napětí 5V). Do schématu zakreslete i ampermetr, kterým změříte proudový odběr ventilátoru. Jako schematickou značku pro ventilátor můžete použít např. značku motoru.
 
 <img width="173" height="52" alt="image" src="https://github.com/user-attachments/assets/e12c4737-9c63-4514-9941-c9909a8628b2" />
 
