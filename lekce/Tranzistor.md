@@ -1,6 +1,6 @@
 # Ovládání ventilátoru Arduinem
 
-V dnešní lekci budeme Arduinem řídit malý ventilátor. Ventilátor je vyroben pro napájecí napětí 5V. Nejsnazší by bylo připojit ventilátor přímo na nějaký digitální pin Arduina a zapínat ho funkcí ```digitalWrite()```. Musíme ale ověřit, zda není proudový odběr ventilátoru příliš velký, což by mohlo způsobit zničení Arduina.
+V dnešní lekci budeme Arduinem řídit malý ventilátor. Ventilátor, který máme k dispozici je vyroben pro napájecí napětí 5V. Nejsnazší by bylo připojit ventilátor přímo na nějaký digitální pin Arduina a zapínat ho funkcí ```digitalWrite()```. Musíme ale ověřit, zda není proudový odběr ventilátoru příliš velký, což by mohlo způsobit zničení Arduina.
 
 <img width="382" height="282" alt="image" src="https://github.com/user-attachments/assets/cc13d7e0-9231-48eb-8649-f51b7cced807" />
 
