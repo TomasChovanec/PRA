@@ -39,7 +39,7 @@ Pin Arduina nám tedy na napájení ventilátoru nestačí. Můžeme pro spíná
 Nakreslete schéma obvodu se společným emitorem. Pro ovládání bázového proudu použijte tlačítko. Jako bázový rezistor použijte 220R.
 
 **Úkol 6:**
-Podle schématu z bodu 5 proveďte zapojení na nepájivém poli. Z datasheetu tranzistoru zjistěte pinout (který pin je kolektor atd) a ověřte, že tranzistor dokáže spínat proud pro ventilátor.
+Podle schématu z bodu 5 proveďte zapojení na nepájivém poli. Z [datasheetu tranzistoru BC337](https://www.farnell.com/datasheets/1789499.pdf) zjistěte pinout (který pin je kolektor atd) a ověřte, že tranzistor dokáže spínat proud pro ventilátor.
 
 **Úkol 7:**
 Namísto ovládacího tlačítka použijte pro řízení báze tranzistoru digitální pin Arduina. Dále připojte k Arduinu teplotní senzor a naprogramujte Arduino tak, aby se ventilátor spínal při teplotách >25°C.
