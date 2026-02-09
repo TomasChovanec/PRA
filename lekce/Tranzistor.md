@@ -35,6 +35,8 @@ Pin Arduina nám tedy na napájení ventilátoru nestačí. Můžeme pro spíná
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4bc8a3a3-979a-41a1-9fa4-98c0e4a981c9" />
 
+*Zdroj obrázků: https://www.build-electronic-circuits.com/bipolar-junction-transistor/*
+
 **Úkol 5:**
 Nakreslete schéma obvodu se společným emitorem. Pro ovládání bázového proudu použijte tlačítko. Jako bázový rezistor použijte 220R.
 
