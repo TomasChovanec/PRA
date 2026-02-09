@@ -24,7 +24,7 @@ Vezměte si multimetr, vysvětlete, jak postupovat při měření proudu a jaká
 <img width="351" height="471" alt="image" src="https://github.com/user-attachments/assets/8c84a646-b4bc-4332-9b58-54cce8dcd72a" />
 
 **Úkol 3:**
-Změřte proud ventilátoru a porovnejte ho s maximálním proudem z pinu Arduina.
+Změřte proud ventilátoru a porovnejte ho s maximálním proudem z pinu Arduina. Můžeme ventilátor napájet přímo z digitálního pinu Arduina?
 
 ## Použití tranzistoru jako výkonového spínače
 
