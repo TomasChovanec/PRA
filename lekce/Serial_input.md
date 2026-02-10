@@ -1,6 +1,6 @@
 # Sériový vstup
 
-V této lekci budeme posílat data do Ardunia přes Serial monitor. Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cteni-uzivatelskych-vstupu-v-arduinu#_funkce-serial-parseint) 
+V této lekci budeme posílat data do Arduina přes Serial monitor. Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cteni-uzivatelskych-vstupu-v-arduinu#_funkce-serial-parseint) 
 
 
 ## Úkoly
