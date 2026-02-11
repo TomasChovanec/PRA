@@ -1,7 +1,7 @@
 ### Mi.Pr. - Ruleta
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -30,7 +30,7 @@
 ### Ja.Po. - Ovládání výtahu Arduinem
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -45,7 +45,7 @@
 ### Da.Šp. - Elektronická kostka s LEDkami
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
