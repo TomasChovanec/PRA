@@ -1,7 +1,7 @@
 ### Kr.Pa. - Elektronická kostka se sedmisegmentovým displejem
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -15,7 +15,7 @@
 ### Ja.Ře. - Elektronické piano
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -29,7 +29,7 @@
 ### Ja.Ma. - Elektronická kostka s LEDkami
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -42,7 +42,7 @@
 ### Jo.Ma. - Automatické zavírání kurníku s funkcí počítání slepic
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
@@ -57,7 +57,7 @@
 ### Ad.My. - Hra na postřeh pro dva hráče
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
 - Prezentace ve škole  **12.2.**
 
 **Zadání:**
