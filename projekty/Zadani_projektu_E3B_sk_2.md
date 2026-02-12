@@ -16,7 +16,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí Arduina pieza a alespoň 6 tlačítek vytvořte jednoduché “piano”.
@@ -30,7 +30,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí Arduina, 6ks LED diod a  tlačítka vytvořte elektronickou hrací kostku.
@@ -43,7 +43,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí dvojice optických infrasnímačů detekujte průchod slepic otvorem kurníku (podle pořadí aktivovaných čidel detekujte, zda se slepice pohybuje ven nebo dovnitř).
@@ -58,7 +58,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí Arduina , 2 tlačítek, LEDky a LCD displeje vytvořte hru na postřeh pro dva hráče
