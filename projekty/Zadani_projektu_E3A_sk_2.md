@@ -15,8 +15,8 @@
 ### Ad.Se. - Hra na postřeh pro dva hráče
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí Arduina vytvořte hru na postřeh pro dva hráče
@@ -31,7 +31,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Vytvořte s Arduinem simulaci výtahu. Bude obsahovat krokový motor, OLED displej a klávesnici pro volbu patra.
@@ -46,7 +46,7 @@
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **29.1. 23:59**
 - :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **10.2. 23:59**
-- Prezentace ve škole  **12.2.**
+- :heavy_check_mark: Prezentace ve škole  **12.2.**
 
 **Zadání:**
 - Pomocí Arduina, 7ks LED diod a  tlačítka vytvořte elektronickou hrací kostku.
