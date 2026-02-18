@@ -19,6 +19,8 @@ Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/ar
 
 
 ## Úkol 
-Připojte k jednomu Arduinu RGB LEDku, ke druhému Arduinu připojte tři potenciometry. Obě Arduina propojte přes UART (nezapomeňte správně zapojit Tx-Rx Rx-Tx a spojit země obou Arduin). Naprogramujte obě Arduina tak, aby se pomocí potenciometrů na jednom Arduinu nastavovaly barevné složky na RGB LEDce na druhém Arduinu.
+- Připojte k jednomu Arduinu RGB LEDku, ke druhému Arduinu připojte tři potenciometry.
+- Obě Arduina propojte přes UART (nezapomeňte správně zapojit Tx-Rx Rx-Tx a spojit země obou Arduin).
+- Naprogramujte obě Arduina tak, aby se pomocí potenciometrů na jednom Arduinu nastavovaly barevné složky na RGB LEDce na druhém Arduinu.
 
  
