@@ -1,4 +1,4 @@
-# Sériová komunikace mezi Arduiny
+# Sériová komunikace
 
 V této lekci budeme posílat data do Arduina přes Serial monitor a pak i mezi dvěma Arduiny. 
 
@@ -9,12 +9,20 @@ Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/ar
 1. Připojte k Arduinu servo. Napište program tak, aby se úhel serva dal nastavovat z počítače přes Serial monitor. Použijte funkci ```Serial.parseInt()```.
 1. Přidejte k předchozímu úkolu kontrolu správnosti vstupu (pokud uživatel zadá např. 10000 nebo -13, vyhubujte mu)
 
-# Sériová komunikace mezi Arduiny
-
-<img width="501" height="149" alt="image" src="https://github.com/user-attachments/assets/de1e4b71-f2d4-4c01-9767-d040c5c739de" />
+## Sériová komunikace mezi Arduiny
+Sériová komunikace znamená, že se data posílají **postupně po jednom bitu** po jednom vodiči.  
 
 <img width="951" height="116" alt="image" src="https://github.com/user-attachments/assets/48397fb3-4c05-475b-b1e6-3587fdd45783" />
 
+Na deskách jako **Arduino UNO** je hardwarová sériová linka označena jako:
+
+- **TX** (Transmit) – vysílá data  
+- **RX** (Receive) – přijímá data  
+
+Propojení je jednoduché, ale musí být správně křížené:
+Bez propojené země komunikace nebude fungovat – obě desky musí mít stejnou referenci napětí.
+
+<img width="501" height="149" alt="image" src="https://github.com/user-attachments/assets/de1e4b71-f2d4-4c01-9767-d040c5c739de" />
 
 
 ## Úkol 
