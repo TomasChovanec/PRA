@@ -58,7 +58,7 @@
 ### To.Ře - Elektronické piano
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
@@ -72,7 +72,7 @@
 ### Mi.Sa. - Elektronický dveřní zámek s otevíráním na kód a na čip
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
  **Zadání:**
@@ -87,7 +87,7 @@
 ### Ji.Pš. Dino game
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
@@ -102,7 +102,7 @@
 ### Ja.Su. - Otevírání dveří na RFID karty
 **Termíny:**
 - :heavy_check_mark: [Kontrola HW](Kontrola_HW.md)  do **29.1. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **17.2. 23:59**
 - Prezentace ve škole  **19.2.**
 
 **Zadání:**
