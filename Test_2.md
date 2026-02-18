@@ -7,7 +7,7 @@ Součástky:
 
 ### Funkce
 1. Čekání
-   - Servo je v základní poloze (např. 0°) a čeká na stisk tlačítka. 
+   - Servo je v základní poloze (např. 0°) a čeká na stisk tlačítka. (např. ```while(digitalRead(tlacitko)==1){}```)
 
 1. Otevírání
    - Po stisku tlačítka přes `Serial.print()` odešli text: "OTEVIRAM"
