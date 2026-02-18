@@ -2,7 +2,6 @@
 
 V této lekci budeme posílat data do Arduina přes Serial monitor a pak i mezi dvěma Arduiny. 
 
-## Funkce parseInt()
 Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cteni-uzivatelskych-vstupu-v-arduinu) 
 
 
