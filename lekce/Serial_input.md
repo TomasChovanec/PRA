@@ -10,7 +10,7 @@ Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/ar
 1. Přidejte k předchozímu úkolu kontrolu správnosti vstupu (pokud uživatel zadá např. 10000 nebo -13, vypište na Serial monitor chybovou hlášku).
 
 ## Sériová komunikace mezi Arduiny
-Sériová komunikace znamená, že se data posílají **postupně po jednom bitu** po jednom vodiči.  
+Sériová komunikace znamená, že se data posílají **postupně po jednom bitu**, obvykle po jednom vodiči popř. páru vodičů u diferenciálního signálu.  
 
 <img width="951" height="116" alt="image" src="https://github.com/user-attachments/assets/48397fb3-4c05-475b-b1e6-3587fdd45783" />
 
