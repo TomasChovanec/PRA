@@ -6,8 +6,8 @@ Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/ar
 
 
 ## Úkoly pro funkci parseInt()
-1. Připojte k Arduinu servo. Napiště program tak, aby se úhel serva dal nastavovat z počítače přes serial monitor. Použijte funkci ```Serial.parseInt()```.
-1. Přidejte k předchozímu úkolu kontrolu správnosti vstupu (co se stane když uživatel zadá např. 10000 nebo -13)
+1. Připojte k Arduinu servo. Napište program tak, aby se úhel serva dal nastavovat z počítače přes Serial monitor. Použijte funkci ```Serial.parseInt()```.
+1. Přidejte k předchozímu úkolu kontrolu správnosti vstupu (pokud uživatel zadá např. 10000 nebo -13, vyhubujte mu)
 
 # Sériová komunikace mezi Arduiny
 
