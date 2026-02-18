@@ -19,7 +19,7 @@ Na deskách jako **Arduino UNO** je hardwarová sériová linka označena jako:
 - **TX** (Transmit) – vysílá data  
 - **RX** (Receive) – přijímá data  
 
-Propojení je jednoduché, ale musí být správně křížené. NAvíc musíme propojit země obou zařízení, obě desky musí mít stejnou referenci napětí.
+Propojení je jednoduché, ale musí být správně křížené. Navíc musíme propojit země obou zařízení, obě desky musí mít stejnou referenci napětí.
 
 <img width="501" height="149" alt="image" src="https://github.com/user-attachments/assets/de1e4b71-f2d4-4c01-9767-d040c5c739de" />
 
