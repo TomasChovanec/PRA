@@ -4,7 +4,11 @@ V této lekci budeme posílat data do Arduina přes Serial monitor a pak i mezi 
 
 Popis potřebných funkcí najdete [zde](https://www.itnetwork.cz/hardware-pc/arduino/programovaci-jazyk/cteni-uzivatelskych-vstupu-v-arduinu) 
 
+## Úkoly pro funkci Serial.readString()
+1. Připojte k Arduinu LCD displej. Napište program tak, abyste dokázali nastavovat text na displeji přes Serial monitor
+2. Upravte program tak, abyste dokázali nastavit text na 1. i druhém řádku.
 
+   
 ## Úkoly pro funkci parseInt()
 1. Připojte k Arduinu servo. Napište program tak, aby se úhel serva dal nastavovat z počítače přes Serial monitor. Použijte funkci ```Serial.parseInt()```.
 1. Přidejte k předchozímu úkolu kontrolu správnosti vstupu (pokud uživatel zadá např. 10000 nebo -13, vypište na Serial monitor chybovou hlášku).
