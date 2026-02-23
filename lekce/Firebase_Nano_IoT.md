@@ -159,7 +159,7 @@ void loop() {
 ```
 
 ## Úkoly
-1. Připojte potenciometr k Arduinu NANO 33 IoT, měřte a hodnotu odesílejte do Firebase pomocé funkce ```send_data_to_firebase("/Temperature_xxx", value);``` kde xxx bude číslo vaší Arduino sady.
+1. Připojte potenciometr k Arduinu NANO 33 IoT, měřte a hodnotu odesílejte do Firebase pomocé funkce ```send_data_to_firebase("/Temperature_xxx", value);``` kde xxx bude číslo vaší Arduino sady. **Protože mikrokontroler použitý v Arduino Nano IoT neumožňuje 5V vstup, použijte pro napájení potenciometru 3,3V z pinu +3V3.**
 2. Čtěte z Firebase hodnotu slideru pomocí funkce ```get_data_from_firebase("/Slider_xxx");``` (opět za xxx dosaďte číslo své sady) a nastavujte podle toho jas LEDky připojené k Arduinu (funkcí analogWrite)
 3. Zkuste nastavovat stav LEDky z telefonu přes [https://tomaschovanec.github.io/PRA/iot](https://tomaschovanec.github.io/PRA/iot)
 
