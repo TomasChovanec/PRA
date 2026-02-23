@@ -60,15 +60,14 @@
   <h1>Aktuální teploty</h1>
 
   <div id="temperatures">
-    <div class="card"><h3>Temperature 1 (Martin) </h3><div class="value" id="t1">-- °C</div></div>
-    <div class="card"><h3>Temperature 2 (Vojta) </h3><div class="value" id="t2">-- °C</div></div>
-    <div class="card"><h3>Temperature 3 (Filip) </h3><div class="value" id="t3">-- °C</div></div>
-    <div class="card"><h3>Temperature 4 (Rosťa)</h3><div class="value" id="t4">-- °C</div></div>
-    <div class="card"><h3>Temperature 5 (Ondra)</h3><div class="value" id="t5">-- °C</div></div>
-    <div class="card"><h3>Temperature 6 (Adam)</h3><div class="value" id="t6">-- °C</div></div>
-    <div class="card"><h3>Temperature 7 (Dominik)</h3><div class="value" id="t7">-- °C</div></div>
-    <div class="card"><h3>Temperature 8 (Jonáš)</h3><div class="value" id="t8">-- °C</div></div>
-    <div class="card"><h3>Temperature 9</h3><div class="value" id="t9">-- °C</div></div>
+    <div class="card"><h3>Temperature 1 (Jirka) </h3><div class="value" id="t1">-- °C</div></div>
+    <div class="card"><h3>Temperature 2 (Michal) </h3><div class="value" id="t2">-- °C</div></div>
+    <div class="card"><h3>Temperature 3 (Tomáš) </h3><div class="value" id="t3">-- °C</div></div>
+    <div class="card"><h3>Temperature 4 (Dan)</h3><div class="value" id="t4">-- °C</div></div>
+    <div class="card"><h3>Temperature 5 (Honza)</h3><div class="value" id="t5">-- °C</div></div>
+    <div class="card"><h3>Temperature 6 (Jakub)</h3><div class="value" id="t6">-- °C</div></div>
+    <div class="card"><h3>Temperature 7 (Adam)</h3><div class="value" id="t7">-- °C</div></div>
+    <div class="card"><h3>Temperature 8 (Mirek)</h3><div class="value" id="t8">-- °C</div></div>
   </div>
 
   <h2>Ovládání osvětlení</h2>
@@ -85,7 +84,7 @@
         const response = await fetch(dbURL + "/.json");
         const data = await response.json();
 
-        for (let i = 1; i <= 9; i++) {
+        for (let i = 1; i <= 8; i++) {
           const val = data[`Temperature_${i}`];
           document.getElementById(`t${i}`).textContent = 
             (val ?? "--") + " °C";
