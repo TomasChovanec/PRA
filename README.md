@@ -40,6 +40,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Ovládání ventilátoru](/lekce/Tranzistor.md)
 1. [Fotorezistor](/lekce/Fotorezistor.md)
 1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
+1. [Arduino a přímá práce s registry](/lekce/Arduino_pod_kapotou.md)
 
 <!---
 1. [Závěr](/lekce/zaver.md)
