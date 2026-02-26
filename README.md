@@ -47,12 +47,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Závěr](/lekce/zaver.md)
 --->
 
-<!---
-## Rozcvičky
-1. [Rozcvička 5.1.](Test_1.md)
-1. [Rozcvička 12.1.](Test_2.md)
---->
-
 ## Testy
 Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
 
