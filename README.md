@@ -9,11 +9,12 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Informace k samostatnému projektu](/projekty/Projekt.md)
-- [Zadání E3A](/projekty/Zadani_projektu_E3A_sk_2.md)
-- [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_2.md)
+
 
 
 <!---
+- [Zadání E3A](/projekty/Zadani_projektu_E3A_sk_2.md)
+- [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_2.md)
 - [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
 - [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
 --->
@@ -29,6 +30,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [PWM, RGB LEDka](/lekce/PWM.md)
 1. [LCD displej](/lekce/LCD.md)
 1. [Teplotní čidlo](/lekce/DHT.md)
+1. [Fotorezistor](/lekce/Fotorezistor.md)
 1. [Ultrazvukový sensor](/lekce/Ultrasonic.md)
 1. [Logický analyzer](/lekce/Logicky_analyzer.md)
 1. [Krokový motor](/lekce/Krokovy_motor.md)
@@ -38,7 +40,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Multitasking s Arduinem](/lekce/Millis.md)
 1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
 1. [Ovládání ventilátoru](/lekce/Tranzistor.md)
-1. [Fotorezistor](/lekce/Fotorezistor.md)
+
 1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
 1. [Arduino a přímá práce s registry](/lekce/Arduino_pod_kapotou.md)
 
