@@ -52,14 +52,13 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 | 5 - 0   | 5     |
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
-- Elektronická hrací kostka
-- Elektronické piano
 - Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
 - Hra na postřeh pro dva hráče
 - Hodinky s budíkem a stopkami
 - Teplotní čidlo se záznamem na SD kartu
-- Voltmetr se třemi napěťovými rozsahy
+- Voltmetr se dvěma napěťovými rozsahy a měřením proudu
 - Ovládání výtahu (krokový motor, tlačítka, displej)
+- Kódový zámek s možností změny kódu
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Hudební přehrávač s dálkovým ovládáním
