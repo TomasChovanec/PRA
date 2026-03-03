@@ -56,6 +56,7 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 - Hra na postřeh pro dva hráče
 - Hodinky s budíkem a stopkami
 - Teplotní čidlo se záznamem na SD kartu
+- Automatické ovládání dvířek do kurníku s počítadlem slepic
 - Voltmetr se dvěma napěťovými rozsahy a měřením proudu
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Kódový zámek s možností změny kódu
