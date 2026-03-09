@@ -1,12 +1,5 @@
 # Digitální a analogový vstup Arduina
 
-### Cíle lekce
-- Použít komunikaci přes sériový port funkcí ```Serial.println()``` k ověření funkce programu
-- Zopakovat si základy jazyka C - práce s proměnnou, podmínka a cyklus
-- Umět využívat funkci ```analogRead()``` pro měření napětí
-- Umět zapojit potenciometr a číst z programu jeho polohu
-
-
 <script type="text/javascript" id="MathJax-script" async 
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
