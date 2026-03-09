@@ -116,8 +116,7 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 ```
 
 ## Úkoly
-1. Otevřete si program s blikáním LEDky a přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru.
-1. Připojte k Arduinu tlačítko a napište program, který každých 500ms odesílá do sériového monitoru informaci o tom, zda je tlačítko stisknuto.
+1. Otevřete si program s blikáním LEDky a přidejte odesílání jednotlivých stavů (svítí/nesvítí) do serial monitoru pomocí funkce Serial.println().
 1. Napište program, který neustále inkrementuje (zvyšuje) hodnotu proměnné a posílá její hodnotu do sériového monitoru. Pomocí volby typu proměnné nebo velikosti inkrementu zajistěte, aby došlo k jejímu přetečení.
 1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15 včetně
 1. Pomocí cyklu vypište do sériového monitoru čísla od 10 do -5
