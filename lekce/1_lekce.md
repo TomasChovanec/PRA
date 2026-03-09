@@ -122,7 +122,7 @@ Serial.println(cislo);  // Vytiskne "Hodnota x je: 10" a přejde na nový řáde
 1. Pomocí cyklu vypište do sériového monitoru čísla od 0 do 15 včetně
 1. Pomocí cyklu vypište do sériového monitoru čísla od 10 do -5
 1. Pomocí cyklu vypište do sériového monitoru sudá čísla od 2 do 20 včetně
-1. Napište program, který po startu čeká, dokud není stisknuto tlačítko, pak 25x blikne LEDkou
+1. Napište program, který po startu 2s čeká, pak na 1s rozsvítí LEDku, pak 25x blikne LEDkou (200ms ON, 200ms OFF). Poté LEDku zhasne a už ji nerozsvítí.
 
 
 ### [Zpět na obsah](../README.md)
