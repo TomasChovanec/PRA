@@ -44,3 +44,6 @@ Podle schématu z bodu 5 proveďte zapojení na nepájivém poli. Z [datasheetu 
 **Úkol 6:**
 Připojte k Arduinu teplotní senzor a naprogramujte Arduino tak, aby se ventilátor spínal při teplotách >25°C.
 
+**Úkol 7:**
+Připojte k Arduinu potenciometr a naprogramujte Arduino tak, aby se otáčky ventilátoru daly nastavovat potenciometrem.
+
