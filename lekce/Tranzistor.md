@@ -20,7 +20,7 @@ Nakreslete schéma ventilátoru spínaného tlačítkem (Arduino použijte jen j
 
 
 **Úkol 2:**
-Vezměte si multimetr, vysvětlete, jak postupovat při měření proudu a jaká jsou rizika? Jak postupovat při volbě rozsahu?
+Vezměte si multimetr, sepište stručně v několika bodech, jak postupovat při měření proudu a jaká jsou rizika? Jak postupovat při volbě rozsahu?
 <img width="351" height="471" alt="image" src="https://github.com/user-attachments/assets/8c84a646-b4bc-4332-9b58-54cce8dcd72a" />
 
 **Úkol 3:**
