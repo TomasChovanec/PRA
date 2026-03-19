@@ -70,7 +70,7 @@ Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v
 *Zdroj obrázku: https://www.electronicshub.org/how-potentiometer-works/*
 
 ## Úkoly
-1. Zapojte k Arduinu potenciometr, čtete hodnotu funkcí analogRead do proměnné a posílejte na sériovou linku
+1. Zapojte k Arduinu potenciometr, čtete hodnotu funkcí ```analogRead()``` do proměnné a posílejte na sériovou linku
 2. Hodnotu převeďte na napětí ve voltech a pošlete na sériovou linku
 3. Pokud je vyšší než 2,5V, rozsviťte LEDku
 4. Potenciometrem měňte frekvenci blikání LEDky
