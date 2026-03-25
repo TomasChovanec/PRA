@@ -77,12 +77,12 @@ Sériová komunikace znamená, že se data posílají **postupně po jednom bitu
 
 <img width="951" height="116" alt="image" src="https://github.com/user-attachments/assets/48397fb3-4c05-475b-b1e6-3587fdd45783" />
 
-Na deskách jako **Arduino UNO** je hardwarová sériová linka označena jako:
+Na deskách Arduino je hardwarová sériová linka označena jako:
 
 - **TX** (Transmit) – vysílá data  
 - **RX** (Receive) – přijímá data  
 
-Propojení je jednoduché, ale musí být správně křížené. Navíc musíme propojit země obou zařízení, obě desky musí mít stejnou referenci napětí.
+Pokud chceme propojit UARTem dvě Arduina, musíme jejich Tx a Rx zapojit "do kříže". Navíc musíme propojit země obou zařízení, obě desky musí mít stejnou referenci napětí.
 
 <img width="501" height="149" alt="image" src="https://github.com/user-attachments/assets/de1e4b71-f2d4-4c01-9767-d040c5c739de" />
 
