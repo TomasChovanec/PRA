@@ -42,26 +42,8 @@ Kromě +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digit
 *Zdroj obrázku: https://electronoobs.com/eng_arduino_tut36.php*
 
 
-### Funkce pulseIn()
-Abychom zjistili změřenou vzdálenost, potřebujeme změřit délku pulzu na pinu Echo. Mohli bychom pro to použít periferii mikrokontroleru časovač, ale usnadníme si práci využitím standartní funkce Arduino pulseIn(). Funkce vyžaduje dva argumenty -  na jakém pinu chceme pulz měřit a zda chceme měřit délku HIGH nebo LOW pulzu.
-
-```c
-int pin = 7;
-unsigned long duration;
-
-void setup() {
-  Serial.begin(9600);
-  pinMode(pin, INPUT);
-}
-
-void loop() {
-  duration = pulseIn(pin, HIGH);
-  Serial.println(duration);
-}
-```
-
 ### Úkoly
-1. Připojte k Arduinu ultrazvukový senzor. Měřte délku pulzu na pinu Echo pomocí funkce pulseIn() a tuto hodnotu posílejte na Serial monitor.
+1. Připojte k Arduinu ultrazvukový senzor. Měřte délku pulzu na pinu Echo a tuto hodnotu posílejte na Serial monitor.
 2. Upravte program tak, aby délku pulzu přepočítal na zdálenost v centimetrech a tu opět posílejte na Serial monitor.
 3. Přidejte navíc LCD displej a naměřenou hodnotu na něm zobrazujte. Připojte Arduino na powerbanku a zkuste změřit i větší vzdálenosti v místnosti. Ověřte limity senzoru.
 4. Připojte k Arduinu ještě LEDku. Nastavujte intenzitu LEDky podle toho, jak daleko je překážka od ultrazvukového senzoru. Pro méně než 2cm vzdálenosti bude intenzity LEDky 0%. Pro více než 30cm bude intenzita 100%. Mezi těmito hodnotami se bude intenzita LEDky plynule měnit. Použijte funkci analogWrite() a map() z předešlých hodin.
