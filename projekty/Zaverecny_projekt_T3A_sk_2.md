@@ -4,7 +4,6 @@
 Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řešení pro hudební festival.  
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
----
 
 ## 1. Turniket
 - Vstupní systém tvořený dvěma turnikety  
@@ -15,8 +14,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - při příchodu zobrazí „Welcome“
   - při odchodu zobrazí „Good bye“
   - zobrazení realizujte formou bitmapy
-
----
 
 ## 2. Výčep
 - Ovládání pomocí tlačítek:
@@ -34,7 +31,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - kapacity definujte pomocí konstant/maker na začátku programu
   - při poklesu odešle varování přes UART
 
----
 
 ## 3. Robot pro rozvoz nápojů
 - Pohyb po čáře (line follower)
@@ -43,7 +39,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Následně se vrátí zpět na výchozí pozici
 - Na displeji zobrazuje počet otoček (např. kol nebo motoru)
 
----
 
 ## 4. Platební terminál k jukeboxu
 - Načítání dat z RFID karty
@@ -53,7 +48,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - potvrzovací zpráva musí být pokaždé odlišná
   - cílem je zabránit jednoduchému podvržení komunikace
 
----
 
 ## 5. Jukebox
 - Obsahuje minimálně 10 skladeb
@@ -62,7 +56,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - zpráva je pokaždé jiná
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s terminálem
 
----
 
 ## 6. Automatické osvětlení areálu
 - Využívá LDR (světelný senzor)
@@ -75,7 +68,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 - Každých 30 s odesílá přes UART aktuální teplotu
 
----
 
 ## 7. Webový dashboard pro organizátory
 - Hardware:
@@ -88,7 +80,6 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - osvětlení
 - zobrazuje data na webové stránce
 
----
 
 ## Požadavky na řešení
 - Každý subsystém musí být funkční samostatně
