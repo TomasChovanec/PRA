@@ -4,6 +4,21 @@
 Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řešení pro hudební festival.  
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
+## Průběžné reporty projektu
+Každá dvojice je povinna jednou za 14 dní (vždy nejpozději před začátkem hodiny PRA) sdílet průběžný stav projektu v Teams skupině. Report bude hodnocen známkou s vahou 0,25.
+
+### Obsah reportu
+Každý report musí obsahovat:
+1. Co se podařilo realizovat
+2. Na jaké problémy jste narazili (co nefunguje)
+3. Jaké jsou další kroky / co plánujete řešit
+
+### Povinné přílohy
+Součástí každého reportu musí být alespoň jedna z následujících položek:
+- fotografie zapojení
+- krátké video (max. 1 minuta)
+- ukázka zdrojového kódu
+
 
 ## 1. Turnikety
 - Vstupní systém tvořený dvěma turnikety  
@@ -79,10 +94,3 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - osvětlení
 - zobrazuje data na webové stránce
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
-
-
-## Požadavky na řešení
-- Každý subsystém musí být funkční samostatně
-- Komunikace mezi zařízeními probíhá přes UART
-- Návrh struktury dat a komunikačního protokolu je součástí projektu
-- Důraz na přehlednost kódu a použití vhodné struktury programu
