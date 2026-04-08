@@ -5,7 +5,7 @@ Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řeše
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
 
-## 1. Turniket
+## 1. Turnikety
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
