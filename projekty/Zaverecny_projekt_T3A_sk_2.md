@@ -37,7 +37,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Po příjezdu na místo:
   - čeká na stisk tlačítka (potvrzení převzetí)
 - Následně se vrátí zpět na výchozí pozici
-- Na displeji zobrazuje počet otoček (např. kol nebo motoru)
+- Na displeji zobrazuje počet jízd
 
 
 ## 4. Platební terminál k jukeboxu
