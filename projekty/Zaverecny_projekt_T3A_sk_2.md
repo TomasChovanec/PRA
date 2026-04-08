@@ -9,7 +9,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
-- Při změně počtu odešle aktuální stav přes UART  
+- Při změně počtu odešle aktuální stav přes UART do centrální jednotky
 - 2× OLED displej:
   - při příchodu zobrazí „Welcome“
   - při odchodu zobrazí „Good bye“
@@ -29,7 +29,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Eviduje celkové množství jednotlivých vydaných nápojů (výtoč)
 - Sleduje kapacitu sudů:
   - kapacity definujte pomocí konstant/maker na začátku programu
-  - při poklesu odešle varování přes UART
+  - při poklesu odešle varování přes UART do centrální jednotky
 
 
 ## 3. Robot pro rozvoz nápojů
@@ -66,10 +66,10 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Plynulé stmívání/rozsvěcení (PWM, cca 10 s)
 - Nastavení barvy přes UART, např.: "R:50 G:255 B:215\n"
 
-- Každých 30 s odesílá přes UART aktuální teplotu
+- Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
 
 
-## 7. Webový dashboard pro organizátory
+## 7. Centrální jednotka a webový dashboard pro organizátory
 - Hardware:
 - Arduino MEGA
 - Arduino Nano IoT
