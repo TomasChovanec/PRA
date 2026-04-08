@@ -42,8 +42,8 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 ## 4. Platební terminál k jukeboxu
 - Načítání dat z RFID karty
-- Zadání částky pomocí klávesnice
-- Odečtení kreditu z karty
+- Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
+- Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
 - Odeslání potvrzení o úspěšné platbě:
   - potvrzovací zpráva musí být pokaždé odlišná
   - cílem je zabránit jednoduchému podvržení komunikace
@@ -54,7 +54,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Přijímá platby z platebního terminálu
 - Ověřuje potvrzovací zprávu:
   - zpráva je pokaždé jiná
-  - navrhněte a implementujte vhodný algoritmus ve spolupráci s terminálem
+  - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
 
 
 ## 6. Automatické osvětlení areálu
@@ -64,8 +64,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - vypíná při dostatečném osvětlení
 - Implementujte hysterezi
 - Plynulé stmívání/rozsvěcení (PWM, cca 10 s)
-- Nastavení barvy přes UART, např.: "R:50 G:255 B:215\n"
-
+- Umožňuje barvy přes UART, např.: "R:50 G:255 B:215\n"
 - Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
 
 
@@ -79,6 +78,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - výčepu
   - osvětlení
 - zobrazuje data na webové stránce
+- umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
 
 
 ## Požadavky na řešení
