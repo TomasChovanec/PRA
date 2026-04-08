@@ -26,7 +26,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Po stisknutí tlačítka:
   - servo simuluje otevření ventilu
   - na OLED displeji se zobrazuje průběh plnění v procentech
-- Eviduje celkové množství vydaných nápojů (výtoč)
+- Eviduje celkové množství jednotlivých vydaných nápojů (výtoč)
 - Sleduje kapacitu sudů:
   - kapacity definujte pomocí konstant/maker na začátku programu
   - při poklesu odešle varování přes UART
