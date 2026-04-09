@@ -9,7 +9,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Informace k samostatnému projektu pro E3A a E3B](/projekty/Projekt.md)
-- [Informace k závěrečnému projektu T3A sk. 2](/projekty/Zaverecny_projekt_T3A_sk_1.md)
+- [Informace k závěrečnému projektu T3A sk. 1](/projekty/Zaverecny_projekt_T3A_sk_2.md)
 
 
 <!---
