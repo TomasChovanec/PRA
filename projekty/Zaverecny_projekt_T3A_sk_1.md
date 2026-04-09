@@ -75,7 +75,7 @@ Každý report musí obsahovat:
 - Ověřuje potvrzovací zprávu:
   - zpráva je pokaždé jiná
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
-
+- HW: OLED displej, reproduktor, joystic, mp3 modul, sd karta, čtečka sd karet, pole, kabel mini
 
 ## 6. Automatické osvětlení areálu Matouš G., Max F.
 - Využívá LDR (světelný senzor)
