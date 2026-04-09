@@ -58,9 +58,11 @@ Každý report musí obsahovat:
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
 - Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
+- Na displeji zobrazí potvrzení popř. chybu
 - Odeslání potvrzení o úspěšné platbě:
   - potvrzovací zpráva musí být pokaždé odlišná
   - cílem je zabránit jednoduchému podvržení komunikace
+- HW: UNO, RFID modul, 2 karty, OLED displej, AB kabel, velké nepájivé pole
 
 
 ## 5. Jukebox Jakub K., Josef K.
@@ -95,6 +97,7 @@ Každý report musí obsahovat:
   - osvětlení
 - zobrazuje data na webové stránce
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
+- HW: Arduino MEGA, Arduino Nano IoT
 
 ## Hodnocení
 - Dvě známky s vahou 0,25 za průběžné reporty projektu
