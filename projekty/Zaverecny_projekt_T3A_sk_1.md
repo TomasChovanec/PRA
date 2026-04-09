@@ -53,7 +53,7 @@ Každý report musí obsahovat:
   - čeká na stisk tlačítka (potvrzení převzetí)
 - Následně se vrátí zpět na výchozí pozici
 - Na displeji zobrazuje počet jízd
-- HW: Robot, OLED displej 
+- HW: Robot, OLED displej, USB-C kabel
 
 
 ## 4. Platební terminál k jukeboxu - Vít.K., Adam.H.
