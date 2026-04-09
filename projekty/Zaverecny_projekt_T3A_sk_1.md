@@ -62,7 +62,7 @@ Každý report musí obsahovat:
   - cílem je zabránit jednoduchému podvržení komunikace
 
 
-## 5. Jukebox
+## 5. Jukebox Jakub K., Josef K.
 - Obsahuje minimálně 10 skladeb
 - Umožní uživateli vybrat název skladby pomocí displeje a joysticku
 - Přijímá platby z platebního terminálu
