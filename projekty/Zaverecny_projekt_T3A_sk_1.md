@@ -45,7 +45,7 @@ Každý report musí obsahovat:
   - při poklesu odešle varování přes UART do centrální jednotky
 
 
-## 3. Robot pro rozvoz nápojů
+## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K.
 - Pohyb po čáře (line follower)
 - Po příjezdu na místo:
   - čeká na stisk tlačítka (potvrzení převzetí)
