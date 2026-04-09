@@ -53,7 +53,7 @@ Každý report musí obsahovat:
 - Na displeji zobrazuje počet jízd
 
 
-## 4. Platební terminál k jukeboxu
+## 4. Platební terminál k jukeboxu - Vít.K., Adam.H.
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
 - Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
