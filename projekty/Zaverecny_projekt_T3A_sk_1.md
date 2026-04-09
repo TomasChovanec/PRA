@@ -28,7 +28,7 @@ Každý report musí obsahovat:
   - při odchodu zobrazí „Good bye“
   - zobrazení realizujte formou bitmapy
 
-## 2. Výčep
+## 2. Výčep Dominik G., Marek H.
 - Ovládání pomocí tlačítek:
   - 3× tlačítko pro malý nápoj
   - 3× tlačítko pro velký nápoj
@@ -83,7 +83,7 @@ Každý report musí obsahovat:
 - Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
 
 
-## 7. Centrální jednotka a webový dashboard pro organizátory
+## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K.
 - Hardware:
 - Arduino MEGA
 - Arduino Nano IoT
