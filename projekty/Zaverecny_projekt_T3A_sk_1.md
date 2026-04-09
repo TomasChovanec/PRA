@@ -86,6 +86,7 @@ Každý report musí obsahovat:
 - Plynulé stmívání/rozsvěcení (PWM, cca 10 s)
 - Umožňuje barvy přes UART, např.: "R:50 G:255 B:215\n"
 - Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
+- HW: LDR, RGB ledka, DHT11, nano, malé pole
 
 
 ## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K.
