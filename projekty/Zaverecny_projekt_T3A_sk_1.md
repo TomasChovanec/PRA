@@ -27,6 +27,8 @@ Každý report musí obsahovat:
   - při příchodu zobrazí „Welcome“
   - při odchodu zobrazí „Good bye“
   - zobrazení realizujte formou bitmapy
+ 
+- HW: Nano, 2xOLED, 4xIR senzor, velké pole
 
 ## 2. Výčep Dominik G., Marek H.
 - Ovládání pomocí tlačítek:
