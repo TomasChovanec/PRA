@@ -18,7 +18,7 @@ Každý report musí obsahovat:
 - ukázka zdrojového kódu
 
 
-## 1. Turnikety
+## 1. Turnikety Daniel F., Dominik K.
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
