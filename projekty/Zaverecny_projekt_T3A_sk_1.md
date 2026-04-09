@@ -72,7 +72,7 @@ Každý report musí obsahovat:
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
 
 
-## 6. Automatické osvětlení areálu
+## 6. Automatické osvětlení areálu Matouš G., Max F.
 - Využívá LDR (světelný senzor)
 - Funkce:
   - zapíná osvětlení při tmě
