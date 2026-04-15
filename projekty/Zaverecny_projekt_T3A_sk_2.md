@@ -81,13 +81,10 @@ Každý report musí obsahovat:
 
 
 ## 7. Řídící jednotka včetně webového rozhraní
-- Centrální jednotka sleduje ostatní moduly  
-- Přijímá data ze všech zařízení přes UART  
-- Pokud některý modul nekomunikuje:
-  - vyhlásí chybu (watchdog logika)  
+- Přijímá data z jednotky pro přivolání sestry a z jednotky monitoringu teploty
 - Zobrazení stavu systému:
   - webové rozhraní  
-  - OLED displej (základní stav systému)  
+- Umožňuje nastavovat limitní teplotu monitorovací jednotky přes webové rozhraní
 
 ## Hodnocení
 - Dvě známky s vahou 0,25 za průběžné reporty projektu
