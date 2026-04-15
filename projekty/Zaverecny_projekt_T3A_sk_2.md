@@ -22,19 +22,21 @@ Každý report musí obsahovat:
 - jedno Arduino v sesterně, 5 tlačítek připojených kabelem u jednotlivých „postelí“ na pokojích (jeden dvoulůžkový, jeden třílůžkový pokoj)
 - Po stisku tlačítka:
   - rozsvítí se LED v sesterně
-  - na displeji se zobrazí číslo pokoje a postele
+  - na OLED displeji se zobrazí číslo pokoje a postele
   - pravidelně jednou za 3 sekundy zazní zvukový signál
   - odešle se ID pokoje a postele přes UART do centrální jednotky  
 - Reset signalizace pomocí tlačítka sestry
-- Do EEPROM se bude zapisovat počet přivolání pro každou postel
+- Pokud zrovna není alarm aktivní, na displeji se bude zobrazovat počet volání z jednotlivých pokojů v posledních dvou hodinách
 
 
 ## 2. Monitor teploty pacienta
 - Měření teploty pomocí teplotního čidla  
 - OLED displej zobrazuje:
-  - aktuální teplotu  
+  - aktuální teplotu
+  - trend znázorněný šipkou (klesá/stoupá/je stabilní)  
   - graf vývoje teploty za posledních 20 minut  
-  - stav pacienta (OK / horečka – např. formou ikony)  
+  - stav pacienta (OK / horečka – např. formou ikony)
+- Umožní přes UART nastavit limitní teplotu
 - Při překročení limitní teploty odešle alarm přes UART  
 
 
@@ -44,7 +46,7 @@ Každý report musí obsahovat:
   - otevření dveří (servo motor)  
 - Při neplatné kartě:
   - zobrazení chyby na displeji  
-- Evidence vstupů ukládaná na SD kartu  
+- Evidence vstupů včetně času ukládaná na SD kartu  
 
 
 ## 4. Osvětlení pokoje (Bluetooth)
@@ -55,10 +57,10 @@ Každý report musí obsahovat:
 
 ## 5. Transport jídla (robot)
 - Robot sledující čáru (line follower)  
-- Po příjezdu na stanici:
+- Po příjezdu na stanici (na konec černé čáry):
   - zastaví  
   - čeká na stisk tlačítka (potvrzení převzetí)  
-- Po potvrzení pokračuje / vrací se zpět  
+- Po potvrzení se vrací se zpět  
 - Evidence počtu jízd (zobrazení na displeji)  
 
 ## 6. Nákladní výtah
@@ -78,7 +80,7 @@ Každý report musí obsahovat:
   - poté obslouží nový požadavek  
 
 
-## 7. Supervizor systému (webové rozhraní)
+## 7. Řídící jednotka včetně webového rozhraní
 - Centrální jednotka sleduje ostatní moduly  
 - Přijímá data ze všech zařízení přes UART  
 - Pokud některý modul nekomunikuje:
