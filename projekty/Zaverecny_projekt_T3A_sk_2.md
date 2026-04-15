@@ -25,7 +25,8 @@ Každý report musí obsahovat:
   - na displeji se zobrazí číslo pokoje a postele
   - pravidelně jednou za 3 sekundy zazní zvukový signál
   - odešle se ID pokoje a postele přes UART do centrální jednotky  
-- Reset signalizace pomocí tlačítka sestry  
+- Reset signalizace pomocí tlačítka sestry
+- Do EEPROM se bude zapisovat počet přivolání pro každou postel
 
 
 ## 2. Monitor teploty pacienta
