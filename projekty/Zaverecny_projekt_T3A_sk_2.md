@@ -1,7 +1,7 @@
 # Závěrečný projekt
 
 ## Zadání
-Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řešení pro hudební festival.  
+Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řešení pro chytrou nemocnici.  
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
 ## Průběžné reporty projektu
@@ -9,91 +9,88 @@ Každá dvojice je povinna jednou za 14 dní (vždy nejpozději před začátkem
 
 ### Obsah reportu
 Každý report musí obsahovat:
-1. Co se podařilo realizovat
-2. Na jaké problémy jste narazili (co nefunguje)
-3. Jaké jsou další kroky / co plánujete řešit
+1. Co se podařilo realizovat  
+2. Na jaké problémy jste narazili (co nefunguje)  
+3. Jaké jsou další kroky / co plánujete řešit  
 4. Součástí každého reportu musí být alespoň jedna z následujících položek:
-- fotografie zapojení
-- krátké video (max. 1 minuta)
-- ukázka zdrojového kódu
+   - fotografie zapojení  
+   - krátké video (max. 1 minuta)  
+   - ukázka zdrojového kódu  
 
 
-## 1. Turnikety
-- Vstupní systém tvořený dvěma turnikety  
-- Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
-- Počítání návštěvníků (příchod / odchod)  
-- Při změně počtu odešle aktuální stav přes UART do centrální jednotky
-- 2× OLED displej:
-  - při příchodu zobrazí „Welcome“
-  - při odchodu zobrazí „Good bye“
-  - zobrazení realizujte formou bitmapy
-
-## 2. Výčep
-- Ovládání pomocí tlačítek:
-  - 3× tlačítko pro malý nápoj
-  - 3× tlačítko pro velký nápoj
-- Nabídka nápojů:
-  - Pivo
-  - Birell
-  - Kofola
-- Po stisknutí tlačítka:
-  - servo simuluje otevření ventilu
-  - na OLED displeji se zobrazuje průběh plnění v procentech
-- Eviduje celkové množství jednotlivých vydaných nápojů (výtoč)
-- Sleduje kapacitu sudů:
-  - kapacity definujte pomocí konstant/maker na začátku programu
-  - při poklesu odešle varování přes UART do centrální jednotky
+## 1. Přivolání sestry
+- Tlačítka u jednotlivých „postelí“  
+- Po stisku tlačítka:
+  - rozsvítí se LED (signalizace čekání na sestru)  
+  - odešle ID pokoje přes UART do centrální jednotky  
+- Reset signalizace pomocí tlačítka sestry  
+- Evidence počtu volání pro jednotlivé pokoje  
+- HW: Arduino (dle výběru), tlačítka, LED, nepájivé pole  
 
 
-## 3. Robot pro rozvoz nápojů
-- Pohyb po čáře (line follower)
-- Po příjezdu na místo:
-  - čeká na stisk tlačítka (potvrzení převzetí)
-- Následně se vrátí zpět na výchozí pozici
-- Na displeji zobrazuje počet jízd
+## 2. Monitor teploty pacienta
+- Měření teploty pomocí teplotního čidla  
+- OLED displej zobrazuje:
+  - aktuální teplotu  
+  - graf vývoje teploty za posledních 20 minut  
+  - stav pacienta (OK / horečka – např. formou ikony)  
+- Při překročení limitní teploty odešle alarm přes UART  
+- HW: Arduino, teplotní čidlo, OLED displej  
 
 
-## 4. Platební terminál k jukeboxu
-- Načítání dat z RFID karty
-- Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
-- Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
-- Odeslání potvrzení o úspěšné platbě:
-  - potvrzovací zpráva musí být pokaždé odlišná
-  - cílem je zabránit jednoduchému podvržení komunikace
+## 3. RFID přístup do místnosti
+- Identifikace personálu pomocí RFID karty  
+- Při platné kartě:
+  - otevření dveří (servo motor)  
+- Při neplatné kartě:
+  - zobrazení chyby na displeji  
+- Evidence vstupů ukládaná na SD kartu  
+- HW: Arduino, RFID modul, servo, SD karta, displej  
 
 
-## 5. Jukebox
-- Obsahuje minimálně 10 skladeb
-- Umožní uživateli vybrat název skladby pomocí displeje a joysticku
-- Přijímá platby z platebního terminálu
-- Po zaplacení přehraje skladbu
-- Ověřuje potvrzovací zprávu:
-  - zpráva je pokaždé jiná
-  - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
+## 4. Osvětlení pokoje (Bluetooth)
+- Využití LDR senzoru pro detekci okolního světla  
+- Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
+- Plynulé stmívání a rozsvěcení pomocí PWM  
+- Možnost manuálního ovládání (override) přes Bluetooth  
+- HW: Arduino, LDR, LED (nebo RGB LED), Bluetooth modul  
+
+## 5. Transport jídla (robot)
+- Robot sledující čáru (line follower)  
+- Po příjezdu na stanici:
+  - zastaví  
+  - čeká na stisk tlačítka (potvrzení převzetí)  
+- Po potvrzení pokračuje / vrací se zpět  
+- Evidence počtu jízd (zobrazení na displeji)  
+- HW: robotická platforma, senzory čáry, tlačítko, displej  
+
+## 6. Nákladní výtah
+- Simulace výtahu pomocí krokového motoru  
+- Ovládání pomocí klávesnice (volba patra)  
+- OLED displej:
+  - po stisku tlačítka zobrazí na 2 s instrukci k nástupu  
+- Následně:
+  - krokový motor se roztočí  
+  - směr otáčení odpovídá směru jízdy (nahoru / dolů)  
+  - jedno patro = jedna otáčka motoru  
+- Během jízdy:
+  - zobrazení aktuální polohy výtahu  
+  - indikace směru (šipka nahoru / dolů)  
+- Pokud během jízdy přijde nový požadavek:
+  - výtah nejprve dokončí aktuální jízdu  
+  - poté obslouží nový požadavek  
+- HW: Arduino, krokový motor, driver, OLED displej, klávesnice  
 
 
-## 6. Automatické osvětlení areálu
-- Využívá LDR (světelný senzor)
-- Funkce:
-  - zapíná osvětlení při tmě
-  - vypíná při dostatečném osvětlení
-- Implementujte hysterezi
-- Plynulé stmívání/rozsvěcení (PWM, cca 10 s)
-- Umožňuje barvy přes UART, např.: "R:50 G:255 B:215\n"
-- Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
-
-
-## 7. Centrální jednotka a webový dashboard pro organizátory
-- Hardware:
-- Arduino MEGA
-- Arduino Nano IoT
-- Funkce:
-- přijímá data z:
-  - turniketů
-  - výčepu
-  - osvětlení
-- zobrazuje data na webové stránce
-- umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
+## 7. Supervizor systému (webové rozhraní)
+- Centrální jednotka sleduje ostatní moduly  
+- Přijímá data ze všech zařízení přes UART  
+- Pokud některý modul nekomunikuje:
+  - vyhlásí chybu (watchdog logika)  
+- Zobrazení stavu systému:
+  - webové rozhraní  
+  - OLED displej (základní stav systému)  
+- HW: Arduino MEGA / IoT deska, OLED displej  
 
 ## Hodnocení
 - Dvě známky s vahou 0,25 za průběžné reporty projektu
