@@ -19,13 +19,13 @@ Každý report musí obsahovat:
 
 
 ## 1. Přivolání sestry
-- Tlačítka u jednotlivých „postelí“  
+- jedno Arduino v sesterně, 5 tlačítek připojených kabelem u jednotlivých „postelí“ na pokojích (jeden dvoulůžkový, jeden třílůžkový pokoj)
 - Po stisku tlačítka:
-  - rozsvítí se LED (signalizace čekání na sestru)  
-  - odešle ID pokoje přes UART do centrální jednotky  
+  - rozsvítí se LED v sesterně
+  - na displeji se zobrazí číslo pokoje a postele
+  - pravidelně jednou za 3 sekundy zazní zvukový signál
+  - odešle se ID pokoje a postele přes UART do centrální jednotky  
 - Reset signalizace pomocí tlačítka sestry  
-- Evidence počtu volání pro jednotlivé pokoje  
-- HW: Arduino (dle výběru), tlačítka, LED, nepájivé pole  
 
 
 ## 2. Monitor teploty pacienta
@@ -35,7 +35,6 @@ Každý report musí obsahovat:
   - graf vývoje teploty za posledních 20 minut  
   - stav pacienta (OK / horečka – např. formou ikony)  
 - Při překročení limitní teploty odešle alarm přes UART  
-- HW: Arduino, teplotní čidlo, OLED displej  
 
 
 ## 3. RFID přístup do místnosti
@@ -45,7 +44,6 @@ Každý report musí obsahovat:
 - Při neplatné kartě:
   - zobrazení chyby na displeji  
 - Evidence vstupů ukládaná na SD kartu  
-- HW: Arduino, RFID modul, servo, SD karta, displej  
 
 
 ## 4. Osvětlení pokoje (Bluetooth)
@@ -53,7 +51,6 @@ Každý report musí obsahovat:
 - Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
 - Plynulé stmívání a rozsvěcení pomocí PWM  
 - Možnost manuálního ovládání (override) přes Bluetooth  
-- HW: Arduino, LDR, LED (nebo RGB LED), Bluetooth modul  
 
 ## 5. Transport jídla (robot)
 - Robot sledující čáru (line follower)  
@@ -62,7 +59,6 @@ Každý report musí obsahovat:
   - čeká na stisk tlačítka (potvrzení převzetí)  
 - Po potvrzení pokračuje / vrací se zpět  
 - Evidence počtu jízd (zobrazení na displeji)  
-- HW: robotická platforma, senzory čáry, tlačítko, displej  
 
 ## 6. Nákladní výtah
 - Simulace výtahu pomocí krokového motoru  
@@ -79,7 +75,6 @@ Každý report musí obsahovat:
 - Pokud během jízdy přijde nový požadavek:
   - výtah nejprve dokončí aktuální jízdu  
   - poté obslouží nový požadavek  
-- HW: Arduino, krokový motor, driver, OLED displej, klávesnice  
 
 
 ## 7. Supervizor systému (webové rozhraní)
@@ -90,7 +85,6 @@ Každý report musí obsahovat:
 - Zobrazení stavu systému:
   - webové rozhraní  
   - OLED displej (základní stav systému)  
-- HW: Arduino MEGA / IoT deska, OLED displej  
 
 ## Hodnocení
 - Dvě známky s vahou 0,25 za průběžné reporty projektu
