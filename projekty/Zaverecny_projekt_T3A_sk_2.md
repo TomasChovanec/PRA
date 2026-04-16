@@ -37,7 +37,8 @@ Každý report musí obsahovat:
   - graf vývoje teploty za posledních 20 minut  
   - stav pacienta (OK / horečka – např. formou ikony)
 - Umožní z řídící jednotky přes UART nastavit limitní teplotu
-- Při překročení limitní teploty odešle alarm přes UART  
+- Při překročení limitní teploty odešle alarm přes UART
+- Nano, DHT11, OLED, mini kabel
 
 
 ## 3. RFID přístup do místnosti Jiří S., Petr M.
