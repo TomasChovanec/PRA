@@ -45,7 +45,8 @@ Každý report musí obsahovat:
 - Při platné kartě:
   - otevření dveří (servo motor)  
 - Při neplatné kartě:
-  - zobrazení chyby na displeji  
+  - zobrazení chyby na displeji
+- Všechny pokusy o přstup odesílá včetně časové značky do řídící jednotky
 - Evidence vstupů včetně času ukládaná na SD kartu  
 
 
