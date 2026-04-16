@@ -58,7 +58,7 @@ Každý report musí obsahovat:
 - Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
 - Plynulé stmívání a rozsvěcení pomocí PWM  
 - Možnost manuálního ovládání (override) přes Bluetooth
-- HW: 2xBT modul, Arduino NANO,Uno, joystick shield 2x pole, RGB LEDka, fotorezistor, mini kabel
+- HW: 2xBT modul, Arduino NANO,Uno, joystick shield, pole, RGB LEDka, fotorezistor, mini kabel
 
 ## 5. Transport jídla (robot) Libor R. Lukáš M.
 - Robot sledující čáru (line follower)  
