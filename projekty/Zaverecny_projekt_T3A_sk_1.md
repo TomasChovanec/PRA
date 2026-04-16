@@ -119,7 +119,7 @@ Každý report musí obsahovat:
     - optická signalizace (LED)
 
 - UART komunikace:
-  - odesílá logy **včetně času **do centrální jednotky:
+  - odesílá logy **včetně času** do centrální jednotky:
     - aktivace / deaktivace systému
     - úspěšné / neúspěšné zadání PINu
     - detekce pohybu (včetně identifikace senzoru)
