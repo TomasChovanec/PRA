@@ -50,8 +50,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 <!---
 ## Testy
-Ukázkové testy s podobným typem zadání, jaké budou v ostrém testu. 
-
 1. [Test 1](Test_1.md)
 2. [Test 2](Test_2.md)
 --->
