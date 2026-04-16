@@ -50,11 +50,12 @@ Každý report musí obsahovat:
 - Evidence vstupů včetně času ukládaná na SD kartu  
 
 
-## 4. Osvětlení pokoje (Bluetooth) Deni M., Marek O.
+## 4. Osvětlení pokoje (Bluetooth) Denis M., Marek O.
 - Využití LDR senzoru pro detekci okolního světla  
 - Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
 - Plynulé stmívání a rozsvěcení pomocí PWM  
-- Možnost manuálního ovládání (override) přes Bluetooth  
+- Možnost manuálního ovládání (override) přes Bluetooth
+- HW: 2xBT modul, 2x Arduino NANO, 2x pole, RGB LEDka, fotorezistor, mini kabel
 
 ## 5. Transport jídla (robot) Libor R. Lukáš M.
 - Robot sledující čáru (line follower)  
@@ -62,7 +63,8 @@ Každý report musí obsahovat:
   - zastaví  
   - čeká na stisk tlačítka (potvrzení převzetí)  
 - Po potvrzení se otočí a vrací se zpět  
-- Evidence počtu jízd (zobrazení na displeji)  
+- Evidence počtu jízd (zobrazení na displeji)
+- HW: robor, OLED displej
 
 ## 6. Nákladní výtah Tadeáš V. Stanislav P.
 - Simulace výtahu pomocí krokového motoru  
