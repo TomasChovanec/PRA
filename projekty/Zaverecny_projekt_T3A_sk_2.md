@@ -25,7 +25,7 @@ Každý report musí obsahovat:
   - na OLED displeji se zobrazí číslo pokoje a postele
   - pravidelně jednou za 3 sekundy zazní zvukový signál
   - odešle se ID pokoje a postele přes UART do centrální jednotky  
-- Reset signalizace pomocí tlačítka sestry
+- Vypnutí aktuální signalizace pomocí tlačítka sestry
 - Pokud zrovna není alarm aktivní, na displeji se bude zobrazovat počet volání z jednotlivých pokojů v posledních dvou hodinách
 
 
