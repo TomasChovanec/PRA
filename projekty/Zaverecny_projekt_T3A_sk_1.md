@@ -102,6 +102,30 @@ Každý report musí obsahovat:
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
 - HW: Arduino MEGA, Arduino Nano IoT
 
+## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L.
+- Systém využívá 4× PIR senzor (4 místnosti) 
+  - při detekci pohybu vyhodnocuje narušení objektu  
+
+- Ovládání pomocí klávesnice:
+  - zadání PIN kódu pro odemknutí (deaktivaci alarmu)
+  - systém umožňuje změnu PIN kódu:
+  - změna dostupná pouze po zadání správného aktuálního PINu
+  - nový PIN musí mít definovanou délku (např. 4 číslice)
+  - zobrazuje aktuální stav systému na OLED displeji
+
+- Alarm:
+  - při narušení objektu (aktivní systém + detekce PIR):
+    - akustická signalizace (bzučák)
+    - optická signalizace (LED)
+
+- UART komunikace:
+  - odesílá logy **včetně času **do centrální jednotky:
+    - aktivace / deaktivace systému
+    - úspěšné / neúspěšné zadání PINu
+    - detekce pohybu (včetně identifikace senzoru)
+    - změna PINu
+
+
 ## Hodnocení
 - Dvě známky s vahou 0,25 za průběžné reporty projektu
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
