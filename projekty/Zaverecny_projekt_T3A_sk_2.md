@@ -18,7 +18,7 @@ Každý report musí obsahovat:
    - ukázka zdrojového kódu  
 
 
-## 1. Přivolání sestry
+## 1. Přivolání sestry - Vilém S. Tomáš S.
 - jedno Arduino v sesterně, 5 tlačítek připojených kabelem u jednotlivých „postelí“ na pokojích (jeden dvoulůžkový, jeden třílůžkový pokoj)
 - Po stisku tlačítka:
   - rozsvítí se LED v sesterně
@@ -29,7 +29,7 @@ Každý report musí obsahovat:
 - Pokud zrovna není alarm aktivní, na displeji se bude zobrazovat počet volání z jednotlivých pokojů v posledních dvou hodinách
 
 
-## 2. Monitor teploty pacienta
+## 2. Monitor teploty pacienta Ivan R. Radim P.
 - Měření teploty pomocí teplotního čidla  
 - OLED displej zobrazuje:
   - aktuální teplotu
@@ -40,7 +40,7 @@ Každý report musí obsahovat:
 - Při překročení limitní teploty odešle alarm přes UART  
 
 
-## 3. RFID přístup do místnosti
+## 3. RFID přístup do místnosti Jiří S., Petr M.
 - Identifikace personálu pomocí RFID karty  
 - Při platné kartě:
   - otevření dveří (servo motor)  
@@ -50,13 +50,13 @@ Každý report musí obsahovat:
 - Evidence vstupů včetně času ukládaná na SD kartu  
 
 
-## 4. Osvětlení pokoje (Bluetooth)
+## 4. Osvětlení pokoje (Bluetooth) Deni M., Marek O.
 - Využití LDR senzoru pro detekci okolního světla  
 - Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
 - Plynulé stmívání a rozsvěcení pomocí PWM  
 - Možnost manuálního ovládání (override) přes Bluetooth  
 
-## 5. Transport jídla (robot)
+## 5. Transport jídla (robot) Libor R. Lukáš M.
 - Robot sledující čáru (line follower)  
 - Po příjezdu na stanici (na konec černé čáry):
   - zastaví  
@@ -64,7 +64,7 @@ Každý report musí obsahovat:
 - Po potvrzení se otočí a vrací se zpět  
 - Evidence počtu jízd (zobrazení na displeji)  
 
-## 6. Nákladní výtah
+## 6. Nákladní výtah Tadeáš V. Stanislav P.
 - Simulace výtahu pomocí krokového motoru  
 - Ovládání pomocí klávesnice (volba patra)  
 - OLED displej:
@@ -81,7 +81,7 @@ Každý report musí obsahovat:
   - poté obslouží nový požadavek  
 
 
-## 7. Řídící jednotka včetně webového rozhraní
+## 7. Řídící jednotka včetně webového rozhraní Tomáš M. Jan S.
 - Přijímá data z jednotky pro přivolání sestry a z jednotky monitoringu teploty
 - Zobrazení stavu systému:
   - webové rozhraní  
