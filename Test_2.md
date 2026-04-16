@@ -3,7 +3,10 @@
 Součástky:
 - servo  
 - tlačítko  
-- LEDka 
+- LEDka
+
+Pozor: Knihovna Servo interferuje s analogWrite() piny 9 a 10. Proto pro LEDku zvolte jiné piny než 9 a 10.
+
 
 ### Funkce
 1. Čekání
