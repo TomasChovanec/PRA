@@ -36,7 +36,7 @@ Každý report musí obsahovat:
   - trend znázorněný šipkou (klesá/stoupá/je stabilní)  
   - graf vývoje teploty za posledních 20 minut  
   - stav pacienta (OK / horečka – např. formou ikony)
-- Umožní přes UART nastavit limitní teplotu
+- Umožní z řídící jednotky přes UART nastavit limitní teplotu
 - Při překročení limitní teploty odešle alarm přes UART  
 
 
