@@ -26,3 +26,5 @@ Součástky:
    - přes `Serial.print()` odešli text: "ZAVIRAM"
    - Servo se vrátí do původní polohy rychlostí 5° za 20ms.
    - Program se vrátí do čekacího stavu.
+
+Bonus: Změřte chování obvodu pomocí logického analyzeru.
