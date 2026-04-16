@@ -49,7 +49,8 @@ Každý report musí obsahovat:
 - Při neplatné kartě:
   - zobrazení chyby na displeji
 - Všechny pokusy o přstup odesílá včetně časové značky do řídící jednotky
-- Evidence vstupů včetně času ukládaná na SD kartu  
+- Evidence vstupů včetně času ukládaná na SD kartu
+- RFID modul, 2 čipy, OLED, servo, Uno, datalogger shield,
 
 
 ## 4. Osvětlení pokoje (Bluetooth) Denis M., Marek O.
