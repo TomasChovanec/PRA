@@ -34,9 +34,6 @@ Knihovny také zpravidla obsahují příklady použití (**Examples**). Najdeme 
 - Výsledky jsou seřazené abecedně, takže možná budete muset posunout dolů, než ji najdete.
 - Nainstalujte knihovnu: Klikněte na zvolenou knihovnu. Můžete si přečíst popis a jméno autora. Pak klikněte na "Install". Arduino IDE automaticky vybere nejnovější verzi knihovny.
 
-### Úkoly:
-1. Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
-2. Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru. Použijte příklad níže, nezapomeňte správně nastavit číslo pinu, kam jste čidlo připojili.
 
 ```c
 #include <dht.h>        // Include library
@@ -66,7 +63,9 @@ void loop() {
 }
 ```
 
-
+### Úkoly:
+1. Pomocí Library manageru si nainstalujte knihovnu DHTlib (autor Rob Tillaart).
+1. Připojte k Arduinu sensor DHT11 a zobrazujte naměřená data v Serial monitoru. Použijte příklad níže, nezapomeňte správně nastavit číslo pinu, kam jste čidlo připojili.
 1. Připojte ještě LCD displej a zobrazujte na jednom řádku teplotu, na druhém vlhkost.
 1. Použijte pro zobrazení teploty znak °C. Vysvětlení, jak zobrazovat speciální znaky najdete například [zde](https://arduino.stackexchange.com/questions/46828/how-to-show-the-%C2%BA-character-in-a-lcd).
 1. Na displeji zobrazujte aktuální teplotu a pak také minimální a maximální teplotu od startu programu.
