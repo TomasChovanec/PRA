@@ -61,7 +61,7 @@ Každý report musí obsahovat:
 - Po příjezdu na stanici (na konec černé čáry):
   - zastaví  
   - čeká na stisk tlačítka (potvrzení převzetí)  
-- Po potvrzení se vrací se zpět  
+- Po potvrzení se otočí a vrací se zpět  
 - Evidence počtu jízd (zobrazení na displeji)  
 
 ## 6. Nákladní výtah
