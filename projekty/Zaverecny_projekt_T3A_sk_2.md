@@ -27,6 +27,7 @@ Každý report musí obsahovat:
   - odešle se ID pokoje a postele přes UART do centrální jednotky  
 - Vypnutí aktuální signalizace pomocí tlačítka sestry
 - Pokud zrovna není alarm aktivní, na displeji se bude zobrazovat počet volání z jednotlivých pokojů v posledních dvou hodinách
+- 6x tlačítko, 1xRGB, Nano, kabel, OLED, pole
 
 
 ## 2. Monitor teploty pacienta Ivan R. Radim P.
@@ -38,7 +39,7 @@ Každý report musí obsahovat:
   - stav pacienta (OK / horečka – např. formou ikony)
 - Umožní z řídící jednotky přes UART nastavit limitní teplotu
 - Při překročení limitní teploty odešle alarm přes UART
-- Nano, DHT11, OLED, mini kabel
+- Nano, DHT11, OLED, mini kabel, pole
 
 
 ## 3. RFID přístup do místnosti Jiří S., Petr M.
@@ -82,7 +83,7 @@ Každý report musí obsahovat:
 - Pokud během jízdy přijde nový požadavek:
   - výtah nejprve dokončí aktuální jízdu  
   - poté obslouží nový požadavek  
-
+- HW: OLED, Nano, kabel, klávesnice, stepper motor+driver, 
 
 ## 7. Řídící jednotka včetně webového rozhraní Tomáš M. Jan S.
 - Přijímá data z jednotky pro přivolání sestry a z jednotky monitoringu teploty
