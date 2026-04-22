@@ -45,6 +45,6 @@ Protože motorem teče příliš velký proud na to, abychom ho řídilo piny Ar
 2. Až zjistíte, jak motorem pohybovat ručně, připojte piny IN1-4 k Arduinu a vytvořte program, který bude otáčet motorem. Piny ovládejte pomocí funkce ```digitalWrite()```, nezapomeňte vybrané piny nastavit jako výstupy. 
 3. Vytvořte si funkce ```stepForward(int numSteps)``` - točí motorem po směru hodinových ručiček a ```stepBackward(int numSteps)``` - točí motorem proti směru hodinových ručiček. Argument ```int numSteps``` bude udávat, o kolik kroků se má motor otočit.
 4. Pomocí funkcí z předchozího úkolu točte motorem střídavě čtvrt otáčky po směru a půl otáčky proti směru hodinových ručiček. Pokud jste funkce vytvořili správně, 2048 kroků by mělo způsobit jednu plnou otáčku hřídele.
-5. Zjistěte si, jaký je rozdíl mezi polovičním a plným krokem (half step vs. full step) například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping) a vytvořte funkce ```halfStepForward(int numSteps)```a ```fullStepForward(int numSteps)```
+5. Prostudujte různé způsoby řízení krokového motoru například [tady](https://www.rs-online.com/designspark/stepper-motors-and-drives-what-is-full-step-half-step-and-microstepping). Zkuste pak použít takový způsob, kterým dosáhnete co nejvyšší rychlosti otáčeníá motoru.
 
 ### [Zpět na obsah](../README.md)
