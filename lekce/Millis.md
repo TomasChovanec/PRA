@@ -8,11 +8,12 @@
 ## Problém s `delay()`
 
 Doteď jsme pro časování používali funkci `delay()`:
-
+```
     digitalWrite(13, HIGH);
     delay(2000);
     digitalWrite(13, LOW);
     delay(2000);
+```
 
 Funguje to, ale má to zásadní nevýhodu: Během `delay()` procesor nic jiného nedělá.
 
