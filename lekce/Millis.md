@@ -1,74 +1,117 @@
-# Multitasking s Arduinem
+# Multitasking (neblokující kód) s Arduinem
 
-Když jsme doteď chtěli nastavit v programu nějaké časování (např. blikat LEDkou jednou za sekundu), používali jsme funkci delay(). Výhoda této funkce je, že je jednoduchá a snadno se používá. Ale nevýhodou je, že během čekání ve funkci dleay() nemůže procesor dělat nic jiného. Pokud děláme jednoduchý program, který dělá jen jednu věc, tak nám to nevadí.
+## Cíl lekce
+- pochopit, proč je `delay()` problém  
+- naučit se používat `millis()`  
+- zvládnout s Arduinem řídit více věcí „současně“
+  
+## Problém s `delay()`
 
-Např. pokud chceme blikat  LEDkou jednou za sekundu , není to problém:
+Doteď jsme rpo časování používali funkci `delay()`:
 
-```c
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-```
+    digitalWrite(13, HIGH);
+    delay(2000);
+    digitalWrite(13, LOW);
+    delay(2000);
 
-Co ale když budeme k příkladu výše chtít přidat druhou LEDku a tou blikat 10x za sekundu? Nebo číst stav tlačítka každých 200ms? Nebo posílat data na displej každých 100ms? Nic z toho dělat nemůžeme, protože během vykonávání funkce delay() procesor nic jiného nedělá, jen čeká.
+Funguje to, ale má to zásadní nevýhodu: Během `delay()` procesor nic jiného nedělá.
 
-**Úkol:** Vytvořte program, který bliká LEDkou (2s ON, 2s OFF) pomocí funkce delay. Pak program rozšiřte tak, aby se kdykoli při stisknutí tlačítka rozsvítila jiná LEDka (druhá LEDka má svítit po dobu stisknutí tlačítka). Funguje program vždy správně? Reaguje na tlačítko vždy okamžitě? 
+## Úkol 1
+
+Připojte k Arduinu 2 LEDky a tlačítko. Vytvořte program:
+- LED1 bliká (2 s zapnuto, 2 s vypnuto)
+- tlačítko rozsvítí LED2 (svítí jen při stisku)
+
+### Otázky
+- Reaguje LED2 vždy okamžitě?
+- Co se stane při krátkém stisku tlačítka?
 
 
-## Funkce millis()
+## Jak to řešit jinak?
 
-Funkci delay() chceme tedy v našich programech používat pokud možno minimálně. Jak ale jinak zajistit, aby se příkazy vykonávaly s časováním, jaké chceme? Můžeme použít funkci millis(). Funkce millis() nám vrací počet milisekund od startu programu. Nemusíte ji nijak spouštět nebo inicializovat, využívá na pozadí časovač, který se spustí automaticky po každém resetu Arduina.
+Místo čekání použijeme jiný přístup:
 
-**Úkol:** Posílejte pomocí funkce Serial.println() výsledek funkce millis na sériový monitor. Sledujte, co se stane, když resetujete Arduino reset tlačítkem.
+> Nebudeme čekat, ale budeme se ptát: „Už uběhl potřebný čas?“
 
-Poznámka: Funkce millis vrací výsledek jako datový typ **unsigned long**, pokud její výsledek chcete uložit do proměnné, použijte tento datový typ. K přetečení časovače dojde přibližně jednou za 50 dní. (4 294 967 295 ms = 4 294 967 s = 71 582 min = 1193 h = 49,7 dní)
 
-**Úkol:** Využijte funkci millis() k tomu, abyste vždy 2 sekundy po resetu procesoru rozsvítili LEDku
+## Funkce `millis()`
 
-V předchozím úkolu jsme použili podmínku if a porovnávali jsme aktuální výsledek funkce millis s nějakou konstantou. Co když ale chceme, ale se LEDka nerozsvítila jen jednou, ale aby změnila svůj stav každé 2 sekundy? Můžeme si uložit aktuální stav funkce millis do proměnné a pak vždy porovnávat aktuální čas s tím uloženým. Pokud se budou lišit o 2000ms, tak změníme stav LEDky a zase si uložíme do proměnné čas posledního bliknutí.
+Funkce `millis()` vrací počet milisekund od startu programu.
+
+> Představte si, že máte stopky, které běží nepřetržitě od chvíle, kdy jste Arudino zapnuli. Funkcí millis() se jednoduše zeptáme: 'Kolik milisekund na těch stopkách právě je?' — a okamžitě dostaneme odpověď. Nic to nepozastaví, nic neblokuje.
+
+
+## Úkol 2
+
+Vypisujte hodnotu `millis()` na sériový monitor:
+
+    Serial.println(millis());
+
+### Sledujte
+- Co se stane po resetu Arduina?
+
+## První použití
+
+## Úkol 3
+
+Rozsviťte LED po 2 sekundách od startu programu.
+
+## Základní princip
+
+Nejdůležitější myšlenka:
+
+> Porovnáváme rozdíl časů, ne konkrétní hodnotu.
+
+    if (currentMillis - previousMillis > interval)
+
+---
 
 <img src="https://i0.wp.com/www.programmingelectronics.com/wp-content/uploads/2019/04/Arduino-timeline-gif-2.gif" width="400"/>
 
 *Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
 
+## Více úloh současně
 
-```c
-const int ledPin = 12; 
+## Úkol 4
 
-int ledState = LOW; // proměnná s uloženým posledním stavem LEDky
-unsigned long previousMillis = 0;  // čas, kdy jsme naposledy bliknuli LEDkou
+Vytvořte program:
+- LED1 bliká každé 2 sekundy  
+- LED2 bliká každých 200 ms  
+- tlačítko rozsvítí LED3 okamžitě při stisku  
 
-int interval = 2000;  // interval ve kterém chceme LEDkou blikat (v milisekundách)
+### Nápověda
+Každá úloha potřebuje:
+- vlastní interval  
+- vlastní čas poslední změny  
+- vlastní stav  
 
-void setup() {
-  pinMode(ledPin, OUTPUT);
-}
+### Příklad struktury
 
-void loop() {
-  unsigned long currentMillis = millis();
-
-  if (currentMillis - previousMillis > interval) {
-    // uložíme čas, kdy jsme naposledy bliknuli LEDkou
-    previousMillis = currentMillis;
-
-    // pokud je LEDka zhasnutá, rozsvítíme ji a naopak
-    if (ledState == LOW) {
-      ledState = HIGH;
-    } 
-    else {
-      ledState = LOW;
+    // LED1
+    if (...) {
+      ...
     }
-    // nastavíme požadovaný stav LEDky
-    digitalWrite(ledPin, ledState);
-  }
-}
-```
 
-Nyní můžeme zkusit stejný úkol jako na začátku, ale namísto delay() použít millis(). Díky tomu už náš program nebude trpět zpožděnou reakcí na tlačítko.
+    // LED2
+    if (...) {
+      ...
+    }
 
-**Úkol:** Vytvořte program, který bliká LEDkou jednou za sekundu pomocí funkce millis(). Pak program rozšiřte tak, aby se při stisknutí tlačítka rozsvítila jiná LEDka. 
+    // tlačítko
+    if (...) {
+      ...
+    }
 
+
+## Shrnutí
+
+- `delay()` blokuje program  
+- `millis()` umožňuje neblokující časování  
+- klíč je porovnání rozdílu časů  
+
+    currentMillis - previousMillis
+
+> Arduino neumí skutečný multitasking, ale můžeme ho napodobit.
 
 ## Další užitečné články a videa
 
