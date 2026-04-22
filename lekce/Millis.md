@@ -13,7 +13,7 @@ Např. pokud chceme blikat  LEDkou jednou za sekundu , není to problém:
 
 Co ale když budeme k příkladu výše chtít přidat druhou LEDku a tou blikat 10x za sekundu? Nebo číst stav tlačítka každých 200ms? Nebo posílat data na displej každých 100ms? Nic z toho dělat nemůžeme, protože během vykonávání funkce delay() procesor nic jiného nedělá, jen čeká.
 
-**Úkol:** Vytvořte program, který bliká LEDkou jednou za sekundu pomocí funkce delay. Pak program rozšiřte tak, aby se při stisknutí tlačítka rozsvítila jiná LEDka. Funguje program vždy správně? Reaguje na tlačítko vždy okamžitě? 
+**Úkol:** Vytvořte program, který bliká LEDkou (2s ON, 2s OFF) pomocí funkce delay. Pak program rozšiřte tak, aby se kdykoli při stisknutí tlačítka rozsvítila jiná LEDka (druhá LEDka má svítit po dobu stisknutí tlačítka). Funguje program vždy správně? Reaguje na tlačítko vždy okamžitě? 
 
 
 ## Funkce millis()
