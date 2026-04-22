@@ -44,6 +44,7 @@ Funkce `millis()` vrací počet milisekund od startu programu.
 ## Úkol 2
 
 Vypisujte hodnotu `millis()` na sériový monitor:
+
     unsigned long cas = millis();
     Serial.println(cas);
 
