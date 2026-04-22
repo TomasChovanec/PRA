@@ -1,8 +1,8 @@
 # Multitasking (neblokující kód) s Arduinem
 
 ## Cíl lekce
-- pochopit, proč je `delay()` problém  
-- naučit se používat `millis()`  
+- pochopit, proč používání `delay()` způsobuje problémy
+- naučit se používat funkci `millis()`  
 - zvládnout s Arduinem řídit více věcí „současně“
   
 ## Problém s `delay()`
