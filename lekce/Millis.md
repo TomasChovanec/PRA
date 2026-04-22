@@ -50,8 +50,6 @@ Vypisujte hodnotu `millis()` na sériový monitor:
 ### Sledujte
 - Co se stane po resetu Arduina?
 
-## První použití
-
 ## Úkol 3
 
 Rozsviťte LED po 2 sekundách od startu programu.
@@ -63,8 +61,6 @@ Nejdůležitější myšlenka:
 > Porovnáváme rozdíl časů, ne konkrétní hodnotu.
 
     if (currentMillis - previousMillis > interval)
-
----
 
 <img src="https://i0.wp.com/www.programmingelectronics.com/wp-content/uploads/2019/04/Arduino-timeline-gif-2.gif" width="400"/>
 
