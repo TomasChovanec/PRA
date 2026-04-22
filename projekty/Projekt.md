@@ -52,28 +52,29 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 | 5 - 0   | 5     |
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
-- Ultrazvukový měřič vzdálenosti s funkcí výpočtu plochy
 - Hra na postřeh pro dva hráče
 - Hodinky s budíkem a stopkami
-- Teplotní čidlo se záznamem na SD kartu
 - Automatické ovládání dvířek do kurníku s počítadlem slepic
 - Voltmetr se dvěma napěťovými rozsahy a měřením proudu
 - Ovládání výtahu (krokový motor, tlačítka, displej)
 - Kódový zámek s možností změny kódu
-- Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
-- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Hudební přehrávač s dálkovým ovládáním
 - Reklamní banner s maticovým displejem
-- Měření kapacity kondenzátorů
 - Robot jako sledovač čáry s funkcí objetí překážky
 - Přidání funkce počitadla ujeté vzdálenosti pro robota
+- Úprava školního robota pro ovládání joystickem
 - Stavba robota podle vlastního návrhu
 
 
 <!---
+- Teplotní čidlo se záznamem na SD kartu
+- Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
+- Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
 - Naprogramování školního robota pro soutěž sumo 
 - Časomíra pro závody robotů
 - Úprava školního robota pro ovládání joystickem po drátech
+- Měření kapacity kondenzátorů
+
 --->
 
 ## Moduly a součástky pro projekt
