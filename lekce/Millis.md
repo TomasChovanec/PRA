@@ -61,7 +61,13 @@ Rozsviťte LED po 2 sekundách od startu programu.
 Porovnáváme rozdíl časů, ne konkrétní hodnotu.
 
     if (currentMillis - previousMillis > interval)
-    
+
+## Úkol 5
+
+Vytvořte program:
+- LED bliká (2 s zapnuto, 2 s vypnuto)
+- pro časování nepoužijte `delay()`ale  `millis()`
+  
 <img src="https://i0.wp.com/www.programmingelectronics.com/wp-content/uploads/2019/04/Arduino-timeline-gif-2.gif" width="400"/>
 
 *Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
@@ -69,7 +75,7 @@ Porovnáváme rozdíl časů, ne konkrétní hodnotu.
 
 ## Když má procesor dělat více úloh současně
 
-## Úkol 4
+## Úkol 5
 
 Vytvořte program:
 - LED1 bliká každé 2 sekundy  
