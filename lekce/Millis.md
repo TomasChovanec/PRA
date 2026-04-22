@@ -56,17 +56,16 @@ Vypisujte hodnotu `millis()` na sériový monitor:
 
 Rozsviťte LED po 2 sekundách od startu programu.
 
-## Základní princip
+## Použití funkce `millis()` pro časování
 
-Nejdůležitější myšlenka:
-
-> Porovnáváme rozdíl časů, ne konkrétní hodnotu.
+Porovnáváme rozdíl časů, ne konkrétní hodnotu.
 
     if (currentMillis - previousMillis > interval)
-
+    
 <img src="https://i0.wp.com/www.programmingelectronics.com/wp-content/uploads/2019/04/Arduino-timeline-gif-2.gif" width="400"/>
 
 *Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
+
 
 ## Když má procesor dělat více úloh současně
 
