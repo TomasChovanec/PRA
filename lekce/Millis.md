@@ -7,7 +7,7 @@
   
 ## Problém s `delay()`
 
-Doteď jsme rpo časování používali funkci `delay()`:
+Doteď jsme pro časování používali funkci `delay()`:
 
     digitalWrite(13, HIGH);
     delay(2000);
