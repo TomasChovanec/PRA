@@ -62,7 +62,7 @@ Porovnáváme rozdíl časů, ne konkrétní hodnotu.
 
     if (currentMillis - previousMillis > interval)
 
-## Úkol 5
+## Úkol 4
 
 Vytvořte program:
 - LED bliká (2 s zapnuto, 2 s vypnuto)
@@ -72,8 +72,6 @@ Vytvořte program:
 
 *Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
 
-
-## Když má procesor dělat více úloh současně
 
 ## Úkol 5
 
