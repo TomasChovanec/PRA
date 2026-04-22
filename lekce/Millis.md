@@ -68,7 +68,7 @@ Nejdůležitější myšlenka:
 
 *Zdroj obrázku: https://www.programmingelectronics.com/arduino-sketch-with-millis-instead-of-delay/*
 
-## Více úloh současně
+## Když má procesor dělat více úloh současně
 
 ## Úkol 4
 
