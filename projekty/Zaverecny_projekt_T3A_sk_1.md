@@ -8,7 +8,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 Každá dvojice je povinna jednou za 14 dní (vždy nejpozději před začátkem hodiny PRA) sdílet průběžný stav projektu v Teams skupině. Report bude hodnocen známkou s vahou 0,25.
 
 ### Obsah reportu
-Každý report musí obsahovat:
+Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 1. Co se podařilo realizovat
 2. Na jaké problémy jste narazili (co nefunguje)
 3. Jaké jsou další kroky / co plánujete řešit
