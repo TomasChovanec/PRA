@@ -47,7 +47,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - při poklesu odešle varování přes UART do centrální jednotky
 
 
-## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K.
+## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K. :heavy_check_mark:
 - Pohyb po čáře (line follower)
 - Po příjezdu na místo:
   - čeká na stisk tlačítka (potvrzení převzetí)
