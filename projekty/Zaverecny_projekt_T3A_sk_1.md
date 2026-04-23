@@ -18,7 +18,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - ukázka zdrojového kódu
 
 
-## 1. Turnikety Daniel F., Dominik K.
+## 1. Turnikety Daniel F., Dominik K. :heavy_check_mark:
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
@@ -56,7 +56,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: Robot, OLED displej, USB-C kabel
 
 
-## 4. Platební terminál k jukeboxu - Vít.K., Adam.H.
+## 4. Platební terminál k jukeboxu - Vít.K., Adam.H. :heavy_check_mark:
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
 - Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
@@ -67,7 +67,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: UNO, RFID modul, 2 karty, OLED displej, AB kabel, velké nepájivé pole
 
 
-## 5. Jukebox Jakub K., Josef K.
+## 5. Jukebox Jakub K., Josef K.  :heavy_check_mark: 
 - Obsahuje minimálně 10 skladeb
 - Umožní uživateli vybrat název skladby pomocí displeje a joysticku
 - Přijímá platby z platebního terminálu
@@ -89,7 +89,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: LDR, RGB ledka, DHT11, nano, malé pole
 
 
-## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K.
+## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K. :heavy_check_mark:
 - Hardware:
 - Arduino MEGA
 - Arduino Nano IoT
