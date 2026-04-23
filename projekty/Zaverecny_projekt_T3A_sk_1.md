@@ -77,7 +77,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
 - HW: OLED displej, reproduktor, joystic, mp3 modul, sd karta, čtečka sd karet, pole, kabel mini
 
-## 6. Automatické osvětlení areálu Matouš G., Max F.
+## 6. Automatické osvětlení areálu Matouš G., Max F. :heavy_check_mark:
 - Využívá LDR (světelný senzor)
 - Funkce:
   - zapíná osvětlení při tmě
