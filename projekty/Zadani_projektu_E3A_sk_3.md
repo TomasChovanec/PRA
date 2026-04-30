@@ -11,7 +11,7 @@
 - Po spuštění hry se zhasne LEDka a pak se po náhodném časovém intervalu rozsvítí
 - Každý hráč má své tlačítko, úkolem je stisknout tlačítko co nejdříve po rozsvícení LEDky. Pokud hráč stiskne tlačítko dříve, než se LEDka rozsvítí, prohrál
 - Program po každém kole ukáže, který hráč vyhrál a o kolik sekund
-- Po pěti kolech se na serial monitoru zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
+- Po pěti kolech se na LCD displeji zobrazí celkové skóre, vítěz a suma času, o kolik byl rychlejší
 
 ---
 
