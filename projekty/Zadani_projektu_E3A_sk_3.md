@@ -1,10 +1,33 @@
+### Da.Or. - Hra na postřeh
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
 
-David Orkáč - hra na postřeh - nano, pole, 2tlač, LCD, LEDka
+**HW**: Arduinonano, pole, 2 tlačítka, LCD displej, LEDka
 
-Petr Konečný - řízení terária s želvou s web rozhraním - IoT, RTC
+---
 
-Jan Drozd - kodovy zamek, arduino, krokáč
+### Pe.Ko. - Řízení terária s želvou s web rozhraním 
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
 
-Vojta - ??
+**HW**: Arduino nano 33 IoT, RTC modul
 
-Št.Po. - Hra had řízená náklonem
+### Ja.Dr. - Kóodový zamek
+
+HW:  arduino, krokový motor
+
+---
+
+### Vo.Ch.
+---
+
+### Št.Po. - Hra had řízená náklonem
+---
+
+Va.My. - Elektronické piano
+Michal zamek kod klavesnice
+---
