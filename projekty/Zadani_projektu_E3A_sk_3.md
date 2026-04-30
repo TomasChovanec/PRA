@@ -18,15 +18,7 @@
 
 ---
 
-### Ja.Dr. - Kóodový zamek
 
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
-HW:  arduino, krokový motor
-
----
 
 ### Vo.Ch.
 
@@ -54,4 +46,24 @@ Va.My. - Elektronické piano
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
+---
+
+### Ja.Dr. - Kódový zamek
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+HW:  arduino, krokový motor
+
+---
+
+### Ja.Kr. - Robot??
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+HW:  Robot
+
 ---
