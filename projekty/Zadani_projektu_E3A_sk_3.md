@@ -32,12 +32,17 @@
 ### Št.Po. - Hra had řízená náklonem
 ---
 
-Va.My. - Elektronické piano
+### Va.My. - Elektronické piano
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
-- 
+
+**Zadání:**
+- Pomocí Arduina pieza a alespoň 6 tlačítek vytvořte jednoduché “piano”.
+- Po stisku tlačítka se přehraje příslušný tón.
+- Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
+- Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
 ---
 
 ### Mi.Ho. - Kódový zámek
