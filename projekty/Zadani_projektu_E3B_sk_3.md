@@ -9,10 +9,16 @@ HW: OLED, RTC, Nano, pole, tlačítka, piezzo
 - Třetí tlačítko bude mít u stopek funkci reset, u budíku zvýšení hodin v čase buzení
 - Když se čas shoduje s časem budíku, ozve se melodie z piezo buzzeru
 
+--- 
 
 ### Ma.Ča. - Ovládání joystickem 
 HW: robot, joystick shield, arduino z 14sady, 2xBT modul
 
+**Zadání:**
+ - Naprogramujte školního robota tak, aby se dal ovládat přes Bluetooth joystickem
+ - Přidejte funkci automatického zastavení před překážkou pomocí ultrazvukového čidla
+   
+--- 
 
 ### Vo.Ku. - Počítíání slepic
 HW: OLED, Arduino nano, nepájivé pole
