@@ -31,7 +31,7 @@
    
 --- 
 
-### Vo.Ku. - Počítíání slepic
+### Vo.Ku. - Počítání slepic
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
