@@ -16,27 +16,7 @@
 ---
 
 
-### Vo.Ch. - Robot jako sledovač čáry s funkcí objetí překážky
 
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
-
-HW: školní robot
-
----
-
-### Ja.Hl. - Robot jako sledovač čáry s funkcí objetí překážky
-
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
-
-HW: školní robot
-
----
 
 ### Št.Po. - Hra had řízená náklonem
 
@@ -70,6 +50,28 @@ HW: školní robot
 - Prezentace ve škole  **4.6.**
 ---
 
+### Vo.Ch. - Robot jako sledovač čáry s funkcí objetí překážky
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+
+HW: školní robot
+
+---
+
+### Ja.Hl. - Robot jako sledovač čáry s funkcí objetí překážky
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+
+HW: školní robot
+
+---
+
 ### Pe.Ko. - Řízení terária s web rozhraním 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
@@ -90,7 +92,7 @@ HW:  arduino, krokový motor
 
 ---
 
-### Ja.Kr. - Robot??
+### Ja.Kr. -  Robot jako sledovač čáry s funkcí objetí překážky
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
