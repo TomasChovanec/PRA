@@ -54,7 +54,7 @@
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
-- 
+
 **HW:** Arduino nano, pole, LCD, 2xsenzor, Tlac, LEDka
 
 **Zadání:**
@@ -68,7 +68,23 @@
 
 
 ### Ma.Ad. - Hra Had
-HW: Maticove displeje, nano, joystick
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+  
+**HW:** Maticove displeje, nano, joystick
+
+--- 
 
 ### Ra.In. - Hra na pamět a postřeh (4barvy..) 
-HW: Arduinonano, 4 tlačítka, OLED displej
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW:** Arduinonano, 4 tlačítka, OLED displej
+
+--- 
