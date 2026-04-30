@@ -17,13 +17,13 @@
 
 --- 
 
-### Ma.Ča. - Ovládání joystickem 
+### Ma.Ča. - Ovládání školního robota joystickem 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
 
-**HW**: robot, joystick shield, arduino z 14sady, 2xBT modul
+**HW**: robot, joystick shield, arduino z 14. sady, 2xBT modul
 
 **Zadání:**
  - Naprogramujte školního robota tak, aby se dal ovládat přes Bluetooth joystickem
