@@ -54,6 +54,11 @@
 - Prezentace ve škole  **4.6.**
 
 **HW**: Arduino nano, nepájivé pole, klávesnice, LCD displej, servo
+**Zadání:**
+- Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a servem.
+- Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem.
+- Po 3 chybných zadáních se zámek na 10 s zablokuje (odpočet bude na displeji).
+- Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina).
 
 ---
 
@@ -122,4 +127,10 @@ HW:  Robot
 - Prezentace ve škole  **11.6.**
 **HW:** arduino, krokový motor
 
+**Zadání:**
+- Pomocí Arduina vytvořte elektronický zámek s klávesnicí, displejem a krokovým motorem.
+- Zámek se bude otevírat čtyřmístným číselným kódem potvrzeným křížkem.
+- Po 3 chybných zadáních se zámek na 10 s zablokuje (odpočet bude na displeji).
+- Projekt bude umožňovat změnu kódu bez změny programu (bez nutnosti nahrát znovu kód do arduina).
+  
 ---
