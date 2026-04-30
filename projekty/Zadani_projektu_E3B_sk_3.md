@@ -70,9 +70,9 @@
 ### Ma.Ad. - Hra Had
 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
+- [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
   
 **HW:** Maticove displeje, nano, joystick
 
@@ -81,9 +81,9 @@
 ### Ra.In. - Hra na pamět a postřeh (4barvy..) 
 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
+- [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
 
 **HW:** Arduinonano, 4 tlačítka, OLED displej
 
