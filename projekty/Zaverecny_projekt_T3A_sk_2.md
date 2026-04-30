@@ -18,7 +18,7 @@ Každý report musí obsahovat:
    - ukázka zdrojového kódu  
 
 
-## 1. Přivolání sestry - Vilém S. Tomáš S.
+## 1. Přivolání sestry - Vilém S. Tomáš S. :heavy_check_mark:
 - jedno Arduino v sesterně, 5 tlačítek připojených kabelem u jednotlivých „postelí“ na pokojích (jeden dvoulůžkový, jeden třílůžkový pokoj)
 - Po stisku tlačítka:
   - rozsvítí se LED v sesterně
@@ -30,7 +30,7 @@ Každý report musí obsahovat:
 - 6x tlačítko, 1xRGB, Nano, kabel, OLED, pole
 
 
-## 2. Monitor teploty pacienta Ivan R. Radim P.
+## 2. Monitor teploty pacienta Ivan R. Radim P. :heavy_check_mark:
 - Měření teploty pomocí teplotního čidla  
 - OLED displej zobrazuje:
   - aktuální teplotu
@@ -42,7 +42,7 @@ Každý report musí obsahovat:
 - Nano, DHT11, OLED, mini kabel, pole
 
 
-## 3. RFID přístup do místnosti Jiří S., Petr M.
+## 3. RFID přístup do místnosti Jiří S., Petr M. :heavy_check_mark:
 - Identifikace personálu pomocí RFID karty  
 - Při platné kartě:
   - otevření dveří (servo motor)  
@@ -53,14 +53,14 @@ Každý report musí obsahovat:
 - RFID modul, 2 čipy, OLED, servo, Uno, datalogger shield,
 
 
-## 4. Osvětlení pokoje (Bluetooth) Denis M., Marek O.
+## 4. Osvětlení pokoje (Bluetooth) Denis M., Marek O. :heavy_check_mark:
 - Využití LDR senzoru pro detekci okolního světla  
 - Automatické zapnutí/vypnutí osvětlení podle intenzity světla  
 - Plynulé stmívání a rozsvěcení pomocí PWM  
 - Možnost manuálního ovládání (override) přes Bluetooth
 - HW: 2xBT modul, Arduino NANO,Uno, joystick shield, pole, RGB LEDka, fotorezistor, mini kabel
 
-## 5. Transport jídla (robot) Libor R. Lukáš M.
+## 5. Transport jídla (robot) Libor R. Lukáš M. :heavy_check_mark:
 - Robot sledující čáru (line follower)  
 - Po příjezdu na stanici (na konec černé čáry):
   - zastaví  
@@ -69,7 +69,7 @@ Každý report musí obsahovat:
 - Evidence počtu jízd (zobrazení na displeji)
 - HW: robor, OLED displej
 
-## 6. Nákladní výtah Tadeáš V. Stanislav P.
+## 6. Nákladní výtah Tadeáš V. Stanislav P. :heavy_check_mark:
 - Simulace výtahu pomocí krokového motoru  
 - Ovládání pomocí klávesnice (volba patra)  
 - OLED displej:
@@ -86,7 +86,7 @@ Každý report musí obsahovat:
   - poté obslouží nový požadavek  
 - HW: OLED, Nano, kabel, klávesnice, stepper motor+driver, 
 
-## 7. Řídící jednotka včetně webového rozhraní Tomáš M. Jan S.
+## 7. Řídící jednotka včetně webového rozhraní Tomáš M. Jan S. :heavy_check_mark:
 - Přijímá data z jednotky pro přivolání sestry a z jednotky monitoringu teploty
 - Zobrazení stavu systému:
   - webové rozhraní  
