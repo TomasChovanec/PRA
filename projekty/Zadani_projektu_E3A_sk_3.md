@@ -62,7 +62,12 @@
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 
-HW: školní robot
+**HW:** školní robot
+
+**Zadání:**
+- Naprogramujte školního robota tak, aby jezdil po černé čáře
+- Pokuste se dosáhnout co nejvyšší rychlosti a zároveň co největší robustnosti, aby robot úspěšně projel zatáčky různých parametrů
+- Přidejte funkci objetí překážky - robot pomocí ultrazvukového čidla detekuje před sebou překážku o přibližných rozměrech 30x30x30cm, dokáže ji objet a vrátit se na čáru
 
 ---
 
@@ -73,7 +78,27 @@ HW: školní robot
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 
-HW: školní robot
+**HW:** školní robot
+
+**Zadání:**
+- Naprogramujte školního robota tak, aby jezdil po černé čáře
+- Pokuste se dosáhnout co nejvyšší rychlosti a zároveň co největší robustnosti, aby robot úspěšně projel zatáčky různých parametrů
+- Přidejte funkci objetí překážky - robot pomocí ultrazvukového čidla detekuje před sebou překážku o přibližných rozměrech 30x30x30cm, dokáže ji objet a vrátit se na čáru
+
+---
+
+### Ja.Kr. -  Robot jako sledovač čáry s funkcí objetí překážky
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+HW:  Robot
+
+**Zadání:**
+- Naprogramujte školního robota tak, aby jezdil po černé čáře
+- Pokuste se dosáhnout co nejvyšší rychlosti a zároveň co největší robustnosti, aby robot úspěšně projel zatáčky různých parametrů
+- Přidejte funkci objetí překážky - robot pomocí ultrazvukového čidla detekuje před sebou překážku o přibližných rozměrech 30x30x30cm, dokáže ji objet a vrátit se na čáru
 
 ---
 
@@ -94,15 +119,5 @@ HW: školní robot
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 HW:  arduino, krokový motor
-
----
-
-### Ja.Kr. -  Robot jako sledovač čáry s funkcí objetí překážky
-
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
-- Prezentace ve škole  **11.6.**
-HW:  Robot
 
 ---
