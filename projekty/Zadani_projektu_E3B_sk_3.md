@@ -31,15 +31,20 @@
    
 --- 
 
-### Ja.Kl. - ???
+### Ja.Kl. - Elektronická kostka se sedmisegmentovým displejem
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
 
-**HW:** 
+**HW:** Arduino NANO, nepájivé pole, sedmisegmentový displej se 4 pozicemi, tlačítko
 
+**Zadání:**
+- Pomocí Arduina, sedmisegmentového displeje a tlačítka vytvořte elektronickou hrací kostku.
+- Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty.
+- Při každé změně čísla se zároveň i náhodně změní pozice čísla na displeji
+- Po puštění tlačítka se hodnota zastaví
 --- 
 
 ### On.Ho. - ???
