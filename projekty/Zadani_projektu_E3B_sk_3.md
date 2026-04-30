@@ -31,22 +31,7 @@
    
 --- 
 
-### Vo.Ku. - Počítání slepic
-**Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- Prezentace ve škole  **4.6.**
 
-**HW**: OLED, Arduino nano, nepájivé pole
-
-**Zadání:**
-- Pomocí dvojice optických infrasnímačů detekujte průchod slepic otvorem kurníku (podle pořadí aktivovaných čidel detekujte, zda se slepice pohybuje ven nebo dovnitř).
-- Podle směru průchodu zvyšujte nebo snižujte čítač slepic v kurníku.
-- Na LCD displeji zobrazujte aktuální počet slepic, denní režim (ráno / večer) a stav dvířek.
-- Rozednění a soumrak detekujte fotorezistorem a podle toho zavírejte nebo otevírejte kurník servomotorem
-- Pokud po večerním zavření dvířek nejsou v kurníku všechny slepice, zobrazte na displeji varování
-
---- 
 
 ### Kr.Ko. - Hra na postřeh
 
@@ -66,6 +51,22 @@
 
 --- 
 
+### Vo.Ku. - Počítání slepic
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+
+**HW**: OLED, Arduino nano, nepájivé pole
+
+**Zadání:**
+- Pomocí dvojice optických infrasnímačů detekujte průchod slepic otvorem kurníku (podle pořadí aktivovaných čidel detekujte, zda se slepice pohybuje ven nebo dovnitř).
+- Podle směru průchodu zvyšujte nebo snižujte čítač slepic v kurníku.
+- Na LCD displeji zobrazujte aktuální počet slepic, denní režim (ráno / večer) a stav dvířek.
+- Rozednění a soumrak detekujte fotorezistorem a podle toho zavírejte nebo otevírejte kurník servomotorem
+- Pokud po večerním zavření dvířek nejsou v kurníku všechny slepice, zobrazte na displeji varování
+
+--- 
 
 ### Ma.Ad. - Hra Had
 
