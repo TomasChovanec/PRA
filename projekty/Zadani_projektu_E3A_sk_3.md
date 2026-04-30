@@ -32,6 +32,7 @@
 ---
 
 ### Va.My. - Elektronické piano
+
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
@@ -42,6 +43,7 @@
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
+
 ---
 
 ### Mi.Ho. - Kódový zámek
@@ -118,6 +120,6 @@ HW:  Robot
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
-HW:  arduino, krokový motor
+**HW:** arduino, krokový motor
 
 ---
