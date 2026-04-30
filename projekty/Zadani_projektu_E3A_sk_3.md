@@ -36,6 +36,14 @@
 ---
 
 ### Št.Po. - Hra had řízená náklonem
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW**: Arduino nano, nepájivé pole, OLED displej, akcelerometr
+
 ---
 
 ### Va.My. - Elektronické piano
