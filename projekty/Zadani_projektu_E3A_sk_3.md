@@ -16,8 +16,6 @@
 ---
 
 
-
-
 ### Št.Po. - Hra had řízená náklonem
 
 **Termíny:**
@@ -26,6 +24,10 @@
 - Prezentace ve škole  **4.6.**
 
 **HW**: Arduino nano, nepájivé pole, OLED displej, akcelerometr
+
+**Zadání:**
+- Pomocí Arduina vytvořte hru Had na OLED displeji
+- Pohyb hada ovládejte pomocí akcelerometru
 
 ---
 
