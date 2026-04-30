@@ -114,7 +114,7 @@ HW:  Robot
 
 ---
 
-### Ja.Dr. - ?
+### Ja.Dr. - Kódový zámek
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
