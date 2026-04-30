@@ -2,6 +2,11 @@
 ### Mi.Gl.- Hodinky se stopkami a budíkem
 HW: OLED, RTC, Nano, pole, tlačítka, piezzo
 
+**Termíny:**
+- :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- :heavy_check_mark: Prezentace ve škole  **4.6.**
+- 
 **Zadání:**
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
 - Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
