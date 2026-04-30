@@ -50,6 +50,9 @@
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
+
+**HW**: Arduino nano, nepájivé pole, klávesnice, LCD displej, servo
+
 ---
 
 ### Vo.Ch. - Robot jako sledovač čáry s funkcí objetí překážky
