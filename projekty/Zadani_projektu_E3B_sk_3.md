@@ -31,7 +31,16 @@
    
 --- 
 
+### Ja.Kl. - ???
 
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW:** Servo, Ultrazvukové čidlo
+
+--- 
 
 ### Kr.Ko. - Hra na postřeh
 
@@ -67,6 +76,16 @@
 - Pokud po večerním zavření dvířek nejsou v kurníku všechny slepice, zobrazte na displeji varování
 
 --- 
+### Ja.Do. - Otočný radar
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
+- Prezentace ve škole  **11.6.**
+
+**HW:** Servo, Ultrazvukové čidlo
+
+--- 
 
 ### Ma.Ad. - Hra Had
 
@@ -86,6 +105,6 @@
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 
-**HW:** Arduinonano, 4 tlačítka, OLED displej
+**HW:** Arduino nano, 4 tlačítka, OLED displej
 
 --- 
