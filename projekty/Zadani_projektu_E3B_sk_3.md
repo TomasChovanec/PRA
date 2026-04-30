@@ -1,12 +1,13 @@
 
 ### Mi.Gl.- Hodinky se stopkami a budíkem
-HW: OLED, RTC, Nano, pole, tlačítka, piezzo
 
 **Termíny:**
-- :heavy_check_mark: [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
-- :heavy_check_mark: Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
-- :heavy_check_mark: Prezentace ve škole  **4.6.**
-- 
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW**: OLED, RTC, Nano, pole, tlačítka, piezzo
+
 **Zadání:**
 - Pomocí Arduina, LCD displeje a tlačítek vytvořte hodiny se stopkami a budíkem
 - Jedním tlačítkem se bude měnit aktuálně zobrazovaná funkce (hodiny/stopky/nastavení budíku)
@@ -17,7 +18,12 @@ HW: OLED, RTC, Nano, pole, tlačítka, piezzo
 --- 
 
 ### Ma.Ča. - Ovládání joystickem 
-HW: robot, joystick shield, arduino z 14sady, 2xBT modul
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW**: robot, joystick shield, arduino z 14sady, 2xBT modul
 
 **Zadání:**
  - Naprogramujte školního robota tak, aby se dal ovládat přes Bluetooth joystickem
@@ -26,7 +32,12 @@ HW: robot, joystick shield, arduino z 14sady, 2xBT modul
 --- 
 
 ### Vo.Ku. - Počítíání slepic
-HW: OLED, Arduino nano, nepájivé pole
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+
+**HW**: OLED, Arduino nano, nepájivé pole
 
 **Zadání:**
 - Pomocí dvojice optických infrasnímačů detekujte průchod slepic otvorem kurníku (podle pořadí aktivovaných čidel detekujte, zda se slepice pohybuje ven nebo dovnitř).
@@ -38,7 +49,13 @@ HW: OLED, Arduino nano, nepájivé pole
 --- 
 
 ### Kr.Ko. - Hra na postřeh
-HW: Arduino nano, pole, LCD, 2xsenzor, Tlac, LEDka
+
+**Termíny:**
+- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
+- Prezentace ve škole  **4.6.**
+- 
+**HW:** Arduino nano, pole, LCD, 2xsenzor, Tlac, LEDka
 
 **Zadání:**
 - Pomocí Arduina , 2 tlačítek, LEDky a LCD displeje vytvořte hru na postřeh pro dva hráče
