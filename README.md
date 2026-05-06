@@ -8,6 +8,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 ## Obecné informace
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
+- [Tahák k Arduinu](/files/Arduino_tahak.pdf)
+- [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Projekty E3A, E3B
 - [Informace k samostatnému projektu pro E3A a E3B](/projekty/Projekt.md)
@@ -25,10 +27,6 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
 - [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
 --->
-
-## Podpůrné materiály
-- [Tahák k Arduinu](/files/Arduino_tahak.pdf)
-- [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 ## Materiály k výuce
 1. [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
