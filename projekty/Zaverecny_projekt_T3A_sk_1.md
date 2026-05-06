@@ -4,6 +4,11 @@
 Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řešení pro hudební festival.  
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
+## Odevzdání
+Odevzdání dokumentace mailem do 2.6. 23:59
+Prezentace ve škole 4.6.
+Pokud nebude ani jeden z dvojice ve škole přítomen, vytvořte krátké (do 3min) prezentační video, na kterém předvedete všechny body zadání.
+
 ## Průběžné reporty projektu
 Každá dvojice je povinna jednou za 14 dní (vždy nejpozději před začátkem hodiny PRA) sdílet průběžný stav projektu v Teams skupině. Report bude hodnocen známkou s vahou 0,25.
 
