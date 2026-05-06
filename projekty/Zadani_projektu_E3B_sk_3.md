@@ -45,6 +45,7 @@
 - Při stisku (a držení) tlačítka se na displeji budou velmi rychle měnit náhodné hodnoty.
 - Při každé změně čísla se zároveň i náhodně změní pozice čísla na displeji
 - Po puštění tlačítka se hodnota zastaví
+
 --- 
 
 ### On.Ho. - ???
