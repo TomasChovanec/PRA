@@ -101,6 +101,13 @@
 
 **HW:** Servo, Ultrazvukové čidlo
 
+**Zadání:**
+- Pomocí Arduina ovládejte servo motor, který bude natáčet ultrazvukový senzor v definovaném rozsahu (např. 0–180°) a měřit vzdálenost v jednotlivých úhlech
+- Naměřená data (úhel + vzdálenost) odesílejte přes sériovou linku do počítače v jasně definovaném formátu
+- V počítači vytvořte aplikaci, která bude data přijímat a v reálném čase zobrazovat (např. jako 2D radarový graf)
+- Ošetřete chybové stavy měření (např. mimo rozsah senzoru, šum) a zajisti stabilní chod systému
+- Volitelně: přidejte možnost měnit parametry skenování (rychlost serva, rozsah úhlů) z počítače
+
 --- 
 
 ### Ma.Ad. - Hra Had
