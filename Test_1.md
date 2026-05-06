@@ -1,4 +1,6 @@
 ## Zadání
-- Zapojte k Arduinu dvě LEDky (červenou a zelenou) a dále potenciometr (nezapomeňte použít analogový vstup)
-- Na Serial monitor posilejte jednou za 100ms zprávu na jeden řádek ve tvaru "Stav potenciometru je xx" xx bude hodnota 0 až 1023 podle polohy potenciometru.
-- Pokud je stav potenciometru menší než 50% rozsviťe červenou LEDku, pokud větší, rozsviťte zelenou LEDku.
+- Připojte k Arduinu potenciometr a LEDku
+- Hodnotu potenciometru načtěte do proměnné, Hodnotu proměnné vydělte 10 
+- Jednou za sekundu tuto vydělenou hodnotu pošlete do sériového monitoru
+- Pokud je hodnota větší než 70, vypište "Pozor, vysoká hodnota!." a rozsviťte LEDku
+- Pokud je hodnota menší než 70, LEDku opět zhasněte
