@@ -4,7 +4,7 @@
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
 
-**HW**: Arduinonano, pole, 2 tlačítka, LCD displej, LEDka
+**HW**: Arduino nano, pole, 2 tlačítka, LCD displej, LEDka
 
 **Zadání:**
 - Pomocí Arduina vytvořte hru na postřeh pro dva hráče
