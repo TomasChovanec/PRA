@@ -48,14 +48,14 @@
 
 --- 
 
-### On.Ho. - ???
+### On.Ho. - Automatické řízení ventilátoru s možností ovládání přes BlueTooth
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
 
-**HW:** 
+**HW:** Arduino NANO, pole, LCD displj, verntilátor, tranzistor, bluetooth adaptér, FTDI převodník, DHT
 
 --- 
 ### Kr.Ko. - Hra na postřeh
