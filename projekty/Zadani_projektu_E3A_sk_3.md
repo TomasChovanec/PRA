@@ -39,7 +39,7 @@
 - Prezentace ve škole  **4.6.**
 
 **Zadání:**
-- Pomocí Arduina pieza a alespoň 6 tlačítek vytvořte jednoduché “piano”.
+- Pomocí Arduina pieza a alespoň 5 tlačítek vytvořte jednoduché “piano”.
 - Po stisku tlačítka se přehraje příslušný tón.
 - Kód by měl být napsán tak, aby bylo možné snadno přidat více tlačítek pro další tóny.
 - Při stisku dvou tlačítek najednou se spustí předem nastavená melodie
