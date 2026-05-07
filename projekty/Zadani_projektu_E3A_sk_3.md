@@ -97,7 +97,6 @@
 ### Ja.Kr. -  Robot jako sledovač čáry s funkcí objetí překážky
 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 HW:  Robot
@@ -111,7 +110,6 @@ HW:  Robot
 
 ### Pe.Ko. - Řízení terária s web rozhraním 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 
@@ -122,7 +120,6 @@ HW:  Robot
 ### Ja.Dr. - Kódový zámek
 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 **HW:** arduino, krokový motor
