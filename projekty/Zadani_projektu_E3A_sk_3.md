@@ -31,7 +31,7 @@
 
 ---
 
-### Va.My. - Elektronické piano
+### Va.My. - Elektronické piano :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
