@@ -35,7 +35,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
  
 - HW: Nano, 2xOLED, 4xIR senzor, velké pole
 
-## 2. Výčep Dominik G., Marek H.
+## 2. Výčep Dominik G., Marek H.  :x: :heavy_check_mark: 
 - Ovládání pomocí tlačítek:
   - 3× tlačítko pro malý nápoj
   - 3× tlačítko pro velký nápoj
@@ -61,7 +61,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: Robot, OLED displej, USB-C kabel
 
 
-## 4. Platební terminál k jukeboxu - Vít.K., Adam.H. :heavy_check_mark:
+## 4. Platební terminál k jukeboxu - Vít.K., Adam.H. :heavy_check_mark: :heavy_check_mark: 
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
 - Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
