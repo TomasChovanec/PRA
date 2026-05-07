@@ -82,7 +82,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
 - HW: OLED displej, reproduktor, joystic, mp3 modul, sd karta, čtečka sd karet, pole, kabel mini
 
-## 6. Automatické osvětlení areálu Matouš G., Max F. :heavy_check_mark:
+## 6. Automatické osvětlení areálu Matouš G., Max F. :heavy_check_mark: :heavy_check_mark:
 - Využívá LDR (světelný senzor)
 - Funkce:
   - zapíná osvětlení při tmě
@@ -94,7 +94,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: LDR, RGB ledka, DHT11, nano, malé pole
 
 
-## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K. :heavy_check_mark:
+## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K. :heavy_check_mark: :heavy_check_mark:
 - Hardware:
 - Arduino MEGA
 - Arduino Nano IoT
