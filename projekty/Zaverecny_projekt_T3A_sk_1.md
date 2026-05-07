@@ -107,7 +107,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
 - HW: Arduino MEGA, Arduino Nano IoT
 
-## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L.
+## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L. :heavy_minus_sign:
 - Systém využívá 4× PIR senzor (4 místnosti) 
   - při detekci pohybu vyhodnocuje narušení objektu  
 
