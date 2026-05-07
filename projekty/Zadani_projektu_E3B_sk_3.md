@@ -2,7 +2,7 @@
 ### Mi.Gl.- Hodinky se stopkami a budíkem
 
 **Termíny:**
-- [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
+- [Kontrola HW](Kontrola_HW.md) do **10.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
 - Prezentace ve škole  **4.6.**
 
@@ -17,7 +17,7 @@
 
 --- 
 
-### Ma.Ča. - Ovládání školního robota joystickem 
+### Ma.Ča. - Ovládání školního robota joystickem :heavy_check_mark: 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
@@ -92,7 +92,7 @@
 - Pokud po večerním zavření dvířek nejsou v kurníku všechny slepice, zobrazte na displeji varování
 
 --- 
-### Ja.Do. - Otočný radar
+### Ja.Do. - Otočný radar :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
