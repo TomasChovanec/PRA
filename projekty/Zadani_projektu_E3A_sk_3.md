@@ -62,7 +62,7 @@
 
 ---
 
-### Vo.Ch. - Robot jako sledovač čáry s funkcí objetí překážky
+### Vo.Ch. - Robot jako sledovač čáry s funkcí objetí překážky :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
