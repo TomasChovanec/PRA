@@ -1,4 +1,4 @@
-### Da.Or. - Hra na postřeh
+### Da.Or. - Hra na postřeh :heavy_check_mark: 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **2.6. 23:59**
@@ -16,7 +16,7 @@
 ---
 
 
-### Št.Po. - Hra had řízená náklonem
+### Št.Po. - Hra had řízená náklonem :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
@@ -46,7 +46,7 @@
 
 ---
 
-### Mi.Ho. - Kódový zámek
+### Mi.Ho. - Kódový zámek :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
@@ -78,7 +78,7 @@
 
 ---
 
-### Ja.Hl. - Robot jako sledovač čáry s funkcí objetí překážky
+### Ja.Hl. - Robot jako sledovač čáry s funkcí objetí překážky :heavy_check_mark: 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **6.5. 23:59**
