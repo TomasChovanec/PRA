@@ -23,7 +23,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - ukázka zdrojového kódu
 
 
-## 1. Turnikety Daniel F., Dominik K. :heavy_check_mark:
+## 1. Turnikety Daniel F., Dominik K. :heavy_check_mark: :heavy_check_mark:
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
@@ -52,7 +52,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - při poklesu odešle varování přes UART do centrální jednotky
 
 
-## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K. :heavy_check_mark:
+## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K. :heavy_check_mark: :heavy_check_mark:
 - Pohyb po čáře (line follower)
 - Po příjezdu na místo:
   - čeká na stisk tlačítka (potvrzení převzetí)
@@ -107,7 +107,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
 - HW: Arduino MEGA, Arduino Nano IoT
 
-## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L. :heavy_minus_sign:
+## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L. :heavy_minus_sign: :heavy_check_mark:
 - Systém využívá 4× PIR senzor (4 místnosti) 
   - při detekci pohybu vyhodnocuje narušení objektu  
 
