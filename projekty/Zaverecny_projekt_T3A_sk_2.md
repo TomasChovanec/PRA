@@ -22,7 +22,7 @@ Každý report musí obsahovat:
    - ukázka zdrojového kódu  
 
 
-## 1. Přivolání sestry - Vilém S. Tomáš S. :heavy_check_mark:
+## 1. Přivolání sestry - Vilém S. Tomáš S. :heavy_check_mark: :heavy_check_mark:
 - jedno Arduino v sesterně, 5 tlačítek připojených kabelem u jednotlivých „postelí“ na pokojích (jeden dvoulůžkový, jeden třílůžkový pokoj)
 - Po stisku tlačítka:
   - rozsvítí se LED v sesterně
