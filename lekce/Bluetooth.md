@@ -53,7 +53,7 @@ void loop() {
     if(received == 'F'){
     // Zde bude kód, který chceme vykonat, pokud robot přijme 'F'
     }
-
+   }
 }
 ```
 
