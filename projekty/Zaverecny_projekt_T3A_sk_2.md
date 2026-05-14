@@ -73,7 +73,7 @@ Každý report musí obsahovat:
 - Evidence počtu jízd (zobrazení na displeji)
 - HW: robor, OLED displej
 
-## 6. Nákladní výtah Tadeáš V. Stanislav P. :heavy_check_mark:
+## 6. Nákladní výtah Tadeáš V. Stanislav P. :heavy_check_mark: :heavy_check_mark:
 - Simulace výtahu pomocí krokového motoru  
 - Ovládání pomocí klávesnice (volba patra)  
 - OLED displej:
