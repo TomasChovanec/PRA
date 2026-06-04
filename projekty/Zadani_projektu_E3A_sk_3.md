@@ -108,12 +108,12 @@ HW:  Robot
 
 ---
 
-### Pe.Ko. - Řízení terária s web rozhraním 
+### Pe.Ko. - Řízení terária
 **Termíny:**
 - Odevzdání [dokumentace](Projekt.md#hodnocení) mailem do **9.6. 23:59**
 - Prezentace ve škole  **11.6.**
 
-**HW**: Arduino nano 33 IoT, RTC modul
+**HW**: Arduino, joystick, OLED, RTC modul
 
 ---
 
