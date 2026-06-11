@@ -121,7 +121,7 @@
 
 --- 
 
-### Ra.In. - Hra na pamět a postřeh (4barvy..) 
+### Ra.In. - Hra na paměť a postřeh (4barvy..) 
 
 **Termíny:**
 - [Kontrola HW](Kontrola_HW.md) do **14.5. 23:59**
