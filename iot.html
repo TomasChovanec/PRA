@@ -60,14 +60,16 @@
   <h1>Aktuální teploty</h1>
 
   <div id="temperatures">
-    <div class="card"><h3>Temperature 1 (Denis & Marek) </h3><div class="value" id="t1">-- °C</div></div>
-    <div class="card"><h3>Temperature 2 (Honza & Jirka) </h3><div class="value" id="t2">-- °C</div></div>
-    <div class="card"><h3>Temperature 3 () </h3><div class="value" id="t3">-- °C</div></div>
-    <div class="card"><h3>Temperature 4 (Standa & Libor)</h3><div class="value" id="t4">-- °C</div></div>
-    <div class="card"><h3>Temperature 5 (Tomáš & Vilém)</h3><div class="value" id="t5">-- °C</div></div>
-    <div class="card"><h3>Temperature 6 (Petr & Tomáš)</h3><div class="value" id="t6">-- °C</div></div>
-    <div class="card"><h3>Temperature 7 (Ivan & Radim)</h3><div class="value" id="t7">-- °C</div></div>
-    <div class="card"><h3>Temperature 8 (Lukáš)</h3><div class="value" id="t8">-- °C</div></div>
+    <div class="card"><h3>Temperature 1 (Vojta) </h3><div class="value" id="t1">-- °C</div></div>
+    <div class="card"><h3>Temperature 2 (Ondra) </h3><div class="value" id="t2">-- °C</div></div>
+    <div class="card"><h3>Temperature 3 (Martin) </h3><div class="value" id="t3">-- °C</div></div>
+    <div class="card"><h3>Temperature 4 (Radim)</h3><div class="value" id="t4">-- °C</div></div>
+    <div class="card"><h3>Temperature 5 ()</h3><div class="value" id="t5">-- °C</div></div>
+    <div class="card"><h3>Temperature 6 (Kristián)</h3><div class="value" id="t6">-- °C</div></div>
+    <div class="card"><h3>Temperature 7 (Honza)</h3><div class="value" id="t7">-- °C</div></div>
+    <div class="card"><h3>Temperature 8 (Michal)</h3><div class="value" id="t8">-- °C</div></div>
+    <div class="card"><h3>Temperature 9 (Marek)</h3><div class="value" id="t9">-- °C</div></div>
+    <div class="card"><h3>Temperature 10 (Jakub)</h3><div class="value" id="t10">-- °C</div></div>
   </div>
 
   <h2>Ovládání osvětlení</h2>
@@ -84,7 +86,7 @@
         const response = await fetch(dbURL + "/.json");
         const data = await response.json();
 
-        for (let i = 1; i <= 8; i++) {
+        for (let i = 1; i <= 10; i++) {
           const val = data[`Temperature_${i}`];
           document.getElementById(`t${i}`).textContent = 
             (val ?? "--") + " °C";
