@@ -2,7 +2,7 @@
 
 <img src="img/README_1.png" width="300"/>
 
-Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na Gymnáziu a Střední průmyslové škole elektrotechniky a informatiky ve Frenštátě pod Radhoštěm.
+Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na SPŠEI ve Frenštátě pod Radhoštěm.
 
 Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
