@@ -30,7 +30,7 @@ Je důležité si uvědomit, že číslo pinu na desce Arduina je jen mapování
 
 1. Připojte k Arduinu LEDku na libovolný pin. Napište program pro blikání LEDkou (500ms ON, 500ms OFF). Nepoužívejte funkce pinMode() a digitalWrite(), delay() použít můžete. Pro nastavení pinu jako výstupu a ovládání LEDky pracujte přímo s registry mikroprocesoru, stejně jako v předmětu MIT. Viz [lekce MIT](https://tomaschovanec.github.io/MIT/02_Blikani_LED.html)
 
-1. Napište program, který bude co nejrychleji měnit logickou hodnotu na pinu (střídat 1 a 0). Nejprve použijte funkci digitalWrite() a logickým analyzerem změřte periodu a frekvenci signálu. Pak zkuste stejný program napsat bez použití digitalWrite() jen přímou manipulací registrů. Opět změřte výsledný signál a porovnejte obě metody. 
+1. Napište program, který bude co nejrychleji měnit logickou hodnotu na pinu (střídat 1 a 0). Nejprve použijte funkci digitalWrite() a logickým analyzerem změřte periodu a frekvenci signálu (udělejte si screenshot). Pak zkuste stejný program napsat bez použití digitalWrite() jen přímou manipulací registrů. Opět změřte výsledný signál a porovnejte obě metody. 
 
 1. Napište program, který bude LEDkou blikat s periodou 200ms bez použití funkce delay(), pouze pomocí časovače Timer1 viz [lekce MIT](https://tomaschovanec.github.io/MIT/08_Timer.html)
 
