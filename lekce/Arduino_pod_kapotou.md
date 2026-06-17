@@ -20,7 +20,7 @@ int main(void)
 
 ## Přiřazení pinů Arduina k portům mikrokontroleru
 Arduino používá vlastní číslování pinů (0, 1, 2, …), které je jen „uživatelské“ a nemá přímou souvislost s názvy portů v mikrokontroléru. Uvnitř ATmegy jsou ale piny organizované do portů (PORTB, PORTC, PORTD) a každý pin je konkrétní bit v příslušném registru.
-Například digitální pin 13 na Arduino UNO je ve skutečnosti bit 5 v registru PORTB, tedy PB5. Když tedy zapíšete do PORTB |= (1<<5);, ovládáte fyzicky stejný vývod jako při použití digitalWrite(13, HIGH);.
+Například digitální pin 13 na Arduino UNO je ve skutečnosti bit 5 v registru PORTB, tedy PB5. Když tedy zapíšete do ```PORTB |= (1<<5);```, ovládáte fyzicky stejný vývod jako při použití ```digitalWrite(13, HIGH);```.
 Je důležité si uvědomit, že číslo pinu na desce je jen mapování – skutečná práce se vždy děje přes konkrétní port a jeho bit v registrech mikrokontroléru.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/10424de5-d163-49e9-b062-c5cca09aba09" />
