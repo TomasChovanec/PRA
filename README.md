@@ -27,12 +27,14 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_2.md)
 - [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
 - [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
+
+:heavy_check_mark: 
 --->
 
 ## Materiály k výuce
-1. [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
-1. [Tlačítka, analogový vstup](/lekce/2_lekce.md)
-1. [Servo](/lekce/Servo.md)
+1. :heavy_check_mark: [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
+1. :heavy_check_mark:  [Tlačítka, analogový vstup](/lekce/2_lekce.md)
+1. :heavy_check_mark: [Servo](/lekce/Servo.md)
 1. [PWM, RGB LEDka](/lekce/PWM.md)
 1. [LCD displej](/lekce/LCD.md)
 1. [Teplotní čidlo](/lekce/DHT.md)
