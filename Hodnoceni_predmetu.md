@@ -5,4 +5,4 @@
 - Jeden samostatný projekt, ohodnocen dvěma známkami s vahou 1,0
   - Realizaci projektu (zapojení, program, prezentace)
   - Dokumentace projektu
-  - **Odevzdání projektu je nezbytnou podmínkou pro úspěšné dokončení předmětu - neodevzdaný nebo neuznaný projekt či jeho dokumentace znamená známku Nedostatečný za tuto část PRA a tím i na vysvědčení (viz školní řád).**
+  - Odevzdání projektu je **nezbytnou podmínkou** pro úspěšné dokončení předmětu - neodevzdaný nebo neuznaný projekt či jeho dokumentace znamená známku **Nedostatečný** za tuto část PRA a tím i na **vysvědčení** (viz školní řád).
