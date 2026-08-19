@@ -32,9 +32,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 --->
 
 ## Materiály k výuce
-1. :heavy_check_mark: [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
-1. :white_check_mark:  [Tlačítka, analogový vstup](/lekce/2_lekce.md)
-1. :ballot_box_with_check: [Servo](/lekce/Servo.md)
+1. [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
+1. [Tlačítka, analogový vstup](/lekce/2_lekce.md)
+1. [Servo](/lekce/Servo.md)
 1. [PWM, RGB LEDka](/lekce/PWM.md)
 1. [LCD displej](/lekce/LCD.md)
 1. [Teplotní čidlo](/lekce/DHT.md)
