@@ -1,5 +1,8 @@
 # Kritéria hodnocení v předmětu
 
-- Dobrovolné známky za aktivitu na hodině, váha 0,25
-- Samostatná tvorba programu na hodině (cca 3x za pololetí), váha 1,0
-- Samostatný projekt (z části ve škole, z části doma) známka s váhou 1,0 za program a druhá známka s váhou 1,0 za dokumentaci
+- Krátké testy na probrané učivo (váha 0,25)
+- Dobrovolná známka za aktivitu v hodině (váha 0,25)
+- Jeden samostatný projekt, ohodnocen dvěma známkami s vahou 1,0
+  - Realizaci projektu (zapojení, program, prezentace)
+  - Dokumentace projektu
+  - **Odevzdání projektu je nezbytnou podmínkou pro úspěšné dokončení předmětu - neodevzdaný nebo neuznaný projekt či jeho dokumentace znamená známku Nedostatečný za tuto část PRA a tím i na vysvědčení (viz školní řád).**
