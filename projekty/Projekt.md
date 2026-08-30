@@ -23,33 +23,28 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 
 
 ## Hodnocení
-- Jedna známka s váhou 0.25 za kontrolu HW viz. [instrukce](Kontrola_HW.md).
+**Úspěšné odevzdání projektu je nezbytnou podmínkou pro úspěšné dokončení předmětu - neodevzdaný nebo neuznaný projekt či jeho dokumentace znamená známku Nedostatečný za tuto část PRA a tím i na vysvědčení (viz školní řád).**
+
+- Jedna až dvě známky s vahou 0.25 za průběžnou ukázku stavu projektu
 
 - Jedna známka s váhou 1.0 za samotný projekt (fyzické zapojení a program) a jeho prezentaci
-    - **Funkčnost**, splnění všech bodů zadání (7 bodů)
-    - **Znalost toho, jak program funguje** (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali) (8 bodů)
-    - **Včasné odevzdání** (5 bodů)
-    - **Prezentace** před třídou včetně předvedení funkčnosti (2min prezentace plus čas na dotazy. Vhodné je během prezentace buďto promítnout fotky/video projektu nebo projekt předvést na živo) (5 bodů)
+    - **Funkčnost**, splnění všech bodů zadání
+    - **Znalost toho, jak program funguje** (prokázání, že kódu rozumíte a pouze jste jej bez pochopení nezkopírovali)
+    - **Včasné odevzdání**
+    - **Prezentace** před třídou včetně předvedení funkčnosti (2min prezentace plus čas na dotazy. Vhodné je během prezentace buďto promítnout fotky/video projektu nebo projekt předvést na živo)
     
 - Druhá známka s váhou 1.0 za dokumentaci projektu
-    - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
-        - **Zadání** - kompletní zadání zkopírované z Githubu (1 bod)
-        - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...) (2 bodů)
-        - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schematu váš projekt znovu vytvořit někým jiným. (5 bodů)
-        - **Včasné odevzdání** (5 bodů)
-        - **Fotografii** zapojení (2 body)
-        - **Kód** - přehledně naformátovaný a opatřený komentáři, vložený jako text, nikoli jako obrázek (2 body)
-        - **Seznam použitých zdrojů** včetně odkazů na použité knihovny (2 body)
-        - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd. (2 body)
-        - **Celková úprava dokumentu** - zarovnání písma do bloku, použití vhodného písma, žádné osamocené nadpisy na konci stránky (3 body)
+    - **pdf** dokument pojmenovaný **Jmeno_Prijmeni_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) obsahující:
+        - **Zadání** - kompletní zadání zkopírované z Githubu 
+        - **Popis řešení** - několik vět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili,...)
+        - **Schéma** - můžete použít libovolný program pro kreslení schémat nebo např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno) nebo KiCAD či jiný SW pro kreslení schemat. Podstatné je, aby bylo možné podle schématu váš projekt znovu vytvořit někým jiným. 
+        - **Včasné odevzdání** 
+        - **Fotografii** zapojení 
+        - **Kód** - přehledně naformátovaný a opatřený komentáři, vložený jako text, nikoli jako obrázek 
+        - **Seznam použitých zdrojů** včetně odkazů na použité knihovny 
+        - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
+        - **Celková úprava dokumentu** - zarovnání písma do bloku, použití vhodného písma, žádné osamocené nadpisy na konci stránky
 
-| Body    | Známka|
-|---------|-------|
-| 25 - 22 | 1     |
-| 21 - 16 | 2     |
-| 15 - 10 | 3     |
-| 9 - 5   | 4     |
-| 5 - 0   | 5     |
 
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Hra na postřeh pro dva hráče
