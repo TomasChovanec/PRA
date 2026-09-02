@@ -45,7 +45,7 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
         - **Závěr** - několik vět svými slovy o tom, zda jste splnili všechny body zadání, jaké problémy jste řešili atd.
         - **Celková úprava dokumentu** - zarovnání písma do bloku, použití vhodného písma, žádné osamocené nadpisy na konci stránky
 
-
+<!---
 ## Příklady možných projektů (ale vítané jsou vlastní nápady):
 - Hra na postřeh pro dva hráče
 - Hodinky s budíkem a stopkami
@@ -61,7 +61,7 @@ Pokud v kódu nebo projektu použijete nápad z AI, musíte být schopni vysvět
 - Stavba robota podle vlastního návrhu
 
 
-<!---
+
 - Teplotní čidlo se záznamem na SD kartu
 - Otevírání dveří na RFID karty (RFID čtečka, displej, servo)
 - Nápojový automat na RFID karty (RFID čtečka, displej, klávesnice, servo)
