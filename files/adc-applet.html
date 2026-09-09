@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADC Analog-to-Digital Converter — Interaktivní applet</title>
+<style>
+  :root {
+    --accent: #2563eb;
+    --track: #d8e2ee;
+    --text: #1f2937;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    background: #f7f8fa;
+    color: var(--text);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+    padding: 32px 40px 40px;
+    max-width: 640px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 4px;
+  }
+  p.subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    margin: 0 0 30px;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  label {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--track);
+    font-size: 14px;
+    background: #fff;
+    min-width: 110px;
+  }
+  .slider-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .slider-title {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+  }
+  input[type="range"] {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    -webkit-appearance: slider-vertical;
+    width: 10px;
+    height: 200px;
+    accent-color: var(--accent);
+  }
+  input[type="range"]:disabled {
+    accent-color: #cbd5e1;
+    opacity: 1;
+  }
+  .value {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .formula {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #475569;
+    background: #f1f5f9;
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>ADC — Analog-to-Digital Converter</h1>
+  <p class="subtitle">Interaktivní nástroj: nastav vstupní napětí a sleduj digitální hodnotu ADC</p>
+
+  <div class="row">
+    <div class="controls">
+      <div class="control-group">
+        <label for="resolution">Rozlišení:</label>
+        <select id="resolution">
+          <option value="4">4 bity</option>
+          <option value="8">8 bitů</option>
+          <option value="10" selected>10 bitů</option>
+          <option value="12">12 bitů</option>
+          <option value="16">16 bitů</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="vref">Vref:</label>
+        <select id="vref">
+          <option value="5" selected>5 V</option>
+          <option value="3.3">3.3 V</option>
+          <option value="2.5">2.5 V</option>
+          <option value="1">1 V</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="slider-block">
+      <div class="slider-title">Analogové vstupní napětí</div>
+      <input type="range" id="analog-slider" min="0" max="5" step="0.001" value="2.5">
+      <div class="value"><span id="analog-value">2.500</span> V</div>
+    </div>
+
+    <div class="slider-block">
+      <div class="slider-title">Digitální hodnota ADC</div>
+      <input type="range" id="digital-slider" min="0" max="1023" step="1" value="512" disabled>
+      <div class="value"><span id="digital-value">512</span></div>
+    </div>
+  </div>
+
+  <div class="formula">
+    ADC výstup = ( Analogové vstupní napětí / V<sub>REF</sub> ) × (2<sup>n</sup> − 1)<br>
+    kde <code>n</code> je zvolené rozlišení v bitech.
+  </div>
+</div>
+
+<script>
+  const analogSlider = document.getElementById("analog-slider");
+  const analogValue = document.getElementById("analog-value");
+  const digitalSlider = document.getElementById("digital-slider");
+  const digitalValue = document.getElementById("digital-value");
+  const resolution = document.getElementById("resolution");
+  const vref = document.getElementById("vref");
+
+  function update() {
+    const vrefVal = parseFloat(vref.value);
+    const resVal = parseInt(resolution.value, 10);
+    const maxDigital = Math.pow(2, resVal) - 1;
+
+    // Clamp analog slider range to current Vref
+    analogSlider.max = vrefVal;
+    if (parseFloat(analogSlider.value) > vrefVal) {
+      analogSlider.value = vrefVal;
+    }
+
+    const analog = parseFloat(analogSlider.value);
+    analogValue.textContent = analog.toFixed(3);
+
+    digitalSlider.max = maxDigital;
+    const digital = Math.round((analog / vrefVal) * maxDigital);
+    digitalSlider.value = digital;
+    digitalValue.textContent = digital;
+  }
+
+  analogSlider.addEventListener("input", update);
+  resolution.addEventListener("change", update);
+  vref.addEventListener("change", update);
+
+  update();
+</script>
+</body>
+</html>
