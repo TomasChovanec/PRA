@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PWM — analogWrite() Interaktivní applet</title>
+<style>
+  :root {
+    --accent: #2563eb;
+    --track: #d8e2ee;
+    --text: #1f2937;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: auto; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    background: #f7f8fa;
+    color: var(--text);
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+    padding: 24px 32px 28px;
+    max-width: 680px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 4px;
+  }
+  p.subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    margin: 0 0 24px;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .slider-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-width: 90px;
+  }
+  .slider-title {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+  }
+  input[type="range"] {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    -webkit-appearance: slider-vertical;
+    width: 10px;
+    height: 200px;
+    accent-color: var(--accent);
+  }
+  .value {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    min-width: 140px;
+  }
+  .stat-card {
+    background: #f1f5f9;
+    border-radius: 10px;
+    padding: 10px 14px;
+    text-align: center;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .wave-block {
+    flex: 1 1 320px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  canvas {
+    width: 100%;
+    max-width: 420px;
+    height: 180px;
+    background: #f8fafc;
+    border-radius: 10px;
+    border: 1px solid var(--track);
+  }
+  .freq-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+  }
+  select {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--track);
+    font-size: 13px;
+    background: #fff;
+  }
+  .formula {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #475569;
+    background: #f1f5f9;
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>PWM — <code>analogWrite()</code></h1>
+  <p class="subtitle">Nastav hodnotu 0–255 a sleduj střídu a průběh PWM signálu</p>
+
+  <div class="row">
+    <div class="slider-block">
+      <div class="slider-title">analogWrite()</div>
+      <input type="range" id="pwm-slider" min="0" max="255" step="1" value="128">
+      <div class="value"><span id="pwm-value">128</span></div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Střída (Duty)</div>
+        <div class="stat-value"><span id="duty-value">50.2</span> %</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Průměrné napětí</div>
+        <div class="stat-value"><span id="voltage-value">2.51</span> V</div>
+      </div>
+      <div class="freq-control">
+        <label for="freq-select">Frekvence:</label>
+        <select id="freq-select">
+          <option value="490" selected>490 Hz</option>
+          <option value="980">980 Hz</option>
+          <option value="1000">1 kHz</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="wave-block">
+      <canvas id="wave-canvas" width="420" height="180"></canvas>
+    </div>
+  </div>
+
+  <div class="formula">
+    Střída = ( analogWrite hodnota / 255 ) × 100 %<br>
+    Průměrné napětí = Střída × V<sub>CC</sub> &nbsp;(V<sub>CC</sub> = 5 V)
+  </div>
+</div>
+
+<script>
+  const pwmSlider = document.getElementById("pwm-slider");
+  const pwmValue = document.getElementById("pwm-value");
+  const dutyValue = document.getElementById("duty-value");
+  const voltageValue = document.getElementById("voltage-value");
+  const freqSelect = document.getElementById("freq-select");
+  const canvas = document.getElementById("wave-canvas");
+  const ctx = canvas.getContext("2d");
+
+  const VCC = 5;
+
+  function drawWave(duty) {
+    const w = canvas.width;
+    const h = canvas.height;
+    const padTop = 20;
+    const padBottom = 30;
+    const padLeft = 10;
+    const padRight = 10;
+    const plotH = h - padTop - padBottom;
+    const plotW = w - padLeft - padRight;
+    const highY = padTop;
+    const lowY = padTop + plotH;
+
+    ctx.clearRect(0, 0, w, h);
+
+    // grid
+    ctx.strokeStyle = "#e2e8f0";
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(padLeft, highY);
+    ctx.lineTo(padLeft + plotW, highY);
+    ctx.moveTo(padLeft, lowY);
+    ctx.lineTo(padLeft + plotW, lowY);
+    ctx.stroke();
+
+    // axis labels
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "11px -apple-system, sans-serif";
+    ctx.textAlign = "right";
+    ctx.fillText("5V", padLeft - 2, highY + 4);
+    ctx.fillText("0V", padLeft - 2, lowY + 4);
+
+    // draw ~3 periods
+    const periods = 3;
+    const periodW = plotW / periods;
+    const highW = periodW * duty;
+
+    ctx.strokeStyle = "#2563eb";
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+
+    let x = padLeft;
+    let y = lowY;
+    ctx.moveTo(x, y);
+
+    for (let i = 0; i < periods; i++) {
+      const periodStart = padLeft + i * periodW;
+      const riseX = periodStart;
+      const fallX = periodStart + highW;
+      const nextPeriodX = periodStart + periodW;
+
+      // rising edge
+      ctx.lineTo(riseX, lowY);
+      ctx.lineTo(riseX, highY);
+      // high segment
+      ctx.lineTo(fallX, highY);
+      // falling edge
+      ctx.lineTo(fallX, lowY);
+      // low segment to next period
+      ctx.lineTo(nextPeriodX, lowY);
+    }
+    ctx.stroke();
+
+    // fill under high segments for clarity
+    ctx.fillStyle = "rgba(37, 99, 235, 0.08)";
+    for (let i = 0; i < periods; i++) {
+      const periodStart = padLeft + i * periodW;
+      const fallX = periodStart + highW;
+      ctx.fillRect(periodStart, highY, fallX - periodStart, lowY - highY);
+    }
+
+    // period markers on x-axis
+    ctx.strokeStyle = "#cbd5e1";
+    ctx.setLineDash([3, 3]);
+    for (let i = 1; i < periods; i++) {
+      const px = padLeft + i * periodW;
+      ctx.beginPath();
+      ctx.moveTo(px, highY - 5);
+      ctx.lineTo(px, lowY + 5);
+      ctx.stroke();
+    }
+    ctx.setLineDash([]);
+
+    // period label
+    const freq = parseInt(freqSelect.value, 10);
+    const periodMs = (1000 / freq).toFixed(2);
+    ctx.fillStyle = "#64748b";
+    ctx.textAlign = "center";
+    ctx.font = "12px -apple-system, sans-serif";
+    ctx.fillText(`T ≈ ${periodMs} ms  (f = ${freq} Hz)`, padLeft + plotW / 2, h - 8);
+  }
+
+  function update() {
+    const raw = parseInt(pwmSlider.value, 10);
+    const duty = raw / 255;
+
+    pwmValue.textContent = raw;
+    dutyValue.textContent = (duty * 100).toFixed(1);
+    voltageValue.textContent = (duty * VCC).toFixed(2);
+
+    drawWave(duty);
+  }
+
+  pwmSlider.addEventListener("input", update);
+  freqSelect.addEventListener("change", update);
+
+  update();
+</script>
+</body>
+</html>
