@@ -48,6 +48,8 @@ Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Ardui
 Pro měření napětí použijeme funkci `analogRead()`. Jako argument funkci zadáme číslo pinu, na kterém chceme měřit. 
 Tedy např. ```int napeti = analogRead(A4);```
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/ff1d6fdd-9501-4b10-bf06-091ffc386174" />
+
 Arduino má **10bitový A/D převodník**, což znamená, že dokáže rozlišit **$$2^{10} = 1024$$** úrovní napětí.
 
 - Hodnota **0** odpovídá **0 V**.  
@@ -65,6 +67,8 @@ $$
 $$  
 
 Napětí na vstupu je tedy přibližně 3,53 V.
+
+<iframe src="../files/adc-applet.html" width="100%" height="480" style="border:none;" title="ADC Applet"></iframe>
 
 ## Potenciometr
 Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v obvodu. Má tři vývody – dva krajní pro pevný odpor a střední (jezdec), kterým nastavujeme hodnotu odporu mezi jedním krajem a jezdcem. Tím, že měníme odpor, měníme i napětí v obvodu (dělič napětí).
