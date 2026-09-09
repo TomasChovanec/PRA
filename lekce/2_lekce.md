@@ -68,7 +68,7 @@ $$
 
 Napětí na vstupu je tedy přibližně 3,53 V.
 
-<iframe src="../files/adc-applet.html" width="100%" height="480" style="border:none;" title="ADC Applet"></iframe>
+<iframe src="../files/adc-applet.html" width="100%" height="100%" style="border:none;" title="ADC Applet"></iframe>
 
 ## Potenciometr
 Potenciometr je nastavitelný rezistor, který umožňuje plynule měnit odpor v obvodu. Má tři vývody – dva krajní pro pevný odpor a střední (jezdec), kterým nastavujeme hodnotu odporu mezi jedním krajem a jezdcem. Tím, že měníme odpor, měníme i napětí v obvodu (dělič napětí).
