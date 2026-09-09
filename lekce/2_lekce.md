@@ -40,6 +40,7 @@ Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Napr
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/2f38c857-444a-4c3d-979a-d41a25ae1098" />
 
+_Zdroj obrázku:  https://pico.implrust.com/core-concepts/pwm/index.html#duty-cycle_
 
 Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Arduina. Ovšem pro měření analogového signálu můžeme použít pouze piny označené písmenem A0-A7. Ty totiž lze připojit k AD převodníku na čipu mikroprocesoru (viz. [lekce ADC v MIT](https://tomaschovanec.github.io/MIT/13_ADC.html))
 
