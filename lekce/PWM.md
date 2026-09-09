@@ -14,6 +14,22 @@ PWM (Pulse Width Modulation) je metoda, která mění průměrnou hodnotu napět
 
 Zkuste měnit nastavení duty cycle a frekvenci PWM [na této stránce](https://pico.implrust.com/core-concepts/pwm/simulation.html)
 
+<iframe
+  id="adc-frame"
+  src="../files/pwm-applet.html"
+  width="100%"
+  style="border:none; display:block;"
+  title="PWM Applet"
+  scrolling="no">
+</iframe>
+
+<script>
+  const frame = document.getElementById('adc-frame');
+  frame.addEventListener('load', () => {
+    frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
+  });
+</script>
+
 V Arduinu můžeme PWM snadno nastavovat pomocí funkce analogWrite():
 
 ```analogWrite(pin, hodnota);```
