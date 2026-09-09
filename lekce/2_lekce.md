@@ -68,11 +68,9 @@ $$
 
 Napětí na vstupu je tedy přibližně 3,53 V.
 
-<iframe src="../files/adc-applet.html" width="100%" height="600" style="border:none;" title="ADC Applet"></iframe>
-
 <iframe
   id="adc-frame"
-  src="../assets/adc-applet.html"
+  src="../files/adc-applet.html"
   width="100%"
   style="border:none; display:block;"
   title="ADC Applet"
