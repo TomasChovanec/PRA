@@ -35,7 +35,11 @@ Nezapomeňte při psaní programu, že logika je obrácená:
 
 ## Analogový vstup
 Digitální signál je nespojitý, má jen určité hodnoty (např. 0 a 1). Naproti tomu analogový signál je spojitý – může nabývat jakékoli hodnoty v čase. Příklad: zvukový signál v mikrofonu nebo napětí z teplotního čidla. 
-![image](../img/02_Zaklady_C_potenciometr_1.png)
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/a5f551de-b01d-4f26-aaa4-3ebcbe47542c" />
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/2f38c857-444a-4c3d-979a-d41a25ae1098" />
+
 
 Pro měření digitálního stavu pinu můžeme použít kterýkoli IO pin Arduina. Ovšem pro měření analogového signálu můžeme použít pouze piny označené písmenem A0-A7. Ty totiž lze připojit k AD převodníku na čipu mikroprocesoru (viz. [lekce ADC v MIT](https://tomaschovanec.github.io/MIT/13_ADC.html))
 
