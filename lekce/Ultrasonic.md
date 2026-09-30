@@ -37,7 +37,7 @@ Kromě +5V napájení a GND musíme čidlo připojit ke dvěma libovolným digit
 
 ### Ukázka echo signálu na osciloskopu
 
-<img src="https://electronoobs.com/images/Arduino/tut_36/homemade_ultrasonic_distance_sensor.gif" width="600"/>
+<img src="https://electronoobs.com/images/tutorials/76/76_331a7a_1786485246.gif" width="600"/>
 
 *Zdroj obrázku: https://electronoobs.com/eng_arduino_tut36.php*
 
