@@ -200,7 +200,10 @@ WARNING: HOT
   - **PDF** dokument pojmenovaný **Prijmeni1_Prijmeni2_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
     - **Zadání** – kompletní zadání zkopírované z GitHubu
     - **Popis řešení** – několik vvět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili, ...
-    - **Schéma** – můžete použít libovolný program pro kreslení schémat, např. online nástroj [wokwi.com](https://wokwi.com/projects/new/arduino-uno), KiCAD či jiný SW. Podstatné je, aby bylo možné podle schématu váš projekt znovu vytvořit někým jiným
+    - **Schéma** – můžete použít libovolný program pro kreslení schémat, vyžaduji ale symbolické elektrotechnické schéma, nikoli vizualizaci zapojení viz obrázek níže.
+    
+      <img width="800" alt="image" src="https://github.com/user-attachments/assets/42833a50-429f-4f8a-8254-97bb6730ec41" />
+
     - **Včasné odevzdání**
     - **Fotografii** zapojení
     - **Kód** – přehledně naformátovaný a opatřený komentáři, vložený jako text, nikoli jako obrázek
