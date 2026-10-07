@@ -1,4 +1,4 @@
-# Závěrečný projekt
+# Samostatný projekt
 
 ## Zadání
 
