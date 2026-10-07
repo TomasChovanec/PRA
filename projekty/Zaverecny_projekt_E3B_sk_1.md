@@ -6,9 +6,8 @@ Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řeše
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
 ## Odevzdání
-
-- Odevzdání dokumentace mailem do ?????
-- Prezentace ve škole ?????
+- Odevzdání dokumentace mailem do pondělí 9.11. 23:59
+- Prezentace ve škole čtvrtek 12.11.
 
 ## Průběžné reporty projektu
 
