@@ -5,25 +5,14 @@ Jste vývojová firma, která získala zakázku na návrh a realizaci IoT řeše
 Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit jejich vzájemnou komunikaci.
 
 ## Odevzdání
-Odevzdání dokumentace mailem do 2.6. 23:59
-Prezentace ve škole 4.6.
-Pokud nebude ani jeden z dvojice ve škole přítomen, vytvořte krátké (do 3min) prezentační video, na kterém předvedete všechny body zadání.
+Odevzdání dokumentace mailem do ?????
+Prezentace ve škole ?????
 
 ## Průběžné reporty projektu
-Každá dvojice je povinna jednou za 14 dní (vždy nejpozději před začátkem hodiny PRA) sdílet průběžný stav projektu v Teams skupině. Report bude hodnocen známkou s vahou 0,25.
-
-### Obsah reportu
-Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
-1. Co se podařilo realizovat
-2. Na jaké problémy jste narazili (co nefunguje)
-3. Jaké jsou další kroky / co plánujete řešit
-4. Součástí každého reportu musí být alespoň jedna z následujících položek:
-- fotografie zapojení
-- krátké video (max. 1 minuta)
-- ukázka zdrojového kódu
+???? Report bude hodnocen známkou s vahou 0,25.
 
 
-## 1. Turnikety Daniel F., Dominik K. :heavy_check_mark: :heavy_check_mark:
+## 1. Turnikety 
 - Vstupní systém tvořený dvěma turnikety  
 - Každý turniket využívá dvojici IR senzorů (detekce směru průchodu)  
 - Počítání návštěvníků (příchod / odchod)  
@@ -35,7 +24,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
  
 - HW: Nano, 2xOLED, 4xIR senzor, velké pole
 
-## 2. Výčep Dominik G., Marek H.  :x: :heavy_check_mark: 
+## 2. Výčep 
 - Ovládání pomocí tlačítek:
   - 3× tlačítko pro malý nápoj
   - 3× tlačítko pro velký nápoj
@@ -52,7 +41,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - při poklesu odešle varování přes UART do centrální jednotky
 
 
-## 3. Robot pro rozvoz nápojů - Richard.F., Jakub.K. :heavy_check_mark: :heavy_check_mark:
+## 3. Robot pro rozvoz nápojů
 - Pohyb po čáře (line follower)
 - Po příjezdu na místo:
   - čeká na stisk tlačítka (potvrzení převzetí)
@@ -61,7 +50,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: Robot, OLED displej, USB-C kabel
 
 
-## 4. Platební terminál k jukeboxu - Vít.K., Adam.H. :heavy_check_mark: :heavy_check_mark: 
+## 4. Platební terminál k jukeboxu 
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
 - Pokud je na kartě dostatečný zůstatek, odečte kredit z karty (kredit je opravdu uložen na kartě, nikoli v terminálu!)
@@ -72,7 +61,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: UNO, RFID modul, 2 karty, OLED displej, AB kabel, velké nepájivé pole
 
 
-## 5. Jukebox Jakub K., Josef K.  :heavy_check_mark: 
+## 5. Jukebox 
 - Obsahuje minimálně 10 skladeb
 - Umožní uživateli vybrat název skladby pomocí displeje a joysticku
 - Přijímá platby z platebního terminálu
@@ -82,7 +71,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
   - navrhněte a implementujte vhodný algoritmus ve spolupráci s týmem, který vyvíjí platební terminál
 - HW: OLED displej, reproduktor, joystic, mp3 modul, sd karta, čtečka sd karet, pole, kabel mini
 
-## 6. Automatické osvětlení areálu Matouš G., Max F. :heavy_check_mark: :heavy_check_mark:
+## 6. Automatické osvětlení areálu 
 - Využívá LDR (světelný senzor)
 - Funkce:
   - zapíná osvětlení při tmě
@@ -94,7 +83,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - HW: LDR, RGB ledka, DHT11, nano, malé pole
 
 
-## 7. Centrální jednotka a webový dashboard pro organizátory Petr.K., Matouš K. :heavy_check_mark: :heavy_check_mark:
+## 7. Centrální jednotka a webový dashboard pro organizátory 
 - Hardware:
 - Arduino MEGA
 - Arduino Nano IoT
@@ -107,7 +96,7 @@ Report by měl mít formu stručné zprávy v Teams skupině. Musí obsahovat:
 - umožňuje barvy osvětlení areálu pomocí ovládacích prvků na webu
 - HW: Arduino MEGA, Arduino Nano IoT
 
-## 8. Zabezpečovací systém objektu v areálu festivalu – Daniel L. :heavy_minus_sign: :heavy_check_mark:
+## 8. Zabezpečovací systém objektu v areálu festivalu
 - Systém využívá 4× PIR senzor (4 místnosti) 
   - při detekci pohybu vyhodnocuje narušení objektu  
 
