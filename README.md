@@ -10,10 +10,13 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Tahák k Arduinu](/files/Arduino_tahak.pdf)
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
-- [Informace k samostatnému projektu](/projekty/Projekt.md)
 
+
+## Samostatný projekt
+- [Zadání samostatného projektu](/projekty/Samostatny_projekt_E3B_sk_1.md)
 
 <!---
+- [Informace k samostatnému projektu](/projekty/Projekt.md)
 
 ## Projekty E3A, E3B
 - [Informace k samostatnému projektu pro E3A a E3B](/projekty/Projekt.md)
