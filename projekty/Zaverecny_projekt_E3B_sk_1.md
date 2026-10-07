@@ -91,18 +91,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 **HW:** LDR, RGB LED, DHT11, Nano, malé pole
 
-## 7. Centrální jednotka a webový dashboard pro organizátory
-
-- Přijímá data z:
-  - turniketů
-  - výčepu
-  - osvětlení
-- Zobrazuje data na webové stránce
-- Umožňuje nastavit barvy osvětlení areálu pomocí ovládacích prvků na webu
-
-**HW:** Arduino MEGA, Arduino Nano IoT
-
-## 8. Chytré odpadkové koše
+## 7. Chytré odpadkové koše
 
 - Minimálně 3 koše
 - Každý koš má senzor zaplnění
@@ -118,7 +107,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 - Centrální jednotka zobrazí, který koš je potřeba vyprázdnit jako první.
 
-## 9. Festivalová meteostanice
+## 8. Festivalová meteostanice
 
 - Měří:
   - teplotu
@@ -142,7 +131,7 @@ WARNING: HOT
 
 - Vytvořte jednoduchý min/max záznam hodnot.
 
-## 10. Řízení ventilace stanu
+## 9. Řízení ventilace stanu
 
 - Systém sleduje:
   - teplotu
@@ -166,7 +155,7 @@ WARNING: HOT
 
 - Centrální jednotka umožní přepnout mezi automatickým a manuálním režimem.
 
-## 11. Parkovací systém festivalu
+## 10. Parkovací systém festivalu
 
 - Systém sleduje obsazenost parkovacích míst
 - Využívá minimálně 4 parkovací pozice, každá má vlastní senzor
@@ -187,6 +176,18 @@ WARNING: HOT
 **Rozšíření:**
 
 - Pošlete centrální jednotce také informaci o konkrétním obsazeném místě.
+
+## 11. Centrální jednotka a webový dashboard pro organizátory
+
+- Přijímá data z:
+  - turniketů
+  - výčepu
+  - osvětlení
+- Zobrazuje data na webové stránce
+- Umožňuje nastavit barvy osvětlení areálu pomocí ovládacích prvků na webu
+
+**HW:** Arduino MEGA, Arduino Nano IoT
+
 
 ## Hodnocení
 
