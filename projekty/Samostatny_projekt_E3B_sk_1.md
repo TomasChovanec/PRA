@@ -43,17 +43,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
   - kapacity definujte pomocí konstant/maker na začátku programu
   - při poklesu odešle varování přes UART do centrální jednotky
 
-## 3. Robot pro rozvoz nápojů
-
-- Pohyb po čáře (line follower)
-- Po příjezdu na místo:
-  - čeká na stisk tlačítka (potvrzení převzetí)
-- Následně se vrátí zpět na výchozí pozici
-- Na displeji zobrazuje počet jízd
-
-**HW:** Robot, OLED displej, USB-C kabel
-
-## 4. Platební terminál k jukeboxu ŠiVa
+## Platební terminál k jukeboxu ŠiVa
 
 - Načítání dat z RFID karty
 - Přes Bluetooth přijme od jukeboxu požadavek na platbu včetně částky
@@ -65,7 +55,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 **HW:** UNO, RFID modul, 2 karty, OLED displej, AB kabel, velké nepájivé pole
 
-## 5. Jukebox ŠiVa
+## Jukebox ŠiVa
 
 - Obsahuje minimálně 10 skladeb
 - Umožní uživateli vybrat název skladby pomocí displeje a joysticku
@@ -77,7 +67,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 **HW:** OLED displej, reproduktor, joystick, mp3 modul, SD karta, čtečka SD karet, pole, kabel mini
 
-## 6. Automatické osvětlení areálu - ToSp
+## Automatické osvětlení areálu - ToSp
 
 - Využívá LDR (světelný senzor)
 - Funkce:
@@ -90,7 +80,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 **HW:** LDR, RGB LED, DHT11, Nano, malé pole
 
-## 7. Chytré odpadkové koše - LuPa
+## Chytré odpadkové koše - LuPa
 
 - Minimálně 3 koše
 - Každý koš má senzor zaplnění
@@ -106,7 +96,7 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 
 - Centrální jednotka zobrazí, který koš je potřeba vyprázdnit jako první.
 
-## 8. Festivalová meteostanice JaSo
+## Festivalová meteostanice JaSo
 
 - Měří:
   - teplotu
@@ -130,7 +120,7 @@ WARNING: HOT
 
 - Vytvořte jednoduchý min/max záznam hodnot.
 
-## 9. Řízení ventilace stanu MiSt
+## Řízení ventilace stanu MiSt
 
 - Systém sleduje:
   - teplotu
@@ -154,7 +144,7 @@ WARNING: HOT
 
 - Centrální jednotka umožní přepnout mezi automatickým a manuálním režimem.
 
-## 10. Parkovací systém festivalu VlPe
+## Parkovací systém festivalu VlPe
 
 - Systém sleduje obsazenost parkovacích míst
 - Využívá minimálně 4 parkovací pozice, každá má vlastní senzor
@@ -176,7 +166,7 @@ WARNING: HOT
 
 - Pošlete centrální jednotce také informaci o konkrétním obsazeném místě.
 
-## 11. Centrální jednotka a webový dashboard pro organizátory - VaPu
+## Centrální jednotka a webový dashboard pro organizátory - VaPu
 
 - Přijímá data z:
   - turniketů
