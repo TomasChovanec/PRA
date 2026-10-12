@@ -21,6 +21,11 @@ Obsahuje 4 spínače (např. tranzistory) uspořádané do tvaru písmene H. Př
 
 <img src="https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif" width="400"/>
 
+<img src="https://cdn.sparkfun.com/assets/learn_tutorials/1/9/3/h-bridge-circuit-600w.gif" width="500"/>
+
+*Zdroj obrázku: https://learn.sparkfun.com/tutorials/transistors/applications-i-switches*
+
+
 Pro řízení rychlosti DC motoru můžeme použít PWM pomocí funkce analogWrite().
 
 <img src="../img/06_DC_motor_2.png" width="800"/>
