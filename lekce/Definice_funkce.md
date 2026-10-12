@@ -9,6 +9,9 @@ Hlavní výhody funkcí:
 
 Funkce mají název, mohou (ale nemusí) přijímat argumenty a vracet hodnotu.
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/1d4c0875-f18d-4f00-a47d-68cb13e11fb9" />
+
+
 ### Funkce bez parametru a návratové hodnoty
 Vytvoříme jednoduchou funkci. Klíčové slovo void před názvem funkce označuje, že funkce nevrací žádnou hodnotu. ```void```v závorkách pak znamená, že funkce nepřijímá žádné vstupní argumenty.
 
