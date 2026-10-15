@@ -9,9 +9,9 @@ Vaším úkolem je navrhnout a implementovat jednotlivé subsystémy a zajistit 
 - Odevzdání dokumentace mailem do pondělí 9.11. 23:59
 - Prezentace ve škole čtvrtek 12.11.
 
-## Průběžné reporty projektu
+## Průběžný report projektu
 
-???? Report bude hodnocen známkou s vahou 0,25.
+Dne 22.10. na hodině odprezentujete rozpracovaný stav projektu. Není nutné mít splněny všechny body zadání, ale je nutné, abyste si byli jistí, že máte veškerý HW který potřebujete a že je veškerý HW funkční. Tedy například, pokud projekt potřebuje displej a servo, předvedete, že vám funguje komunikace Arduina s těmito součástkami a že jste schopni je ovládat, nechybí vám vodiče atd. Report bude hodnocen známkou s vahou 0,25.
 
 ## 1. Turnikety - ToSt
 
