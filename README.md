@@ -12,6 +12,13 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
 
 
+<!---
+## Testy
+1. [Test 1](Test_1.md)
+2. [Test 2](Test_2.md)
+--->
+
+
 ## Samostatný projekt
 - [Zadání samostatného projektu](/projekty/Samostatny_projekt_E3B_sk_1.md)
 
@@ -60,8 +67,4 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 1. [Závěr](/lekce/zaver.md)
 --->
 
-<!---
-## Testy
-1. [Test 1](Test_1.md)
-2. [Test 2](Test_2.md)
---->
+
