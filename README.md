@@ -14,7 +14,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 
 ## Testy
-1. [Test 1](Test_1.md)
+- [Test](Test_1.md)
 
 <!---
 3. [Test 2](Test_2.md)
