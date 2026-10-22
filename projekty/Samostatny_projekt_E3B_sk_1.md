@@ -172,6 +172,7 @@ WARNING: HOT
   - turniketů
   - výčepu
   - osvětlení
+  - řízení ventilace
 - Zobrazuje data na webové stránce
 - Umožňuje nastavit barvy osvětlení areálu pomocí ovládacích prvků na webu
 
