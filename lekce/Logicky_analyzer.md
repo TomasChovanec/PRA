@@ -26,6 +26,7 @@ Typický analyzátor pracuje s napěťovou úrovní 0–5 V.
     - Pin 13 Arduina
     - Pin 9 Arduina
     - Pin 1 (Tx) Arduina
+    - Propojte zem analyzeru se zemí Arduina
 - spusťte program Logic a sledujte průběhy napětí na jednotlivých kanálech 
 
 
