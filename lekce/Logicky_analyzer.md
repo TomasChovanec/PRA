@@ -20,23 +20,42 @@ Umožňuje:
 
 Typický analyzátor pracuje s napěťovou úrovní 0–5 V.
 
-### Měření PWM signálu (např. Arduino analogWrite)
-- Připojte k Arduinu potenciometr a podle jeho polohy nastavujte PWM na LEDce. Pro LEDKu zvolte pin, který podporuje PWM
-- Připojte logický analyzer na pin s LEDkou
-- Změřte periodu a frekvenci PWM signálu.
-- Sledujte střídu (duty cycle) pro různé hodnoty analogWrite().
-
-### Analýza UART komunikace
-- Rozšiřte program z předchozího bodu tak, aby jednou za 100ms odeslal na sériový port informaci o aktuálním stavu PWM (Např. "PWM je 255")
-- Připojte logický analyzer CH1 → TX pin Arduina.
-- Přidejte protokol Async Serial a nastavte přenosovou rychlost (např. 9600)
-- Zkuste přečíst odesílaný text a sledujte jak je zakódován
-- Změřte délku jednoho bitu a spočítejte baudrate
-	
-### Měření I2C komunikace
-- Rozšiřte program z předchozího bodu tak, že informaci o aktuálním stavu PWM zobrazíte i na LCD displeji
-- Připojte logický analyzer - CH2 → SDA, CH3 → SCL.
-- Přidejte protokol I2C.
-- Sledujte dekódovanou komunikaci, zkuste vysvětlit, jak funguje hodinový signál
+### Pokus s logickým analyzerem
+- připojte k Arduinu LEDku na pin 9 a do arduina naflashujte kód níže
+- připojte libovolné kanály logického analyzéru na
+    - Pin 13 Arduina
+    - Pin 9 Arduina
+    - Pin 1 (Tx) Arduina
+- spusťte program Logic a sledujte průběhy napětí na jednotlivých kanálech 
 
 
+```c
+void setup() {
+  pinMode(9, OUTPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // LED na PWM pinu - zesilování a zeslabování
+  for (int i = 0; i <= 255; i += 5) {
+    analogWrite(9, i);
+    delay(30);
+  }
+
+  for (int i = 255; i >= 0; i -= 5) {
+    analogWrite(9, i);
+    delay(30);
+  }
+
+  // LED na pinu 13 - blikání
+  digitalWrite(13, HIGH);
+  Serial.println("LED1: 80%. LED2: ON");
+  delay(500);
+
+  digitalWrite(13, LOW);
+  Serial.println("LED1: 80%. LED2: OFF");
+  delay(500);
+}
+
+```
