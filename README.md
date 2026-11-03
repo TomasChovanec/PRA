@@ -10,7 +10,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 - [Tahák k Arduinu](/files/Arduino_tahak.pdf)
 - [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
-
+- [Definice vlastních funkcí v jazyce C](/lekce/Definice_funkce.md)
 
 
 ## Testy
