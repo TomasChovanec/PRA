@@ -39,7 +39,7 @@ void loop() {
 ```
 ## Úkoly pro funkci Serial.readString()
 1. Připojte k Arduinu LCD displej. Napište program tak, abyste dokázali nastavovat text na displeji přes Serial monitor
-2. Upravte program tak, abyste dokázali nastavit text na 1. i druhém řádku.
+2. Upravte program tak, abyste dokázali nastavit text na prvním i druhém řádku.
 
 
 ## Funkce Serial.parseInt()
