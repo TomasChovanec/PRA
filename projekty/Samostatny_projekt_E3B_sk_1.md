@@ -76,7 +76,6 @@ Dne 22.10. na hodině odprezentujete rozpracovaný stav projektu. Není nutné m
 - Implementujte hysterezi
 - Plynulé stmívání/rozsvěcení (PWM, cca 10 s)
 - Umožňuje nastavit barvy přes UART, např.: `R:50 G:255 B:215\n`
-- Každých 30 s odesílá přes UART do centrální jednotky aktuální teplotu
 
 **HW:** LDR, RGB LED, fotorezistor, Nano, malé pole
 
