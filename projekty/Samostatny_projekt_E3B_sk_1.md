@@ -187,7 +187,7 @@ WARNING: HOT
   - **Včasné odevzdání**
   - **Prezentace** před třídou včetně předvedení funkčnosti (2 min prezentace plus čas na dotazy; vhodné je během prezentace buď promítnout fotky/video projektu, nebo projekt předvést naživo)
 - Druhá známka s váhou 1.0 za dokumentaci projektu:
-  - **PDF** dokument pojmenovaný **Prijmeni1_Prijmeni2_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
+  - **PDF** dokument pojmenovaný **Prijmeni_Jmeno_trida.pdf** [dle šablony](../files/Praxe_projekt_vzor.pdf) (1 bod) obsahující:
     - **Zadání** – kompletní zadání zkopírované z GitHubu
     - **Popis řešení** – několik vvět svými slovy o tom, jak jste postupovali při řešení, zda jste vybírali z více variant řešení, jaké nástroje/knihovny jste použili, ...
     - **Schéma** – můžete použít libovolný program pro kreslení schémat, vyžaduji ale symbolické elektrotechnické schéma, nikoli vizualizaci zapojení viz obrázek níže.
