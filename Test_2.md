@@ -1,5 +1,6 @@
 ## Zadání – Ovládání závory
 
+
 Součástky:
 - servo  
 - tlačítko  
