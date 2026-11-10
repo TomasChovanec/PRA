@@ -13,10 +13,9 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Definice vlastních funkcí v jazyce C](/lekce/Definice_funkce.md)
 
 
+<!---
 ## Testy
 - [Test](Test_1.md)
-
-<!---
 3. [Test 2](Test_2.md)
 --->
 
